@@ -1,0 +1,10 @@
+game.configs.EPI_Emperor = Config{
+    root=StateRef{game.roots.DefaultCharacter,
+        combat = StateRef{game.states.DefaultCombat,
+            customCombat = StateRef{game.states.DefaultPartyMember},
+        },
+        genericBehaviours = StateRef{game.states.CrimesHumanoid},
+        idle = StateRef{game.states.EPI_Astarion},
+        partyMember = StateRef{game.states.DefaultPartyMember},
+    }
+}
