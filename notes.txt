@@ -5,3 +5,28 @@ Act3c_END_Misc: Init
 BG3_Act3c_SavegamePatches: KB
 
 make sure DeathOfKarlach scene works correctly
+
+TODO:
+
+Dialogues:
+- Finish writing EPI_Epilogue_Emperor dialogue
+- Finish writing END_GameFinale_RomanceFates_Emperor
+- Figure out why MindFlayerUrge does not seem to play anymore
+- Check if GaleWantsDrink flag in the conclusion dialogue can be set for "good" emperor route
+
+Timelines:
+- Create EPI_Epilogue_Emperor timeline
+- Create END_GameFinale_RomanceFates_Emperor timeline
+- Create MindFlayerUrge nested timeline
+
+Scripting:
+- Make sure emperor romance fate does not interfere with others and that it triggers properly
+- Get the emperor to follow the player (or make new emperor npc if needed)
+
+Miscellaneous:
+- Edit appropriate gazette lines, text in TranslatedStringKey and assigned by Act3c_EPI_Gazettes script
+
+Stretch:
+- Custom animations for emperor hug and kiss (would need help)
+- Custom emperor outfit (would need help)
+- add emperor voice barks
