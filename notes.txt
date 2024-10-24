@@ -9,12 +9,13 @@ make sure DeathOfKarlach scene works correctly
 TODO:
 
 Dialogues:
-- Finish writing EPI_Epilogue_Emperor dialogue
-- Finish writing END_GameFinale_RomanceFates_Emperor, make sure all flags are correct
++ Finish writing EPI_Epilogue_Emperor dialogue
++ Finish writing END_GameFinale_RomanceFates_Emperor, make sure all flags are correct
 - Figure out why MindFlayerUrge does not seem to play anymore
 - Check if GaleWantsDrink flag in the conclusion dialogue can be set for "good" emperor route
 - Verify Vanilla solo emperor dialogues make sense still, change if necessary
 + Set ORI_State_Partnered flag
+- Add emperor partnered ending without building knights (just living with him)
 
 Timelines:
 - Create EPI_Epilogue_Emperor timeline
@@ -23,7 +24,7 @@ Timelines:
 
 Scripting:
 - Make sure emperor romance fate does not interfere with others and that it triggers properly
-- Get the emperor to follow the player (or make new emperor npc if needed)
++ Get the emperor to follow the player (or make new emperor npc if needed)
 
 Miscellaneous:
 - Edit appropriate gazette lines, text in TranslatedStringKey, Act3c_EPI_Gazettes.lsf and assigned by Act3c_EPI_Gazettes script
