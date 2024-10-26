@@ -293,6 +293,11 @@ DB_EPI_Title_FlaggedTitles((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-
 DB_EPI_Title_FlaggedTitles((CHARACTER)S_Player_Minsc_0de603c5-42e2-4811-9dad-f652de080eba, "EPI_Title_MinscGuild",(FLAG)ORI_Minsc_State_PartneredWithNineFingers_ff63b939-82d3-c670-ad59-c7cf6363d234, 1);
 DB_EPI_Title_FlaggedTitles((CHARACTER)S_Player_Jaheira_91b6b200-7d00-4d62-8dc9-99e8339dfa1a, "EPI_Title_JaheiraRetired",(FLAG)ORI_Jaheira_State_Retired_5a034473-9b26-e8f6-28c2-9c012372c5de, 1);
 DB_EPI_Title_FlaggedTitles((CHARACTER)S_GOB_DrowCommander_25721313-0c15-4935-8176-9f134385451b, "EPI_Title_MintharaBG",(FLAG)ORI_Minthara_State_SiezeBaldursGate_91693c25-e33d-a400-4414-39a45ebdd13d, 1);
+DB_EPI_Title_FlaggedTitles((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, "EPI_Title_EmperorAdventure",(FLAG)EPI_Emperor_State_Adventure_4cf2b9fe-5a3b-8473-8ed3-d916ea5f37ed, 1);
+DB_EPI_Title_FlaggedTitles((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, "EPI_Title_EmperorBigPlans",(FLAG)EPI_Emperor_State_AnyBigPlans_37140ebd-09aa-059c-ae82-e48ab54864a0, 1);
+DB_EPI_Title_FlaggedTitles((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, "EPI_Title_EmperorColony",(FLAG)EPI_Emperor_State_RenegadeColony_844cc38d-55da-8eb3-4389-f36b627f5c7b, 1);
+DB_EPI_Title_FlaggedTitles((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, "EPI_Title_EmperorAvernus",(FLAG)EPI_Emperor_State_Avernus_0f2a67c9-60fc-c234-9c5d-b7799e10d70c, 1);
+
 
 //Attempt to set these after specific flag setup, as fallbacks.
 DB_EPI_Title_Default((CHARACTER)S_Player_Gale_ad9af97d-75da-406a-ae13-7071c563f604, "EPI_Title_GaleOther");
@@ -307,6 +312,7 @@ DB_EPI_Title_Default((CHARACTER)S_GLO_Halsin_7628bc0e-52b8-42a7-856a-13a6fd41332
 DB_EPI_Title_Default((CHARACTER)S_GOB_DrowCommander_25721313-0c15-4935-8176-9f134385451b, "EPI_Title_MintharaOther");
 DB_EPI_Title_Default((CHARACTER)S_FOR_Courier_Dog_3059f69c-068d-4e28-8491-55953c027901, "EPI_Title_Scratch");
 DB_EPI_Title_Default((CHARACTER)S_FOR_OwlBear_Cub_001_c66b2865-6613-4372-b97a-e330c1d75d09, "EPI_Title_Owlbear");
+DB_EPI_Title_Default((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, "EPI_Title_EmperorKnights");
 
 //END_REGION
 
@@ -2766,8 +2772,8 @@ AND
 Random(100, _Int)
 AND
 _Int <= _Chance 
-AND
-IsTagged(_Player, HUMANOID_7fbed0d4-cabc-4a9d-804e-12ca6088a0a8, 0) //Not disguised
+//AND
+//IsTagged(_Player, HUMANOID_7fbed0d4-cabc-4a9d-804e-12ca6088a0a8, 0) //Not disguised
 AND
 QRY_StartDialog(EPI_Epilogue_MindFlayerUrge_0e7a5eec-5ab6-8f55-79a5-6c410cf15ebe, _Char, _Player)
 THEN
