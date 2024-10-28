@@ -4,14 +4,12 @@ Act3c_END_GameFinale: KB
 Act3c_END_Misc: Init
 BG3_Act3c_SavegamePatches: KB
 
-make sure DeathOfKarlach scene works correctly
-
 TODO:
 
 Dialogues:
 + Finish writing EPI_Epilogue_Emperor dialogue
 + Finish writing END_GameFinale_RomanceFates_Emperor, make sure all flags are correct
-- Figure out why MindFlayerUrge does not seem to play anymore
++ Figure out why MindFlayerUrge does not seem to play anymore
 - Check if GaleWantsDrink flag in the conclusion dialogue can be set for "good" emperor route
 - Verify Vanilla solo emperor dialogues make sense still, change if necessary
 + Set ORI_State_Partnered flag
@@ -21,7 +19,8 @@ Dialogues:
 Timelines:
 - Create EPI_Epilogue_Emperor timeline
 - Create END_GameFinale_RomanceFates_Emperor timeline
-- Create MindFlayerUrge nested timeline
+- Edit MindFlayerUrge timeline
+- Edit intro timeline
 
 Scripting:
 - Make sure emperor romance fate does not interfere with others and that it triggers properly
@@ -31,6 +30,7 @@ Miscellaneous:
 + Edit appropriate gazette lines, text in TranslatedStringKey, Act3c_EPI_Gazettes.lsf and assigned by Act3c_EPI_Gazettes script
 + Create new titles in TranslatedStringKey, Misc.lsf
 - Figure out what to do about God Gale
+- Make sure DeathOfKarlach scene works correctly
 
 Stretch:
 - Custom animations for emperor hug and kiss (would need help)
@@ -39,3 +39,39 @@ Stretch:
 - Add Emperor to Minsc dialogue
 - Add Emperor to Jaheira dialogue
 - Add Emperor adventure to Tara dialogue
+- Add Us to epilogue
+
+Mind Flayer Urge Phases:
+pre:
+18 - cf08aada-c2d1-1650-7e1c-8d4699dd58b2
+19 - d0f9dd2a-02b3-c2aa-d1e8-af95e823ae6b
+20 - 67707d25-7e6f-0557-ba5a-790a1a696f4d
+21 - 02b4fdda-199b-a5d8-94b8-5d7c4b5c74e0
+22 - 774f985c-d1d3-5445-7a78-21c41f992ff6
+23 - 19265146-4c5b-ab40-a7bf-e019a62cba63
+24 - 7b973756-3296-68d1-b5ed-86edfd86494c
+25 - 2a71ca31-82c3-5b09-fd2a-25b5da4bfeeb
+26 - 5bf5dd45-5434-72cd-b35c-d9536761406d
+27 - 9d3d5507-ba8f-7dcf-60cd-42dc2f165b32
+28 - ae152563-bde4-2bc5-4cf4-e6561bc06f3c
+29 - a3e7144d-c494-3424-5a2f-989f8de79b1d
+30 - f15c0755-76a5-f778-ba04-affd589d14f8
+31 - d7a5880c-c4dd-627d-091d-cf872dfdff66
+32 - d725c306-0623-7762-5905-46b1869f40d9
+33 - 682cfc22-8e2f-ae53-fdc4-0115e0bd983c
+34 - 131883ee-9c95-c85e-d560-e06493ed4d32
+35 - 6ccd2bb2-10d4-13bd-d369-4a22c9be1db3
+
+post:
+36 - 5e4bf4de-cecd-52e8-7b04-ae2afed0c6a8
+37 - 3c801d6d-e155-9a49-de3b-9b7f48d4d6bb
+38 - e0478cbc-1871-d8b1-ecd3-8263bd128dde
+39 - d9d4c735-9c4c-3f60-a049-a9c6f4b86738
+40 - 62ee3b21-1678-bd7f-26c8-d264ccbdfff1
+41 - 2782e8a4-ae3d-0978-3039-b78393b9011b
+42 - 5a3ce54c-8456-2bac-78df-01163c55dbfe
+43 - 788c6672-84f8-462c-5eec-5317d514414b
+44 - 6e9378c7-c5b7-1d6d-b8fc-e08bc1759a5c
+45 - e1a6a7d5-0b29-e73e-337a-205d776c2a16
+46 - a2e2b2f1-f4e4-36cb-44ff-f6797c2ce3b9
+47 - c47035d5-4f6f-dd1b-6d4c-f8b042a09d3f
