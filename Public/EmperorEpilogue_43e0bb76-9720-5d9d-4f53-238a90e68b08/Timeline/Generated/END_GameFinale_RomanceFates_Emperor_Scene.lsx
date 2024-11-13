@@ -3,7 +3,7 @@
     <version major="4" minor="7" revision="1" build="3"/>
     <region id="TLScene">
         <node id="root">
-            <attribute id="Identifier" type="guid" value="e090bb31-5377-c6fb-28e8-eadc03522df1"/>
+            <attribute id="Identifier" type="guid" value="a1a4a8af-98d2-c014-d264-d8ccc55f03bb"/>
             <attribute id="SceneBounds" type="fvec3">
                 <float3 x="1.1326535" y="0" z="1.513"/>
             </attribute>
@@ -445,6 +445,64 @@
                                 <node id="TLCameras">
                                     <attribute id="Identifier" type="guid" value="9e17e642-51a9-45c8-b897-e83b5614e9b8"/>
                                     <attribute id="Name" type="LSString" value="Cust_Cere_Hand"/>
+                                    <children>
+                                        <node id="Transform">
+                                            <children>
+                                                <node id="Object">
+                                                    <attribute id="MapKey" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                                                    <children>
+                                                        <node id="MapValue">
+                                                            <attribute id="Position" type="fvec3">
+                                                                <float3 x="-1.5454309e-07" y="3.5355339" z="-3.5355339"/>
+                                                            </attribute>
+                                                            <attribute id="RotationQuat" type="fvec4">
+                                                                <float4 x="0.052495103" y="2.3009921e-09" z="-1.2095759e-10" w="0.99862123"/>
+                                                            </attribute>
+                                                            <attribute id="Scale" type="float" value="1"/>
+                                                        </node>
+                                                    </children>
+                                                </node>
+                                            </children>
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Object">
+                            <attribute id="MapKey" type="guid" value="77c9942c-7f33-4a1a-8e89-9a5da404f2ad"/>
+                            <children>
+                                <node id="TLCameras">
+                                    <attribute id="Identifier" type="guid" value="77c9942c-7f33-4a1a-8e89-9a5da404f2ad"/>
+                                    <attribute id="Name" type="LSString" value="Cust_Karlach_Brain"/>
+                                    <children>
+                                        <node id="Transform">
+                                            <children>
+                                                <node id="Object">
+                                                    <attribute id="MapKey" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                                                    <children>
+                                                        <node id="MapValue">
+                                                            <attribute id="Position" type="fvec3">
+                                                                <float3 x="-1.5454309e-07" y="3.5355339" z="-3.5355339"/>
+                                                            </attribute>
+                                                            <attribute id="RotationQuat" type="fvec4">
+                                                                <float4 x="0.052495103" y="2.3009921e-09" z="-1.2095759e-10" w="0.99862123"/>
+                                                            </attribute>
+                                                            <attribute id="Scale" type="float" value="1"/>
+                                                        </node>
+                                                    </children>
+                                                </node>
+                                            </children>
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Object">
+                            <attribute id="MapKey" type="guid" value="6b32fece-7299-4f3a-8631-b462dbcef502"/>
+                            <children>
+                                <node id="TLCameras">
+                                    <attribute id="Identifier" type="guid" value="6b32fece-7299-4f3a-8631-b462dbcef502"/>
+                                    <attribute id="Name" type="LSString" value="Cust_Karlach_Dead"/>
                                     <children>
                                         <node id="Transform">
                                             <children>
