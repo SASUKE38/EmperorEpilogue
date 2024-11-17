@@ -1,3 +1,22 @@
+lslib
+wwiser
+OPTIONAL: Notepad++
+OPTIONAL: foobar2000 with vgmstream and Free Encoder Pack
+Extract BG3 files using lslib.
+Locate the .lsf file that corresponds to the target .bnk file. You can start by searching for keywords like "Sound" or "Audio" in the unpacked folders and checking the files present. If you find a folder with a name similar to the .bnk file, you're likely in the right place.
+Convert the .lsf file into a readable format like .lsx using lslib.
+Convert the .bnk file into an XML file with wwiser.
+In the .lsx file, search for the SoundID. The number following "value=" represents the Event in the .bnk file.
+In the XML file, search for the ID from the .lsx file. (Notepad++ is recommended for this step due to its powerful search capabilities.)
+Now, you'll need to manually inspect each ID one by one. The most common ID path is as follows (the ID you want is the number following "va="):
+obj na="CAkEvent" with the same ulID as the SoundID from .lsx. Here, look for ulActionID and use it for search.
+obj na="CAkActionPlay" with the same ulID as the ulActionID from CAkEvent. Search for the idExt within.
+obj na="CAkRanSeqCntr" with the same ulID as the idExt from CAkActionPlay. Inside, find the obj na="Children" and its ulChildID.
+obj na="CAkSound" with the same ulID as the ulChildID from CAkRanSeqCntr and its Children. Within, look for sourceID, and the number following "va=" is the ID of the WEM file.
+Open WEM file from SharedSounds\Public with foobar2000.
+
+!the path truly depends on the .bnk file!
+
 Emperor Brain Sounds:
 1.23002: 7248d0cf-cc74-4340-8544-0199b4d3876a - END_BrainBattle_CombatOver_Nested_Conclusion_MF_Cast
 4.14002: b21505bd-bbb1-4b4a-b062-94b0e8a2b6b0 - END_BrainBattle_CombatOver_Nested_Conclusion_MindFlayerMunchBrain
