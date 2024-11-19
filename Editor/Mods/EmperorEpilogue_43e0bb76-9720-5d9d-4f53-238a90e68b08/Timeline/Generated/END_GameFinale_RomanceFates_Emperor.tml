@@ -70,7 +70,7 @@
           <ActorIdleOverrideData />
           <BehaviourActorStartCondition />
         </Track>
-        <Track Name="GROUP_Players" TrackId="ab085b89-be1f-48ac-8b07-4994daf87fa3" IsExpanded="true" ActorType="character" ActorId="e2badbf0-159a-4ef5-9e73-7bbeb3d1015a" AssignedActorId="ead7aab5-e719-4da5-ab23-1b85399eaa14" SpeakerId="1" IsPlayer="true" SceneActorType="Initiator" SpeakerMappingId="327a3579-ca1d-4561-aa3b-6a92d6326acf" Type="ActorTrackSpeaker">
+        <Track Name="GROUP_Players" TrackId="ab085b89-be1f-48ac-8b07-4994daf87fa3" IsExpanded="true" ActorType="character" ActorId="e2badbf0-159a-4ef5-9e73-7bbeb3d1015a" AssignedActorId="277c79f9-6ae4-4878-ba11-1dcedccdaa9f" SpeakerId="1" IsPlayer="true" SceneActorType="Initiator" SpeakerMappingId="327a3579-ca1d-4561-aa3b-6a92d6326acf" Type="ActorTrackSpeaker">
           <Track Name="Voice" TrackId="126b949c-09cc-48cf-a437-da7000997798" IsExpanded="true" Type="ComponentTrackVoice" />
           <Track Name="Look At Event" TrackId="fc127b7d-0dda-4c56-baf0-3a7660dbf609" IsExpanded="true" Type="ComponentTrackLookAtEvent" />
           <Track Name="Emotion Event" TrackId="7dd6d7e7-ce65-48ab-b587-c1c796c795d6" IsExpanded="true" Type="ComponentTrackEmotionEvent" />
@@ -175,7 +175,7 @@
           <BehaviourActorStartCondition />
         </Track>
       </Track>
-      <Track Name="Tadpole" TrackId="13fe1ea3-e833-4030-9144-85d9360a7b45" IsExpanded="true" ActorType="character" ActorId="b1a86e71-3124-445f-9aa4-4072cb98e405" IsTemplate="true" AssignedActorId="00000000-0000-0000-0000-000000000000" Type="ActorTrackDefault">
+      <Track Name="Tadpole" TrackId="13fe1ea3-e833-4030-9144-85d9360a7b45" ActorType="character" ActorId="b1a86e71-3124-445f-9aa4-4072cb98e405" IsTemplate="true" AssignedActorId="00000000-0000-0000-0000-000000000000" Type="ActorTrackDefault">
         <Track Name="Show Actor" TrackId="96f59035-a25e-4047-b319-f375f5500e82" Type="ComponentTrackShowActor" />
         <Track Name="Sound Event" TrackId="4764fe11-5d90-4df9-9a53-872ed82d2547" Type="ComponentTrackSoundEvent" />
         <Track Name="Animation" TrackId="79dfd107-43be-4829-bd58-ed9d8aaf7048" SlotId="e3ff500b-8db3-4fbd-a180-6aad8c3ba4f4" Type="ComponentTrackAnimation">
@@ -225,7 +225,7 @@
           <BehaviourActorStartCondition />
         </Track>
       </Track>
-      <Track Name="Cameras" TrackId="b103f6ca-0e70-4a74-88d1-ba7434fd8ef6" IsExpanded="true" Type="FolderTrack">
+      <Track Name="Cameras" TrackId="b103f6ca-0e70-4a74-88d1-ba7434fd8ef6" Type="FolderTrack">
         <Track Name="General" TrackId="747cf3e3-359b-4061-83cc-152dabb3ec57" Type="FolderTrack">
           <Track Name="cam_player_CU" TrackId="9b640ea2-9b85-4639-89e6-a359144480cb" IsExpanded="true" ActorType="scenecam" ActorId="fd48d06f-1735-4996-ad91-2ab696a16ad7" AssignedActorId="00000000-0000-0000-0000-000000000000" SceneCameraId="1685fcac-4da6-4cb6-a262-6ffe752e21bc" SceneCameraAttachTo="ab085b89-be1f-48ac-8b07-4994daf87fa3" SceneCameraLookAt="ab085b89-be1f-48ac-8b07-4994daf87fa3" Type="ActorTrackSceneCamera">
             <CustomActorData Type="CustomActorSoundData" />
@@ -501,7 +501,7 @@
             <BehaviourActorStartCondition />
           </Track>
         </Track>
-        <Track Name="Tadpole Insertion" TrackId="0c690aba-cef1-4434-9adb-4ccc51eb2664" IsExpanded="true" Type="FolderTrack">
+        <Track Name="Tadpole Insertion" TrackId="0c690aba-cef1-4434-9adb-4ccc51eb2664" Type="FolderTrack">
           <Track Name="Cust_TadpolePost" TrackId="eaaab8f6-b6ad-4ee4-a7e1-967b3cf3d5e1" ActorType="scenecam" ActorId="0f692815-889f-4670-aaef-7afb6f17d52f" AssignedActorId="00000000-0000-0000-0000-000000000000" SceneCameraId="32774f07-0fb8-4a1b-a504-d3eba6955112" Type="ActorTrackSceneCamera">
             <Track Name="Transform" TrackId="f4aa4276-52f5-4eea-a5d0-713fbbecd9d1" Type="ComponentTrackTransform">
               <Track Name="Translate" TrackId="a7b44843-f785-45cc-85e6-5f339d35d9d8" Type="KeyTrackWrapper">
@@ -527,7 +527,7 @@
             <ActorIdleOverrideData />
             <BehaviourActorStartCondition />
           </Track>
-          <Track Name="Cust_Tadpole" TrackId="7c5a7803-29a6-4ab3-b2ff-02d0d1d6dabf" IsExpanded="true" ActorType="scenecam" ActorId="3488f511-6a1b-42f4-800e-6bc781ab389d" AssignedActorId="00000000-0000-0000-0000-000000000000" SceneCameraId="7cb6caa1-c4d4-4406-8f7a-89557beb57f9" Type="ActorTrackSceneCamera">
+          <Track Name="Cust_Tadpole" TrackId="7c5a7803-29a6-4ab3-b2ff-02d0d1d6dabf" ActorType="scenecam" ActorId="3488f511-6a1b-42f4-800e-6bc781ab389d" AssignedActorId="00000000-0000-0000-0000-000000000000" SceneCameraId="7cb6caa1-c4d4-4406-8f7a-89557beb57f9" Type="ActorTrackSceneCamera">
             <Track Name="Transform" TrackId="29e2ba80-9810-47bd-8b92-30ab8827d5ee" Type="ComponentTrackTransform">
               <Track Name="Translate" TrackId="2cafbc74-0fd9-4151-80bc-61b5e3cdf0c8" Type="KeyTrackWrapper">
                 <Track Name="X" TrackId="88142d7f-d39a-48b7-8164-e5fade5b3718" Type="KeyTrackFloat" />
@@ -1113,8 +1113,8 @@
           <BehaviourActorStartCondition />
         </Track>
       </Track>
-      <Track Name="Tadpole Insert Effects" TrackId="ea4b5184-3e69-4086-8530-3b0709b89c43" IsExpanded="true" Type="FolderTrack">
-        <Track Name="TadpoleFade" TrackId="17f68c58-1b46-414a-9dac-1f82071343ba" IsExpanded="true" ActorType="effect" ActorId="9dc17189-aeb3-40aa-8ed9-558e56b68067" IsResource="true" AssignedActorId="00000000-0000-0000-0000-000000000000" ResourceId="178bdfd8-a0d6-f149-fca6-01d8dba6915a" Type="ActorTrackDefault">
+      <Track Name="Tadpole Insert Effects" TrackId="ea4b5184-3e69-4086-8530-3b0709b89c43" Type="FolderTrack">
+        <Track Name="TadpoleFade" TrackId="17f68c58-1b46-414a-9dac-1f82071343ba" ActorType="effect" ActorId="9dc17189-aeb3-40aa-8ed9-558e56b68067" IsResource="true" AssignedActorId="00000000-0000-0000-0000-000000000000" ResourceId="178bdfd8-a0d6-f149-fca6-01d8dba6915a" Type="ActorTrackDefault">
           <Track Name="Show Actor" TrackId="24fddd09-c0ac-4cea-b027-2d8056742f06" Type="ComponentTrackShowActor" />
           <Track Name="Play Effect" TrackId="3599cae4-6a28-4a1a-bd71-c6968f7c09c9" Type="ComponentTrackPlayEffect" />
           <Track Name="Transform" TrackId="b25d8cba-df26-4aa7-accc-396655e7ac5e" Type="ComponentTrackTransform">
@@ -31378,6 +31378,9 @@
               <Key ΔTime="0" Id="321dada8-c3c4-4d86-9d85-fff9f723e683">
                 <Value />
               </Key>
+              <Key ΔTime="72.12" Id="d452a996-d3c0-468e-a7e0-518929638328">
+                <Value TemplateId="ba20ee39-92ed-4aad-830d-4871103f48c2" />
+              </Key>
             </Channel>
           </Component>
         </Components>
@@ -31423,7 +31426,7 @@
           </Component>
         </Components>
         <Components TrackId="fd12d5cf-5ca2-4e54-8702-a4990b079f03">
-          <Component ComponentId="d9256fc1-a6b0-4873-9c01-ab32ef2ac3fd" TimeStart="49.1" ΔTimeDuration="23.533335208892822" AnimationSourceId="e0a0fd41-d3c1-cc73-b07d-5b2d5473de7d" PlayRate="1" PlayStartOffset="0.51" FadeIn="1.5" FadeOut="0" AnimationType="Base" />
+          <Component ComponentId="d9256fc1-a6b0-4873-9c01-ab32ef2ac3fd" TimeStart="49.1" ΔTimeDuration="23.423336257934569" AnimationSourceId="e0a0fd41-d3c1-cc73-b07d-5b2d5473de7d" PlayRate="1" PlayStartOffset="0.51" FadeIn="1.5" FadeOut="0" AnimationType="Base" />
         </Components>
         <Components TrackId="b33055ab-f8f9-4d36-b4ed-de65418f18db">
           <Component ComponentId="a3994a2f-6146-46ad-bfa0-5c79a14f06c1" TimeStart="43.86" ΔTimeDuration="4.7333340644836426" AnimationSourceId="b57802fc-1ed6-4cc3-a7ca-211ccbafebc3" PlayRate="1" PlayStartOffset="3" FadeIn="1.5" FadeOut="0" AnimationType="Base" />
@@ -31462,7 +31465,7 @@
               <Key ΔTime="45.53991" Id="11939024-079a-4965-9667-edfdee18425b">
                 <Value SoundType="SOUNDTYPE_Default" ΔEvent="8812b5b7-be9b-4be0-a91e-fbfacb451869" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
               </Key>
-              <Key ΔTime="45.07989" Id="b91ca0da-2b55-47b4-bdb3-561b533c6022">
+              <Key ΔTime="44.43" Id="b91ca0da-2b55-47b4-bdb3-561b533c6022">
                 <Value SoundType="SOUNDTYPE_Default" ΔEvent="ff5986ca-09c8-4d17-9631-a6fcf2a44306" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
               </Key>
             </Channel>
@@ -31499,7 +31502,7 @@
               <Key ΔTime="51.3" Id="79550362-e8eb-4695-84c8-939f03862644" Value="True" />
             </Channel>
             <Channel Name="Overlay Material.OpacityMult">
-              <Key ΔTime="51.3" Id="f3cbd8fc-1b29-4b81-ad14-24f205281479" Value="0.85" />
+              <Key ΔTime="51.3" Id="f3cbd8fc-1b29-4b81-ad14-24f205281479" Value="1" />
             </Channel>
             <Channel Name="Overlay Material.MaskContrast">
               <Key ΔTime="51.3" Id="a97f9a7e-14d4-4f76-a5d4-a8f9ae96264a" Value="0" />
@@ -31622,14 +31625,14 @@
               <Key ΔTime="10.4" Id="4b290b9a-5c29-4477-b7f7-7da3241c2c42">
                 <Value SoundType="SOUNDTYPE_Default" ΔEvent="26624eed-afce-4d6e-b89b-ac527b06ef59" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
               </Key>
-              <Key ΔTime="13.49" Id="d19b88be-124f-4f0a-beaa-de056de6d0f0">
+              <Key ΔTime="13.16" Id="d19b88be-124f-4f0a-beaa-de056de6d0f0">
                 <Value SoundType="SOUNDTYPE_Default" ΔEvent="b44ff7d7-392b-4528-9e41-410b78fb6f17" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
               </Key>
-              <Key ΔTime="16.48" Id="110c40ab-cde6-4009-ba0a-7457a1ee5f71">
-                <Value SoundType="SOUNDTYPE_Default" ΔEvent="487738b1-44d0-4335-93aa-4d9799107a26" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
-              </Key>
-              <Key ΔTime="17.79" Id="6ed9aa4b-e1a9-4db2-974d-6cad59a9f37d">
+              <Key ΔTime="19.61" Id="6ed9aa4b-e1a9-4db2-974d-6cad59a9f37d">
                 <Value SoundType="SOUNDTYPE_Default" ΔEvent="0e5947f0-d453-40a6-b8a5-b7144e2d8cb4" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
+              </Key>
+              <Key ΔTime="15.629351391941309" Id="4c77e335-d44a-4228-b707-b1b7ccded3f8">
+                <Value SoundType="SOUNDTYPE_Default" ΔEvent="fac754ba-980e-40c0-8f29-e15dc64e6cb1" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
               </Key>
             </Channel>
           </Component>
