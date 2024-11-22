@@ -1,12 +1,12 @@
 Emperor Romance Epilogue Mod for Baldur's Gate 3
 =======
 
-### $${\color{yellow}\text{You must load a save from before traveling to the Morphic Pool (endgame/finale) for this mod to work.}}$$
-
 ## Release
 * [Nexus]()
 
 ## About
+$${\color{yellow}\text{You must load a save from before traveling to the Morphic Pool (endgame/finale) for this mod to work.}}$$
+
 This mod gives the Emperor an active role in the game's epilogue if his romance arc was completed and the player is in no other relationship. 
 This mod works regardless of whether or not the player is illithid. It adds a post final battle scene with him in the Elfsong Tavern like the 
 rest of the vanilla romance options have and allows him to attend the epilogue party if the player to chooses to continue their relationship with him.
@@ -35,8 +35,8 @@ The mod can be installed with the in-game mod manager by placing the .pak file i
 
 ## Compatibility
 This mod alters the following files and is likely not compatible with any mod that alters them as well:
-* EPI_Epilogue_EnterParty.lsf (dialogue file)
-* EPI_Epilogue_MindFlayerUrge.lsf (dialogue file as well as its associated timeline files)
+* EPI_Epilogue_EnterParty.lsf (party intro cutscene - dialogue file as well as its associated timeline files)
+* EPI_Epilogue_MindFlayerUrge.lsf (player mind flayer brain eating urge - dialogue file as well as its associated timeline files)
 * Act3c_END_GameFinale.txt (Osiris script)
 * Act3c_END_Misc.txt (Osiris script)
 * Act3c_EPI_Gazettes.txt (Osiris script)
