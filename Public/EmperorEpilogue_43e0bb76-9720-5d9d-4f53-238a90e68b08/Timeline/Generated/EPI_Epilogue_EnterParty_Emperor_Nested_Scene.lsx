@@ -3,7 +3,7 @@
     <version major="4" minor="7" revision="1" build="3"/>
     <region id="TLScene">
         <node id="root">
-            <attribute id="Identifier" type="guid" value="0d2a6238-ff04-2500-0939-4af5b43d6353"/>
+            <attribute id="Identifier" type="guid" value="87d6b52d-b585-3769-10ef-9d7d1080158f"/>
             <attribute id="SceneBounds" type="fvec3">
                 <float3 x="24.031832" y="1.1152654" z="13.814333"/>
             </attribute>
@@ -90,7 +90,7 @@
                         <node id="TLActor">
                             <attribute id="ActorType" type="uint8" value="2"/>
                             <attribute id="ImportantForStaging" type="bool" value="true"/>
-                            <attribute id="TemplateId" type="guid" value="c9a7d921-bef0-4829-8792-d48c529daee5"/>
+                            <attribute id="TemplateId" type="guid" value="1d8afdc2-1403-4570-b7ce-3f3ae94f325b"/>
                             <children>
                                 <node id="Transforms">
                                     <children>
@@ -1325,7 +1325,7 @@
                         <node id="TLActor">
                             <attribute id="ActorType" type="uint8" value="8"/>
                             <attribute id="ImportantForStaging" type="bool" value="false"/>
-                            <attribute id="TemplateId" type="guid" value="6bff5419-5a9e-4839-acd4-cac4f6e41bd7"/>
+                            <attribute id="TemplateId" type="guid" value="aa772968-b5e0-4441-8d86-2d0506b4aab5"/>
                             <children>
                                 <node id="Transforms">
                                     <children>
@@ -1635,7 +1635,7 @@
                         <node id="TLActor">
                             <attribute id="ActorType" type="uint8" value="8"/>
                             <attribute id="ImportantForStaging" type="bool" value="false"/>
-                            <attribute id="TemplateId" type="guid" value="aa772968-b5e0-4441-8d86-2d0506b4aab5"/>
+                            <attribute id="TemplateId" type="guid" value="6bff5419-5a9e-4839-acd4-cac4f6e41bd7"/>
                             <children>
                                 <node id="Transforms">
                                     <children>
@@ -1660,7 +1660,7 @@
                         <node id="TLActor">
                             <attribute id="ActorType" type="uint8" value="8"/>
                             <attribute id="ImportantForStaging" type="bool" value="false"/>
-                            <attribute id="TemplateId" type="guid" value="736c736b-34d8-4dc6-98ac-3f78378ad06d"/>
+                            <attribute id="TemplateId" type="guid" value="81c48711-d7cc-4a3d-9e49-665eb915c15c"/>
                             <children>
                                 <node id="Transforms">
                                     <children>
@@ -2194,6 +2194,10 @@
                                                     <attribute id="MapValue" type="bool" value="true"/>
                                                 </node>
                                                 <node id="Object">
+                                                    <attribute id="MapKey" type="guid" value="1b00e2ca-8fbc-4e26-bb17-29894ea54612"/>
+                                                    <attribute id="MapValue" type="bool" value="true"/>
+                                                </node>
+                                                <node id="Object">
                                                     <attribute id="MapKey" type="guid" value="450c518c-db47-4362-997f-58cbec617617"/>
                                                     <attribute id="MapValue" type="bool" value="true"/>
                                                 </node>
@@ -2282,6 +2286,10 @@
                                                     <attribute id="MapValue" type="float" value="22"/>
                                                 </node>
                                                 <node id="Object">
+                                                    <attribute id="MapKey" type="guid" value="1b00e2ca-8fbc-4e26-bb17-29894ea54612"/>
+                                                    <attribute id="MapValue" type="float" value="22"/>
+                                                </node>
+                                                <node id="Object">
                                                     <attribute id="MapKey" type="guid" value="450c518c-db47-4362-997f-58cbec617617"/>
                                                     <attribute id="MapValue" type="float" value="22"/>
                                                 </node>
@@ -2352,6 +2360,14 @@
                                                 <node id="Object">
                                                     <attribute id="MapKey" type="guid" value="d273ccfa-716b-4cca-8186-d49d439bfd8a"/>
                                                     <attribute id="MapValue" type="float" value="22"/>
+                                                </node>
+                                            </children>
+                                        </node>
+                                        <node id="DOFFarOnly">
+                                            <children>
+                                                <node id="Object">
+                                                    <attribute id="MapKey" type="guid" value="1b00e2ca-8fbc-4e26-bb17-29894ea54612"/>
+                                                    <attribute id="MapValue" type="bool" value="true"/>
                                                 </node>
                                             </children>
                                         </node>
@@ -2547,7 +2563,7 @@
                                                 </node>
                                                 <node id="Object">
                                                     <attribute id="MapKey" type="guid" value="1b00e2ca-8fbc-4e26-bb17-29894ea54612"/>
-                                                    <attribute id="MapValue" type="float" value="30"/>
+                                                    <attribute id="MapValue" type="float" value="24"/>
                                                 </node>
                                                 <node id="Object">
                                                     <attribute id="MapKey" type="guid" value="450c518c-db47-4362-997f-58cbec617617"/>
@@ -2837,10 +2853,10 @@
                                                     <children>
                                                         <node id="MapValue">
                                                             <attribute id="Position" type="fvec3">
-                                                                <float3 x="-0.56420946" y="-0.40709949" z="-0.55590248"/>
+                                                                <float3 x="-0.5571785" y="-0.4072969" z="-1.053093"/>
                                                             </attribute>
                                                             <attribute id="RotationQuat" type="fvec4">
-                                                                <float4 x="0.054682035" y="0.69776589" z="-0.053550743" w="0.71222544"/>
+                                                                <float4 x="-0.0013835696" y="0.52992141" z="0.00085058028" w="0.84804511"/>
                                                             </attribute>
                                                             <attribute id="Scale" type="float" value="1"/>
                                                         </node>
