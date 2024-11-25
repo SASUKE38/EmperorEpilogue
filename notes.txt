@@ -47,6 +47,20 @@ Stretch:
 - Add Emperor adventure to Tara dialogue
 - Add Us to epilogue
 
+Osiris -------------------------------------------
+
+Adding Emps to DeathOfKarlach:
+PROC
+PROC_StartDialog_AddExtraSpeakers((DIALOGRESOURCE)END_GameFinale_DeathofKarlach_e419b950-b6ba-64bc-f041-1d07a602dfc4, _ID)
+AND
+DB_Avatars((CHARACTER)S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c)
+AND
+DB_GlobalFlag((FLAG)END_GameFinale_Event_KarlachChoseDeath_f9900bec-33dc-44db-ac8c-666dd5b8eec1)
+AND
+DB_GlobalFlag((FLAG)EPI_Emperor_KarlachDeath_e6c12b28-b182-7181-81a4-8df7d5d3f31e)
+THEN
+PROC_DialogAddSpeakingActorAt(_ID, S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, 13);
+
 Enter Party Info ------------------------------
 Shots:
 phase 12
