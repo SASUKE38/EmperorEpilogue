@@ -1,840 +1,251 @@
 <node id="EffectComponent">
 									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="610f3912-95d8-4cd3-bcbb-56b2d32b21b4" />
-									<attribute id="StartTime" type="float" value="254.79002" />
-									<attribute id="EndTime" type="float" value="264.79002" />
-									<attribute id="PhaseIndex" type="int64" value="20" />
+									<attribute id="ID" type="guid" value="871c972a-157f-43a4-b94f-66a80e91c29a" />
+									<attribute id="StartTime" type="float" value="1235.28314" />
+									<attribute id="EndTime" type="float" value="1240.99318" />
+									<attribute id="PhaseIndex" type="int64" value="104" />
 									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="67707d25-7e6f-0557-ba5a-790a1a696f4d" />
-									<attribute id="ReferenceId" type="guid" value="67707d25-7e6f-0557-ba5a-790a1a696f4d" />
+									<attribute id="DialogNodeId" type="guid" value="88bfa56f-1d6d-378d-ed23-b15aeca5a733" />
+									<attribute id="ReferenceId" type="guid" value="88bfa56f-1d6d-378d-ed23-b15aeca5a733" />
+									<attribute id="HoldMocap" type="bool" value="False" />
 									<attribute id="PerformanceFade" type="double" value="2" />
 									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
+									<attribute id="FadeOut" type="double" value="2" />
 									<children>
 										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
+											<attribute id="UUID" type="guid" value="6449637d-9a5d-4482-9ef3-e130b9c20dc1" />
+											<attribute id="PeanutOverride" type="bool" value="True" />
 										</node>
 									</children>
 								</node>
 								<node id="EffectComponent">
 									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="a3b1e8fb-bf8d-4c78-9a88-780c9a8df7ff" />
-									<attribute id="StartTime" type="float" value="254.79002" />
-									<attribute id="EndTime" type="float" value="264.79002" />
-									<attribute id="PhaseIndex" type="int64" value="20" />
+									<attribute id="ID" type="guid" value="bc98ee4c-2232-41a9-9dbd-3006817bcaaf" />
+									<attribute id="StartTime" type="float" value="1235.28314" />
+									<attribute id="EndTime" type="float" value="1240.99318" />
+									<attribute id="PhaseIndex" type="int64" value="104" />
+									<attribute id="IsSnappedToEnd" type="bool" value="True" />
 									<children>
 										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="d5579900-3578-444b-9ce7-869ebb5cf3ff" />
-									<attribute id="StartTime" type="float" value="264.79002" />
-									<attribute id="EndTime" type="float" value="274.79002" />
-									<attribute id="PhaseIndex" type="int64" value="21" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="02b4fdda-199b-a5d8-94b8-5d7c4b5c74e0" />
-									<attribute id="ReferenceId" type="guid" value="02b4fdda-199b-a5d8-94b8-5d7c4b5c74e0" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
+											<attribute id="Object" type="guid" value="ed036ba6-5586-42fb-82ba-63bada81912b" />
 										</node>
 									</children>
 								</node>
 								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="11efe0f1-86cc-4a75-9a24-f93ae31f5dc0" />
-									<attribute id="StartTime" type="float" value="264.79002" />
-									<attribute id="EndTime" type="float" value="274.79002" />
-									<attribute id="PhaseIndex" type="int64" value="21" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="0a1bf07e-aec6-42e9-9f5c-634a31e9f21e" />
-									<attribute id="StartTime" type="float" value="274.79002" />
-									<attribute id="EndTime" type="float" value="284.79002" />
-									<attribute id="PhaseIndex" type="int64" value="22" />
+									<attribute id="Type" type="LSString" value="TLTransform" />
+									<attribute id="ID" type="guid" value="55d8c3f3-9ca1-4a2c-a353-0fa28d08fc00" />
+									<attribute id="StartTime" type="float" value="1235.28314" />
+									<attribute id="EndTime" type="float" value="1240.99318" />
+									<attribute id="PhaseIndex" type="int64" value="104" />
 									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="774f985c-d1d3-5445-7a78-21c41f992ff6" />
-									<attribute id="ReferenceId" type="guid" value="774f985c-d1d3-5445-7a78-21c41f992ff6" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
 									<children>
 										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
+											<attribute id="UUID" type="guid" value="ed036ba6-5586-42fb-82ba-63bada81912b" />
+										</node>
+										<node id="TransformChannels">
+											<children>
+												<node id="TransformChannel">
+													<children>
+														<node id="Keys">
+															<children>
+																<node id="Key">
+																	<attribute id="Time" type="float" value="1235.28314" />
+																	<attribute id="InterpolationType" type="uint8" value="2" />
+																	<attribute id="Value" type="float" value="0.524" />
+																</node>
+																<node id="Key">
+																	<attribute id="Time" type="float" value="1240.99318" />
+																	<attribute id="InterpolationType" type="uint8" value="2" />
+																	<attribute id="Value" type="float" value="0.524" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="TransformChannel">
+													<children>
+														<node id="Keys">
+															<children>
+																<node id="Key">
+																	<attribute id="Time" type="float" value="1235.28314" />
+																	<attribute id="InterpolationType" type="uint8" value="2" />
+																	<attribute id="Value" type="float" value="3.138" />
+																</node>
+																<node id="Key">
+																	<attribute id="Time" type="float" value="1240.99318" />
+																	<attribute id="InterpolationType" type="uint8" value="2" />
+																	<attribute id="Value" type="float" value="3.138" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="TransformChannel">
+													<children>
+														<node id="Keys">
+															<children>
+																<node id="Key">
+																	<attribute id="Time" type="float" value="1235.28314" />
+																	<attribute id="InterpolationType" type="uint8" value="2" />
+																	<attribute id="Value" type="float" value="-8.93" />
+																</node>
+																<node id="Key">
+																	<attribute id="Time" type="float" value="1240.99318" />
+																	<attribute id="InterpolationType" type="uint8" value="2" />
+																	<attribute id="Value" type="float" value="-8.93" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="TransformChannel">
+													<children>
+														<node id="Keys">
+															<children>
+																<node id="Key">
+																	<attribute id="Time" type="float" value="1235.28314" />
+																	<attribute id="InterpolationType" type="uint8" value="2" />
+																	<attribute id="Value" type="fvec4" value="0 -0.2756374 0 0.9612617" />
+																</node>
+																<node id="Key">
+																	<attribute id="Time" type="float" value="1240.99318" />
+																	<attribute id="InterpolationType" type="uint8" value="2" />
+																	<attribute id="Value" type="fvec4" value="0 -0.2756374 0 0.9612617" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="TransformChannel" />
+												<node id="TransformChannel" />
+											</children>
 										</node>
 									</children>
 								</node>
 								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="e85d76bc-2eab-4cb7-b393-e308aaee23c4" />
-									<attribute id="StartTime" type="float" value="274.79002" />
-									<attribute id="EndTime" type="float" value="284.79002" />
-									<attribute id="PhaseIndex" type="int64" value="22" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="7efccdbf-eea7-4226-8f1e-60b0ef5a3756" />
-									<attribute id="StartTime" type="float" value="284.79002" />
-									<attribute id="EndTime" type="float" value="294.79002" />
-									<attribute id="PhaseIndex" type="int64" value="23" />
+									<attribute id="Type" type="LSString" value="TLCameraDoF" />
+									<attribute id="ID" type="guid" value="de0d428b-e936-4df5-92b1-b61f7b45bff4" />
+									<attribute id="StartTime" type="float" value="1235.28314" />
+									<attribute id="EndTime" type="float" value="1240.99318" />
+									<attribute id="PhaseIndex" type="int64" value="104" />
 									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="19265146-4c5b-ab40-a7bf-e019a62cba63" />
-									<attribute id="ReferenceId" type="guid" value="19265146-4c5b-ab40-a7bf-e019a62cba63" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
 									<children>
 										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
+											<attribute id="UUID" type="guid" value="ed036ba6-5586-42fb-82ba-63bada81912b" />
+										</node>
+										<node id="Channels">
+											<children>
+												<node id="Channel">
+													<children>
+														<node id="Keys">
+															<children>
+																<node id="Key">
+																	<attribute id="Time" type="float" value="1235.28314" />
+																	<attribute id="InterpolationType" type="uint8" value="2" />
+																	<attribute id="Value" type="float" value="2" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="Channel">
+													<children>
+														<node id="Keys">
+															<children>
+																<node id="Key">
+																	<attribute id="Time" type="float" value="1235.28314" />
+																	<attribute id="InterpolationType" type="uint8" value="2" />
+																	<attribute id="Value" type="float" value="20" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="Channel">
+													<children>
+														<node id="Keys">
+															<children>
+																<node id="Key">
+																	<attribute id="Time" type="float" value="1235.28314" />
+																	<attribute id="InterpolationType" type="uint8" value="2" />
+																	<attribute id="Value" type="float" value="1" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="Channel">
+													<children>
+														<node id="Keys">
+															<children>
+																<node id="Key">
+																	<attribute id="Time" type="float" value="1235.28314" />
+																	<attribute id="InterpolationType" type="uint8" value="2" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="Channel">
+													<children>
+														<node id="Keys">
+															<children>
+																<node id="Key">
+																	<attribute id="Time" type="float" value="1235.28314" />
+																	<attribute id="InterpolationType" type="uint8" value="2" />
+																	<attribute id="Value" type="float" value="1" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="Channel">
+													<children>
+														<node id="Keys">
+															<children>
+																<node id="Key">
+																	<attribute id="Time" type="float" value="1235.28314" />
+																	<attribute id="InterpolationType" type="uint8" value="2" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="Channel">
+													<children>
+														<node id="Keys">
+															<children>
+																<node id="Key">
+																	<attribute id="Time" type="float" value="1235.28314" />
+																	<attribute id="InterpolationType" type="uint8" value="2" />
+																	<attribute id="Value" type="float" value="3" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
 										</node>
 									</children>
 								</node>
 								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="6a8d23d4-038a-4da4-8406-aafb717483a9" />
-									<attribute id="StartTime" type="float" value="284.79002" />
-									<attribute id="EndTime" type="float" value="294.79002" />
-									<attribute id="PhaseIndex" type="int64" value="23" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="92681196-1e11-4e60-a807-8f058eded27d" />
-									<attribute id="StartTime" type="float" value="294.79002" />
-									<attribute id="EndTime" type="float" value="304.79002" />
-									<attribute id="PhaseIndex" type="int64" value="24" />
+									<attribute id="Type" type="LSString" value="TLCameraFoV" />
+									<attribute id="ID" type="guid" value="46791f99-a858-4238-bd3b-f5c5d7d744ae" />
+									<attribute id="StartTime" type="float" value="1235.28314" />
+									<attribute id="EndTime" type="float" value="1240.99318" />
+									<attribute id="PhaseIndex" type="int64" value="104" />
 									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="7b973756-3296-68d1-b5ed-86edfd86494c" />
-									<attribute id="ReferenceId" type="guid" value="7b973756-3296-68d1-b5ed-86edfd86494c" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
 									<children>
 										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
+											<attribute id="UUID" type="guid" value="ed036ba6-5586-42fb-82ba-63bada81912b" />
 										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="daabbc13-b2a1-4829-ae49-637e1ce45a28" />
-									<attribute id="StartTime" type="float" value="294.79002" />
-									<attribute id="EndTime" type="float" value="304.79002" />
-									<attribute id="PhaseIndex" type="int64" value="24" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="90b8bbea-af58-4092-a94c-0816ecb7196c" />
-									<attribute id="StartTime" type="float" value="304.79002" />
-									<attribute id="EndTime" type="float" value="314.79002" />
-									<attribute id="PhaseIndex" type="int64" value="25" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="2a71ca31-82c3-5b09-fd2a-25b5da4bfeeb" />
-									<attribute id="ReferenceId" type="guid" value="2a71ca31-82c3-5b09-fd2a-25b5da4bfeeb" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="344404d3-17a9-4f91-83ac-90d7d8eec060" />
-									<attribute id="StartTime" type="float" value="304.79002" />
-									<attribute id="EndTime" type="float" value="314.79002" />
-									<attribute id="PhaseIndex" type="int64" value="25" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="92a76dbe-b1ff-442d-b4f8-a858a2f06d37" />
-									<attribute id="StartTime" type="float" value="314.79002" />
-									<attribute id="EndTime" type="float" value="324.79002" />
-									<attribute id="PhaseIndex" type="int64" value="26" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="5bf5dd45-5434-72cd-b35c-d9536761406d" />
-									<attribute id="ReferenceId" type="guid" value="5bf5dd45-5434-72cd-b35c-d9536761406d" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="c17e6313-d31f-4d92-a276-d3ddd2529fe2" />
-									<attribute id="StartTime" type="float" value="314.79002" />
-									<attribute id="EndTime" type="float" value="324.79002" />
-									<attribute id="PhaseIndex" type="int64" value="26" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="7ec6fdd1-35f7-47f3-9423-e6c7ba070b18" />
-									<attribute id="StartTime" type="float" value="324.79002" />
-									<attribute id="EndTime" type="float" value="334.79002" />
-									<attribute id="PhaseIndex" type="int64" value="27" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="9d3d5507-ba8f-7dcf-60cd-42dc2f165b32" />
-									<attribute id="ReferenceId" type="guid" value="9d3d5507-ba8f-7dcf-60cd-42dc2f165b32" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="2ba22863-a555-4eb0-9911-56a231ed2d14" />
-									<attribute id="StartTime" type="float" value="324.79002" />
-									<attribute id="EndTime" type="float" value="334.79002" />
-									<attribute id="PhaseIndex" type="int64" value="27" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="6995578b-dea7-42e4-95d9-1c9013f409f3" />
-									<attribute id="StartTime" type="float" value="334.79002" />
-									<attribute id="EndTime" type="float" value="344.79002" />
-									<attribute id="PhaseIndex" type="int64" value="28" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="ae152563-bde4-2bc5-4cf4-e6561bc06f3c" />
-									<attribute id="ReferenceId" type="guid" value="ae152563-bde4-2bc5-4cf4-e6561bc06f3c" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="e82983fe-26fc-44e5-b454-4d3825bc3fe7" />
-									<attribute id="StartTime" type="float" value="334.79002" />
-									<attribute id="EndTime" type="float" value="344.79002" />
-									<attribute id="PhaseIndex" type="int64" value="28" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="947e9f18-c19c-4ad1-aee4-c9d6c425d7d8" />
-									<attribute id="StartTime" type="float" value="344.79002" />
-									<attribute id="EndTime" type="float" value="354.79002" />
-									<attribute id="PhaseIndex" type="int64" value="29" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="a3e7144d-c494-3424-5a2f-989f8de79b1d" />
-									<attribute id="ReferenceId" type="guid" value="a3e7144d-c494-3424-5a2f-989f8de79b1d" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="97e5c438-78fd-44ca-beb0-0bd9defc0069" />
-									<attribute id="StartTime" type="float" value="344.79002" />
-									<attribute id="EndTime" type="float" value="354.79002" />
-									<attribute id="PhaseIndex" type="int64" value="29" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="53dc9693-9767-4559-9589-00023398deaa" />
-									<attribute id="StartTime" type="float" value="354.79002" />
-									<attribute id="EndTime" type="float" value="364.79002" />
-									<attribute id="PhaseIndex" type="int64" value="30" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="f15c0755-76a5-f778-ba04-affd589d14f8" />
-									<attribute id="ReferenceId" type="guid" value="f15c0755-76a5-f778-ba04-affd589d14f8" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="23278523-031e-48de-a9ab-44845293e0be" />
-									<attribute id="StartTime" type="float" value="354.79002" />
-									<attribute id="EndTime" type="float" value="364.79002" />
-									<attribute id="PhaseIndex" type="int64" value="30" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="dd5208cb-3257-4eef-bc62-eb338af5eb86" />
-									<attribute id="StartTime" type="float" value="364.79002" />
-									<attribute id="EndTime" type="float" value="374.79002" />
-									<attribute id="PhaseIndex" type="int64" value="31" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="d7a5880c-c4dd-627d-091d-cf872dfdff66" />
-									<attribute id="ReferenceId" type="guid" value="d7a5880c-c4dd-627d-091d-cf872dfdff66" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="4595736a-b216-454e-9741-9b5e49870e12" />
-									<attribute id="StartTime" type="float" value="364.79002" />
-									<attribute id="EndTime" type="float" value="374.79002" />
-									<attribute id="PhaseIndex" type="int64" value="31" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="6ca51ae6-1d61-4481-8eef-114570be0fe2" />
-									<attribute id="StartTime" type="float" value="374.79002" />
-									<attribute id="EndTime" type="float" value="384.79002" />
-									<attribute id="PhaseIndex" type="int64" value="32" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="d725c306-0623-7762-5905-46b1869f40d9" />
-									<attribute id="ReferenceId" type="guid" value="d725c306-0623-7762-5905-46b1869f40d9" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="dd9ad298-81b5-41b4-9e8c-7b20dca41e43" />
-									<attribute id="StartTime" type="float" value="374.79002" />
-									<attribute id="EndTime" type="float" value="384.79002" />
-									<attribute id="PhaseIndex" type="int64" value="32" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="a699420e-3b3a-47d4-b83a-983eb05ef0ca" />
-									<attribute id="StartTime" type="float" value="384.79002" />
-									<attribute id="EndTime" type="float" value="394.79002" />
-									<attribute id="PhaseIndex" type="int64" value="33" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="682cfc22-8e2f-ae53-fdc4-0115e0bd983c" />
-									<attribute id="ReferenceId" type="guid" value="682cfc22-8e2f-ae53-fdc4-0115e0bd983c" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="5f710209-9ec5-424a-87d6-d43a80525bf8" />
-									<attribute id="StartTime" type="float" value="384.79002" />
-									<attribute id="EndTime" type="float" value="394.79002" />
-									<attribute id="PhaseIndex" type="int64" value="33" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="3166db67-9239-4ca1-aa4e-e1d51760a451" />
-									<attribute id="StartTime" type="float" value="394.79002" />
-									<attribute id="EndTime" type="float" value="404.79002" />
-									<attribute id="PhaseIndex" type="int64" value="34" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="131883ee-9c95-c85e-d560-e06493ed4d32" />
-									<attribute id="ReferenceId" type="guid" value="131883ee-9c95-c85e-d560-e06493ed4d32" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="a5827416-4bd3-41e1-996c-aa09eff7782f" />
-									<attribute id="StartTime" type="float" value="394.79002" />
-									<attribute id="EndTime" type="float" value="404.79002" />
-									<attribute id="PhaseIndex" type="int64" value="34" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="0d33afde-1599-4034-959d-4450c80764da" />
-									<attribute id="StartTime" type="float" value="404.79002" />
-									<attribute id="EndTime" type="float" value="414.79002" />
-									<attribute id="PhaseIndex" type="int64" value="35" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="6ccd2bb2-10d4-13bd-d369-4a22c9be1db3" />
-									<attribute id="ReferenceId" type="guid" value="6ccd2bb2-10d4-13bd-d369-4a22c9be1db3" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="748e59aa-a8e4-474c-8893-149ffc453774" />
-									<attribute id="StartTime" type="float" value="404.79002" />
-									<attribute id="EndTime" type="float" value="414.79002" />
-									<attribute id="PhaseIndex" type="int64" value="35" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="cc8b9982-c0c2-4873-b4e8-6b26e0d7e6fe" />
-									<attribute id="StartTime" type="float" value="414.79002" />
-									<attribute id="EndTime" type="float" value="424.79002" />
-									<attribute id="PhaseIndex" type="int64" value="36" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="5e4bf4de-cecd-52e8-7b04-ae2afed0c6a8" />
-									<attribute id="ReferenceId" type="guid" value="5e4bf4de-cecd-52e8-7b04-ae2afed0c6a8" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="472e03ac-d5fb-43b3-aa41-b9da8525418d" />
-									<attribute id="StartTime" type="float" value="414.79002" />
-									<attribute id="EndTime" type="float" value="424.79002" />
-									<attribute id="PhaseIndex" type="int64" value="36" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="c68badb7-22a2-424b-a7ff-79e650007f56" />
-									<attribute id="StartTime" type="float" value="424.79002" />
-									<attribute id="EndTime" type="float" value="434.79002" />
-									<attribute id="PhaseIndex" type="int64" value="37" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="3c801d6d-e155-9a49-de3b-9b7f48d4d6bb" />
-									<attribute id="ReferenceId" type="guid" value="3c801d6d-e155-9a49-de3b-9b7f48d4d6bb" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="00cdc7a7-37e1-4da0-ad5a-9eebefc14600" />
-									<attribute id="StartTime" type="float" value="424.79002" />
-									<attribute id="EndTime" type="float" value="434.79002" />
-									<attribute id="PhaseIndex" type="int64" value="37" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="d9a7e648-962c-4817-ba29-0ed48d4f5ed6" />
-									<attribute id="StartTime" type="float" value="434.79002" />
-									<attribute id="EndTime" type="float" value="444.79002" />
-									<attribute id="PhaseIndex" type="int64" value="38" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="e0478cbc-1871-d8b1-ecd3-8263bd128dde" />
-									<attribute id="ReferenceId" type="guid" value="e0478cbc-1871-d8b1-ecd3-8263bd128dde" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="46081b6d-69e1-4944-bece-b5912b714d1e" />
-									<attribute id="StartTime" type="float" value="434.79002" />
-									<attribute id="EndTime" type="float" value="444.79002" />
-									<attribute id="PhaseIndex" type="int64" value="38" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="3d376582-ef1f-40ca-bc7e-78c6152bdb3b" />
-									<attribute id="StartTime" type="float" value="444.79002" />
-									<attribute id="EndTime" type="float" value="454.79002" />
-									<attribute id="PhaseIndex" type="int64" value="39" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="d9d4c735-9c4c-3f60-a049-a9c6f4b86738" />
-									<attribute id="ReferenceId" type="guid" value="d9d4c735-9c4c-3f60-a049-a9c6f4b86738" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="bccbb69f-cc86-4841-80b4-4de853479077" />
-									<attribute id="StartTime" type="float" value="444.79002" />
-									<attribute id="EndTime" type="float" value="454.79002" />
-									<attribute id="PhaseIndex" type="int64" value="39" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="c53ad78d-8e64-40a8-9e9f-1cf64920c724" />
-									<attribute id="StartTime" type="float" value="454.79002" />
-									<attribute id="EndTime" type="float" value="464.79002" />
-									<attribute id="PhaseIndex" type="int64" value="40" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="62ee3b21-1678-bd7f-26c8-d264ccbdfff1" />
-									<attribute id="ReferenceId" type="guid" value="62ee3b21-1678-bd7f-26c8-d264ccbdfff1" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="a09e4cc5-274b-4140-8678-7fac4c63603e" />
-									<attribute id="StartTime" type="float" value="454.79002" />
-									<attribute id="EndTime" type="float" value="464.79002" />
-									<attribute id="PhaseIndex" type="int64" value="40" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="277cbaa9-7ef3-43d4-b481-f600bd21d6fb" />
-									<attribute id="StartTime" type="float" value="464.79002" />
-									<attribute id="EndTime" type="float" value="474.79002" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="2782e8a4-ae3d-0978-3039-b78393b9011b" />
-									<attribute id="ReferenceId" type="guid" value="2782e8a4-ae3d-0978-3039-b78393b9011b" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="c386732d-7dea-4544-9ed0-f82dba07981f" />
-									<attribute id="StartTime" type="float" value="464.79002" />
-									<attribute id="EndTime" type="float" value="474.79002" />
-									<attribute id="PhaseIndex" type="int64" value="41" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="1772bad9-f291-4b90-bfc3-f28afdc52d73" />
-									<attribute id="StartTime" type="float" value="474.79002" />
-									<attribute id="EndTime" type="float" value="484.79002" />
-									<attribute id="PhaseIndex" type="int64" value="42" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="5a3ce54c-8456-2bac-78df-01163c55dbfe" />
-									<attribute id="ReferenceId" type="guid" value="5a3ce54c-8456-2bac-78df-01163c55dbfe" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="bfeb0b5e-5a08-41f7-9d9d-8535655082e8" />
-									<attribute id="StartTime" type="float" value="474.79002" />
-									<attribute id="EndTime" type="float" value="484.79002" />
-									<attribute id="PhaseIndex" type="int64" value="42" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="e27a5732-a92d-403b-ad59-1c928576e65d" />
-									<attribute id="StartTime" type="float" value="484.79002" />
-									<attribute id="EndTime" type="float" value="494.79002" />
-									<attribute id="PhaseIndex" type="int64" value="43" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="788c6672-84f8-462c-5eec-5317d514414b" />
-									<attribute id="ReferenceId" type="guid" value="788c6672-84f8-462c-5eec-5317d514414b" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="9eb7af18-7b4b-4e15-bf7b-dac85f2fff4a" />
-									<attribute id="StartTime" type="float" value="484.79002" />
-									<attribute id="EndTime" type="float" value="494.79002" />
-									<attribute id="PhaseIndex" type="int64" value="43" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="85d02433-99c0-4c13-a366-edb36b634c65" />
-									<attribute id="StartTime" type="float" value="504.79002" />
-									<attribute id="EndTime" type="float" value="514.79002" />
-									<attribute id="PhaseIndex" type="int64" value="44" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="6e9378c7-c5b7-1d6d-b8fc-e08bc1759a5c" />
-									<attribute id="ReferenceId" type="guid" value="6e9378c7-c5b7-1d6d-b8fc-e08bc1759a5c" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="439a20bd-af54-404f-bcd0-43eb5ee3341f" />
-									<attribute id="StartTime" type="float" value="504.79002" />
-									<attribute id="EndTime" type="float" value="514.79002" />
-									<attribute id="PhaseIndex" type="int64" value="44" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="b7c558eb-f44d-4ea3-90d4-aea8594e3b3a" />
-									<attribute id="StartTime" type="float" value="514.79002" />
-									<attribute id="EndTime" type="float" value="524.79002" />
-									<attribute id="PhaseIndex" type="int64" value="45" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="e1a6a7d5-0b29-e73e-337a-205d776c2a16" />
-									<attribute id="ReferenceId" type="guid" value="e1a6a7d5-0b29-e73e-337a-205d776c2a16" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="ab4bf692-788b-45c0-ac10-c5690a72cda9" />
-									<attribute id="StartTime" type="float" value="514.79002" />
-									<attribute id="EndTime" type="float" value="524.79002" />
-									<attribute id="PhaseIndex" type="int64" value="45" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="65fd7792-863c-419e-885b-19137a4654d3" />
-									<attribute id="StartTime" type="float" value="524.79002" />
-									<attribute id="EndTime" type="float" value="534.79002" />
-									<attribute id="PhaseIndex" type="int64" value="46" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="a2e2b2f1-f4e4-36cb-44ff-f6797c2ce3b9" />
-									<attribute id="ReferenceId" type="guid" value="a2e2b2f1-f4e4-36cb-44ff-f6797c2ce3b9" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="b58f5a9f-db72-47f3-aebb-d8b5a0c119fc" />
-									<attribute id="StartTime" type="float" value="524.79002" />
-									<attribute id="EndTime" type="float" value="534.79002" />
-									<attribute id="PhaseIndex" type="int64" value="46" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
-										</node>
-									</children>
-								</node>
-                                <node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLVoice" />
-									<attribute id="ID" type="guid" value="87e27f0e-7258-4379-ab35-43c723db3069" />
-									<attribute id="StartTime" type="float" value="534.79002" />
-									<attribute id="EndTime" type="float" value="544.79002" />
-									<attribute id="PhaseIndex" type="int64" value="47" />
-									<attribute id="IsSnappedToEnd" type="bool" value="True" />
-									<attribute id="DialogNodeId" type="guid" value="c47035d5-4f6f-dd1b-6d4c-f8b042a09d3f" />
-									<attribute id="ReferenceId" type="guid" value="c47035d5-4f6f-dd1b-6d4c-f8b042a09d3f" />
-									<attribute id="PerformanceFade" type="double" value="2" />
-									<attribute id="FadeIn" type="double" value="2" />
-									<attribute id="FadeOut" type="double" value="0" />
-									<children>
-										<node id="Actor">
-											<attribute id="UUID" type="guid" value="2b2de789-b2ed-4cf3-852b-97a0f08d650a" />
-										</node>
-									</children>
-								</node>
-								<node id="EffectComponent">
-									<attribute id="Type" type="LSString" value="TLShot" />
-									<attribute id="ID" type="guid" value="66496675-a50b-431f-8a5b-b8491a15cf67" />
-									<attribute id="StartTime" type="float" value="534.79002" />
-									<attribute id="EndTime" type="float" value="544.79002" />
-									<attribute id="PhaseIndex" type="int64" value="47" />
-									<children>
-										<node id="CameraContainer">
-											<attribute id="Object" type="guid" value="163d1aeb-1821-4466-8705-cc7880b2615c" />
+										<node id="Keys">
+											<children>
+												<node id="Key">
+													<attribute id="Time" type="float" value="1235.28314" />
+													<attribute id="InterpolationType" type="uint8" value="2" />
+												</node>
+											</children>
 										</node>
 									</children>
 								</node>
