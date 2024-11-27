@@ -2196,6 +2196,13 @@ THEN
 PROC_END_General_MakeAvatarUnavailable(S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, 0);
 
 IF
+DialogEnded((DIALOGRESOURCE)END_GameFinale_RomanceFates_Emperor_4810b665-1b34-adee-c299-2905468e957c, _)
+AND
+DB_GlobalFlag(ORI_Karlach_State_EngineBurnedOut_2cd8d398-d6ec-3227-2dfb-975127fb5393)
+THEN
+PROC_END_General_MakeAvatarUnavailable(S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, 0);
+
+IF
 DialogEnded((DIALOGRESOURCE)END_GameFinale_DeathofKarlach_e419b950-b6ba-64bc-f041-1d07a602dfc4, _)
 AND
 NOT DB_GlobalFlag(GLO_END_GameFinale_DeathofKarlach_KarlachDied_2cd8d398-d6ec-3227-2dfb-975127fb5393)
