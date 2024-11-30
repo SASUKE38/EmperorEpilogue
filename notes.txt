@@ -48,9 +48,42 @@ Stretch:
 - Add Us to epilogue
 
 Karlach in Avernus Info -------------------------------------
+Vanilla speaker IDs:
+Karlach: d77708bb-f63c-46de-b4b4-a41ff2246451
+Emperor (GROUP_Players): e8e8909c-e20c-4470-a4a0-0c3d98f6700e
+
+Nested speaker IDs:
+Karlach: b099bee3-861b-4512-9f1f-70d0cdcdbde9
+Emperor: 08740127-f651-4e05-90d3-7fe3d57e0022
+
+Templates -----------------------
+fc997502-4343-4725-942b-7f54ed727d0f = Cigar 1
+d7e06a27-8acc-441b-b2c7-910b60af6f5c = Cigar 2
+
+Materials -------------------------
+4fee2e20-28cb-4f38-bc6b-4f181e90bea5 = Karlach Chest
+4e51a7ba-80ed-47d6-a2b0-ea39268b6c5b = Karlach Horns
+95214097-0c60-4da6-8af9-10864c67b396 - Cigar 1
+46637fae-e2f0-4f1e-9b6a-77fae0c0da4b = Cigar 2
+
+Effects -----------------------
+b381d295-89e2-4063-90d0-49b9cbddaed9 = VFX_Cinematic_Karlach_CigarSparks_01_01
+4d2c9abb-8971-440e-a4c8-63c3c888552d = VFX_Cinematic_Karlach_Portal_Avernus_01_01
+8d1e8c31-a625-415e-a3b9-497246f5881d = VFX_Cinematic_Karlach_ImpSwarm_01_01
+8c06b564-aea6-4736-8598-7167fd007b83 = VFX_Cinematic_Karlach_CigarSmoke_01_01
+be1abb61-c558-4c6d-9ad0-da0b1f128ff5 = VFX_Cinematic_Karlach_ImpSwarm_01_02
+17c12790-5fa6-a778-5857-594a68e65785 = VFX_Cinematic_Karlach_Cigar_Lighter_01_01
+f2500f29-21ff-4943-aab7-8ca89c458705 = VFX_Cinematic_Karlach_ImpSwarm_01_03
+20e0746b-a7e0-4f99-941d-9fb5626515f0 = VFX_Cinematic_Karlach_Inferno_01_01
+ff999f32-446a-4431-b047-d92cac741e17 = VFX_Cinematic_Karlach_ImpSwarm_01_04
+2c1e4289-67e2-4c29-ad9d-2156bc9e4190 = VFX_Cinematic_Karlach_CigarSparks_01_02
+a758d8f1-4ed5-4c84-9c65-9a7501bba1f5 = VFX_Cinematic_Karlach_CigarSmoke_01_02
+989af21a-70be-4749-97da-565a65c98cfa = VFX_Cinematic_Karlach_BreathSmoke_01_01
+
+
 Shots --------
 
-Phase 2: ("we're here") 73.84 - 99.25
+Phase 2: ("here we are") 73.84 - 99.25 / Phase 0: 0 - 25.41 (25.41)
 
 Voice -------------
 82.479996 - 89.81999
@@ -64,27 +97,27 @@ Switch Stage ----------
 73.84: 1623a6d9-6f0e-4943-bbed-30ab048d0a86 - Standing Precipice
 87.58: 1623a6d9-6f0e-4943-bbed-30ab048d0a86 - Standing Precipice
 
-Phase 9: ("Shouldn't raphael") 187.83797 - 200.56796
+Phase 9: ("Shouldn't raphael") 187.83797 - 200.56796 / Phase 1: 25.41 - 38.13999 (12.72999)
 
 Voice -------------
 187.83797 - 199.60555
 Shots --------
-187.83797 - 192.04797: 30d74f6f-272b-468e-af07-2f7c5918b959 - cam_player_OTSCLOSE_subject1
-192.04797 - 200.56796: 0a7ce66e-0a25-441e-b4b6-b0c4186ce2d4 - cam_subject1_OTS_player
+187.83797 - 192.04797: 30d74f6f-272b-468e-af07-2f7c5918b959 - cam_player_OTSCLOSE_subject1 / 6edd1146-8a1a-411f-9430-95e597d579bd - cam_Emperor_OTSCLOSE_subject1
+192.04797 - 200.56796: 0a7ce66e-0a25-441e-b4b6-b0c4186ce2d4 - cam_subject1_OTS_player / 5976da7c-d56e-4af7-9e6e-fb2cd6d04514 - cam_subject1_OTS_Emperor
 Switch Stage ----------
 187.83797: e07f8314-30ae-4f00-ac76-e320f8353e27 - Base Staging
 
-Phase 7: ("shouldn't normal") 161.91797 - 173.15797
+Phase 7: ("shouldn't normal") 161.91797 - 174.06796 / Phase 2: 38.13999 - 49.37999 (12.15)
 
 Voice -------------
 161.91797 - 173.15797
 Shots --------
-161.91797 - 166.12936: 30d74f6f-272b-468e-af07-2f7c5918b959 - cam_player_OTSCLOSE_subject1
-166.12936 - 174.06796: 0a7ce66e-0a25-441e-b4b6-b0c4186ce2d4 - cam_subject1_OTS_player
+161.91797 - 166.12936: 30d74f6f-272b-468e-af07-2f7c5918b959 - cam_player_OTSCLOSE_subject1 / 6edd1146-8a1a-411f-9430-95e597d579bd - cam_Emperor_OTSCLOSE_subject1
+166.12936 - 174.06796: 0a7ce66e-0a25-441e-b4b6-b0c4186ce2d4 - cam_subject1_OTS_player / 5976da7c-d56e-4af7-9e6e-fb2cd6d04514 - cam_subject1_OTS_Emperor
 Switch Stage ----------
 161.91797: e07f8314-30ae-4f00-ac76-e320f8353e27- Base Staging
 
-Phase 8: ("Gods like clockwork") 174.06796 - 187.83797
+Phase 8: ("Gods like clockwork") 174.06796 - 187.83797 / Phase 3: 49.37999 - 102.82001 (53.44002)
 
 Voice -------------
 174.06796 - 181.2277
@@ -92,33 +125,33 @@ Voice -------------
 Shots --------
 174.06796 - 179.11797: 384cea14-2914-4123-a84e-5ae7a75ae5e8 - Cust_Imps_Approach
 179.11797 - 181.71797: 033cbb61-7478-40be-9e46-556c883e9b85 - cam_subject1_CU
-181.71797 - 185.58797: 926377bb-1d92-4b35-9560-de2ca6bf5cf5 - cam_subject1_OTSMID_player
+181.71797 - 185.58797: 926377bb-1d92-4b35-9560-de2ca6bf5cf5 - cam_subject1_OTSMID_player / aaffd787-a97c-4151-98a0-ef71b43810cf - cam_subject1_OTSMID_Emperor
 185.58797 - 187.83797: e7b5144a-1b19-4ee5-8f13-0abec9c7191f - Cust_CU_Cigars
 Switch Stage ----------
 174.06796: e07f8314-30ae-4f00-ac76-e320f8353e27 - Base Staging
 
-Phase 6: ("then there was you") 150.01797 - 161.91797
+Phase 6: ("then there was you") 150.01797 - 161.91797 / Phase 3: 49.37999 - 102.82001 (53.44002)
 
 Voice -------------
 155.01797 - 160.96379
 Shots --------
 150.01797 - 156.58247: fcb6d67a-8284-4c5b-a29a-cf6f19849a59 - Cust_Karlach_Lights_Cigar_02
-156.58247 - 159.51797: 0a7ce66e-0a25-441e-b4b6-b0c4186ce2d4 - cam_subject1_OTS_player
-159.51797 - 161.91797: b4e49d15-d807-43a6-ad0e-828a90dbb9b2 - cam_player_CU
+156.58247 - 159.51797: 0a7ce66e-0a25-441e-b4b6-b0c4186ce2d4 - cam_subject1_OTS_player / 5976da7c-d56e-4af7-9e6e-fb2cd6d04514 - cam_subject1_OTS_Emperor
+159.51797 - 161.91797: b4e49d15-d807-43a6-ad0e-828a90dbb9b2 - cam_player_CU / a2726e88-f76c-42cb-bedb-d903b8d5056f - cam_Emperor_CU
 Switch Stage ----------
 150.01797: e44e5235-c889-482e-9af3-865f8182cbee - Cigar Pass
 
-Phase 10: ("imps are fast") 200.56796 - 228.33797
+Phase 10: ("imps are fast") 200.56796 - 228.33797 / Phase 3: 49.37999 - 102.82001 (53.44002)
 
 Voice -------------
 205.45796 - 211.59796
 211.59796 - 216.49796
 216.49796 - 222.63795
 Shots --------
-200.56796 - 211.59796: 0a7ce66e-0a25-441e-b4b6-b0c4186ce2d4 - cam_subject1_OTS_player
+200.56796 - 211.59796: 0a7ce66e-0a25-441e-b4b6-b0c4186ce2d4 - cam_subject1_OTS_player / 5976da7c-d56e-4af7-9e6e-fb2cd6d04514 - cam_subject1_OTS_Emperor
 211.59796 - 213.74796: 033cbb61-7478-40be-9e46-556c883e9b85 - cam_subject1_CU
 213.74796 - 220.37796: 047000e4-12a4-4436-9a03-65efd99fe2ee - Cust_Karlach_Draws_Axe_Movement_02
-220.37796 - 223.97797: 35a14f86-3d47-4474-b22d-6ee87c64d8b0 - cam_subject1_OTSCLOSE_player
+220.37796 - 223.97797: 35a14f86-3d47-4474-b22d-6ee87c64d8b0 - cam_subject1_OTSCLOSE_player / fabde4c6-177f-4f07-bf97-2a425da219c8 - cam_subject1_OTSCLOSE_Emperor
 223.97797 - 225.71797: 95513af0-8aed-4238-8c08-9c6288ce7069 - Cust_Karlach_Runs_Front
 225.71797 - 228.33797: fb647c77-0529-456f-9226-ab753496b94b - Cust_Karlach_Runs_Imps_02
 Switch Stage ----------

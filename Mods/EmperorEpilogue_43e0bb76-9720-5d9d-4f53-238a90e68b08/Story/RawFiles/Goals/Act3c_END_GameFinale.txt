@@ -900,13 +900,20 @@ PROC_END_GameFinale_PlayQueuedDialog((DIALOGRESOURCE)END_GameFinale_KarlachInAve
 AND
 DB_GlobalFlag((FLAG)EPI_Emperor_State_Avernus_0f2a67c9-60fc-c234-9c5d-b7799e10d70c)
 AND
-QRY_StartDialog_Fixed((DIALOGRESOURCE)END_GameFinale_KarlachInAvernus_b02dc7ba-cc1b-0260-182f-53daffeac30e, S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b)
+QRY_StartDialog_Fixed((DIALOGRESOURCE)END_GameFinale_KarlachInAvernus_b02dc7ba-cc1b-0260-182f-53daffeac30e, S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c)
 THEN
 NOT DB_END_GameFinale_QueuedDialogAttempt(1);
 PROC_SetArmourSet((CHARACTER)S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, ARMOURSET.Normal);
 TeleportTo(S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, (TRIGGER)S_END_GodsAndMonsters_KarlachPoint_bd04365f-2e25-4c16-94e7-7889f266e740);
 TeleportTo(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, (TRIGGER)S_END_GodsAndMonsters_PartnerPoint_eba0ce04-3fe1-4543-8331-85bd03b1118e);
 Equip(S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, S_END_KarlachGreatAxe_9b08e8e4-589a-496e-a4a1-561304ffecb2, 0, 0, 1);
+
+PROC
+PROC_StartDialog_AddExtraSpeakers((DIALOGRESOURCE)END_GameFinale_KarlachInAvernus_b02dc7ba-cc1b-0260-182f-53daffeac30e, _ID)
+AND
+DB_GlobalFlag((FLAG)EPI_Emperor_State_Avernus_0f2a67c9-60fc-c234-9c5d-b7799e10d70c)
+THEN
+PROC_DialogAddSpeakingActorAt(_ID, S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, 12);
 
 //Only try with the designated speakers, otherwise move on.
 PROC
