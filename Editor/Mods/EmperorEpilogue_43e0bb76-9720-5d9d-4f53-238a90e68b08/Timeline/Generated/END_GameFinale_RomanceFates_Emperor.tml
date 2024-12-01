@@ -1198,7 +1198,7 @@
           <BehaviourActorStartCondition />
         </Track>
       </Track>
-      <Track Name="Sound" TrackId="30f4daaf-2d22-468d-ae3b-caf68e2f3d2f" Type="FolderTrack">
+      <Track Name="Sound" TrackId="30f4daaf-2d22-468d-ae3b-caf68e2f3d2f" IsExpanded="true" Type="FolderTrack">
         <Track Name="Sound Event" TrackId="eae9b0e6-e68f-404b-aef8-cdc03c6abe04" Type="ComponentTrackSoundEvent" />
         <Track Name="Sound - Music" TrackId="973a86af-0dbf-4a35-b99a-eee55a0f5fe8" SoundType="SOUNDTYPE_Music" Type="ComponentTrackSoundDevice" />
       </Track>
@@ -45434,7 +45434,13 @@
           <Component ComponentId="c12dae0c-ed24-49cd-9dce-dc334591f63c" IsInfinite="true" TimeDuration="1" />
         </Components>
         <Components TrackId="973a86af-0dbf-4a35-b99a-eee55a0f5fe8">
-          <Component ComponentId="01bb6faa-a497-4616-9eef-a5421f6db6e2" IsInfinite="true" TimeDuration="1" />
+          <Component ComponentId="01bb6faa-a497-4616-9eef-a5421f6db6e2" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Sound - Music">
+              <Key ΔTime="21.63" Id="0b6929da-6ae4-4934-b420-acd2334cd35f">
+                <Value ΔSoundType="SOUNDTYPE_Music" ΔEvent="4e43f4bf-7f0e-4773-ab4b-cdfd36d858a3" />
+              </Key>
+            </Channel>
+          </Component>
         </Components>
         <Components TrackId="c8769443-b370-4055-8bca-d123a82bad9e">
           <Component ComponentId="33e584f9-c324-4577-b861-6332016cf3a8" IsInfinite="true" TimeDuration="1" />

@@ -10,22 +10,25 @@ Dialogues:
 + Finish writing EPI_Epilogue_Emperor dialogue
 + Finish writing END_GameFinale_RomanceFates_Emperor, make sure all flags are correct
 + Figure out why MindFlayerUrge does not seem to play anymore
+- Add humanoid tag check back to playing MindFlayerUrge
 - Check if GaleWantsDrink flag in the conclusion dialogue can be set for "good" emperor route
 - Verify Vanilla solo emperor dialogues make sense still, change if necessary
 + Set ORI_State_Partnered flag
 + Add emperor partnered ending without building knights (just living with him)
 + Add Avernus emperor/Karlach intro
-- Add generic partnered intro
-- Add generic partnered images
++ Add generic partnered intro
++ Add generic partnered images
 - Edit big plans intellect devourer goals
 
 Timelines:
 + Create EPI_Epilogue_Emperor timeline
 - Finalize EPI_Epilogue_Emperor timeline
-- Create END_GameFinale_RomanceFates_Emperor timeline
++ Create END_GameFinale_RomanceFates_Emperor timeline
+- Finish RomanceFates timeline: romance ending, possibly different Karlach brain ending
 - Edit MindFlayerUrge timeline
 + Edit intro timeline
 - Finalize intro timeline
+- Fix Karlach in Avernus nested timeline: music doesn't work, weird Karlach fire flashes when she lights the cigars, emperor doesn't levitate properly in game, maybe fix imp positions
 
 Scripting:
 - Make sure emperor romance fate does not interfere with others and that it triggers properly
@@ -36,10 +39,11 @@ Miscellaneous:
 + Create new titles in TranslatedStringKey, Misc.lsf
 - Figure out what to do about God Gale
 + Make sure DeathOfKarlach scene works correctly
-- Make sure Karlach in Avernus cutscene works correctly
++ Make sure Karlach in Avernus cutscene works correctly
 
 Stretch:
 - Custom animations for emperor hug and kiss (would need help)
+- Custom animations for Karlach brain eating ending (would need help)
 - Custom emperor outfit (would need help)
 - add emperor voice barks
 - Add Emperor to Minsc dialogue
