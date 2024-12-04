@@ -49,7 +49,7 @@ DB_EPI_Epilogue_PresentNPC((CHARACTER)S_FOR_OwlBear_Cub_001_c66b2865-6613-4372-b
 DB_EPI_Epilogue_PresentNPC((CHARACTER)S_GLO_Volo_2af25a85-5b9a-4794-85d3-0bd4c4d262fa, (DIALOGRESOURCE)EPI_Epilogue_Volo_48cbeefa-9f5a-e5f3-08a9-44791fc03a8b,(TRIGGER)S_EPI_StartPointVolo_4cb13df7-fa3a-445e-a46a-07a3fe8da9a1, "EPI_Volo",(FLAG)EPI_Epilogue_State_VoloPresent_d0b1685b-3f6b-4b83-a8c3-b72d6d6e7bcb);
 DB_EPI_Epilogue_PresentNPC((CHARACTER)S_EPI_TerrifiedThief_85d6a92c-dc66-4f26-b6b7-1feb8301fa4c, (DIALOGRESOURCE)EPI_Epilogue_TerrifiedThief_84e18005-dd2d-07cc-f766-200bed4a580f,(TRIGGER)S_EPI_StartPointTerrifiedThief_7fe87a2c-b620-47da-862c-99ef33772baf, "EPI_TerrifiedThief",(FLAG)NULL_00000000-0000-0000-0000-000000000000);
 DB_EPI_Epilogue_PresentNPC((CHARACTER)S_EPI_DivineBard_4a0c8230-f2f0-4bf0-89bc-b16989ea824c, (DIALOGRESOURCE)EPI_Epilogue_DivineBard_638b3683-ac20-9a7f-4af0-c1c0fa5fb98e,(TRIGGER)S_EPI_DivineBardPoint_1f79f72a-6688-4dc9-9d42-b45b89dded2e, "EPI_DivineBard",(FLAG)NULL_00000000-0000-0000-0000-000000000000);
-DB_EPI_Epilogue_PresentNPC((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, (DIALOGRESOURCE)EPI_Epilogue_Emperor_b81cced4-003b-bd81-b0b1-8a828412c674,(TRIGGER)S_EPI_StartPointShadowheart_18c42a94-a57a-4a55-9d7c-dd67a49d8bbb, "EPI_Emperor",(FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222);
+DB_EPI_Epilogue_PresentNPC((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, (DIALOGRESOURCE)EPI_Epilogue_Emperor_b81cced4-003b-bd81-b0b1-8a828412c674,(TRIGGER)S_EPI_StartPointShadowheart_18c42a94-a57a-4a55-9d7c-dd67a49d8bbb, "EPI_Emperor",(FLAG)EPI_Epilogue_State_EmperorPresent_5071fdae-a335-6a74-48fe-fec1bf8b207a);
 
 DB_GLO_Minsc_BooDialogs((DIALOGRESOURCE)EPI_Epilogue_Minsc_63303e23-2eaa-a2e3-3ff8-dfda0d5a6fd8);
 DB_GLO_Minsc_BooDialogs((DIALOGRESOURCE)EPI_Epilogue_EnterParty_94884506-7f00-14de-c738-239c3e60e2cd);
@@ -364,7 +364,6 @@ PROC_EPI_Epilogue_RemoveFollowers();
 PROC_EPI_Epilogue_CloseGoals();
 PROC_EPI_Epilogue_SetFlags();
 PROC_EPI_Epilogue_SetCharacters();
-PROC_EPI_Epilogue_SetEmperor();
 
 PROC
 PROC_EPI_Epilogue_Setup()
@@ -378,25 +377,6 @@ DB_END_RealPartOfTheTeam(_Player)
 THEN
 SetCanJoinCombat(_Player, 1);
 SetCanFight(_Player, 1);
-
-PROC
-PROC_EPI_Epilogue_SetEmperor()
-AND
-DB_Players(_Player)
-THEN
-SetFlag(END_IllithidOptions_State_EmperorIsFollowing_27c8e444-2aa6-4ee3-9157-004e11617c18, _Player);
-SetFlag(END_IllithidOptions_State_EmperorInParty_0e7f8da7-1dce-411e-83ff-e74af6b7601e);
-PROC_SetAnubisConfig(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, "EPI_Emperor");
-SetTag(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, PLAYABLE_25bf5042-5bf6-4360-8df8-ab107ccb0d37);
-DB_GLO_Playable(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
-DB_CanBeResurrected(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
-DB_PreventPermaDefeated(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
-DB_PreventKnockedOutPermaDefeated(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
-DB_PartOfTheTeam(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
-AddPassive(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, "DeathSavingThrows"); 
-SetCharacterLootable(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, 0);
-PROC_SetOnStage(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, 1);
-AddPartyFollower(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, (CHARACTER)_Player);
 
 PROC
 PROC_EPI_Epilogue_RemoveFollowers()
@@ -996,6 +976,13 @@ DB_DropMutingStatussesDialog(_Dialog);
 //REGION Unavailable QRYs
 
 QRY
+QRY_EPI_Epilogue_CharacterIsUnavailable((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b)
+AND
+NOT DB_GlobalFlag((FLAG)EPI_Epilogue_State_EmperorRomanceContinued_8d6a5e8a-f639-fd9b-250a-12ff6cd3c87c)
+THEN
+DB_NOOP(1);
+
+QRY
 QRY_EPI_Epilogue_CharacterIsUnavailable((CHARACTER)_Player)
 AND
 DB_ORI_DarkUrge(_Player)
@@ -1493,6 +1480,25 @@ DB_NOOP(1);
 //END_REGION Welcome ADs
 
 //REGION Additional Setup
+PROC
+PROC_EPI_Epilogue_AdditionalSetupCharacter((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b)
+AND
+DB_Players(_Player)
+AND
+GetFlag((FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222, _Player, 1)
+THEN
+PROC_SetAnubisConfig(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, "EPI_Emperor");
+SetTag(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, PLAYABLE_25bf5042-5bf6-4360-8df8-ab107ccb0d37);
+DB_GLO_Playable(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
+DB_CanBeResurrected(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
+DB_PreventPermaDefeated(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
+DB_PreventKnockedOutPermaDefeated(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
+DB_PartOfTheTeam(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
+AddPassive(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, "DeathSavingThrows"); 
+SetCharacterLootable(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, 0);
+PROC_SetOnStage(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, 1);
+AddPartyFollower(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, (CHARACTER)_Player);
+
 PROC
 PROC_EPI_Epilogue_AdditionalSetupCharacter((CHARACTER)_Avatar)
 AND

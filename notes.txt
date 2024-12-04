@@ -29,13 +29,14 @@ Dialogues:
 Timelines:
 - Finalize EPI_Epilogue_Emperor timeline
     - Decide if the nested dialog should be included or not
-+ Finalize MindFlayerUrge timeline
+- Finalize MindFlayerUrge timeline
+    - Hide Emperor in mind flayer urge if he is not partnered
 - Finalize CombatOver nested timelines
 - Finish RomanceFates timeline:
     - romance ending
     - possibly different Karlach brain ending
     - post ceremorphosis brain
-- EnterParty timeline:
+- Finish EnterParty timeline:
     - make sure actors are hidden appropriately (Emperor, Us if added)
 - Fix Karlach in Avernus nested timeline:
     - music doesn't work 
@@ -47,8 +48,9 @@ Timelines:
 Scripting:
 - Make sure emperor romance fate does not interfere with others and that it triggers properly
 + Get the emperor to follow the player (or make new emperor npc if needed)
-- Finalize Emperor party attendance script
-- Make sure player actually turns into a mind flayer if ceremorphosis route is taken
++ Finalize Emperor party attendance script
++ Make sure player actually turns into a mind flayer if ceremorphosis route is taken
++ Have Emperor letters not appear if partnered
 
 Miscellaneous:
 + Edit appropriate gazette lines, text in TranslatedStringKey, Act3c_EPI_Gazettes.lsf and assigned by Act3c_EPI_Gazettes script
@@ -66,6 +68,7 @@ Stretch:
 - Add Emperor to Jaheira dialogue
 - Add Emperor adventure to Tara dialogue
 - Add Us to epilogue
+- Add Emperor romance ended letter
 
 Karlach in Avernus Info -------------------------------------
 Actors to check:
