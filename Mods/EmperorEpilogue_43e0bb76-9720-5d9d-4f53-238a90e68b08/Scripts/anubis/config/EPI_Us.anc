@@ -1,0 +1,11 @@
+game.configs.EPI_Us = Config{
+    root=StateRef{game.roots.DefaultCharacter,
+        genericBehaviours = StateRef{game.states.CrimesHumanoid},
+        idle = StateRef{game.states.GEN_Wander,
+            wanderMin = 2,
+            sleepMin = 1,
+            trigger = [[S_EPI_StartPointOwlbear_c35155d5-12ed-4ea4-9c92-232212ab8ff2]],
+            sleepMax = 3,
+        },
+    }
+}
