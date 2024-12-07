@@ -641,6 +641,7 @@ PROC_SetAnubisConfig((CHARACTER)_SpawnedUs, "EPI_Us");
 ObjectSetTitle(_SpawnedUs, "EPI_Title_Us");
 SetFaction(_SpawnedUs, (FACTION)ACT3_EPI_Us_5f63b61f-60d3-4839-b379-9f09f32ef107);
 DB_Dialogs(_SpawnedUs,(DIALOGRESOURCE)EPI_Epilogue_Us_6bacf635-b7d4-5286-e236-2025f27cf795);
+ApplyStatus(_SpawnedUs,"NORMAL_US",-1.0,1,NULL_00000000-0000-0000-0000-000000000000);
 //SetTag(_SpawnedUs, PLAYABLE_25bf5042-5bf6-4360-8df8-ab107ccb0d37);
 //DB_GLO_Playable((CHARACTER)_SpawnedUs);
 //DB_CanBeResurrected((CHARACTER)_SpawnedUs);
