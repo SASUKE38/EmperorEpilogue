@@ -624,36 +624,6 @@ THEN
 PROC_EPI_Epilogue_SetupAvatars();
 PROC_EPI_Epilogue_SetupNPCs();
 
-PROC
-PROC_EPI_Epilogue_SetCharacters()
-AND
-DB_GlobalFlag((FLAG)EPI_Us_State_Kept_d7751cd6-1b02-f874-af94-c163a862e52c)
-AND
-DB_GlobalFlag((FLAG)EPI_Epilogue_State_EmperorRomanceContinued_8d6a5e8a-f639-fd9b-250a-12ff6cd3c87c)
-AND
-DB_Players(_Player)
-AND
-GetFlag((FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222, _Player, 1)
-AND
-CreateAtObject((CHARACTERROOT)Intellect_Devourer_PlayerWildshape_27b9089b-9aef-44e9-aaf7-100e3e320823, (TRIGGER)S_EPI_StartPointShadowheart_18c42a94-a57a-4a55-9d7c-dd67a49d8bbb, 0, 0, "", 1, _SpawnedUs)
-THEN
-PROC_SetAnubisConfig((CHARACTER)_SpawnedUs, "EPI_Us");
-ObjectSetTitle(_SpawnedUs, "EPI_Title_Us");
-SetFaction(_SpawnedUs, (FACTION)ACT3_EPI_Us_5f63b61f-60d3-4839-b379-9f09f32ef107);
-DB_Dialogs(_SpawnedUs,(DIALOGRESOURCE)EPI_Epilogue_Us_6bacf635-b7d4-5286-e236-2025f27cf795);
-ApplyStatus(_SpawnedUs,"NORMAL_US",-1.0,1,NULL_00000000-0000-0000-0000-000000000000);
-//SetTag(_SpawnedUs, PLAYABLE_25bf5042-5bf6-4360-8df8-ab107ccb0d37);
-//DB_GLO_Playable((CHARACTER)_SpawnedUs);
-//DB_CanBeResurrected((CHARACTER)_SpawnedUs);
-//DB_PreventPermaDefeated((CHARACTER)_SpawnedUs);
-//DB_PreventKnockedOutPermaDefeated((CHARACTER)_SpawnedUs);
-//DB_PartOfTheTeam((CHARACTER)_SpawnedUs);
-//AddPassive((CHARACTER)_SpawnedUs, "DeathSavingThrows"); 
-//SetCharacterLootable((CHARACTER)_SpawnedUs, 0);
-//PROC_SetOnStage((CHARACTER)_SpawnedUs, 1);
-//AddPartyFollower((CHARACTER)_SpawnedUs, (CHARACTER)_Player);
-
-
 //REGION Avatar Setup
 //If dead, make ghost. If not dead but still not present (appears in later dialog), set "locked" status
 PROC
