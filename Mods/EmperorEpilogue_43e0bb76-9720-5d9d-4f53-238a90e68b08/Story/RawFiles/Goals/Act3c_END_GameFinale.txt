@@ -11,7 +11,6 @@ DB_END_GameFinale_CharacterPartneredDialogs((FLAG)ORI_State_PartneredWithMinthar
 DB_END_GameFinale_CharacterPartneredDialogs((FLAG)ORI_State_PartneredWithShadowheart_3808ae35-ad4e-465b-800b-63d32b77211e, (DIALOGRESOURCE)END_GameFinale_RomanceFates_Shadowheart_b9ebb9af-ad65-4e64-6015-105e831d49c0, (CHARACTER)S_Player_ShadowHeart_3ed74f06-3c60-42dc-83f6-f034cb47c679);
 DB_END_GameFinale_CharacterPartneredDialogs((FLAG)ORI_State_PartneredWithWyll_5db4c1b6-3c42-43ae-aa85-1844acbf5a1d, (DIALOGRESOURCE)END_GameFinale_RomanceFates_Wyll_32de9167-3489-9257-e3c1-e430f2f455ab, (CHARACTER)S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d);
 DB_END_GameFinale_CharacterPartneredDialogs((FLAG)ORI_State_PartneredWithKarlach_d9ff60fa-0af9-45d7-99b4-bd7c3f80ed12, (DIALOGRESOURCE)END_GameFinale_RomanceFates_Karlach_091af35d-0d30-a4bf-b056-9eda505138b5, (CHARACTER)S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c);
-DB_END_GameFinale_CharacterPartneredDialogs((FLAG)CAMP_DaisyAcknowledgement_SexWithEmperor_933959fb-958b-59bc-3d5e-31e12f619d8d, (DIALOGRESOURCE)END_GameFinale_RomanceFates_Emperor_4810b665-1b34-adee-c299-2905468e957c, (CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
 
 DB_END_GameFinale_UnpartneredOriginDialogues((CHARACTER)S_Player_Gale_ad9af97d-75da-406a-ae13-7071c563f604, (DIALOGRESOURCE)END_GameFinale_SoloFates_Gale_7674e0c3-ca25-e924-9c17-3058796f87c3);
 DB_END_GameFinale_UnpartneredOriginDialogues((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, (DIALOGRESOURCE)END_GameFinale_SoloFates_Astarion_9a09777b-c0ac-d3d3-c2f4-5e6794fa2ca0);
@@ -30,7 +29,6 @@ DB_END_GameFinale_FatesPositions((CHARACTER)S_Player_Jaheira_91b6b200-7d00-4d62-
 DB_END_GameFinale_FatesPositions((CHARACTER)S_GOB_DrowCommander_25721313-0c15-4935-8176-9f134385451b, (TRIGGER)S_END_FatesMintharaPoint_109cef63-089c-47e6-9712-015d76d3cb5c);
 DB_END_GameFinale_FatesPositions((CHARACTER)S_GLO_Halsin_7628bc0e-52b8-42a7-856a-13a6fd413323, (TRIGGER)S_END_FatesHalsinPoint_f38c0c01-cad9-4d02-ac61-3d5b7599712e);
 DB_END_GameFinale_FatesPositions((CHARACTER)S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, (TRIGGER)S_END_FatesKarlachPoint_ba41b4af-4665-427c-beb6-5412b9ba1c1e);
-DB_END_GameFinale_FatesPositions((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, (TRIGGER)S_END_FatesHalsinPoint_f38c0c01-cad9-4d02-ac61-3d5b7599712e);
 
 DB_END_GameFinale_QueuedFatesDialog((DIALOGRESOURCE)NULL_00000000-0000-0000-0000-000000000000);
 NOT DB_END_GameFinale_QueuedFatesDialog((DIALOGRESOURCE)NULL_00000000-0000-0000-0000-000000000000);
@@ -895,26 +893,6 @@ PROC_SetArmourSet((CHARACTER)S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b54930
 TeleportTo(S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, (TRIGGER)S_END_GodsAndMonsters_KarlachPoint_bd04365f-2e25-4c16-94e7-7889f266e740);
 Equip(S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, S_END_KarlachGreatAxe_9b08e8e4-589a-496e-a4a1-561304ffecb2, 0, 0, 1);
 
-PROC
-PROC_END_GameFinale_PlayQueuedDialog((DIALOGRESOURCE)END_GameFinale_KarlachInAvernus_b02dc7ba-cc1b-0260-182f-53daffeac30e)
-AND
-DB_GlobalFlag((FLAG)EPI_Emperor_State_Avernus_0f2a67c9-60fc-c234-9c5d-b7799e10d70c)
-AND
-QRY_StartDialog_Fixed((DIALOGRESOURCE)END_GameFinale_KarlachInAvernus_b02dc7ba-cc1b-0260-182f-53daffeac30e, S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c)
-THEN
-NOT DB_END_GameFinale_QueuedDialogAttempt(1);
-PROC_SetArmourSet((CHARACTER)S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, ARMOURSET.Normal);
-TeleportTo(S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, (TRIGGER)S_END_GodsAndMonsters_KarlachPoint_bd04365f-2e25-4c16-94e7-7889f266e740);
-TeleportTo(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, (TRIGGER)S_END_GodsAndMonsters_PartnerPoint_eba0ce04-3fe1-4543-8331-85bd03b1118e);
-Equip(S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, S_END_KarlachGreatAxe_9b08e8e4-589a-496e-a4a1-561304ffecb2, 0, 0, 1);
-
-PROC
-PROC_StartDialog_AddExtraSpeakers((DIALOGRESOURCE)END_GameFinale_KarlachInAvernus_b02dc7ba-cc1b-0260-182f-53daffeac30e, _ID)
-AND
-DB_GlobalFlag((FLAG)EPI_Emperor_State_Avernus_0f2a67c9-60fc-c234-9c5d-b7799e10d70c)
-THEN
-PROC_DialogAddSpeakingActorAt(_ID, S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, 12);
-
 //Only try with the designated speakers, otherwise move on.
 PROC
 PROC_END_GameFinale_PlayQueuedDialog((DIALOGRESOURCE)_Dialogue)
@@ -1080,14 +1058,6 @@ DB_END_GameFinale_FatesGroupDialogues(END_GameFinale_DeathofKarlach_e419b950-b6b
 IF
 FlagSet(END_GameFinale_Event_KarlachChoseDeath_f9900bec-33dc-44db-ac8c-666dd5b8eec1, _, _)
 AND
-DB_GlobalFlag((FLAG)EPI_Emperor_KarlachDeath_e6c12b28-b182-7181-81a4-8df7d5d3f31e)
-THEN
-DB_END_GameFinale_QueuedSoloSpeaker(END_GameFinale_DeathofKarlach_e419b950-b6ba-64bc-f041-1d07a602dfc4, S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c);
-DB_END_GameFinale_FatesGroupDialogues(END_GameFinale_DeathofKarlach_e419b950-b6ba-64bc-f041-1d07a602dfc4);
-
-IF
-FlagSet(END_GameFinale_Event_KarlachChoseDeath_f9900bec-33dc-44db-ac8c-666dd5b8eec1, _, _)
-AND
 DB_ORI_Partnered(S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, _Partner)
 THEN
 DB_END_GameFinale_QueuedPartneredSpeakers(END_GameFinale_DeathofKarlach_e419b950-b6ba-64bc-f041-1d07a602dfc4, S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, _Partner);
@@ -1155,16 +1125,6 @@ DB_NOOP(1);
 //END_REGION
 
 //REGION Add Romance partner if DeathOfKarlach is starting from RomanceFates
-PROC
-PROC_StartDialog_AddExtraSpeakers((DIALOGRESOURCE)END_GameFinale_DeathofKarlach_e419b950-b6ba-64bc-f041-1d07a602dfc4, _ID)
-AND
-DB_Avatars((CHARACTER)S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c)
-AND
-DB_GlobalFlag((FLAG)END_GameFinale_Event_KarlachChoseDeath_f9900bec-33dc-44db-ac8c-666dd5b8eec1)
-AND
-DB_GlobalFlag((FLAG)EPI_Emperor_KarlachDeath_e6c12b28-b182-7181-81a4-8df7d5d3f31e)
-THEN
-PROC_DialogAddSpeakingActorAt(_ID, S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, 13);
 
 PROC
 PROC_StartDialog_AddExtraSpeakers((DIALOGRESOURCE)END_GameFinale_DeathofKarlach_e419b950-b6ba-64bc-f041-1d07a602dfc4, _ID)
