@@ -61,10 +61,6 @@ DB_EPI_Epilogue_Letters((ITEM)S_EPI_Letter_Orpheus_e6bb88cf-c5cc-4345-8135-537ee
 
 DB_EPI_Epilogue_DynamicLetters("ID",(ITEM)NULL_00000000-0000-0000-0000-000000000000, "TextKeyName",(FLAG)NULL_00000000-0000-0000-0000-000000000000,0);
 
-DB_EPI_Epilogue_EmperorRootLetters((ITEMROOT)S_EPI_Epilogue_Letter_EmperorWasPartneredKarlach_44e9b9ac-f40e-4b64-b61e-c05ebd3488bd);
-DB_EPI_Epilogue_EmperorRootLetters((ITEMROOT)S_EPI_Epilogue_Letter_EmperorWasPartnered_75cd9117-a7e5-4ad2-895e-d3367cfcb0e5);
-DB_EPI_Epilogue_EmperorRootLetters((ITEMROOT)S_EPI_Epilogue_Letter_EmperorWasPartneredMF_e53dd98a-0037-4871-8093-e94270dd2e97);
-
 //END_REGION
 KBSECTION
 PROC
@@ -75,17 +71,6 @@ AND
 QRY_EPI_Epilogue_LetterIsValid((ITEM)_Item)
 THEN
 PROC_EPI_Epilogue_SendLetterToInventory(_Item);
-
-PROC
-PROC_EPI_Epilogue_SetupLetters()
-AND
-DB_EPI_Epilogue_EmperorRootLetters(_ItemRoot)
-AND
-QRY_EPI_Epilogue_EmperorRootLetterIsValid((ITEMROOT) _ItemRoot)
-AND
-QRY_OnlyOnce("EPI_Letter_Emperor_Picked")
-THEN
-TemplateAddTo(_ItemRoot, S_EPI_Letterbox_a8c7f035-7564-46fe-88ac-a70faabdd7c0, 1, 0);
 
 PROC
 PROC_EPI_Epilogue_SetupLetters()
@@ -643,52 +628,9 @@ DB_NOOP(1);
 
 //REGION Emperor
 QRY
-QRY_EPI_Epilogue_EmperorRootLetterIsValid((ITEMROOT)S_EPI_Epilogue_Letter_EmperorWasPartneredKarlach_44e9b9ac-f40e-4b64-b61e-c05ebd3488bd)
-AND
-DB_Avatars(S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c)
-AND
-GetFlag((FLAG)EPI_State_WasPartneredWithEmperor_9ce954e4-dcdc-fed0-4dce-f051a52f3ee9, S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, 1)
-AND
-DB_GlobalFlag(EPI_Epilogue_State_EmperorWasPartnered_138bd4c9-3fb8-af68-fad3-791098e9baf2)
-AND
-DB_GlobalFlag(ORI_Karlach_State_AvernusAlone_c5ffd6ad-7749-6eb8-992e-48d66766f6b6)
-THEN
-DB_NOOP(1);
-
-QRY
-QRY_EPI_Epilogue_EmperorRootLetterIsValid((ITEMROOT)S_EPI_Epilogue_Letter_EmperorWasPartnered_75cd9117-a7e5-4ad2-895e-d3367cfcb0e5)
-AND
-DB_GlobalFlag(EPI_Epilogue_State_EmperorWasPartnered_138bd4c9-3fb8-af68-fad3-791098e9baf2)
-AND
-DB_Players(_Player)
-AND
-GetFlag((FLAG)EPI_State_WasPartneredWithEmperor_9ce954e4-dcdc-fed0-4dce-f051a52f3ee9, _Player, 1)
-AND
-HasActiveStatus(_Player, "MIND_FLAYER_FORM", 0)
-THEN
-DB_NOOP(1);
-
-QRY
-QRY_EPI_Epilogue_EmperorRootLetterIsValid((ITEMROOT)S_EPI_Epilogue_Letter_EmperorWasPartneredMF_e53dd98a-0037-4871-8093-e94270dd2e97)
-AND
-DB_GlobalFlag(EPI_Epilogue_State_EmperorWasPartnered_138bd4c9-3fb8-af68-fad3-791098e9baf2)
-AND
-DB_Players(_Player)
-AND
-GetFlag((FLAG)EPI_State_WasPartneredWithEmperor_9ce954e4-dcdc-fed0-4dce-f051a52f3ee9, _Player, 1)
-AND
-HasActiveStatus(_Player, "MIND_FLAYER_FORM", 1)
-THEN
-DB_NOOP(1);
-
-QRY
 QRY_EPI_Epilogue_LetterIsValid((ITEM)S_EPI_Letter_EmperorBigPlans_f5304063-f97b-4076-809a-ecfc323eea40)
 AND
 DB_GlobalFLag(END_BrainBattle_State_MindFlayersWithBigPlans_ce25a452-eb2b-ce7e-f04a-f853b6df530e)
-AND
-NOT DB_GlobalFlag(EPI_Epilogue_State_EmperorRomanceContinued_8d6a5e8a-f639-fd9b-250a-12ff6cd3c87c)
-AND
-NOT DB_GlobalFlag(EPI_Epilogue_State_EmperorWasPartnered_138bd4c9-3fb8-af68-fad3-791098e9baf2)
 THEN
 DB_NOOP(1);
 
@@ -698,10 +640,6 @@ AND
 DB_GlobalFlag(END_BrainBattle_State_AlliedWithEmperor_1fb799bb-4b21-9adc-92a0-1c05542eb6b8)
 AND
 NOT DB_GlobalFlag(END_BrainBattle_State_MindFlayersWithBigPlans_ce25a452-eb2b-ce7e-f04a-f853b6df530e)
-AND
-NOT DB_GlobalFlag(EPI_Epilogue_State_EmperorRomanceContinued_8d6a5e8a-f639-fd9b-250a-12ff6cd3c87c)
-AND
-NOT DB_GlobalFlag(EPI_Epilogue_State_EmperorWasPartnered_138bd4c9-3fb8-af68-fad3-791098e9baf2)
 THEN
 DB_NOOP(1);
 
@@ -717,10 +655,6 @@ AND
 DB_GlobalFLag(END_General_State_PlayerIsMindFlayer_d138f537-2268-49a6-8dc4-256bd9cf5633)
 AND
 NOT DB_GlobalFlag(END_BrainBattle_Event_KillEmperor_187b621a-5f21-1715-753a-362f290e9eb0)
-AND
-NOT DB_GlobalFlag(EPI_Epilogue_State_EmperorRomanceContinued_8d6a5e8a-f639-fd9b-250a-12ff6cd3c87c)
-AND
-NOT DB_GlobalFlag(EPI_Epilogue_State_EmperorWasPartnered_138bd4c9-3fb8-af68-fad3-791098e9baf2)
 THEN
 DB_NOOP(1);
 
@@ -736,10 +670,6 @@ AND
 NOT DB_GlobalFLag(END_General_State_PlayerIsMindFlayer_d138f537-2268-49a6-8dc4-256bd9cf5633)
 AND
 NOT DB_GlobalFlag(END_BrainBattle_Event_KillEmperor_187b621a-5f21-1715-753a-362f290e9eb0)
-AND
-NOT DB_GlobalFlag(EPI_Epilogue_State_EmperorRomanceContinued_8d6a5e8a-f639-fd9b-250a-12ff6cd3c87c)
-AND
-NOT DB_GlobalFlag(EPI_Epilogue_State_EmperorWasPartnered_138bd4c9-3fb8-af68-fad3-791098e9baf2)
 THEN
 DB_NOOP(1);
 //END_REGION
