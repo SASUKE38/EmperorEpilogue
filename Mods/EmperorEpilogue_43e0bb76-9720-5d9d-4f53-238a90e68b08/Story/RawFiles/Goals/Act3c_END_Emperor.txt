@@ -1,12 +1,23 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-DB_END_GameFinale_CharacterPartneredDialogs((FLAG)CAMP_DaisyAcknowledgement_SexWithEmperor_933959fb-958b-59bc-3d5e-31e12f619d8d, (DIALOGRESOURCE)END_GameFinale_RomanceFates_Emperor_4810b665-1b34-adee-c299-2905468e957c, (CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
+DB_END_GameFinale_CharacterPartneredDialogs((FLAG)ORI_State_EmperorRomanceCandidate_99da3e22-019f-96c3-d910-685cf576dfad, (DIALOGRESOURCE)END_GameFinale_RomanceFates_Emperor_4810b665-1b34-adee-c299-2905468e957c, (CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
 DB_END_GameFinale_FatesPositions((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, (TRIGGER)S_END_FatesHalsinPoint_f38c0c01-cad9-4d02-ac61-3d5b7599712e);
 
 DB_END_General_FullPartyDialog(END_GameFinale_RomanceFates_Emperor_4810b665-1b34-adee-c299-2905468e957c, 0, 1, 1, 1, 1, 1, 2);
 KBSECTION
 //REGION Emperor Cannot Finale Checks
+
+QRY
+QRY_END_GameFinale_CharacterCannotFinale((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b)
+AND
+DB_Emperor_Epilogue_Candidate(_Player)
+AND
+DB_Avatars(_Player)
+AND
+DB_ORI_Partnered(_Player, _)
+THEN
+DB_NOOP(1);
 
 QRY
 QRY_END_GameFinale_CharacterCannotFinale((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b)
