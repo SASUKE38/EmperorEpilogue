@@ -1,0 +1,104 @@
+game.states.EPI_Us = State{function ()
+    description = [[ Us the intellect devourer at the epilogue party ]]
+    modules = {"shared.moveto","shared.util","shared.math"}
+
+    local campPoint = Entity("PointTrigger_000_1079f21a-f037-4155-bce0-59ec2cb775d9")
+    local sleepPoint = Entity("SleepTrigger_7693b283-8bce-4efa-8009-83fb90134675")
+    local behaviorScene =  Entity("TimelineSceneTrigger_000_e78983e3-fabe-4692-b570-c3afd3d8f76d")
+
+    local usSleepStart = Animation("DFLT_STAT_Sleep_Peace_01_Start_37235423-ed57-4c15-7c0f-875a9739c740")
+    local usSleepLoop = Animation("DFLT_STAT_Sleep_Peace_01_Loop_56a264e3-3b48-e947-567a-32b0b4ee1228")
+    local usSleepEnd = Animation("DFLT_STAT_Sleep_Peace_01_End_c68059e6-a1da-f3e3-c92c-629d731977c5")
+
+    local idleAD = Dialog("EPI_Epilogue_AD_IdleUs_ada22b36-096c-c88c-fc0c-f7b74111367d")
+
+    local readyToZoom = true
+    local wandering = true
+
+
+    helpers.action.PlayLoopingAnimationAt = function(pos, animationStart, animationLoop, animationEnd, animationLength, endSleep)
+            if pos ~= nil then
+                if animationStart ~= nil and animationLoop ~= nil and animationEnd ~= nil then
+                    if mod.moveto.MoveToPoint(pos, MovementSpeed.Walk, me, 0.5, false) then
+                        LookFrom(pos)
+                        PlayLoopingAnimation(animationStart, {animationLoop}, animationEnd)
+                        Sleep(animationLength)
+                        StopAnimation(me)
+                        Sleep(endSleep)
+                    end
+                end
+            end
+                wandering = true
+                StartTimer(me,"Us_Wandering", math.random(30.0, 50.0), 0)
+        end
+
+    nodes.Tired = Action {
+        CanEnter = function()
+            return not wandering
+        end,
+
+        OnLeave = function()
+            RemoveStatus(me, "SLEEPING")
+            wandering = true
+        end,
+
+        OnInterrupt = function()
+            RemoveStatus(me, "SLEEPING")
+            wandering = true
+        end,
+
+
+        function()
+            -- helpers.PlayLoopingAnimationAt(sleepPoint, usSleepStart, usSleepLoop, usSleepEnd, 21.666667, 6.0)
+            if mod.moveto.MoveToPoint(sleepPoint, MovementSpeed.Walk, me, 0.5, false) then
+                local randomDazedTimer = math.random(4.0, 8.0)
+                Sleep(1.0)
+                ApplyStatus(me, "SLEEPING", true, -1.0, nil)
+                mod.util.SleepRandom(8.0, 12.0)
+                wandering = true
+            end
+        end,
+    }
+
+    nodes.Wander = Action {
+        Valid = function()
+            return wandering
+        end,
+        OnEnter = function()
+            StartTimer(me,"Us_Wandering", math.random(30.0, 50.0), 0)
+        end,
+        function() 
+            Wander(10.0,6.0, MovementSpeed.Stroll, campPoint)
+            Sleep(math.random(2,5))
+        end,
+    }
+
+    -- nodes.Zoomie = Action {
+    --     function()
+    --         Wander(12.0,5.0, MovementSpeed.Run, campPoint)
+    --         Sleep(math.random(3,4))
+    --         StartTimer(me, "Us_Zoomies", math.random(40.0, 60.0), 0)
+    --         readyToZoom = false
+    --     end,
+    --     Valid = function()
+    --         return readyToZoom
+    --     end
+    -- }
+
+    events.TimerFinished = function(e)
+        if(e.TimerName == "Us_Zoomies") then 
+            readyToZoom = true
+        elseif(e.TimerName == "Us_Wandering") then
+            wandering = false
+        elseif(e.TimerName == "Us_ADDelay") then
+            try
+                DebugText(me, "AD Trying")
+                StartAutomatedDialogImmediate(idleAD, me)
+                DebugText(me, "AD Succeeded")
+            catch e if ls.CheckType(e, error.AutomatedDialogStartFailed) then
+                DebugText(me, "AD Failed to play")
+            end
+        end
+    end
+end
+}
