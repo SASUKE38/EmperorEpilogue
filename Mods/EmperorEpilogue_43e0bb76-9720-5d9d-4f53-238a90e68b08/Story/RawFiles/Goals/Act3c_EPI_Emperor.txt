@@ -69,8 +69,8 @@ DB_NOOP(1);
 
 //REGION Us Setup
 
-PROC
-PROC_EPI_Epilogue_SetCharacters()
+IF
+FlagSet((FLAG)EPI_Epilogue_State_PartyGameplayStarted_1ff87c8c-a363-45fb-aeb8-762abc69b99e, _, _)
 AND
 DB_GlobalFlag((FLAG)EPI_Us_State_Kept_d7751cd6-1b02-f874-af94-c163a862e52c)
 AND
@@ -80,7 +80,7 @@ DB_Players(_Player)
 AND
 GetFlag((FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222, _Player, 1)
 AND
-CreateAtObject((CHARACTERROOT)Intellect_Devourer_PlayerWildshape_27b9089b-9aef-44e9-aaf7-100e3e320823, (TRIGGER)S_EPI_StartPointShadowheart_18c42a94-a57a-4a55-9d7c-dd67a49d8bbb, 0, 0, "", 1, _SpawnedUs)
+CreateAtObject((CHARACTERROOT)Intellect_Devourer_PlayerWildshape_27b9089b-9aef-44e9-aaf7-100e3e320823, (TRIGGER)S_EPI_Wyll_NearBard_4ff30b7a-2610-405d-89dd-d715089d5c04, 0, 0, "", 1, _SpawnedUs)
 THEN
 PROC_SetAnubisConfig((CHARACTER)_SpawnedUs, "EPI_Us");
 ObjectSetTitle(_SpawnedUs, "EPI_Title_Us");
