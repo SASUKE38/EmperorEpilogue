@@ -221,10 +221,9 @@ AND
 DB_Players(_Player)
 AND
 GetFlag((FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222, _Player, 1)
-AND
-QRY_StartDialog_Fixed((DIALOGRESOURCE)EPI_Epilogue_AD_EmperorReactionSong_246987f7-6425-4a51-f2aa-7d5c93273c9c, _Player)
 THEN
 DB_GlobalFlag((FLAG)EPI_Epilogue_EmperorReactedSong_44ca327f-5fe7-f70c-171f-b5a992a40544);
+PROC_TryStartAD((DIALOGRESOURCE)EPI_Epilogue_AD_EmperorReactionSong_246987f7-6425-4a51-f2aa-7d5c93273c9c, (CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
 
 IF
 DialogEnded(_Dialog, _ID)
