@@ -5,6 +5,9 @@ DB_END_GameFinale_CharacterPartneredDialogs((FLAG)ORI_State_EmperorRomanceCandid
 DB_END_GameFinale_FatesPositions((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, (TRIGGER)S_END_FatesHalsinPoint_f38c0c01-cad9-4d02-ac61-3d5b7599712e);
 
 DB_END_General_FullPartyDialog(END_GameFinale_RomanceFates_Emperor_4810b665-1b34-adee-c299-2905468e957c, 0, 1, 1, 1, 1, 1, 2);
+
+DB_DialogBlockAttackButton(END_GameFinale_RomanceFates_Emperor_4810b665-1b34-adee-c299-2905468e957c);
+DB_DialogBlockTradeButton(END_GameFinale_RomanceFates_Emperor_4810b665-1b34-adee-c299-2905468e957c);
 KBSECTION
 //REGION Emperor Cannot Finale Checks
 
