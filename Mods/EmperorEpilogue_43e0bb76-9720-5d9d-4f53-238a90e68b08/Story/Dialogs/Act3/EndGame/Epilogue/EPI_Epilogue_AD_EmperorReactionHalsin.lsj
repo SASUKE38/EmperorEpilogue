@@ -68,7 +68,7 @@
                                                 "TagText" : {
                                                    "handle" : "ha895d063gcda6ga85cge170g085d0c24ff04",
                                                    "type" : "TranslatedString",
-                                                   "version" : 2
+                                                   "version" : 5
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -86,6 +86,8 @@
                               "flaggroup" : [
                                  {
                                     "flag" : [
+                                       {
+                                          "UUID" : {"type" : "FixedString", "value" : "6e4b66e9-0f72-5171-04ba-441108b45b0e"},"value" : {"type" : "bool", "value" : true}},
                                        {
                                           "UUID" : {"type" : "FixedString", "value" : "7b5c8dc5-fbe7-ccef-7a13-07d7578c3763"},"value" : {"type" : "bool", "value" : true}}
                                     ],"type" : {"type" : "FixedString", "value" : "Global"}}
@@ -240,7 +242,7 @@
                                                 "TagText" : {
                                                    "handle" : "hf000d9a1g79ecg41f3gdab4g6cc2d00db3eb",
                                                    "type" : "TranslatedString",
-                                                   "version" : 2
+                                                   "version" : 5
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -253,7 +255,17 @@
                         ],
                         "Tags" : [ {} ],
                         "UUID" : {"type" : "FixedString", "value" : "79834816-f5d5-6913-fb87-b07599debdcb"},
-                        "checkflags" : [ {} ],
+                        "checkflags" : [
+                           {
+                              "flaggroup" : [
+                                 {
+                                    "flag" : [
+                                       {
+                                          "UUID" : {"type" : "FixedString", "value" : "6e4b66e9-0f72-5171-04ba-441108b45b0e"},"value" : {"type" : "bool", "value" : true}}
+                                    ],"type" : {"type" : "FixedString", "value" : "Global"}}
+                              ]
+                           }
+                        ],
                         "children" : [ {} ],
                         "constructor" : {"type" : "FixedString", "value" : "TagGreeting"},
                         "editorData" : [
@@ -402,7 +414,7 @@
                                                 "TagText" : {
                                                    "handle" : "h4f85af96g18a5g9392g3ba5g4314ec1e134a",
                                                    "type" : "TranslatedString",
-                                                   "version" : 2
+                                                   "version" : 5
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -572,7 +584,7 @@
                                                 "TagText" : {
                                                    "handle" : "h8ffd135eg983bgbf39g6c9bgd1a40cb1bdef",
                                                    "type" : "TranslatedString",
-                                                   "version" : 2
+                                                   "version" : 5
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -756,7 +768,7 @@
                }
             ],
             "needLayout" : {"type" : "bool", "value" : false},
-            "nextNodeId" : {"type" : "uint32", "value" : 19},
+            "nextNodeId" : {"type" : "uint32", "value" : 20},
             "speakerSlotDescription" : [
                {
                   "data" : [

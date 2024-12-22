@@ -62,7 +62,7 @@
                                                 "TagText" : {
                                                    "handle" : "he93f07cdgab7ag304ag0021g2bf3569d08d9",
                                                    "type" : "TranslatedString",
-                                                   "version" : 2
+                                                   "version" : 4
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -288,7 +288,7 @@
                                                 "TagText" : {
                                                    "handle" : "hc6ddaa38gfbc5gc6fbg9e19ge35759aac43e",
                                                    "type" : "TranslatedString",
-                                                   "version" : 2
+                                                   "version" : 4
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -306,6 +306,8 @@
                               "flaggroup" : [
                                  {
                                     "flag" : [
+                                       {
+                                          "UUID" : {"type" : "FixedString", "value" : "6e4b66e9-0f72-5171-04ba-441108b45b0e"},"value" : {"type" : "bool", "value" : true}},
                                        {
                                           "UUID" : {"type" : "FixedString", "value" : "e91a4ad5-e2f5-b336-f583-9f480ee7544e"},"value" : {"type" : "bool", "value" : true}}
                                     ],"type" : {"type" : "FixedString", "value" : "Global"}}
@@ -451,7 +453,7 @@
                                                 "TagText" : {
                                                    "handle" : "hab6aa303gb8f1g8954gb190g6438355a20be",
                                                    "type" : "TranslatedString",
-                                                   "version" : 2
+                                                   "version" : 4
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -606,6 +608,8 @@
                                  {
                                     "flag" : [
                                        {
+                                          "UUID" : {"type" : "FixedString", "value" : "6e4b66e9-0f72-5171-04ba-441108b45b0e"},"value" : {"type" : "bool", "value" : true}},
+                                       {
                                           "UUID" : {"type" : "FixedString", "value" : "faeb73da-a609-dc56-7745-ac07f795c137"},"value" : {"type" : "bool", "value" : true}}
                                     ],"type" : {"type" : "FixedString", "value" : "Global"}}
                               ]
@@ -679,7 +683,7 @@
                                                 "TagText" : {
                                                    "handle" : "h0345bf5dg7c1eg934fg8f4fg17a738152da7",
                                                    "type" : "TranslatedString",
-                                                   "version" : 2
+                                                   "version" : 4
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -692,7 +696,17 @@
                         ],
                         "Tags" : [ {} ],
                         "UUID" : {"type" : "FixedString", "value" : "88b493be-a10b-e533-6585-8b60afd1b2bb"},
-                        "checkflags" : [ {} ],
+                        "checkflags" : [
+                           {
+                              "flaggroup" : [
+                                 {
+                                    "flag" : [
+                                       {
+                                          "UUID" : {"type" : "FixedString", "value" : "6e4b66e9-0f72-5171-04ba-441108b45b0e"},"value" : {"type" : "bool", "value" : true}}
+                                    ],"type" : {"type" : "FixedString", "value" : "Global"}}
+                              ]
+                           }
+                        ],
                         "children" : [ {} ],
                         "constructor" : {"type" : "FixedString", "value" : "TagGreeting"},
                         "editorData" : [
@@ -832,7 +846,7 @@
                                                 "TagText" : {
                                                    "handle" : "h60bfc21bgf098gf28eg45a1g88837be1e956",
                                                    "type" : "TranslatedString",
-                                                   "version" : 2
+                                                   "version" : 4
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -845,7 +859,17 @@
                         ],
                         "Tags" : [ {} ],
                         "UUID" : {"type" : "FixedString", "value" : "9e949adc-37bd-2673-007b-d4d05ca16b10"},
-                        "checkflags" : [ {} ],
+                        "checkflags" : [
+                           {
+                              "flaggroup" : [
+                                 {
+                                    "flag" : [
+                                       {
+                                          "UUID" : {"type" : "FixedString", "value" : "6e4b66e9-0f72-5171-04ba-441108b45b0e"},"value" : {"type" : "bool", "value" : true}}
+                                    ],"type" : {"type" : "FixedString", "value" : "Global"}}
+                              ]
+                           }
+                        ],
                         "children" : [ {} ],
                         "constructor" : {"type" : "FixedString", "value" : "TagAnswer"},
                         "editorData" : [

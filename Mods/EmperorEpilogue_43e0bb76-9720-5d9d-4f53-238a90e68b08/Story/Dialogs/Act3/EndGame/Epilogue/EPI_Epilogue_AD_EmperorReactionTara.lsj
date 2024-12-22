@@ -70,7 +70,7 @@
                                                 "TagText" : {
                                                    "handle" : "hbea68f82g6812gf8b6gf0f0g9bf50fb04700",
                                                    "type" : "TranslatedString",
-                                                   "version" : 2
+                                                   "version" : 3
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -245,7 +245,7 @@
                                                 "TagText" : {
                                                    "handle" : "h28058535g422ag58d3gcdeag534818443331",
                                                    "type" : "TranslatedString",
-                                                   "version" : 21
+                                                   "version" : 22
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -258,7 +258,17 @@
                         ],
                         "Tags" : [ {} ],
                         "UUID" : {"type" : "FixedString", "value" : "6882f8a0-8a3f-b59d-ba36-bbcf213d08d4"},
-                        "checkflags" : [ {} ],
+                        "checkflags" : [
+                           {
+                              "flaggroup" : [
+                                 {
+                                    "flag" : [
+                                       {
+                                          "UUID" : {"type" : "FixedString", "value" : "6e4b66e9-0f72-5171-04ba-441108b45b0e"},"value" : {"type" : "bool", "value" : true}}
+                                    ],"type" : {"type" : "FixedString", "value" : "Global"}}
+                              ]
+                           }
+                        ],
                         "children" : [ {} ],
                         "constructor" : {"type" : "FixedString", "value" : "TagGreeting"},
                         "editorData" : [
@@ -399,7 +409,7 @@
                                                 "TagText" : {
                                                    "handle" : "h2311219cg53a5gdc75gb3c8g1f238f35bfdc",
                                                    "type" : "TranslatedString",
-                                                   "version" : 13
+                                                   "version" : 14
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -579,7 +589,7 @@
                                                 "TagText" : {
                                                    "handle" : "h2fda1fb2g946eg6b49gb8f1g76b2b525883b",
                                                    "type" : "TranslatedString",
-                                                   "version" : 21
+                                                   "version" : 22
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -751,7 +761,7 @@
                                                 "TagText" : {
                                                    "handle" : "h2fc7d630g86aeg47f2ga690g52cee5e353ab",
                                                    "type" : "TranslatedString",
-                                                   "version" : 5
+                                                   "version" : 6
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }

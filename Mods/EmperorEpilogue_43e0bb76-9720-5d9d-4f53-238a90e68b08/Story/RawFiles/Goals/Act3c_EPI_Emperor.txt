@@ -125,6 +125,13 @@ NOT DB_GlobalFlag((FLAG)TUT_Lab_State_LobotomizedBrain_d303b55f-b9b1-4acc-b052-2
 THEN
 ApplyStatus(_Us,"NORMAL_US",-1.0,1,NULL_00000000-0000-0000-0000-000000000000);
 
+IF
+KilledBy((CHARACTER)_Char, _, _, _) 
+AND
+DB_Epilogue_Us(_Char)
+THEN
+PROC_EPI_Epilogue_TryStartViolentClosureDialog();
+
 //END_REGION
 
 //REGION Letter Setup
@@ -247,6 +254,17 @@ AND
 GetFlag((FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222, _Player, 1)
 THEN
 PROC_TryStartAD((DIALOGRESOURCE)_ReactionDialog, (CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, (CHARACTER)_Player);
+
+IF
+CombatStarted(_ID)
+AND
+DB_GlobalFlag(EPI_Epilogue_State_AvatarStartedCombat_d7553916-b89e-48ba-83d0-985e1ee3192b)
+AND
+DB_Avatars(_Player)
+AND
+GetFlag((FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222, _Player, 1)
+THEN
+PROC_TryStartAD((DIALOGRESOURCE)EPI_Epilogue_AD_EmperorCombatStarted_75f9a3dc-7f57-4897-5c23-3f738c117f92, (CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
 
 //END_REGION
 EXITSECTION

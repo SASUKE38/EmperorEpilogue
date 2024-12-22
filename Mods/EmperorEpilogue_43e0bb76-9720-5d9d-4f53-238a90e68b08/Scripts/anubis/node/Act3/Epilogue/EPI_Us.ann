@@ -16,16 +16,18 @@ game.states.EPI_Us = State{function ()
 
     local idleAD = Dialog("EPI_Epilogue_AD_IdleUs_ada22b36-096c-c88c-fc0c-f7b74111367d")
 
+    local generalADTimeout = 0
     local readyToZoom = true
     local wandering = false
 
     -- Helpers
 
-    helpers.action.PlayLoopingAnimationAt = function(pos, animationStart, animationLoop, animationEnd, animationLength, endSleep)
+    helpers.action.PlayLoopingAnimationAt = function(pos, animationStart, animationLoop, animationEnd, animationLength, endSleep, pauseBeforeDialog)
         if pos ~= nil then
             if animationStart ~= nil and animationLoop ~= nil and animationEnd ~= nil then
                 if mod.moveto.MoveToPoint(pos, MovementSpeed.Walk, me, 0.5, false) then
                     LookFrom(pos)
+                    helpers.TryPlayAD(pauseBeforeDialog)
                     PlayLoopingAnimation(animationStart, {animationLoop}, animationEnd)
                     Sleep(animationLength)
                     StopAnimation(me)
@@ -83,6 +85,21 @@ game.states.EPI_Us = State{function ()
         StartTimer(me,"Us_Wandering", math.random(30.0, 50.0), 0)
     end
 
+    helpers.action.TryPlayAD = function(pauseBeforeDialog)
+        if pauseBeforeDialog ~= nil then
+                if generalADTimeout <= 0 then
+                    generalADTimeout = 1
+                    StartTimer(me,"Us_ADDelay", pauseBeforeDialog,0)
+                    DebugText(me, "Playing AD")
+                else
+                    DebugText(me, "ADs on cooldown, [1] turns remaining", tostring(generalADTimeout))
+                end
+        else
+            DebugText(me, "State without AD")
+        end
+        generalADTimeout = generalADTimeout - 1
+    end
+
     -- Nodes
 
     nodes.ActiveMoves = Selector {
@@ -97,6 +114,7 @@ game.states.EPI_Us = State{function ()
     nodes.ActiveMoves.Sit = Action {
         function()
             Sleep(1.0)
+            helpers.TryPlayAD(math.random(5.0, 20.0))
             helpers.SitOnChair()
             mod.util.SleepRandom(1.0, 3.0)
         end
@@ -110,7 +128,7 @@ game.states.EPI_Us = State{function ()
 
     nodes.ActiveMoves.Nap = Action {
         function()
-            helpers.PlayLoopingAnimationAt(sleepPoint, usSleepStart, usSleepLoop, usSleepEnd, math.random(30.0, 50.0), 2)
+            helpers.PlayLoopingAnimationAt(sleepPoint, usSleepStart, usSleepLoop, usSleepEnd, math.random(30.0, 50.0), 2, math.random(1.0, 4.0))
         end,
     }
 
@@ -143,6 +161,8 @@ game.states.EPI_Us = State{function ()
             wandering = false
         elseif(e.TimerName == "Us_Zoomies") then
             readyToZoom = true
+        elseif(e.TimerName == "Us_ADDelay") then
+            StartAutomatedDialogImmediate(idleAD, me)
         end
     end
 
