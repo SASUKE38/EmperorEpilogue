@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Root>
   <Timeline Id="34094f79-a0be-4e79-bdd1-906d6d3ec955" DialogResourceId="f716be87-ea3c-691a-6980-090878ef57c6" CanShowPeanuts="false" AllowedPeanutTypes="Emotion, Attitude, LookAt">
-    <GenerationMetadata FullGenerationTimestamp="1733051673" PartialGenerationTimestamp="1734249408" />
+    <GenerationMetadata FullGenerationTimestamp="1733051673" PartialGenerationTimestamp="1734865623" />
     <TimelinePosition BoundSceneId="e1408b68-0fa2-480c-a64f-8d91a25ea74a" />
     <Tracks>
       <Track Name="Camera Shots" TrackId="7b5ac98c-d35a-4afd-b95e-2682c81a27ce" Type="ComponentTrackCameraShot" />
@@ -55,7 +55,7 @@
           <ActorIdleOverrideData />
           <BehaviourActorStartCondition />
         </Track>
-        <Track Name="GROUP_Players" TrackId="345b1e0f-70c5-430e-a42e-cead5b750a3e" IsExpanded="true" ActorType="character" ActorId="6bff5419-5a9e-4839-acd4-cac4f6e41bd7" AssignedActorId="ba20ee39-92ed-4aad-830d-4871103f48c2" SpeakerId="1" IsPlayer="true" SceneActorType="Initiator" SpeakerMappingId="1ebf973a-530e-4977-81bb-20147a29e403" Type="ActorTrackSpeaker">
+        <Track Name="GROUP_Players" TrackId="345b1e0f-70c5-430e-a42e-cead5b750a3e" IsExpanded="true" ActorType="character" ActorId="e2badbf0-159a-4ef5-9e73-7bbeb3d1015a" AssignedActorId="ba20ee39-92ed-4aad-830d-4871103f48c2" SpeakerId="1" IsPlayer="true" SceneActorType="Initiator" SpeakerMappingId="1ebf973a-530e-4977-81bb-20147a29e403" Type="ActorTrackSpeaker">
           <Track Name="Voice" TrackId="d8ab6ae8-96f1-4867-90b6-0aefb4b9483f" Type="ComponentTrackVoice" />
           <Track Name="Look At Event" TrackId="4d3c4d32-eab6-4e63-99f3-eb36ef453bbc" Type="ComponentTrackLookAtEvent" />
           <Track Name="Emotion Event" TrackId="47277329-6edd-4747-9bc5-f7af7214c476" Type="ComponentTrackEmotionEvent" />
@@ -882,6 +882,9 @@
         <Components TrackId="303c8b37-a3de-4f8d-96b9-668bc5850e70">
           <Component ComponentId="2f3e0cce-c663-45db-aa08-54d79db1d63e" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
+          <Component ComponentId="c572f6eb-ae3e-44a6-a16e-a7efb3606fb6" IsInfinite="true" TimeDuration="1" />
+        </Components>
         <Components TrackId="bed08e29-13ec-4c9e-be83-5156cde36bcb">
           <Component ComponentId="a78997c1-f0af-4ea4-9568-e80fcd8f04d4" IsInfinite="true" TimeDuration="1">
             <Channel Name="Switch Stage">
@@ -908,9 +911,6 @@
         </Components>
         <Components TrackId="618cb8eb-66f8-4317-8d2b-0f021ba4d940">
           <Component ComponentId="06f886ac-7847-40a5-8295-95b1ed6eb928" IsInfinite="true" TimeDuration="1" />
-        </Components>
-        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
-          <Component ComponentId="c572f6eb-ae3e-44a6-a16e-a7efb3606fb6" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="a91df232-8648-4f2f-b13c-8e1c3c722725" Name="Sequence 2 - AVATAR KARLACH AVERNUS" DialogNodeColor="#FFF4A460" ΔTimeDuration="11.06">
@@ -1151,6 +1151,9 @@
         <Components TrackId="303c8b37-a3de-4f8d-96b9-668bc5850e70">
           <Component ComponentId="a1a89f34-c18a-423c-bbea-14ff73945c23" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
+          <Component ComponentId="93890497-9add-4da3-94ea-26e0dcd030c5" IsInfinite="true" TimeDuration="1" />
+        </Components>
         <Components TrackId="bed08e29-13ec-4c9e-be83-5156cde36bcb">
           <Component ComponentId="31d01724-0c78-4c88-84b3-0434e0529354" IsInfinite="true" TimeDuration="1">
             <Channel Name="Switch Stage">
@@ -1171,9 +1174,6 @@
         </Components>
         <Components TrackId="618cb8eb-66f8-4317-8d2b-0f021ba4d940">
           <Component ComponentId="4ddc6aad-da22-4277-af86-1721541fb457" IsInfinite="true" TimeDuration="1" />
-        </Components>
-        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
-          <Component ComponentId="93890497-9add-4da3-94ea-26e0dcd030c5" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="259d03c8-08d3-46dc-9484-6cd2612608e1" Name="Sequence 3 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="5.5">
@@ -1381,6 +1381,9 @@
         <Components TrackId="303c8b37-a3de-4f8d-96b9-668bc5850e70">
           <Component ComponentId="32bf4d1e-52b4-4eb4-b4a1-c3e96eecbe2f" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
+          <Component ComponentId="61cb4cd6-a650-47fc-8489-7cb9b21baea7" IsInfinite="true" TimeDuration="1" />
+        </Components>
         <Components TrackId="bed08e29-13ec-4c9e-be83-5156cde36bcb">
           <Component ComponentId="d67004a4-ef6b-4814-be30-93859c1451ba" IsInfinite="true" TimeDuration="1">
             <Channel Name="Switch Stage">
@@ -1398,9 +1401,6 @@
         </Components>
         <Components TrackId="618cb8eb-66f8-4317-8d2b-0f021ba4d940">
           <Component ComponentId="c9a44603-df77-4486-92c7-e0fe127be93b" IsInfinite="true" TimeDuration="1" />
-        </Components>
-        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
-          <Component ComponentId="61cb4cd6-a650-47fc-8489-7cb9b21baea7" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="88ec31a9-021e-4677-a1ba-cdd76b6cb289" Name="Sequence 4 - SHORT" DialogNodeColor="#FF008B8B" ΔTimeDuration="20.26">
@@ -1837,6 +1837,9 @@
         <Components TrackId="303c8b37-a3de-4f8d-96b9-668bc5850e70">
           <Component ComponentId="e948b8c9-ddfa-404b-ae7c-bc0e40c527d5" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
+          <Component ComponentId="ff7d7b40-c2e7-4f9f-b4ca-821872bcc161" IsInfinite="true" TimeDuration="1" />
+        </Components>
         <Components TrackId="bed08e29-13ec-4c9e-be83-5156cde36bcb">
           <Component ComponentId="253f2be2-9d61-408b-863e-5d3cf40b6929" IsInfinite="true" TimeDuration="1">
             <Channel Name="Switch Stage">
@@ -1900,12 +1903,8 @@
             </Channel>
           </Component>
         </Components>
-        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
-          <Component ComponentId="ff7d7b40-c2e7-4f9f-b4ca-821872bcc161" IsInfinite="true" TimeDuration="1" />
-        </Components>
       </Sequence>
-      <Sequence Id="4612e674-2f30-47be-add2-94edc9ac61b6" Name="Sequence 5 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="41.14">
-        <DialogNodeReference DialogNodeId="8c8de8e0-e8c1-2c1f-171a-1a55fbd76899" ReferenceId="8c8de8e0-e8c1-2c1f-171a-1a55fbd76899" />
+      <Sequence Id="4612e674-2f30-47be-add2-94edc9ac61b6" Name="Sequence 5 - PUTS FEET IN WATER" DialogNodeColor="#FFF4A460" ΔTimeDuration="41.14">
         <DialogNodeReference DialogNodeId="a8862069-b204-f952-f874-0d6cdababc80" ReferenceId="a8862069-b204-f952-f874-0d6cdababc80" />
         <DialogNodeReference DialogNodeId="540a9844-6424-cc96-4717-84d039bec81b" ReferenceId="540a9844-6424-cc96-4717-84d039bec81b" />
         <Components TrackId="7b5ac98c-d35a-4afd-b95e-2682c81a27ce">
@@ -1953,17 +1952,6 @@
             <CameraContainer>
               <Camera CameraId="24401154-956a-4bb1-840a-1ec32a4adc4c" />
             </CameraContainer>
-          </Component>
-        </Components>
-        <Components TrackId="75b22bbe-6e69-4816-bbf7-864b93949e40">
-          <Component ComponentId="f6d7c95c-6432-4491-950f-cec46cd55dfc" TimeDuration="9.12" FaceTech="FaceFX" HoldMocap="true" PerformanceFade="2" FadeIn="2" FadeOut="3" PerformanceDrift="None" SeparateFades="false">
-            <DialogNodeReference DialogNodeId="8c8de8e0-e8c1-2c1f-171a-1a55fbd76899" ReferenceId="8c8de8e0-e8c1-2c1f-171a-1a55fbd76899" />
-          </Component>
-          <Component ComponentId="a57d3b91-ad73-46b1-b03e-03e7215c6697" TimeStart="27.02" TimeDuration="5" FaceTech="FaceFX" HoldMocap="true" PerformanceFade="2" FadeIn="2" FadeOut="3" PerformanceDrift="None" SeparateFades="false">
-            <DialogNodeReference DialogNodeId="a8862069-b204-f952-f874-0d6cdababc80" ReferenceId="a8862069-b204-f952-f874-0d6cdababc80" />
-          </Component>
-          <Component ComponentId="e4584e0c-c2e5-4bc2-989f-d1186b4acbac" TimeStart="33.94" TimeDuration="7.1999999999999993" FaceTech="FaceFX" HoldMocap="true" PerformanceFade="2" FadeIn="2" PerformanceDrift="None" SeparateFades="false">
-            <DialogNodeReference DialogNodeId="540a9844-6424-cc96-4717-84d039bec81b" ReferenceId="540a9844-6424-cc96-4717-84d039bec81b" />
           </Component>
         </Components>
         <Components TrackId="7fa983ee-580b-42fb-a7e4-1977cee426d6">
@@ -2361,6 +2349,35 @@
         <Components TrackId="303c8b37-a3de-4f8d-96b9-668bc5850e70">
           <Component ComponentId="8e713856-f342-41d8-b98b-0d7bbf6433c7" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
+          <Component ComponentId="f47ea00d-1f49-4928-857e-86e41ba7ca54" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Play Effect">
+              <Key ΔTime="24.8" Id="a6d69982-7bb5-470e-877a-bc4479d30ebf" Value="True" />
+              <Key ΔTime="26.65" Id="6cf30534-d9e5-456d-ad7b-6f62979bf041" Value="False" />
+              <Key ΔTime="0" Id="67ceb2ca-9fb0-4f33-8a18-cd37d79772d7" Value="False" />
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="11e835e2-9362-452b-a5d7-377a96817792">
+          <Component ComponentId="905074cb-11dd-4b60-ba9e-cdc175e74298" TimeStart="22.37" ΔTimeDuration="4.2785076409950875">
+            <Channel Name="Transform.Translate.X">
+              <Key ΔTime="24.76" Id="f3181849-63c6-4438-b60a-5ac2ba2af174" Value="7.6" />
+              <Key ΔTime="26.31" Id="56cea04a-0883-4cdd-bf3a-2e9e4912e39f" Value="7.5" />
+            </Channel>
+            <Channel Name="Transform.Translate.Y">
+              <Key ΔTime="24.76" Id="e3bd2838-6eb7-4422-8be6-5921285e7eed" Value="-0.2" />
+              <Key ΔTime="26.31" Id="75ca32e2-a8e1-4b38-b701-913961769215" Value="-0.2" />
+            </Channel>
+            <Channel Name="Transform.Translate.Z">
+              <Key ΔTime="24.76" Id="f7badc22-616a-42fa-a32c-8a369645241d" Value="4.3" />
+              <Key ΔTime="26.31" Id="ead5f245-3f09-4721-8818-f0d8595f5c22" Value="4.3" />
+            </Channel>
+            <Channel Name="Transform.Scale">
+              <Key ΔTime="24.76" Id="9a6962cb-f236-4c36-a754-27b584826370" Value="0.1" />
+              <Key ΔTime="26.31" Id="1b33d184-ce42-4b56-a295-adfe97e5e5ab" Value="0.2" />
+            </Channel>
+          </Component>
+        </Components>
         <Components TrackId="bed08e29-13ec-4c9e-be83-5156cde36bcb">
           <Component ComponentId="046025f7-2bd3-4828-8f08-3971217bd757" IsInfinite="true" TimeDuration="1">
             <Channel Name="Switch Stage">
@@ -2397,37 +2414,437 @@
             </Channel>
           </Component>
         </Components>
-        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
-          <Component ComponentId="f47ea00d-1f49-4928-857e-86e41ba7ca54" IsInfinite="true" TimeDuration="1">
-            <Channel Name="Play Effect">
-              <Key ΔTime="24.8" Id="a6d69982-7bb5-470e-877a-bc4479d30ebf" Value="True" />
-              <Key ΔTime="26.65" Id="6cf30534-d9e5-456d-ad7b-6f62979bf041" Value="False" />
-              <Key ΔTime="0" Id="67ceb2ca-9fb0-4f33-8a18-cd37d79772d7" Value="False" />
+      </Sequence>
+      <Sequence Id="92d5ac90-fad8-4fb2-a975-650b98322d7c" Name="Sequence 6 - MIND FLAYER" DialogNodeColor="#FF008B8B" ΔTimeDuration="20.63">
+        <DialogNodeReference DialogNodeId="589d6544-7cd6-6638-d8b6-4f7948b08e5c" ReferenceId="589d6544-7cd6-6638-d8b6-4f7948b08e5c" />
+        <Components TrackId="7b5ac98c-d35a-4afd-b95e-2682c81a27ce">
+          <Component ComponentId="f573a932-ad1d-46a7-8fd2-381caa71d95f" TimeStart="19.439999999999998" ΔTimeDuration="1.19" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
+            <CameraContainer>
+              <Camera CameraId="6620185e-c73a-4f72-9573-ae3b5dbdc9ad" />
+            </CameraContainer>
+          </Component>
+          <Component ComponentId="449861bc-2233-4bb6-b294-08ea43ff919f" TimeStart="15.25" ΔTimeDuration="4.19" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
+            <CameraContainer>
+              <Camera CameraId="24401154-956a-4bb1-840a-1ec32a4adc4c" />
+            </CameraContainer>
+          </Component>
+          <Component ComponentId="3e49f66d-ad25-4ee8-a725-c03fdfdc37d3" TimeStart="3.92" ΔTimeDuration="11.33" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
+            <CameraContainer>
+              <Camera CameraId="a5528ee1-6958-4619-905e-604cab361ac0" />
+            </CameraContainer>
+          </Component>
+          <Component ComponentId="71ae597b-caa5-4d65-9280-6c1d73f9ec1d" ΔTimeDuration="3.92" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
+            <CameraContainer>
+              <Camera CameraId="c13316a2-abc2-4936-ad38-c3493edbff30" />
+            </CameraContainer>
+          </Component>
+        </Components>
+        <Components TrackId="7fa983ee-580b-42fb-a7e4-1977cee426d6">
+          <Component ComponentId="072aea12-00b8-43d2-9993-7af27157ed0a" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Look At Event">
+              <Key ΔTime="0" Id="35b8689a-f0f8-46ec-9fbc-d899f0456e5b">
+                <Value ΔTargetId="345b1e0f-70c5-430e-a42e-cead5b750a3e" ΔTargetBone="Head_M" ΔTrackingMode="Recenter" ΔLookAtMode="Head" ΔLookAtInterpMode="EaseInOut" ΔTurnMode="Inactive" ΔTurnSpeedMultiplier="0.3" ΔTorsoTurnSpeedMultiplier="1" ΔHeadTurnSpeedMultiplier="0.3" ΔWeight="0" ΔSafeZoneAngle="80" ΔHeadSafeZoneAngle="80" ΔResetEvent="false" ΔOffset="0; -0.7; 0" ΔIsEyeOverrideEnabled="false" ΔEyeOverrideTargetId="00000000-0000-0000-0000-000000000000" ΔEyeOverrideTargetBone="Head_M" ΔEyeOverrideOffset="0; 0; 0" />
+              </Key>
+              <Key ΔTime="19.44" Id="902d6c29-b6db-4897-bb44-21efddf41b2c">
+                <Value ΔTargetId="345b1e0f-70c5-430e-a42e-cead5b750a3e" ΔTargetBone="Head_M" ΔTrackingMode="Recenter" ΔLookAtMode="Head" ΔLookAtInterpMode="EaseInOut" ΔTurnMode="Inactive" ΔTurnSpeedMultiplier="0.3" ΔTorsoTurnSpeedMultiplier="1" ΔHeadTurnSpeedMultiplier="0.03" ΔWeight="0" ΔSafeZoneAngle="22" ΔHeadSafeZoneAngle="80" ΔResetEvent="true" ΔOffset="0; -0.2; -0.7" ΔIsEyeOverrideEnabled="false" ΔEyeOverrideTargetId="345b1e0f-70c5-430e-a42e-cead5b750a3e" ΔEyeOverrideTargetBone="Head_M" ΔEyeOverrideOffset="0; 0; 0" />
+              </Key>
+              <Key ΔTime="3.92" Id="fa023724-eac7-4952-8371-a1aa285a526b">
+                <Value ΔTargetId="345b1e0f-70c5-430e-a42e-cead5b750a3e" ΔTargetBone="Head_M" ΔTrackingMode="Recenter" ΔLookAtMode="Head" ΔLookAtInterpMode="EaseInOut" ΔTurnMode="Inactive" ΔTurnSpeedMultiplier="0.3" ΔTorsoTurnSpeedMultiplier="1" ΔHeadTurnSpeedMultiplier="0.265041143" ΔWeight="0" ΔSafeZoneAngle="80" ΔHeadSafeZoneAngle="80" ΔResetEvent="true" ΔOffset="0; 0; 0" ΔIsEyeOverrideEnabled="false" ΔEyeOverrideTargetId="00000000-0000-0000-0000-000000000000" ΔEyeOverrideTargetBone="Head_M" ΔEyeOverrideOffset="0; 0; 0" />
+              </Key>
             </Channel>
           </Component>
         </Components>
-        <Components TrackId="11e835e2-9362-452b-a5d7-377a96817792">
-          <Component ComponentId="905074cb-11dd-4b60-ba9e-cdc175e74298" TimeStart="22.37" ΔTimeDuration="4.2785076409950875">
+        <Components TrackId="1f6865cc-f3c8-42e1-8a1a-efb106506520">
+          <Component ComponentId="3a678c2b-c658-40ed-80e6-25e595697274" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Emotion Event">
+              <Key ΔTime="3.13" Id="8e10568b-b1f4-41e9-80fe-4b6863d521cd">
+                <Value ΔEmotion="Sleeping" ΔVariation="0" IsSustainedEmotion="true" AppliesMaterials="true" />
+              </Key>
+              <Key ΔTime="0" Id="0001e0c9-a9e2-4b7e-bd68-91a35eb9fdf1">
+                <Value Emotion="Neutral" Variation="0" IsSustainedEmotion="true" AppliesMaterials="true" />
+              </Key>
+              <Key ΔTime="15.52" Id="b2657f20-b30c-41c2-81b2-83dc9f4682f0">
+                <Value Emotion="Neutral" Variation="0" IsSustainedEmotion="true" AppliesMaterials="true" />
+              </Key>
+              <Key ΔTime="19.44" Id="39f0e6eb-0f80-4238-86d9-0cb57df3d912">
+                <Value ΔEmotion="Happy" ΔVariation="2" IsSustainedEmotion="true" AppliesMaterials="true" />
+              </Key>
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="d8430926-43ec-451d-a0ee-1952271b362b">
+          <Component ComponentId="e50c972d-229b-4246-bb51-5351b91d373b" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="14d2d17e-7d43-46d6-ac39-b6fbb63b4cec">
+          <Component ComponentId="0a888250-889f-4a28-b81e-a7ede79597e3" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Show Weapon">
+              <Key ΔTime="0" Id="2d640452-389a-4cef-a985-2b5537512df2" Value="False" />
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="e7109e63-705e-4d5a-93d7-d73e03494cbd">
+          <Component ComponentId="4074a001-17d0-43ed-86bf-8011b0b65196" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Foot IK">
+              <Key ΔTime="0" Id="16d32398-20c9-4e74-afb1-491f778ae9fa" Value="False" />
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="c8b65efb-6200-4eca-b7f6-ae96e0e2b6e6">
+          <Component ComponentId="b2794646-2285-411a-943f-6921f631bc93" TimeStart="19.439999999999998" ΔTimeDuration="1.1900000000000013" AnimationSourceId="0d7701ba-6e0b-a8a0-a447-9fdd46f45810" PlayRate="1" PlayStartOffset="0.34999999999999787" IsContinuous="true" FadeIn="0" FadeOut="0" AnimationType="Base" />
+        </Components>
+        <Components TrackId="407a4512-d633-414f-8493-9d25ffda8af1">
+          <Component ComponentId="2d089e6c-63fb-4198-ae0d-fb58b38465ed" ΔTimeDuration="3.92" AnimationSourceId="8076cfbf-085b-0f5b-1d92-9863b49e6eb8" PlayRate="0.8" PlayStartOffset="4.18" IsContinuous="true" FadeIn="0" FadeOut="0" EnableRootMotion="true" AnimationType="Base" />
+          <Component ComponentId="86a48b8a-9c28-4b80-a97e-7fab50cecd18" TimeStart="3.92" ΔTimeDuration="11.33" AnimationSourceId="e3d0caf0-ea68-2620-2d90-760f691e8e88" PlayRate="0.8" IsContinuous="true" FadeIn="0" FadeOut="0" EnableRootMotion="true" AnimationType="Base" />
+          <Component ComponentId="972ff077-2035-40ec-8cc4-4ba434faa7e8" TimeStart="15.25" ΔTimeDuration="4.19" AnimationSourceId="020c8ef1-fbe1-833c-8e4a-4d53157ecba0" PlayRate="0.8" PlayStartOffset="2" FadeIn="0" FadeOut="0" AnimationType="Base" />
+          <Component ComponentId="216dd1fc-c55d-432c-a928-d9f200bf070f" TimeStart="19.44" ΔTimeDuration="1.186" AnimationSourceId="7b5242a9-5f2e-deca-62bd-322c951187ee" PlayRate="1" IsContinuous="true" FadeIn="0" FadeOut="0" AnimationType="Base" />
+        </Components>
+        <Components TrackId="7ffcab68-cb0f-4e96-8a77-dbb7e9223137">
+          <Component ComponentId="1a34e58a-f529-49ec-8e52-0c7a9ceb7ffd" TimeStart="19.44" ΔTimeDuration="1.19">
             <Channel Name="Transform.Translate.X">
-              <Key ΔTime="24.76" Id="f3181849-63c6-4438-b60a-5ac2ba2af174" Value="7.6" />
-              <Key ΔTime="26.31" Id="56cea04a-0883-4cdd-bf3a-2e9e4912e39f" Value="7.5" />
+              <Key ΔTime="19.440000000000005" Id="151e5a2e-49c3-4616-af5e-01c5f3c0ebb8" Value="6.95" />
             </Channel>
             <Channel Name="Transform.Translate.Y">
-              <Key ΔTime="24.76" Id="e3bd2838-6eb7-4422-8be6-5921285e7eed" Value="-0.2" />
-              <Key ΔTime="26.31" Id="75ca32e2-a8e1-4b38-b701-913961769215" Value="-0.2" />
+              <Key ΔTime="19.440000000000005" Id="3cb1a046-c10b-4d6f-b627-1c44fc312a3c" Value="-0.27" />
             </Channel>
             <Channel Name="Transform.Translate.Z">
-              <Key ΔTime="24.76" Id="f7badc22-616a-42fa-a32c-8a369645241d" Value="4.3" />
-              <Key ΔTime="26.31" Id="ead5f245-3f09-4721-8818-f0d8595f5c22" Value="4.3" />
+              <Key ΔTime="19.440000000000005" Id="33759638-4202-4ea0-9117-3235f771429c" Value="4.058" />
             </Channel>
-            <Channel Name="Transform.Scale">
-              <Key ΔTime="24.76" Id="9a6962cb-f236-4c36-a754-27b584826370" Value="0.1" />
-              <Key ΔTime="26.31" Id="1b33d184-ce42-4b56-a295-adfe97e5e5ab" Value="0.2" />
+            <Channel Name="Transform.Rotation">
+              <Key ΔTime="19.440000000000005" Id="18620883-4183-40e3-9d33-28bc8599ec33" Value="0; -2.182; 0" />
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="90c46b6b-1d61-4376-a861-b43a66eb6dd5">
+          <Component ComponentId="f7963339-1eb0-4d31-90be-64d92d0fda7f" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Sound Event">
+              <Key ΔTime="4.73" Id="f010e387-5ed8-4fb6-bd97-539b1c0b8260">
+                <Value SoundType="SOUNDTYPE_Default" ΔEvent="4aa2cb9b-5f51-41ac-9339-be554a0d3b58" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
+              </Key>
+              <Key ΔTime="5.04" Id="699482df-d6e8-4bc9-b84f-7c3825189b33">
+                <Value SoundType="SOUNDTYPE_Default" ΔEvent="9cc5b1f6-9438-46a5-933d-4d0b52a1d5fe" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
+              </Key>
+              <Key ΔTime="5.33" Id="de32bada-d1ca-46d6-b781-df9cdeb69e90">
+                <Value SoundType="SOUNDTYPE_Default" ΔEvent="8f355f87-bd1c-4bf4-acb6-5c095a99943c" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
+              </Key>
+              <Key ΔTime="7.79" Id="30beda74-5d73-4e23-8328-c49a000423b1">
+                <Value SoundType="SOUNDTYPE_Default" ΔEvent="9e675035-65b8-4458-bccc-d4edf0ffaaad" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
+              </Key>
+              <Key ΔTime="8.62" Id="03e18588-503a-4d43-ae23-f31b37b5d356">
+                <Value SoundType="SOUNDTYPE_Default" ΔEvent="4aa2cb9b-5f51-41ac-9339-be554a0d3b58" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
+              </Key>
+              <Key ΔTime="8.06" Id="6773217d-04a7-4b0a-a580-647082c60621">
+                <Value SoundType="SOUNDTYPE_Default" ΔEvent="8f355f87-bd1c-4bf4-acb6-5c095a99943c" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
+              </Key>
+              <Key ΔTime="8.39" Id="069a2705-5946-4053-ae38-fd398ff72527">
+                <Value SoundType="SOUNDTYPE_Default" ΔEvent="9e675035-65b8-4458-bccc-d4edf0ffaaad" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
+              </Key>
+              <Key ΔTime="10.84" Id="f837df2d-f223-495d-ac4d-82b73444d994">
+                <Value SoundType="SOUNDTYPE_Default" ΔEvent="026c8ad8-8e9c-449c-9ecb-3088e13a8c23" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
+              </Key>
+              <Key ΔTime="11.37" Id="ba1e8bf6-681a-46d1-8453-3ae8715b0144">
+                <Value SoundType="SOUNDTYPE_Default" ΔEvent="dba209b8-0489-4a9a-9fbb-3f1314292b99" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
+              </Key>
+              <Key ΔTime="12.02" Id="c482b1e1-5949-404f-974e-84f303f3b49a">
+                <Value SoundType="SOUNDTYPE_Default" ΔEvent="dba209b8-0489-4a9a-9fbb-3f1314292b99" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
+              </Key>
+              <Key ΔTime="13.56" Id="aeb72100-bc68-4073-b209-4f8136a366d3">
+                <Value SoundType="SOUNDTYPE_Default" ΔEvent="4aa2cb9b-5f51-41ac-9339-be554a0d3b58" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
+              </Key>
+              <Key ΔTime="14.71" Id="2359c89e-e37b-4193-899b-fac40e15ad17">
+                <Value SoundType="SOUNDTYPE_Default" ΔEvent="dba209b8-0489-4a9a-9fbb-3f1314292b99" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
+              </Key>
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="efd785a0-5f5e-47e0-b2b6-f700232a5de9">
+          <Component ComponentId="ff033ba4-4a36-4a29-aa81-05b51552b2f8" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="c57c6bd3-6872-4057-82c7-6dfac70e2e39">
+          <Component ComponentId="a98de64a-abfb-43ba-9b04-c0bb13f28cac" TimeStart="3.92" ΔTimeDuration="15.52" IsContinuous="false">
+            <Channel Name="Overlay Material.Material Visibility">
+              <Key ΔTime="3.92" Id="eb1da2ce-e102-459f-9353-45b7fcda38a1" Value="True" />
+            </Channel>
+            <Channel Name="Overlay Material.Color.X">
+              <Key ΔTime="3.92" Id="3b749ab5-687c-44d9-b931-ae1fd92ef73d" Value="2" />
+            </Channel>
+            <Channel Name="Overlay Material.Color.Y">
+              <Key ΔTime="3.92" Id="b22a9836-8812-431e-bf20-58f97ba2a5fe" Value="0.06" />
+            </Channel>
+            <Channel Name="Overlay Material.Color.Z">
+              <Key ΔTime="3.92" Id="2dc4545d-dbb1-4f9c-8770-581cdea3b64e" Value="2" />
+            </Channel>
+            <Channel Name="Overlay Material.Color.W">
+              <Key ΔTime="3.92" Id="0123ce07-3890-4061-a60c-a4f4032aa3a9" Value="1" />
+            </Channel>
+            <Channel Name="Overlay Material.FresnelPower">
+              <Key ΔTime="3.92" Id="55e78a6a-31a8-404f-ba52-932a1652b2b6" Value="5" />
+              <Key ΔTime="10.05" Id="8507df8f-ad5b-4b3e-98ea-57672ce81317" Value="3" />
+              <Key ΔTime="14.56" Id="ac8a8c39-6256-47b5-94df-0c288721f139" Value="3" />
+              <Key ΔTime="17.08" Id="2ab617eb-6591-4ed4-87b6-ea3e38dfc4da" Value="5" />
+            </Channel>
+            <Channel Name="Overlay Material.OpacityMult">
+              <Key ΔTime="3.92" Id="fa0a24c3-51eb-42b9-9c48-a2971bfc37ff" Value="1" />
+            </Channel>
+            <Channel Name="Overlay Material.MaskRadius">
+              <Key ΔTime="3.92" Id="0abf6b64-8f4c-4e25-8ede-dfa93e3fb6f4" Value="0.1" />
+              <Key ΔTime="7.94" Id="08f669cd-7d23-4e34-b9c1-ba3b695c43ea" Value="0.4" />
+              <Key ΔTime="14.56" Id="d06ec2a0-645e-4358-ab5a-369847b2f96a" Value="0.4" />
+              <Key ΔTime="17.08" Id="889f3390-5db7-4db1-962b-76603d3b46f0" Value="0" />
+            </Channel>
+            <Channel Name="Overlay Material.BonePosition.X">
+              <Key ΔTime="3.92" Id="5ea7fb05-bfad-4870-8231-d08a562db0a4" Value="0" />
+            </Channel>
+            <Channel Name="Overlay Material.BonePosition.Y">
+              <Key ΔTime="3.92" Id="ceea0857-7013-416a-95ed-59baa69bd494" Value="2.2" />
+            </Channel>
+            <Channel Name="Overlay Material.BonePosition.Z">
+              <Key ΔTime="3.92" Id="08c4c64d-a983-4a55-bdfe-65194205246a" Value="-0.2" />
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="4d3c4d32-eab6-4e63-99f3-eb36ef453bbc">
+          <Component ComponentId="39f7b27d-885a-4e56-b42d-86a0ea2c2dda" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Look At Event">
+              <Key ΔTime="3.92" Id="e38bc0b8-1945-404d-afcc-4534ddd85132">
+                <Value ΔTargetId="440641b8-fe3a-4cb1-980b-4fcd2a675523" ΔTargetBone="Head_M" ΔTrackingMode="Recenter" ΔLookAtMode="Head" ΔLookAtInterpMode="EaseInOut" ΔTurnMode="Inactive" ΔTurnSpeedMultiplier="0.3" ΔTorsoTurnSpeedMultiplier="1" ΔHeadTurnSpeedMultiplier="0.3" ΔWeight="0" ΔSafeZoneAngle="80" ΔHeadSafeZoneAngle="80" ΔResetEvent="true" ΔOffset="0.1; -0.2; 0" ΔIsEyeOverrideEnabled="true" ΔEyeOverrideTargetId="440641b8-fe3a-4cb1-980b-4fcd2a675523" ΔEyeOverrideTargetBone="Head_M" ΔEyeOverrideOffset="0; 0; 0" />
+              </Key>
+              <Key ΔTime="0" Id="4d07d6a7-7e2d-4a14-ba88-4644d5c1528b">
+                <Value ΔTargetId="440641b8-fe3a-4cb1-980b-4fcd2a675523" ΔTargetBone="Head_M" ΔTrackingMode="Recenter" ΔLookAtMode="Head" ΔLookAtInterpMode="EaseInOut" ΔTurnMode="Inactive" ΔTurnSpeedMultiplier="0.3" ΔTorsoTurnSpeedMultiplier="1" ΔHeadTurnSpeedMultiplier="0.3" ΔWeight="0" ΔSafeZoneAngle="80" ΔHeadSafeZoneAngle="80" ΔResetEvent="true" ΔOffset="0.6; 0; 0" ΔIsEyeOverrideEnabled="true" ΔEyeOverrideTargetId="440641b8-fe3a-4cb1-980b-4fcd2a675523" ΔEyeOverrideTargetBone="Head_M" ΔEyeOverrideOffset="0; 0; 0" />
+              </Key>
+              <Key ΔTime="19.44" Id="7236cfae-5224-4973-9403-57ae91092dba">
+                <Value ΔTargetId="440641b8-fe3a-4cb1-980b-4fcd2a675523" ΔTargetBone="Head_M" ΔTrackingMode="Recenter" ΔLookAtMode="Head" ΔLookAtInterpMode="EaseInOut" ΔTurnMode="Inactive" ΔTurnSpeedMultiplier="0.3" ΔTorsoTurnSpeedMultiplier="1" ΔHeadTurnSpeedMultiplier="0.3" ΔWeight="0" ΔSafeZoneAngle="80" ΔHeadSafeZoneAngle="80" ΔResetEvent="true" ΔOffset="0.6; 0; 0" ΔIsEyeOverrideEnabled="true" ΔEyeOverrideTargetId="440641b8-fe3a-4cb1-980b-4fcd2a675523" ΔEyeOverrideTargetBone="Head_M" ΔEyeOverrideOffset="0; 0; 0" />
+              </Key>
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="47277329-6edd-4747-9bc5-f7af7214c476">
+          <Component ComponentId="9e9b350a-575b-4546-9bc8-f560035e3abf" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Emotion Event">
+              <Key ΔTime="0" Id="40fc8f01-50d0-4231-829b-5193aef3c5b9">
+                <Value Emotion="Neutral" Variation="0" IsSustainedEmotion="true" AppliesMaterials="true" />
+              </Key>
+              <Key ΔTime="3.16" Id="daa2eaaf-351e-4e37-84e1-dd37739f3a08">
+                <Value ΔEmotion="Sleeping" ΔVariation="0" IsSustainedEmotion="true" AppliesMaterials="true" />
+              </Key>
+              <Key ΔTime="15.25" Id="9cd2d0fd-a75d-4c44-be4c-f987a75fb8be">
+                <Value Emotion="Neutral" Variation="0" IsSustainedEmotion="true" AppliesMaterials="true" />
+              </Key>
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="eaaa786e-0b0f-4954-a522-859120b948a1">
+          <Component ComponentId="81d83080-5911-4cdb-984f-a18be75d3e56" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="ceb1e72f-f0d8-459d-8b23-f09f268dcd7c">
+          <Component ComponentId="1cd5a819-da79-4eb4-bbf4-fed02bc22ce8" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Show Weapon">
+              <Key ΔTime="0" Id="87197850-a10b-4f7b-975d-a234990a900e" Value="False" />
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="ad39d14d-0cef-453d-8620-435ece13a706">
+          <Component ComponentId="dc230c33-7e3d-4182-9599-8e2f87888338" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Foot IK">
+              <Key ΔTime="0" Id="90ec04e2-823a-4b9f-8c0c-4660fe3a3d4b" Value="False" />
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="70786b90-60f0-4c5e-aa35-1374bb175b98">
+          <Component ComponentId="fd7f2a15-7b2f-4aac-91c8-fe62f4a2785e" TimeStart="3.92" ΔTimeDuration="11.33" AnimationSourceId="c26b9b0a-20cc-44a4-a499-18d6d78abec5" PlayRate="0.4" AnimationType="Base" />
+        </Components>
+        <Components TrackId="734a0abc-0162-4246-ae3c-0289e79da6d6">
+          <Component ComponentId="ab7ec670-5646-4569-bf8a-1fa02ef5f8b0" ΔTimeDuration="3.92" AnimationSourceId="a1d80f2c-53e9-4899-a456-4e4850664779" PlayRate="0.8" PlayStartOffset="4.18" IsContinuous="true" FadeIn="0" FadeOut="0" EnableRootMotion="true" AnimationType="Base" />
+          <Component ComponentId="1257920d-0965-4b93-8544-ed734a3674a9" TimeStart="3.92" ΔTimeDuration="11.33" AnimationSourceId="81bd0690-62f3-44c9-9f52-996738c68151" PlayRate="0.8" IsContinuous="true" FadeIn="0" FadeOut="0" EnableRootMotion="true" AnimationType="Base" />
+          <Component ComponentId="3f8e5b39-e0a5-4a45-98ad-9c993873404b" TimeStart="15.25" ΔTimeDuration="4.19" AnimationSourceId="dd881f89-e751-4cd5-a8ec-9c1b3464d888" PlayRate="0.1" FadeIn="0" FadeOut="0" AnimationType="Base" />
+          <Component ComponentId="0e44992f-ec1c-4dd7-8409-3df14ade8fc8" TimeStart="19.44" ΔTimeDuration="1.186" AnimationSourceId="a34c0ef8-ed13-4a31-a965-bca9e4409124" PlayRate="1" IsContinuous="true" FadeIn="0" FadeOut="0" AnimationType="Base" />
+        </Components>
+        <Components TrackId="22b680bf-14d1-4092-a09e-8cfd7ffb7599">
+          <Component ComponentId="f3b1fe2d-6d8c-4210-9fe4-fa6ac652af1c" TimeStart="3.92" ΔTimeDuration="15.52" IsContinuous="false">
+            <Channel Name="Overlay Material.Material Visibility">
+              <Key ΔTime="3.92" Id="6dfa7dac-4bd8-4559-a8ba-18accdf1814b" Value="True" />
+            </Channel>
+            <Channel Name="Overlay Material.Color.X">
+              <Key ΔTime="3.92" Id="149a6628-5c5d-4f7a-bcf8-1d2c340800cc" Value="2" />
+            </Channel>
+            <Channel Name="Overlay Material.Color.Y">
+              <Key ΔTime="3.92" Id="096dad18-31d7-4c7d-b06a-eb4dd1dfb2a4" Value="0.06" />
+            </Channel>
+            <Channel Name="Overlay Material.Color.Z">
+              <Key ΔTime="3.92" Id="522290b3-2201-4db8-926b-f9b119f9657e" Value="2" />
+            </Channel>
+            <Channel Name="Overlay Material.Color.W">
+              <Key ΔTime="3.92" Id="b4a1bea6-715b-40d5-9a07-2c7ee33fae10" Value="1" />
+            </Channel>
+            <Channel Name="Overlay Material.FresnelPower">
+              <Key ΔTime="3.92" Id="e7e467d1-941f-45d9-a64e-109d90bbbaf5" Value="5" />
+              <Key ΔTime="10.05" Id="ca18711a-c0aa-4f6a-b318-d3894fed22a3" Value="3" />
+              <Key ΔTime="14.56" Id="ad80873b-0c8a-45f9-be98-93274b0cc81d" Value="3" />
+              <Key ΔTime="17.08" Id="8508e2fc-54aa-4fb2-9009-a9a681422ab1" Value="5" />
+            </Channel>
+            <Channel Name="Overlay Material.OpacityMult">
+              <Key ΔTime="3.92" Id="ef3df9de-0434-418a-86bf-e67f9a0da790" Value="1" />
+            </Channel>
+            <Channel Name="Overlay Material.MaskRadius">
+              <Key ΔTime="3.92" Id="7f67c120-26b2-4d6d-8276-104b273eb114" Value="0.1" />
+              <Key ΔTime="7.94" Id="50151486-bfba-459f-b6bd-e6c12553c851" Value="0.4" />
+              <Key ΔTime="14.56" Id="c6ecd7c8-aae6-4b4f-a807-609aa150ea5a" Value="0.4" />
+              <Key ΔTime="17.08" Id="afe3c514-f5a6-455b-888f-c00ba0a127cb" Value="0" />
+            </Channel>
+            <Channel Name="Overlay Material.BonePosition.X">
+              <Key ΔTime="3.92" Id="32e13260-340b-415d-98d1-4029f9253aee" Value="0" />
+            </Channel>
+            <Channel Name="Overlay Material.BonePosition.Y">
+              <Key ΔTime="3.92" Id="59b7e6c2-5664-4e78-98b9-3288200fafd0" Value="1.8" />
+            </Channel>
+            <Channel Name="Overlay Material.BonePosition.Z">
+              <Key ΔTime="3.92" Id="414af8c8-8943-4390-a320-59071a128913" Value="0" />
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="40f8df74-0077-48fd-8c66-8a31c2814d8f">
+          <Component ComponentId="0fc1815c-57b5-4b6c-bc45-e615397188bc" TimeStart="3.28" ΔTimeDuration="13.31">
+            <Channel Name="Transform.Translate.X">
+              <Key ΔTime="3.88" Id="eea87a8f-f496-4137-82ea-77386a3fc852" Value="7.785129" />
+              <Key ΔTime="15.209999999999999" Id="b060411e-7882-4529-a6af-18b77c7ea063" Value="7.785129" />
+            </Channel>
+            <Channel Name="Transform.Translate.Y">
+              <Key ΔTime="3.88" Id="94013472-8a12-4ab1-bcb1-fdd8aa922f99" Value="0.92" />
+              <Key ΔTime="15.209999999999999" Id="7599b137-e27f-442d-a652-30a9f2b28d76" Value="0.98" />
+            </Channel>
+            <Channel Name="Transform.Translate.Z">
+              <Key ΔTime="3.88" Id="e2bba77d-bda8-4935-9a08-54fa22414aea" Value="3.333635" />
+              <Key ΔTime="15.209999999999999" Id="f48e0f45-f802-4bb7-b51f-037b0ce0b5d1" Value="3.42" />
+            </Channel>
+            <Channel Name="Transform.Rotation">
+              <Key ΔTime="3.88" Id="6df6e8b0-aeac-49d7-a867-0a2c8991800e" Value="5.968; -1.489; 0" />
+              <Key ΔTime="15.209999999999999" Id="5b6fda25-3c71-4035-bb72-12e2faaac9d4" Value="6.02; -1.646; 0" />
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="942ba992-ba52-4cb8-a0e9-64396e47b5d5">
+          <Component ComponentId="dd242bca-8273-43e1-8bde-45dafd0f444b" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Depth of Field.Focal Distance">
+              <Key ΔTime="3.92" Id="489ccdcc-d4a7-4e3f-9ad3-45cfa4551723" Value="2" />
+            </Channel>
+            <Channel Name="Depth of Field.Aperture">
+              <Key ΔTime="3.92" Id="3b9af06b-caad-4ef1-928c-775e3ebb90d2" Value="22" />
+            </Channel>
+            <Channel Name="Depth of Field.Enabled">
+              <Key ΔTime="3.92" Id="87f7cfe7-d2ae-415f-a925-321a2ec9a05b" Value="True" />
+            </Channel>
+            <Channel Name="Depth of Field.Auto Focus">
+              <Key ΔTime="3.92" Id="6e28326a-64c3-4293-91b9-447e5767cbfd" Value="True" />
+            </Channel>
+            <Channel Name="Depth of Field.Near Sharpness Offset">
+              <Key ΔTime="3.92" Id="550c9f99-272c-4b58-851f-4fa44a6c9257" Value="0" />
+            </Channel>
+            <Channel Name="Depth of Field.Far Sharpness Offset">
+              <Key ΔTime="3.92" Id="aa3efa98-338d-47d5-824a-7c0bb0248111" Value="0" />
+            </Channel>
+            <Channel Name="Depth of Field.DoF Area">
+              <Key ΔTime="3.92" Id="f1c30e17-04bf-4dba-aa65-b6fe9aa8d4c7" Value="Flag_Far" />
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="0f207209-141b-4826-a17f-1d68e215f1bb">
+          <Component ComponentId="a6103786-09eb-45f0-ab42-f78e15d751b9" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Field of View">
+              <Key ΔTime="3.92" Id="e89e7772-954d-4977-9f4e-e756c56136ac" Value="30" />
+              <Key ΔTime="15.26" Id="b0469cfe-8e62-4d97-94ed-3757bdf53ac2" Value="27" />
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="a7588ee6-d810-4a66-a426-cb3031a4fe12">
+          <Component ComponentId="e3bd3f0f-d417-4b8d-a53b-f92aa7d1d25a" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Play Effect">
+              <Key ΔTime="3.92" Id="b46fe24c-f610-40f2-9147-55fe21e303ee" Value="True" />
+              <Key ΔTime="15.25" Id="e615c422-a6d5-4959-926f-0d9a77940e7a" Value="False" />
+              <Key ΔTime="0" Id="1d156bd2-3fab-432b-b3f5-1e2be8afbb1b" Value="False" />
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="2b6d43e2-5b9e-4ace-9e66-96e3ee9b2091">
+          <Component ComponentId="4634dd5c-f331-4429-b1df-e2a9f720c5c2" TimeStart="3.28" ΔTimeDuration="12.85">
+            <Channel Name="Transform.Translate.X">
+              <Key ΔTime="3.28" Id="e6d8790a-f8c7-4e4f-82bc-393b342dd987" KeyInterpolation="Constant" Value="0.8678345" />
+              <Key ΔTime="3.88" Id="271a60e1-809d-4c2d-8ace-d2fea598daa4" KeyInterpolation="Constant" Value="0" />
+            </Channel>
+            <Channel Name="Transform.Translate.Y">
+              <Key ΔTime="3.28" Id="32ab76ac-b537-4954-82f2-0c087545e06b" KeyInterpolation="Constant" Value="-0.37" />
+              <Key ΔTime="3.88" Id="10181586-f8f9-494f-88f3-82da1b5d41a2" KeyInterpolation="Constant" Value="0" />
+            </Channel>
+            <Channel Name="Transform.Translate.Z">
+              <Key ΔTime="3.28" Id="71da878e-e975-433b-a0e9-462020051222" KeyInterpolation="Constant" Value="7.791268" />
+              <Key ΔTime="3.88" Id="d4eb716e-ffd0-4785-acb9-22c75874def8" KeyInterpolation="Constant" Value="0" />
+            </Channel>
+            <Channel Name="Transform.Rotation">
+              <Key ΔTime="3.28" Id="1c9f77be-9812-45e9-90ec-8c9922ffb5ca" KeyInterpolation="Constant" Value="0; 2.182; 0" />
+              <Key ΔTime="3.88" Id="446966d8-e427-483d-baa3-67066529ccdd" KeyInterpolation="Constant" Value="0; 0; 0" />
+            </Channel>
+            <Channel Name="Transform.Parent Point">
+              <Key ΔTime="3.88" Id="3be74295-e0ff-4330-b586-a9859705525d">
+                <Value ΔTargetId="440641b8-fe3a-4cb1-980b-4fcd2a675523" TargetBone="Head_M" KeepScale="true" />
+              </Key>
+              <Key ΔTime="3.28" Id="d4774f37-bf9b-47b4-950b-7e4306c632f7">
+                <Value TargetId="00000000-0000-0000-0000-000000000000" KeepScale="true" />
+              </Key>
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="0d6ebe0a-57bb-423d-aad0-455c556052e6">
+          <Component ComponentId="65b1f2d0-ba5b-4da3-91db-50d7e4eab700" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Play Effect">
+              <Key ΔTime="0" Id="7c39d400-9837-4d47-abcb-784c44e19a49" Value="False" />
+              <Key ΔTime="3.92" Id="4c09c973-ebad-446a-8554-de58573aaaca" Value="True" />
+              <Key ΔTime="15.25" Id="d4e5d5fc-0c36-498f-bf20-77f8cde38c67" Value="False" />
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="b423b2c3-0265-4107-9552-700cc3984507">
+          <Component ComponentId="f68044e9-af11-4b51-8357-0edecc824ec7" TimeStart="3.28" ΔTimeDuration="12.85">
+            <Channel Name="Transform.Translate.X">
+              <Key ΔTime="0" Id="5ed6bd5f-f803-4930-b23e-b5944cf5b9c7" KeyInterpolation="Constant" Value="1.692015" />
+              <Key ΔTime="3.92" Id="8de3456a-ded4-432b-9512-7bf96990e9b7" KeyInterpolation="Constant" Value="0" />
+            </Channel>
+            <Channel Name="Transform.Translate.Y">
+              <Key ΔTime="0" Id="0178f961-d194-4fc1-b2a4-4de02b787a8f" KeyInterpolation="Constant" Value="-0.37" />
+              <Key ΔTime="3.92" Id="c52d8d55-7493-4dda-b75f-5cabd72da956" KeyInterpolation="Constant" Value="0" />
+            </Channel>
+            <Channel Name="Transform.Translate.Z">
+              <Key ΔTime="0" Id="7b0f12dc-8ce0-41bc-abf0-06576b342394" KeyInterpolation="Constant" Value="8.044295" />
+              <Key ΔTime="3.92" Id="11075e31-4af5-416c-9f66-c5bf732b7e61" KeyInterpolation="Constant" Value="0" />
+            </Channel>
+            <Channel Name="Transform.Rotation">
+              <Key ΔTime="0" Id="40aab322-4593-4630-98d8-999270aeaf29" KeyInterpolation="Constant" Value="0; 2.182; 0" />
+              <Key ΔTime="3.92" Id="53c7c5c6-cc80-4f5d-96d9-bf8cd3d3efb3" KeyInterpolation="Constant" Value="0; 0; 0" />
+            </Channel>
+            <Channel Name="Transform.Parent Point">
+              <Key ΔTime="3.92" Id="fa0ebb37-def3-4fc6-ab27-29cce50f7af3">
+                <Value ΔTargetId="345b1e0f-70c5-430e-a42e-cead5b750a3e" TargetBone="Head_M" KeepScale="true" />
+              </Key>
+              <Key ΔTime="0" Id="4f6d70cf-9be9-4608-bc6e-d857334cc444">
+                <Value TargetId="00000000-0000-0000-0000-000000000000" KeepScale="true" />
+              </Key>
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
+          <Component ComponentId="c7730897-6c16-46ec-b0d1-a4930c8eb0eb" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="bed08e29-13ec-4c9e-be83-5156cde36bcb">
+          <Component ComponentId="bcdc106f-60d5-4dd0-8038-c0724b92927f" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Switch Stage">
+              <Key ΔTime="0" Id="6f67f9dc-bb02-4b1c-8bc8-6ec3604cddd9">
+                <Value Event="78af7288-9ec6-416d-bcf2-b8d0552ab2e3" ForceTransformUpdate="true" />
+              </Key>
+              <Key ΔTime="19.44" Id="dfb68e3c-fbbe-4077-8261-9e968f30fadb">
+                <Value Event="05243674-8baf-4784-9af3-e1e959083275" ForceTransformUpdate="true" />
+              </Key>
             </Channel>
           </Component>
         </Components>
       </Sequence>
-      <Sequence Id="82c36457-66f1-4634-95cc-f1301ea135a7" Name="Sequence 6 - Cinematic" DialogNodeColor="#FF008B8B" ΔTimeDuration="3.35">
+      <Sequence Id="82c36457-66f1-4634-95cc-f1301ea135a7" Name="Sequence 7 - Cinematic" DialogNodeColor="#FF008B8B" ΔTimeDuration="3.35">
         <DialogNodeReference DialogNodeId="fdba8a00-e1b0-4f27-6d79-f03e5555a776" ReferenceId="fdba8a00-e1b0-4f27-6d79-f03e5555a776" />
         <DialogNodeReference DialogNodeId="5a0286ac-634e-a7d2-cc2a-b7e80c0f7561" ReferenceId="5a0286ac-634e-a7d2-cc2a-b7e80c0f7561" />
         <Components TrackId="7b5ac98c-d35a-4afd-b95e-2682c81a27ce">
@@ -2633,6 +3050,9 @@
         <Components TrackId="303c8b37-a3de-4f8d-96b9-668bc5850e70">
           <Component ComponentId="3bc9d54d-3ffe-4b1f-a486-61f05d7a0c9c" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
+          <Component ComponentId="220775e8-70a5-4f11-aad1-758c8355bd68" IsInfinite="true" TimeDuration="1" />
+        </Components>
         <Components TrackId="bed08e29-13ec-4c9e-be83-5156cde36bcb">
           <Component ComponentId="97fcdbaf-b47f-402b-a179-2872fa4a76b3" IsInfinite="true" TimeDuration="1">
             <Channel Name="Switch Stage">
@@ -2651,11 +3071,8 @@
         <Components TrackId="618cb8eb-66f8-4317-8d2b-0f021ba4d940">
           <Component ComponentId="99bd97f6-9e91-40ce-97d2-31ae8e8ba42e" IsInfinite="true" TimeDuration="1" />
         </Components>
-        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
-          <Component ComponentId="220775e8-70a5-4f11-aad1-758c8355bd68" IsInfinite="true" TimeDuration="1" />
-        </Components>
       </Sequence>
-      <Sequence Id="e646ec35-1f6c-42fa-91ff-ed8067018c4d" Name="Sequence 7 - NOT  SHORT" DialogNodeColor="#FF008B8B" ΔTimeDuration="20.63">
+      <Sequence Id="e646ec35-1f6c-42fa-91ff-ed8067018c4d" Name="Sequence 8 - NOT  SHORT" DialogNodeColor="#FF008B8B" ΔTimeDuration="20.63">
         <DialogNodeReference DialogNodeId="5db7b390-60b2-a2ce-dda0-0ad04063222e" ReferenceId="5db7b390-60b2-a2ce-dda0-0ad04063222e" />
         <Components TrackId="7b5ac98c-d35a-4afd-b95e-2682c81a27ce">
           <Component ComponentId="d53bcaba-d9a1-4337-9924-3758c83fabdf" ΔTimeDuration="3.92" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -3072,6 +3489,9 @@
         <Components TrackId="303c8b37-a3de-4f8d-96b9-668bc5850e70">
           <Component ComponentId="39817015-41b1-4f18-9163-aed46684cc0f" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
+          <Component ComponentId="ef48276d-262e-41f3-a5c9-4a6053f9bdcf" IsInfinite="true" TimeDuration="1" />
+        </Components>
         <Components TrackId="bed08e29-13ec-4c9e-be83-5156cde36bcb">
           <Component ComponentId="63090d84-84d9-486f-9f1b-c9955d52a07d" IsInfinite="true" TimeDuration="1">
             <Channel Name="Switch Stage">
@@ -3132,11 +3552,8 @@
             </Channel>
           </Component>
         </Components>
-        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
-          <Component ComponentId="ef48276d-262e-41f3-a5c9-4a6053f9bdcf" IsInfinite="true" TimeDuration="1" />
-        </Components>
       </Sequence>
-      <Sequence Id="677d34b8-1d2f-4364-b209-36bead9947f8" Name="Sequence 8 - OTHER" DialogNodeColor="#FFF4A460" TimeDuration="11.059999999999999">
+      <Sequence Id="677d34b8-1d2f-4364-b209-36bead9947f8" Name="Sequence 9 - OTHER" DialogNodeColor="#FFF4A460" TimeDuration="11.059999999999999">
         <DialogNodeReference DialogNodeId="84c7d853-c4e4-2360-d9bc-303dc23fefdb" ReferenceId="84c7d853-c4e4-2360-d9bc-303dc23fefdb" />
         <Components TrackId="7b5ac98c-d35a-4afd-b95e-2682c81a27ce">
           <Component ComponentId="ae517439-9629-4b15-ab74-0116cd2e2df4" ΔTimeDuration="8.254999999999999" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -3374,6 +3791,9 @@
         <Components TrackId="303c8b37-a3de-4f8d-96b9-668bc5850e70">
           <Component ComponentId="6a6f2dbe-c038-4f1a-9d96-ab0e72d32ad4" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
+          <Component ComponentId="33dc7edb-58d1-4d17-a6ef-9a4e42c0c81c" IsInfinite="true" TimeDuration="1" />
+        </Components>
         <Components TrackId="bed08e29-13ec-4c9e-be83-5156cde36bcb">
           <Component ComponentId="ab827ddf-c89b-4da0-8303-1ac3b7a73cd1" IsInfinite="true" TimeDuration="1">
             <Channel Name="Switch Stage">
@@ -3394,438 +3814,6 @@
         </Components>
         <Components TrackId="618cb8eb-66f8-4317-8d2b-0f021ba4d940">
           <Component ComponentId="23a49e17-3e82-4a94-b5f5-1b136c5358b6" IsInfinite="true" TimeDuration="1" />
-        </Components>
-        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
-          <Component ComponentId="33dc7edb-58d1-4d17-a6ef-9a4e42c0c81c" IsInfinite="true" TimeDuration="1" />
-        </Components>
-      </Sequence>
-      <Sequence Id="92d5ac90-fad8-4fb2-a975-650b98322d7c" Name="Sequence 9 - MIND FLAYER" DialogNodeColor="#FF008B8B" ΔTimeDuration="20.63">
-        <DialogNodeReference DialogNodeId="589d6544-7cd6-6638-d8b6-4f7948b08e5c" ReferenceId="589d6544-7cd6-6638-d8b6-4f7948b08e5c" />
-        <Components TrackId="7b5ac98c-d35a-4afd-b95e-2682c81a27ce">
-          <Component ComponentId="f573a932-ad1d-46a7-8fd2-381caa71d95f" TimeStart="19.439999999999998" ΔTimeDuration="1.19" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
-            <CameraContainer>
-              <Camera CameraId="6620185e-c73a-4f72-9573-ae3b5dbdc9ad" />
-            </CameraContainer>
-          </Component>
-          <Component ComponentId="449861bc-2233-4bb6-b294-08ea43ff919f" TimeStart="15.25" ΔTimeDuration="4.19" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
-            <CameraContainer>
-              <Camera CameraId="24401154-956a-4bb1-840a-1ec32a4adc4c" />
-            </CameraContainer>
-          </Component>
-          <Component ComponentId="3e49f66d-ad25-4ee8-a725-c03fdfdc37d3" TimeStart="3.92" ΔTimeDuration="11.33" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
-            <CameraContainer>
-              <Camera CameraId="a5528ee1-6958-4619-905e-604cab361ac0" />
-            </CameraContainer>
-          </Component>
-          <Component ComponentId="71ae597b-caa5-4d65-9280-6c1d73f9ec1d" ΔTimeDuration="3.92" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
-            <CameraContainer>
-              <Camera CameraId="c13316a2-abc2-4936-ad38-c3493edbff30" />
-            </CameraContainer>
-          </Component>
-        </Components>
-        <Components TrackId="7fa983ee-580b-42fb-a7e4-1977cee426d6">
-          <Component ComponentId="072aea12-00b8-43d2-9993-7af27157ed0a" IsInfinite="true" TimeDuration="1">
-            <Channel Name="Look At Event">
-              <Key ΔTime="0" Id="35b8689a-f0f8-46ec-9fbc-d899f0456e5b">
-                <Value ΔTargetId="345b1e0f-70c5-430e-a42e-cead5b750a3e" ΔTargetBone="Head_M" ΔTrackingMode="Recenter" ΔLookAtMode="Head" ΔLookAtInterpMode="EaseInOut" ΔTurnMode="Inactive" ΔTurnSpeedMultiplier="0.3" ΔTorsoTurnSpeedMultiplier="1" ΔHeadTurnSpeedMultiplier="0.3" ΔWeight="0" ΔSafeZoneAngle="80" ΔHeadSafeZoneAngle="80" ΔResetEvent="false" ΔOffset="0; -0.7; 0" ΔIsEyeOverrideEnabled="false" ΔEyeOverrideTargetId="00000000-0000-0000-0000-000000000000" ΔEyeOverrideTargetBone="Head_M" ΔEyeOverrideOffset="0; 0; 0" />
-              </Key>
-              <Key ΔTime="19.44" Id="902d6c29-b6db-4897-bb44-21efddf41b2c">
-                <Value ΔTargetId="345b1e0f-70c5-430e-a42e-cead5b750a3e" ΔTargetBone="Head_M" ΔTrackingMode="Recenter" ΔLookAtMode="Head" ΔLookAtInterpMode="EaseInOut" ΔTurnMode="Inactive" ΔTurnSpeedMultiplier="0.3" ΔTorsoTurnSpeedMultiplier="1" ΔHeadTurnSpeedMultiplier="0.03" ΔWeight="0" ΔSafeZoneAngle="22" ΔHeadSafeZoneAngle="80" ΔResetEvent="true" ΔOffset="0; -0.2; -0.7" ΔIsEyeOverrideEnabled="false" ΔEyeOverrideTargetId="345b1e0f-70c5-430e-a42e-cead5b750a3e" ΔEyeOverrideTargetBone="Head_M" ΔEyeOverrideOffset="0; 0; 0" />
-              </Key>
-              <Key ΔTime="3.92" Id="fa023724-eac7-4952-8371-a1aa285a526b">
-                <Value ΔTargetId="345b1e0f-70c5-430e-a42e-cead5b750a3e" ΔTargetBone="Head_M" ΔTrackingMode="Recenter" ΔLookAtMode="Head" ΔLookAtInterpMode="EaseInOut" ΔTurnMode="Inactive" ΔTurnSpeedMultiplier="0.3" ΔTorsoTurnSpeedMultiplier="1" ΔHeadTurnSpeedMultiplier="0.265041143" ΔWeight="0" ΔSafeZoneAngle="80" ΔHeadSafeZoneAngle="80" ΔResetEvent="true" ΔOffset="0; 0; 0" ΔIsEyeOverrideEnabled="false" ΔEyeOverrideTargetId="00000000-0000-0000-0000-000000000000" ΔEyeOverrideTargetBone="Head_M" ΔEyeOverrideOffset="0; 0; 0" />
-              </Key>
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="1f6865cc-f3c8-42e1-8a1a-efb106506520">
-          <Component ComponentId="3a678c2b-c658-40ed-80e6-25e595697274" IsInfinite="true" TimeDuration="1">
-            <Channel Name="Emotion Event">
-              <Key ΔTime="3.13" Id="8e10568b-b1f4-41e9-80fe-4b6863d521cd">
-                <Value ΔEmotion="Sleeping" ΔVariation="0" IsSustainedEmotion="true" AppliesMaterials="true" />
-              </Key>
-              <Key ΔTime="0" Id="0001e0c9-a9e2-4b7e-bd68-91a35eb9fdf1">
-                <Value Emotion="Neutral" Variation="0" IsSustainedEmotion="true" AppliesMaterials="true" />
-              </Key>
-              <Key ΔTime="15.52" Id="b2657f20-b30c-41c2-81b2-83dc9f4682f0">
-                <Value Emotion="Neutral" Variation="0" IsSustainedEmotion="true" AppliesMaterials="true" />
-              </Key>
-              <Key ΔTime="19.44" Id="39f0e6eb-0f80-4238-86d9-0cb57df3d912">
-                <Value ΔEmotion="Happy" ΔVariation="2" IsSustainedEmotion="true" AppliesMaterials="true" />
-              </Key>
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="d8430926-43ec-451d-a0ee-1952271b362b">
-          <Component ComponentId="e50c972d-229b-4246-bb51-5351b91d373b" IsInfinite="true" TimeDuration="1" />
-        </Components>
-        <Components TrackId="14d2d17e-7d43-46d6-ac39-b6fbb63b4cec">
-          <Component ComponentId="0a888250-889f-4a28-b81e-a7ede79597e3" IsInfinite="true" TimeDuration="1">
-            <Channel Name="Show Weapon">
-              <Key ΔTime="0" Id="2d640452-389a-4cef-a985-2b5537512df2" Value="False" />
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="e7109e63-705e-4d5a-93d7-d73e03494cbd">
-          <Component ComponentId="4074a001-17d0-43ed-86bf-8011b0b65196" IsInfinite="true" TimeDuration="1">
-            <Channel Name="Foot IK">
-              <Key ΔTime="0" Id="16d32398-20c9-4e74-afb1-491f778ae9fa" Value="False" />
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="c8b65efb-6200-4eca-b7f6-ae96e0e2b6e6">
-          <Component ComponentId="b2794646-2285-411a-943f-6921f631bc93" TimeStart="19.439999999999998" ΔTimeDuration="1.1900000000000013" AnimationSourceId="0d7701ba-6e0b-a8a0-a447-9fdd46f45810" PlayRate="1" PlayStartOffset="0.34999999999999787" IsContinuous="true" FadeIn="0" FadeOut="0" AnimationType="Base" />
-        </Components>
-        <Components TrackId="407a4512-d633-414f-8493-9d25ffda8af1">
-          <Component ComponentId="2d089e6c-63fb-4198-ae0d-fb58b38465ed" ΔTimeDuration="3.92" AnimationSourceId="8076cfbf-085b-0f5b-1d92-9863b49e6eb8" PlayRate="0.8" PlayStartOffset="4.18" IsContinuous="true" FadeIn="0" FadeOut="0" EnableRootMotion="true" AnimationType="Base" />
-          <Component ComponentId="86a48b8a-9c28-4b80-a97e-7fab50cecd18" TimeStart="3.92" ΔTimeDuration="11.33" AnimationSourceId="e3d0caf0-ea68-2620-2d90-760f691e8e88" PlayRate="0.8" IsContinuous="true" FadeIn="0" FadeOut="0" EnableRootMotion="true" AnimationType="Base" />
-          <Component ComponentId="972ff077-2035-40ec-8cc4-4ba434faa7e8" TimeStart="15.25" ΔTimeDuration="4.19" AnimationSourceId="020c8ef1-fbe1-833c-8e4a-4d53157ecba0" PlayRate="0.8" PlayStartOffset="2" FadeIn="0" FadeOut="0" AnimationType="Base" />
-          <Component ComponentId="216dd1fc-c55d-432c-a928-d9f200bf070f" TimeStart="19.44" ΔTimeDuration="1.186" AnimationSourceId="7b5242a9-5f2e-deca-62bd-322c951187ee" PlayRate="1" IsContinuous="true" FadeIn="0" FadeOut="0" AnimationType="Base" />
-        </Components>
-        <Components TrackId="7ffcab68-cb0f-4e96-8a77-dbb7e9223137">
-          <Component ComponentId="1a34e58a-f529-49ec-8e52-0c7a9ceb7ffd" TimeStart="19.44" ΔTimeDuration="1.19">
-            <Channel Name="Transform.Translate.X">
-              <Key ΔTime="19.440000000000005" Id="151e5a2e-49c3-4616-af5e-01c5f3c0ebb8" Value="6.95" />
-            </Channel>
-            <Channel Name="Transform.Translate.Y">
-              <Key ΔTime="19.440000000000005" Id="3cb1a046-c10b-4d6f-b627-1c44fc312a3c" Value="-0.27" />
-            </Channel>
-            <Channel Name="Transform.Translate.Z">
-              <Key ΔTime="19.440000000000005" Id="33759638-4202-4ea0-9117-3235f771429c" Value="4.058" />
-            </Channel>
-            <Channel Name="Transform.Rotation">
-              <Key ΔTime="19.440000000000005" Id="18620883-4183-40e3-9d33-28bc8599ec33" Value="0; -2.182; 0" />
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="90c46b6b-1d61-4376-a861-b43a66eb6dd5">
-          <Component ComponentId="f7963339-1eb0-4d31-90be-64d92d0fda7f" IsInfinite="true" TimeDuration="1">
-            <Channel Name="Sound Event">
-              <Key ΔTime="4.73" Id="f010e387-5ed8-4fb6-bd97-539b1c0b8260">
-                <Value SoundType="SOUNDTYPE_Default" ΔEvent="4aa2cb9b-5f51-41ac-9339-be554a0d3b58" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
-              </Key>
-              <Key ΔTime="5.04" Id="699482df-d6e8-4bc9-b84f-7c3825189b33">
-                <Value SoundType="SOUNDTYPE_Default" ΔEvent="9cc5b1f6-9438-46a5-933d-4d0b52a1d5fe" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
-              </Key>
-              <Key ΔTime="5.33" Id="de32bada-d1ca-46d6-b781-df9cdeb69e90">
-                <Value SoundType="SOUNDTYPE_Default" ΔEvent="8f355f87-bd1c-4bf4-acb6-5c095a99943c" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
-              </Key>
-              <Key ΔTime="7.79" Id="30beda74-5d73-4e23-8328-c49a000423b1">
-                <Value SoundType="SOUNDTYPE_Default" ΔEvent="9e675035-65b8-4458-bccc-d4edf0ffaaad" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
-              </Key>
-              <Key ΔTime="8.62" Id="03e18588-503a-4d43-ae23-f31b37b5d356">
-                <Value SoundType="SOUNDTYPE_Default" ΔEvent="4aa2cb9b-5f51-41ac-9339-be554a0d3b58" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
-              </Key>
-              <Key ΔTime="8.06" Id="6773217d-04a7-4b0a-a580-647082c60621">
-                <Value SoundType="SOUNDTYPE_Default" ΔEvent="8f355f87-bd1c-4bf4-acb6-5c095a99943c" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
-              </Key>
-              <Key ΔTime="8.39" Id="069a2705-5946-4053-ae38-fd398ff72527">
-                <Value SoundType="SOUNDTYPE_Default" ΔEvent="9e675035-65b8-4458-bccc-d4edf0ffaaad" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
-              </Key>
-              <Key ΔTime="10.84" Id="f837df2d-f223-495d-ac4d-82b73444d994">
-                <Value SoundType="SOUNDTYPE_Default" ΔEvent="026c8ad8-8e9c-449c-9ecb-3088e13a8c23" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
-              </Key>
-              <Key ΔTime="11.37" Id="ba1e8bf6-681a-46d1-8453-3ae8715b0144">
-                <Value SoundType="SOUNDTYPE_Default" ΔEvent="dba209b8-0489-4a9a-9fbb-3f1314292b99" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
-              </Key>
-              <Key ΔTime="12.02" Id="c482b1e1-5949-404f-974e-84f303f3b49a">
-                <Value SoundType="SOUNDTYPE_Default" ΔEvent="dba209b8-0489-4a9a-9fbb-3f1314292b99" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
-              </Key>
-              <Key ΔTime="13.56" Id="aeb72100-bc68-4073-b209-4f8136a366d3">
-                <Value SoundType="SOUNDTYPE_Default" ΔEvent="4aa2cb9b-5f51-41ac-9339-be554a0d3b58" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
-              </Key>
-              <Key ΔTime="14.71" Id="2359c89e-e37b-4193-899b-fac40e15ad17">
-                <Value SoundType="SOUNDTYPE_Default" ΔEvent="dba209b8-0489-4a9a-9fbb-3f1314292b99" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
-              </Key>
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="efd785a0-5f5e-47e0-b2b6-f700232a5de9">
-          <Component ComponentId="ff033ba4-4a36-4a29-aa81-05b51552b2f8" IsInfinite="true" TimeDuration="1" />
-        </Components>
-        <Components TrackId="c57c6bd3-6872-4057-82c7-6dfac70e2e39">
-          <Component ComponentId="a98de64a-abfb-43ba-9b04-c0bb13f28cac" TimeStart="3.92" ΔTimeDuration="15.52" IsContinuous="false">
-            <Channel Name="Overlay Material.Material Visibility">
-              <Key ΔTime="3.92" Id="eb1da2ce-e102-459f-9353-45b7fcda38a1" Value="True" />
-            </Channel>
-            <Channel Name="Overlay Material.Color.X">
-              <Key ΔTime="3.92" Id="3b749ab5-687c-44d9-b931-ae1fd92ef73d" Value="2" />
-            </Channel>
-            <Channel Name="Overlay Material.Color.Y">
-              <Key ΔTime="3.92" Id="b22a9836-8812-431e-bf20-58f97ba2a5fe" Value="0.06" />
-            </Channel>
-            <Channel Name="Overlay Material.Color.Z">
-              <Key ΔTime="3.92" Id="2dc4545d-dbb1-4f9c-8770-581cdea3b64e" Value="2" />
-            </Channel>
-            <Channel Name="Overlay Material.Color.W">
-              <Key ΔTime="3.92" Id="0123ce07-3890-4061-a60c-a4f4032aa3a9" Value="1" />
-            </Channel>
-            <Channel Name="Overlay Material.FresnelPower">
-              <Key ΔTime="3.92" Id="55e78a6a-31a8-404f-ba52-932a1652b2b6" Value="5" />
-              <Key ΔTime="10.05" Id="8507df8f-ad5b-4b3e-98ea-57672ce81317" Value="3" />
-              <Key ΔTime="14.56" Id="ac8a8c39-6256-47b5-94df-0c288721f139" Value="3" />
-              <Key ΔTime="17.08" Id="2ab617eb-6591-4ed4-87b6-ea3e38dfc4da" Value="5" />
-            </Channel>
-            <Channel Name="Overlay Material.OpacityMult">
-              <Key ΔTime="3.92" Id="fa0a24c3-51eb-42b9-9c48-a2971bfc37ff" Value="1" />
-            </Channel>
-            <Channel Name="Overlay Material.MaskRadius">
-              <Key ΔTime="3.92" Id="0abf6b64-8f4c-4e25-8ede-dfa93e3fb6f4" Value="0.1" />
-              <Key ΔTime="7.94" Id="08f669cd-7d23-4e34-b9c1-ba3b695c43ea" Value="0.4" />
-              <Key ΔTime="14.56" Id="d06ec2a0-645e-4358-ab5a-369847b2f96a" Value="0.4" />
-              <Key ΔTime="17.08" Id="889f3390-5db7-4db1-962b-76603d3b46f0" Value="0" />
-            </Channel>
-            <Channel Name="Overlay Material.BonePosition.X">
-              <Key ΔTime="3.92" Id="5ea7fb05-bfad-4870-8231-d08a562db0a4" Value="0" />
-            </Channel>
-            <Channel Name="Overlay Material.BonePosition.Y">
-              <Key ΔTime="3.92" Id="ceea0857-7013-416a-95ed-59baa69bd494" Value="2.2" />
-            </Channel>
-            <Channel Name="Overlay Material.BonePosition.Z">
-              <Key ΔTime="3.92" Id="08c4c64d-a983-4a55-bdfe-65194205246a" Value="-0.2" />
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="4d3c4d32-eab6-4e63-99f3-eb36ef453bbc">
-          <Component ComponentId="39f7b27d-885a-4e56-b42d-86a0ea2c2dda" IsInfinite="true" TimeDuration="1">
-            <Channel Name="Look At Event">
-              <Key ΔTime="3.92" Id="e38bc0b8-1945-404d-afcc-4534ddd85132">
-                <Value ΔTargetId="440641b8-fe3a-4cb1-980b-4fcd2a675523" ΔTargetBone="Head_M" ΔTrackingMode="Recenter" ΔLookAtMode="Head" ΔLookAtInterpMode="EaseInOut" ΔTurnMode="Inactive" ΔTurnSpeedMultiplier="0.3" ΔTorsoTurnSpeedMultiplier="1" ΔHeadTurnSpeedMultiplier="0.3" ΔWeight="0" ΔSafeZoneAngle="80" ΔHeadSafeZoneAngle="80" ΔResetEvent="true" ΔOffset="0.1; -0.2; 0" ΔIsEyeOverrideEnabled="true" ΔEyeOverrideTargetId="440641b8-fe3a-4cb1-980b-4fcd2a675523" ΔEyeOverrideTargetBone="Head_M" ΔEyeOverrideOffset="0; 0; 0" />
-              </Key>
-              <Key ΔTime="0" Id="4d07d6a7-7e2d-4a14-ba88-4644d5c1528b">
-                <Value ΔTargetId="440641b8-fe3a-4cb1-980b-4fcd2a675523" ΔTargetBone="Head_M" ΔTrackingMode="Recenter" ΔLookAtMode="Head" ΔLookAtInterpMode="EaseInOut" ΔTurnMode="Inactive" ΔTurnSpeedMultiplier="0.3" ΔTorsoTurnSpeedMultiplier="1" ΔHeadTurnSpeedMultiplier="0.3" ΔWeight="0" ΔSafeZoneAngle="80" ΔHeadSafeZoneAngle="80" ΔResetEvent="true" ΔOffset="0.6; 0; 0" ΔIsEyeOverrideEnabled="true" ΔEyeOverrideTargetId="440641b8-fe3a-4cb1-980b-4fcd2a675523" ΔEyeOverrideTargetBone="Head_M" ΔEyeOverrideOffset="0; 0; 0" />
-              </Key>
-              <Key ΔTime="19.44" Id="7236cfae-5224-4973-9403-57ae91092dba">
-                <Value ΔTargetId="440641b8-fe3a-4cb1-980b-4fcd2a675523" ΔTargetBone="Head_M" ΔTrackingMode="Recenter" ΔLookAtMode="Head" ΔLookAtInterpMode="EaseInOut" ΔTurnMode="Inactive" ΔTurnSpeedMultiplier="0.3" ΔTorsoTurnSpeedMultiplier="1" ΔHeadTurnSpeedMultiplier="0.3" ΔWeight="0" ΔSafeZoneAngle="80" ΔHeadSafeZoneAngle="80" ΔResetEvent="true" ΔOffset="0.6; 0; 0" ΔIsEyeOverrideEnabled="true" ΔEyeOverrideTargetId="440641b8-fe3a-4cb1-980b-4fcd2a675523" ΔEyeOverrideTargetBone="Head_M" ΔEyeOverrideOffset="0; 0; 0" />
-              </Key>
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="47277329-6edd-4747-9bc5-f7af7214c476">
-          <Component ComponentId="9e9b350a-575b-4546-9bc8-f560035e3abf" IsInfinite="true" TimeDuration="1">
-            <Channel Name="Emotion Event">
-              <Key ΔTime="0" Id="40fc8f01-50d0-4231-829b-5193aef3c5b9">
-                <Value Emotion="Neutral" Variation="0" IsSustainedEmotion="true" AppliesMaterials="true" />
-              </Key>
-              <Key ΔTime="3.16" Id="daa2eaaf-351e-4e37-84e1-dd37739f3a08">
-                <Value ΔEmotion="Sleeping" ΔVariation="0" IsSustainedEmotion="true" AppliesMaterials="true" />
-              </Key>
-              <Key ΔTime="15.25" Id="9cd2d0fd-a75d-4c44-be4c-f987a75fb8be">
-                <Value Emotion="Neutral" Variation="0" IsSustainedEmotion="true" AppliesMaterials="true" />
-              </Key>
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="eaaa786e-0b0f-4954-a522-859120b948a1">
-          <Component ComponentId="81d83080-5911-4cdb-984f-a18be75d3e56" IsInfinite="true" TimeDuration="1" />
-        </Components>
-        <Components TrackId="ceb1e72f-f0d8-459d-8b23-f09f268dcd7c">
-          <Component ComponentId="1cd5a819-da79-4eb4-bbf4-fed02bc22ce8" IsInfinite="true" TimeDuration="1">
-            <Channel Name="Show Weapon">
-              <Key ΔTime="0" Id="87197850-a10b-4f7b-975d-a234990a900e" Value="False" />
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="ad39d14d-0cef-453d-8620-435ece13a706">
-          <Component ComponentId="dc230c33-7e3d-4182-9599-8e2f87888338" IsInfinite="true" TimeDuration="1">
-            <Channel Name="Foot IK">
-              <Key ΔTime="0" Id="90ec04e2-823a-4b9f-8c0c-4660fe3a3d4b" Value="False" />
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="70786b90-60f0-4c5e-aa35-1374bb175b98">
-          <Component ComponentId="fd7f2a15-7b2f-4aac-91c8-fe62f4a2785e" TimeStart="3.92" ΔTimeDuration="11.33" AnimationSourceId="c26b9b0a-20cc-44a4-a499-18d6d78abec5" PlayRate="0.4" AnimationType="Base" />
-        </Components>
-        <Components TrackId="734a0abc-0162-4246-ae3c-0289e79da6d6">
-          <Component ComponentId="ab7ec670-5646-4569-bf8a-1fa02ef5f8b0" ΔTimeDuration="3.92" AnimationSourceId="a1d80f2c-53e9-4899-a456-4e4850664779" PlayRate="0.8" PlayStartOffset="4.18" IsContinuous="true" FadeIn="0" FadeOut="0" EnableRootMotion="true" AnimationType="Base" />
-          <Component ComponentId="1257920d-0965-4b93-8544-ed734a3674a9" TimeStart="3.92" ΔTimeDuration="11.33" AnimationSourceId="81bd0690-62f3-44c9-9f52-996738c68151" PlayRate="0.8" IsContinuous="true" FadeIn="0" FadeOut="0" EnableRootMotion="true" AnimationType="Base" />
-          <Component ComponentId="3f8e5b39-e0a5-4a45-98ad-9c993873404b" TimeStart="15.25" ΔTimeDuration="4.19" AnimationSourceId="dd881f89-e751-4cd5-a8ec-9c1b3464d888" PlayRate="0.1" FadeIn="0" FadeOut="0" AnimationType="Base" />
-          <Component ComponentId="0e44992f-ec1c-4dd7-8409-3df14ade8fc8" TimeStart="19.44" ΔTimeDuration="1.186" AnimationSourceId="a34c0ef8-ed13-4a31-a965-bca9e4409124" PlayRate="1" IsContinuous="true" FadeIn="0" FadeOut="0" AnimationType="Base" />
-        </Components>
-        <Components TrackId="22b680bf-14d1-4092-a09e-8cfd7ffb7599">
-          <Component ComponentId="f3b1fe2d-6d8c-4210-9fe4-fa6ac652af1c" TimeStart="3.92" ΔTimeDuration="15.52" IsContinuous="false">
-            <Channel Name="Overlay Material.Material Visibility">
-              <Key ΔTime="3.92" Id="6dfa7dac-4bd8-4559-a8ba-18accdf1814b" Value="True" />
-            </Channel>
-            <Channel Name="Overlay Material.Color.X">
-              <Key ΔTime="3.92" Id="149a6628-5c5d-4f7a-bcf8-1d2c340800cc" Value="2" />
-            </Channel>
-            <Channel Name="Overlay Material.Color.Y">
-              <Key ΔTime="3.92" Id="096dad18-31d7-4c7d-b06a-eb4dd1dfb2a4" Value="0.06" />
-            </Channel>
-            <Channel Name="Overlay Material.Color.Z">
-              <Key ΔTime="3.92" Id="522290b3-2201-4db8-926b-f9b119f9657e" Value="2" />
-            </Channel>
-            <Channel Name="Overlay Material.Color.W">
-              <Key ΔTime="3.92" Id="b4a1bea6-715b-40d5-9a07-2c7ee33fae10" Value="1" />
-            </Channel>
-            <Channel Name="Overlay Material.FresnelPower">
-              <Key ΔTime="3.92" Id="e7e467d1-941f-45d9-a64e-109d90bbbaf5" Value="5" />
-              <Key ΔTime="10.05" Id="ca18711a-c0aa-4f6a-b318-d3894fed22a3" Value="3" />
-              <Key ΔTime="14.56" Id="ad80873b-0c8a-45f9-be98-93274b0cc81d" Value="3" />
-              <Key ΔTime="17.08" Id="8508e2fc-54aa-4fb2-9009-a9a681422ab1" Value="5" />
-            </Channel>
-            <Channel Name="Overlay Material.OpacityMult">
-              <Key ΔTime="3.92" Id="ef3df9de-0434-418a-86bf-e67f9a0da790" Value="1" />
-            </Channel>
-            <Channel Name="Overlay Material.MaskRadius">
-              <Key ΔTime="3.92" Id="7f67c120-26b2-4d6d-8276-104b273eb114" Value="0.1" />
-              <Key ΔTime="7.94" Id="50151486-bfba-459f-b6bd-e6c12553c851" Value="0.4" />
-              <Key ΔTime="14.56" Id="c6ecd7c8-aae6-4b4f-a807-609aa150ea5a" Value="0.4" />
-              <Key ΔTime="17.08" Id="afe3c514-f5a6-455b-888f-c00ba0a127cb" Value="0" />
-            </Channel>
-            <Channel Name="Overlay Material.BonePosition.X">
-              <Key ΔTime="3.92" Id="32e13260-340b-415d-98d1-4029f9253aee" Value="0" />
-            </Channel>
-            <Channel Name="Overlay Material.BonePosition.Y">
-              <Key ΔTime="3.92" Id="59b7e6c2-5664-4e78-98b9-3288200fafd0" Value="1.8" />
-            </Channel>
-            <Channel Name="Overlay Material.BonePosition.Z">
-              <Key ΔTime="3.92" Id="414af8c8-8943-4390-a320-59071a128913" Value="0" />
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="40f8df74-0077-48fd-8c66-8a31c2814d8f">
-          <Component ComponentId="0fc1815c-57b5-4b6c-bc45-e615397188bc" TimeStart="3.28" ΔTimeDuration="13.31">
-            <Channel Name="Transform.Translate.X">
-              <Key ΔTime="3.88" Id="eea87a8f-f496-4137-82ea-77386a3fc852" Value="7.785129" />
-              <Key ΔTime="15.209999999999999" Id="b060411e-7882-4529-a6af-18b77c7ea063" Value="7.785129" />
-            </Channel>
-            <Channel Name="Transform.Translate.Y">
-              <Key ΔTime="3.88" Id="94013472-8a12-4ab1-bcb1-fdd8aa922f99" Value="0.92" />
-              <Key ΔTime="15.209999999999999" Id="7599b137-e27f-442d-a652-30a9f2b28d76" Value="0.98" />
-            </Channel>
-            <Channel Name="Transform.Translate.Z">
-              <Key ΔTime="3.88" Id="e2bba77d-bda8-4935-9a08-54fa22414aea" Value="3.333635" />
-              <Key ΔTime="15.209999999999999" Id="f48e0f45-f802-4bb7-b51f-037b0ce0b5d1" Value="3.42" />
-            </Channel>
-            <Channel Name="Transform.Rotation">
-              <Key ΔTime="3.88" Id="6df6e8b0-aeac-49d7-a867-0a2c8991800e" Value="5.968; -1.489; 0" />
-              <Key ΔTime="15.209999999999999" Id="5b6fda25-3c71-4035-bb72-12e2faaac9d4" Value="6.02; -1.646; 0" />
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="942ba992-ba52-4cb8-a0e9-64396e47b5d5">
-          <Component ComponentId="dd242bca-8273-43e1-8bde-45dafd0f444b" IsInfinite="true" TimeDuration="1">
-            <Channel Name="Depth of Field.Focal Distance">
-              <Key ΔTime="3.92" Id="489ccdcc-d4a7-4e3f-9ad3-45cfa4551723" Value="2" />
-            </Channel>
-            <Channel Name="Depth of Field.Aperture">
-              <Key ΔTime="3.92" Id="3b9af06b-caad-4ef1-928c-775e3ebb90d2" Value="22" />
-            </Channel>
-            <Channel Name="Depth of Field.Enabled">
-              <Key ΔTime="3.92" Id="87f7cfe7-d2ae-415f-a925-321a2ec9a05b" Value="True" />
-            </Channel>
-            <Channel Name="Depth of Field.Auto Focus">
-              <Key ΔTime="3.92" Id="6e28326a-64c3-4293-91b9-447e5767cbfd" Value="True" />
-            </Channel>
-            <Channel Name="Depth of Field.Near Sharpness Offset">
-              <Key ΔTime="3.92" Id="550c9f99-272c-4b58-851f-4fa44a6c9257" Value="0" />
-            </Channel>
-            <Channel Name="Depth of Field.Far Sharpness Offset">
-              <Key ΔTime="3.92" Id="aa3efa98-338d-47d5-824a-7c0bb0248111" Value="0" />
-            </Channel>
-            <Channel Name="Depth of Field.DoF Area">
-              <Key ΔTime="3.92" Id="f1c30e17-04bf-4dba-aa65-b6fe9aa8d4c7" Value="Flag_Far" />
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="0f207209-141b-4826-a17f-1d68e215f1bb">
-          <Component ComponentId="a6103786-09eb-45f0-ab42-f78e15d751b9" IsInfinite="true" TimeDuration="1">
-            <Channel Name="Field of View">
-              <Key ΔTime="3.92" Id="e89e7772-954d-4977-9f4e-e756c56136ac" Value="30" />
-              <Key ΔTime="15.26" Id="b0469cfe-8e62-4d97-94ed-3757bdf53ac2" Value="27" />
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="a7588ee6-d810-4a66-a426-cb3031a4fe12">
-          <Component ComponentId="e3bd3f0f-d417-4b8d-a53b-f92aa7d1d25a" IsInfinite="true" TimeDuration="1">
-            <Channel Name="Play Effect">
-              <Key ΔTime="3.92" Id="b46fe24c-f610-40f2-9147-55fe21e303ee" Value="True" />
-              <Key ΔTime="15.25" Id="e615c422-a6d5-4959-926f-0d9a77940e7a" Value="False" />
-              <Key ΔTime="0" Id="1d156bd2-3fab-432b-b3f5-1e2be8afbb1b" Value="False" />
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="2b6d43e2-5b9e-4ace-9e66-96e3ee9b2091">
-          <Component ComponentId="4634dd5c-f331-4429-b1df-e2a9f720c5c2" TimeStart="3.28" ΔTimeDuration="12.85">
-            <Channel Name="Transform.Translate.X">
-              <Key ΔTime="3.28" Id="e6d8790a-f8c7-4e4f-82bc-393b342dd987" KeyInterpolation="Constant" Value="0.8678345" />
-              <Key ΔTime="3.88" Id="271a60e1-809d-4c2d-8ace-d2fea598daa4" KeyInterpolation="Constant" Value="0" />
-            </Channel>
-            <Channel Name="Transform.Translate.Y">
-              <Key ΔTime="3.28" Id="32ab76ac-b537-4954-82f2-0c087545e06b" KeyInterpolation="Constant" Value="-0.37" />
-              <Key ΔTime="3.88" Id="10181586-f8f9-494f-88f3-82da1b5d41a2" KeyInterpolation="Constant" Value="0" />
-            </Channel>
-            <Channel Name="Transform.Translate.Z">
-              <Key ΔTime="3.28" Id="71da878e-e975-433b-a0e9-462020051222" KeyInterpolation="Constant" Value="7.791268" />
-              <Key ΔTime="3.88" Id="d4eb716e-ffd0-4785-acb9-22c75874def8" KeyInterpolation="Constant" Value="0" />
-            </Channel>
-            <Channel Name="Transform.Rotation">
-              <Key ΔTime="3.28" Id="1c9f77be-9812-45e9-90ec-8c9922ffb5ca" KeyInterpolation="Constant" Value="0; 2.182; 0" />
-              <Key ΔTime="3.88" Id="446966d8-e427-483d-baa3-67066529ccdd" KeyInterpolation="Constant" Value="0; 0; 0" />
-            </Channel>
-            <Channel Name="Transform.Parent Point">
-              <Key ΔTime="3.88" Id="3be74295-e0ff-4330-b586-a9859705525d">
-                <Value ΔTargetId="440641b8-fe3a-4cb1-980b-4fcd2a675523" TargetBone="Head_M" KeepScale="true" />
-              </Key>
-              <Key ΔTime="3.28" Id="d4774f37-bf9b-47b4-950b-7e4306c632f7">
-                <Value TargetId="00000000-0000-0000-0000-000000000000" KeepScale="true" />
-              </Key>
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="0d6ebe0a-57bb-423d-aad0-455c556052e6">
-          <Component ComponentId="65b1f2d0-ba5b-4da3-91db-50d7e4eab700" IsInfinite="true" TimeDuration="1">
-            <Channel Name="Play Effect">
-              <Key ΔTime="0" Id="7c39d400-9837-4d47-abcb-784c44e19a49" Value="False" />
-              <Key ΔTime="3.92" Id="4c09c973-ebad-446a-8554-de58573aaaca" Value="True" />
-              <Key ΔTime="15.25" Id="d4e5d5fc-0c36-498f-bf20-77f8cde38c67" Value="False" />
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="b423b2c3-0265-4107-9552-700cc3984507">
-          <Component ComponentId="f68044e9-af11-4b51-8357-0edecc824ec7" TimeStart="3.28" ΔTimeDuration="12.85">
-            <Channel Name="Transform.Translate.X">
-              <Key ΔTime="0" Id="5ed6bd5f-f803-4930-b23e-b5944cf5b9c7" KeyInterpolation="Constant" Value="1.692015" />
-              <Key ΔTime="3.92" Id="8de3456a-ded4-432b-9512-7bf96990e9b7" KeyInterpolation="Constant" Value="0" />
-            </Channel>
-            <Channel Name="Transform.Translate.Y">
-              <Key ΔTime="0" Id="0178f961-d194-4fc1-b2a4-4de02b787a8f" KeyInterpolation="Constant" Value="-0.37" />
-              <Key ΔTime="3.92" Id="c52d8d55-7493-4dda-b75f-5cabd72da956" KeyInterpolation="Constant" Value="0" />
-            </Channel>
-            <Channel Name="Transform.Translate.Z">
-              <Key ΔTime="0" Id="7b0f12dc-8ce0-41bc-abf0-06576b342394" KeyInterpolation="Constant" Value="8.044295" />
-              <Key ΔTime="3.92" Id="11075e31-4af5-416c-9f66-c5bf732b7e61" KeyInterpolation="Constant" Value="0" />
-            </Channel>
-            <Channel Name="Transform.Rotation">
-              <Key ΔTime="0" Id="40aab322-4593-4630-98d8-999270aeaf29" KeyInterpolation="Constant" Value="0; 2.182; 0" />
-              <Key ΔTime="3.92" Id="53c7c5c6-cc80-4f5d-96d9-bf8cd3d3efb3" KeyInterpolation="Constant" Value="0; 0; 0" />
-            </Channel>
-            <Channel Name="Transform.Parent Point">
-              <Key ΔTime="3.92" Id="fa0ebb37-def3-4fc6-ab27-29cce50f7af3">
-                <Value ΔTargetId="345b1e0f-70c5-430e-a42e-cead5b750a3e" TargetBone="Head_M" KeepScale="true" />
-              </Key>
-              <Key ΔTime="0" Id="4f6d70cf-9be9-4608-bc6e-d857334cc444">
-                <Value TargetId="00000000-0000-0000-0000-000000000000" KeepScale="true" />
-              </Key>
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="bed08e29-13ec-4c9e-be83-5156cde36bcb">
-          <Component ComponentId="bcdc106f-60d5-4dd0-8038-c0724b92927f" IsInfinite="true" TimeDuration="1">
-            <Channel Name="Switch Stage">
-              <Key ΔTime="0" Id="6f67f9dc-bb02-4b1c-8bc8-6ec3604cddd9">
-                <Value Event="78af7288-9ec6-416d-bcf2-b8d0552ab2e3" ForceTransformUpdate="true" />
-              </Key>
-              <Key ΔTime="19.44" Id="dfb68e3c-fbbe-4077-8261-9e968f30fadb">
-                <Value Event="05243674-8baf-4784-9af3-e1e959083275" ForceTransformUpdate="true" />
-              </Key>
-            </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
-          <Component ComponentId="c7730897-6c16-46ec-b0d1-a4930c8eb0eb" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="5a0d7030-3cd0-4e41-a55d-99a03eac2b34" Name="Sequence 10 - Answer" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="22.91">
@@ -4187,6 +4175,9 @@
             </Channel>
           </Component>
         </Components>
+        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
+          <Component ComponentId="a96c7f1a-580a-4ef2-954f-805019d52940" IsInfinite="true" TimeDuration="1" />
+        </Components>
         <Components TrackId="bed08e29-13ec-4c9e-be83-5156cde36bcb">
           <Component ComponentId="4431011b-2451-4cfe-9b7d-d15bc7e9fe3e" IsInfinite="true" TimeDuration="1">
             <Channel Name="Switch Stage">
@@ -4207,9 +4198,6 @@
         </Components>
         <Components TrackId="618cb8eb-66f8-4317-8d2b-0f021ba4d940">
           <Component ComponentId="bea038ad-1344-46e7-9e53-b2bf86b2cf4a" IsInfinite="true" TimeDuration="1" />
-        </Components>
-        <Components TrackId="74a5b160-6ac7-4dba-8c15-f23d2700fb0c">
-          <Component ComponentId="a96c7f1a-580a-4ef2-954f-805019d52940" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
     </Sequences>
