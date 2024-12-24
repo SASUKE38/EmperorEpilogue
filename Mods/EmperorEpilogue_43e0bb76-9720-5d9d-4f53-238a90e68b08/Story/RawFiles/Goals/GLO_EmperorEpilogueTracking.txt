@@ -3,6 +3,17 @@ SubGoalCombiner SGC_AND
 INITSECTION
 
 KBSECTION
+//REGION Debug
+
+IF
+DB_Players(_Player)
+THEN
+DB_GlobalFlag((FLAG)CAMP_DaisyAcknowledgement_SexWithEmperor_933959fb-958b-59bc-3d5e-31e12f619d8d);
+DB_Emperor_Epilogue_Candidate((CHARACTER)_Player);
+SetFlag((FLAG)ORI_State_EmperorRomanceCandidate_99da3e22-019f-96c3-d910-685cf576dfad, _Player);
+
+//END_REGION
+
 //REGION For New Games or Haven't Yet Slept With Emperor
 
 IF
