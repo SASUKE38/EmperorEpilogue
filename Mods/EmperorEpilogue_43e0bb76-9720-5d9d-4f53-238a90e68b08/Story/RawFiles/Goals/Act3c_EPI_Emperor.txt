@@ -121,6 +121,17 @@ NOT DB_GlobalFlag((FLAG)EPI_Epilogue_State_EmperorRomanceContinued_8d6a5e8a-f639
 THEN
 DB_NOOP(1);
 
+QRY
+QRY_EPI_Epilogue_CharacterIsUnavailable((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b)
+AND
+DB_Players(_Player)
+AND
+GetFlag((FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222, _Player, 1)
+AND
+DB_EPI_Epilogue_GhostAvatar(_Player)
+THEN
+DB_NOOP(1);
+
 //END_REGION
 
 //REGION Us Setup
@@ -220,6 +231,8 @@ AND
 DB_GlobalFlag(EPI_Epilogue_State_EmperorWasPartnered_138bd4c9-3fb8-af68-fad3-791098e9baf2)
 AND
 DB_GlobalFlag(ORI_Karlach_State_AvernusAlone_c5ffd6ad-7749-6eb8-992e-48d66766f6b6)
+AND
+NOT DB_EPI_Epilogue_GhostAvatar(S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c)
 THEN
 DB_NOOP(1);
 
@@ -233,6 +246,8 @@ AND
 GetFlag((FLAG)EPI_State_WasPartneredWithEmperor_9ce954e4-dcdc-fed0-4dce-f051a52f3ee9, _Player, 1)
 AND
 HasActiveStatus(_Player, "MIND_FLAYER_FORM", 0)
+AND
+NOT DB_EPI_Epilogue_GhostAvatar(_Player)
 THEN
 DB_NOOP(1);
 
@@ -246,6 +261,8 @@ AND
 GetFlag((FLAG)EPI_State_WasPartneredWithEmperor_9ce954e4-dcdc-fed0-4dce-f051a52f3ee9, _Player, 1)
 AND
 HasActiveStatus(_Player, "MIND_FLAYER_FORM", 1)
+AND
+NOT DB_EPI_Epilogue_GhostAvatar(_Player)
 THEN
 DB_NOOP(1);
 
