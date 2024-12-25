@@ -8,13 +8,38 @@ DB_END_General_FullPartyDialog(END_GameFinale_RomanceFates_Emperor_4810b665-1b34
 
 DB_DialogBlockAttackButton(END_GameFinale_RomanceFates_Emperor_4810b665-1b34-adee-c299-2905468e957c);
 DB_DialogBlockTradeButton(END_GameFinale_RomanceFates_Emperor_4810b665-1b34-adee-c299-2905468e957c);
+
+DB_END_EmperorPartnershipFlags((FLAG)ORI_State_EmperorRomanceCandidate_99da3e22-019f-96c3-d910-685cf576dfad);
+DB_END_EmperorPartnershipFlags((FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222);
 KBSECTION
+//REGION End Relationship Handling
+
+PROC
+PROC_END_GameFinale_EndRelationship((CHARACTER)_Player)
+AND
+DB_END_EmperorPartnershipFlags(_Flag)
+AND
+GetFlag(_Flag, _Player, 1)
+THEN
+ClearFlag(_Flag, _Player);
+
+PROC
+PROC_END_GameFinale_EndRelationship((CHARACTER)_Player, _)
+AND
+DB_END_EmperorPartnershipFlags(_Flag)
+AND
+GetFlag(_Flag, _Player, 1)
+THEN
+ClearFlag(_Flag, _Player);
+
+//END_REGION
+
 //REGION Emperor Cannot Finale Checks
 
 QRY
 QRY_END_GameFinale_CharacterCannotFinale((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b)
 AND
-DB_Emperor_Epilogue_Candidate(_Player)
+DB_Emperor_Epilogue_Candidate((CHARACTER)_Player)
 AND
 DB_Avatars(_Player)
 AND
@@ -33,6 +58,15 @@ QRY
 QRY_END_GameFinale_CharacterCannotFinale((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b)
 AND
 DB_GlobalFlag(END_IllithidOptions_Event_EmperorBetrayal_411c2575-bfbc-449c-9762-edad4285aafd)
+THEN
+DB_NOOP(1);
+
+QRY
+QRY_END_GameFinale_CharacterCannotFinale((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b)
+AND
+DB_Emperor_Epilogue_Candidate(S_Player_Gale_ad9af97d-75da-406a-ae13-7071c563f604)
+AND
+DB_GlobalFlag((FLAG)ORI_Gale_State_IsGod_ec94f9a4-b032-ce25-f4eb-ecf4ed37d65d)
 THEN
 DB_NOOP(1);
 

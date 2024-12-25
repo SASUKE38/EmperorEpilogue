@@ -22,6 +22,10 @@ AND
 DB_DialogName(CAMP_DaisyAcknowledgement_AvD_ROM_58e20a32-e432-1c93-9c75-97bebafc8b1b,_DialogId)
 AND
 DB_DialogPlayers(_DialogId,_Player,1)
+AND
+SysCount("DB_Emperor_Epilogue_Candidate", 1, _Count)
+AND
+_Count < 1
 THEN
 DB_Emperor_Epilogue_Candidate((CHARACTER)_Player);
 SetFlag((FLAG)ORI_State_EmperorRomanceCandidate_99da3e22-019f-96c3-d910-685cf576dfad, _Player);
