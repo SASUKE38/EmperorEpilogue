@@ -39,10 +39,11 @@ DB_EPI_Title_Default((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e316
 //REGION Avatar Titles
 
 //DB_EPI_Title_EmperorPartnerTitles(_Title, _Flag, _CeremorphCheckRequired, _Ceremorphed)
-DB_EPI_Title_EmperorPartnerTitles("EPI_Title_AvatarEmperorColony", (FLAG)EPI_Emperor_State_RenegadeColony_844cc38d-55da-8eb3-4389-f36b627f5c7b, 0, 0);
-DB_EPI_Title_EmperorPartnerTitles("EPI_Title_AvatarKnights", (FLAG)EPI_Emperor_State_AnyKnights_c3465385-7eee-d3a7-78be-5cf468ca88ca, 0, 0);
+DB_EPI_Title_EmperorPartnerTitles("EPI_Title_AvatarColony", (FLAG)EPI_Emperor_State_RenegadeColony_844cc38d-55da-8eb3-4389-f36b627f5c7b, 1, 0);
+DB_EPI_Title_EmperorPartnerTitles("EPI_Title_AvatarMFColony", (FLAG)EPI_Emperor_State_RenegadeColony_844cc38d-55da-8eb3-4389-f36b627f5c7b, 1, 1);
 DB_EPI_Title_EmperorPartnerTitles("EPI_Title_AvatarAdventure", (FLAG)EPI_Emperor_State_Adventure_4cf2b9fe-5a3b-8473-8ed3-d916ea5f37ed, 1, 0);
 DB_EPI_Title_EmperorPartnerTitles("EPI_Title_AvatarMFAdventure", (FLAG)EPI_Emperor_State_Adventure_4cf2b9fe-5a3b-8473-8ed3-d916ea5f37ed, 1, 1);
+DB_EPI_Title_EmperorPartnerTitles("EPI_Title_AvatarKnights", (FLAG)EPI_Emperor_State_AnyKnights_c3465385-7eee-d3a7-78be-5cf468ca88ca, 0, 0);
 DB_EPI_Title_EmperorPartnerTitles("EPI_Title_AvatarBigPlans", (FLAG)EPI_Emperor_State_BigPlansGeneric_ec708915-f131-3706-4e0f-a825d61f2626, 0, 0);
 
 //END_REGION
