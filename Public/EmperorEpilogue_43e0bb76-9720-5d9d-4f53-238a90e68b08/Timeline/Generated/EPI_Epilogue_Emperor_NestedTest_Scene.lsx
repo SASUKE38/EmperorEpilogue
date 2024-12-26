@@ -3,7 +3,7 @@
     <version major="4" minor="7" revision="1" build="3"/>
     <region id="TLScene">
         <node id="root">
-            <attribute id="Identifier" type="guid" value="9c26960b-171d-4a7c-5048-379509f06d81"/>
+            <attribute id="Identifier" type="guid" value="36de52cc-e65b-3295-0a57-618290e47167"/>
             <attribute id="SceneBounds" type="fvec3">
                 <float3 x="3.9264793" y="0.42000002" z="2.5850658"/>
             </attribute>
@@ -112,7 +112,7 @@
                             <attribute id="AnimationSourceId" type="guid" value="a34c0ef8-ed13-4a31-a965-bca9e4409124"/>
                             <attribute id="ImportantForStaging" type="bool" value="true"/>
                             <attribute id="IsTerrainSnappingInGameDisabled" type="bool" value="true"/>
-                            <attribute id="TemplateId" type="guid" value="ba20ee39-92ed-4aad-830d-4871103f48c2"/>
+                            <attribute id="TemplateId" type="guid" value="6a64d954-9c8f-4243-bc93-35a5bcb645de"/>
                             <children>
                                 <node id="Transforms">
                                     <children>
@@ -404,7 +404,7 @@
                                             <children>
                                                 <node id="MapValue">
                                                     <attribute id="Position" type="fvec3">
-                                                        <float3 x="6.8699999" y="0.31" z="3.7279999"/>
+                                                        <float3 x="6.8699999" y="0.27000001" z="3.7679999"/>
                                                     </attribute>
                                                     <attribute id="RotationQuat" type="fvec4">
                                                         <float4 x="0" y="-0.88701087" z="0" w="0.4617486"/>
@@ -446,7 +446,7 @@
                                             <children>
                                                 <node id="MapValue">
                                                     <attribute id="Position" type="fvec3">
-                                                        <float3 x="6.8699999" y="0.22" z="3.7279999"/>
+                                                        <float3 x="6.79" y="0.32999998" z="3.7379999"/>
                                                     </attribute>
                                                     <attribute id="RotationQuat" type="fvec4">
                                                         <float4 x="0" y="-0.88701087" z="0" w="0.4617486"/>
@@ -643,6 +643,35 @@
                                 <node id="TLCameras">
                                     <attribute id="Identifier" type="guid" value="04f1de92-8633-404c-97ab-1b7504e327fe"/>
                                     <attribute id="Name" type="LSString" value="Cust_Walking_Close"/>
+                                    <children>
+                                        <node id="Transform">
+                                            <children>
+                                                <node id="Object">
+                                                    <attribute id="MapKey" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                                                    <children>
+                                                        <node id="MapValue">
+                                                            <attribute id="Position" type="fvec3">
+                                                                <float3 x="-1.5454309e-07" y="3.5355339" z="-3.5355339"/>
+                                                            </attribute>
+                                                            <attribute id="RotationQuat" type="fvec4">
+                                                                <float4 x="0.052495103" y="2.3009921e-09" z="-1.2095759e-10" w="0.99862123"/>
+                                                            </attribute>
+                                                            <attribute id="Scale" type="float" value="1"/>
+                                                        </node>
+                                                    </children>
+                                                </node>
+                                            </children>
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Object">
+                            <attribute id="MapKey" type="guid" value="5b67ef6a-08e6-44c0-9d00-87b21d432e1b"/>
+                            <children>
+                                <node id="TLCameras">
+                                    <attribute id="Identifier" type="guid" value="5b67ef6a-08e6-44c0-9d00-87b21d432e1b"/>
+                                    <attribute id="Name" type="LSString" value="Cust_Glove"/>
                                     <children>
                                         <node id="Transform">
                                             <children>
@@ -1321,10 +1350,10 @@
                                                     <children>
                                                         <node id="MapValue">
                                                             <attribute id="Position" type="fvec3">
-                                                                <float3 x="0.98161983" y="-0.14436698" z="-1.2403011"/>
+                                                                <float3 x="0.98162079" y="-0.18436694" z="-1.2403011"/>
                                                             </attribute>
                                                             <attribute id="RotationQuat" type="fvec4">
-                                                                <float4 x="-0.09034685" y="0.29340655" z="-0.027873104" w="-0.95130086"/>
+                                                                <float4 x="-0.013539523" y="0.28921044" z="-0.0041000247" w="-0.95716089"/>
                                                             </attribute>
                                                             <attribute id="Scale" type="float" value="1"/>
                                                         </node>
