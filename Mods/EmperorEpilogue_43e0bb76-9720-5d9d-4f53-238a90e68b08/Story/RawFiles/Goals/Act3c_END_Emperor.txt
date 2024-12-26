@@ -66,7 +66,16 @@ QRY_END_GameFinale_CharacterCannotFinale((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-
 AND
 DB_Emperor_Epilogue_Candidate(S_Player_Gale_ad9af97d-75da-406a-ae13-7071c563f604)
 AND
-DB_GlobalFlag((FLAG)ORI_Gale_State_IsGod_ec94f9a4-b032-ce25-f4eb-ecf4ed37d65d)
+DB_GlobalFlag(ORI_Gale_State_IsGod_ec94f9a4-b032-ce25-f4eb-ecf4ed37d65d)
+THEN
+DB_NOOP(1);
+
+QRY
+QRY_END_GameFinale_CharacterCannotFinale((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b)
+AND
+DB_Emperor_Epilogue_Candidate(_Player)
+AND
+GetFlag(END_GameFinale_Event_AccompanyKarlachToHell_35150cbf-2c72-1049-37ed-14dbc3736135, _Player, 1)
 THEN
 DB_NOOP(1);
 
