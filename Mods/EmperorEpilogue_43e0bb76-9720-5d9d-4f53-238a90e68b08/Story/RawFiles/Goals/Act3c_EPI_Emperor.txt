@@ -294,6 +294,11 @@ DB_Players(_Player)
 AND
 GetFlag((FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222, _Player, 1)
 THEN
+ObjectTimerLaunch(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, "EPI_Epilogue_EmperorSongReactionAD_Timer", 3000);
+
+IF
+ObjectTimerFinished(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, "EPI_Epilogue_EmperorSongReactionAD_Timer")
+THEN
 PROC_TryStartAD((DIALOGRESOURCE)EPI_Epilogue_AD_EmperorReactionSong_246987f7-6425-4a51-f2aa-7d5c93273c9c, (CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
 
 IF
