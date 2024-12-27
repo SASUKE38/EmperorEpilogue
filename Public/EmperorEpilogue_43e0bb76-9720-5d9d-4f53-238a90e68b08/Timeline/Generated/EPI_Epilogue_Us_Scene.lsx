@@ -3,7 +3,7 @@
     <version major="4" minor="7" revision="1" build="3"/>
     <region id="TLScene">
         <node id="root">
-            <attribute id="Identifier" type="guid" value="00722b5b-ec3e-9f7e-ed07-f438467e588f"/>
+            <attribute id="Identifier" type="guid" value="197d5d80-a922-ad44-dcff-7d4d2a969bd0"/>
             <attribute id="SceneBounds" type="fvec3">
                 <float3 x="0.66463268" y="0" z="1.2411034"/>
             </attribute>
@@ -110,7 +110,7 @@
                         <node id="TLActor">
                             <attribute id="ActorType" type="uint8" value="2"/>
                             <attribute id="ImportantForStaging" type="bool" value="true"/>
-                            <attribute id="TemplateId" type="guid" value="aa772968-b5e0-4441-8d86-2d0506b4aab5"/>
+                            <attribute id="TemplateId" type="guid" value="97ad09df-c188-4e39-bfd0-91c95c6379c4"/>
                             <children>
                                 <node id="Transforms">
                                     <children>
@@ -319,6 +319,35 @@
                                                 <node id="Object">
                                                     <attribute id="MapKey" type="guid" value="6a0b2b64-431e-4831-93c7-9cd9d1ee3ee5"/>
                                                     <attribute id="MapValue" type="FixedString" value="Cortex2_M"/>
+                                                </node>
+                                            </children>
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Object">
+                            <attribute id="MapKey" type="guid" value="54a40265-677a-45a4-b020-07879f616aae"/>
+                            <children>
+                                <node id="TLCameras">
+                                    <attribute id="Identifier" type="guid" value="54a40265-677a-45a4-b020-07879f616aae"/>
+                                    <attribute id="Name" type="LSString" value="Cust_Jump"/>
+                                    <children>
+                                        <node id="Transform">
+                                            <children>
+                                                <node id="Object">
+                                                    <attribute id="MapKey" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                                                    <children>
+                                                        <node id="MapValue">
+                                                            <attribute id="Position" type="fvec3">
+                                                                <float3 x="-1.5454309e-07" y="3.5355339" z="-3.5355339"/>
+                                                            </attribute>
+                                                            <attribute id="RotationQuat" type="fvec4">
+                                                                <float4 x="0.052495103" y="2.3009921e-09" z="-1.2095759e-10" w="0.99862123"/>
+                                                            </attribute>
+                                                            <attribute id="Scale" type="float" value="1"/>
+                                                        </node>
+                                                    </children>
                                                 </node>
                                             </children>
                                         </node>
