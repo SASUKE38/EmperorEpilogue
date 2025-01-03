@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Root>
   <Timeline Id="e884c625-6f8d-4d20-a459-e142c37bf59e" DialogResourceId="4810b665-1b34-adee-c299-2905468e957c" CanShowPeanuts="false" AllowedPeanutTypes="Emotion, Attitude, LookAt">
-    <GenerationMetadata FullGenerationTimestamp="1730190085" PartialGenerationTimestamp="1735896177" />
+    <GenerationMetadata FullGenerationTimestamp="1730190085" PartialGenerationTimestamp="1735899748" />
     <TimelinePosition BoundSceneId="88805b3b-8ba9-428b-8ab1-099be8f5b498">
       <AdditionalBoundSceneId BoundSceneId="88805b3b-8ba9-428b-8ab1-099be8f5b498" />
     </TimelinePosition>
@@ -71,7 +71,7 @@
           <ActorIdleOverrideData />
           <BehaviourActorStartCondition />
         </Track>
-        <Track Name="GROUP_Players" TrackId="ab085b89-be1f-48ac-8b07-4994daf87fa3" IsExpanded="true" ActorType="character" ActorId="e2badbf0-159a-4ef5-9e73-7bbeb3d1015a" AssignedActorId="2c76687d-93a2-477b-8b18-8a14b549304c" SpeakerId="1" IsPlayer="true" SceneActorType="Initiator" SpeakerMappingId="327a3579-ca1d-4561-aa3b-6a92d6326acf" Type="ActorTrackSpeaker">
+        <Track Name="GROUP_Players" TrackId="ab085b89-be1f-48ac-8b07-4994daf87fa3" IsExpanded="true" ActorType="character" ActorId="6bff5419-5a9e-4839-acd4-cac4f6e41bd7" AssignedActorId="2c76687d-93a2-477b-8b18-8a14b549304c" SpeakerId="1" IsPlayer="true" SceneActorType="Initiator" SpeakerMappingId="327a3579-ca1d-4561-aa3b-6a92d6326acf" Type="ActorTrackSpeaker">
           <Track Name="Voice" TrackId="126b949c-09cc-48cf-a437-da7000997798" Type="ComponentTrackVoice" />
           <Track Name="Look At Event" TrackId="fc127b7d-0dda-4c56-baf0-3a7660dbf609" Type="ComponentTrackLookAtEvent" />
           <Track Name="Emotion Event" TrackId="7dd6d7e7-ce65-48ab-b587-c1c796c795d6" Type="ComponentTrackEmotionEvent" />
@@ -1219,6 +1219,7 @@
         </Track>
         <Track Name="Ceremorphosis Armor Template" TrackId="67e950e9-0e9b-498c-b080-3d210f8051e9" ActorType="character" ActorId="57d03493-1f46-4a7d-8d36-b3c4bc3cd230" IsTemplate="true" AssignedActorId="00000000-0000-0000-0000-000000000000" Type="ActorTrackDefault">
           <Track Name="Show Actor" TrackId="4866ffde-1d7d-4965-8ce4-865f9dea076d" Type="ComponentTrackShowActor" />
+          <Track Name="Springs AllVisuals" TrackId="87b65444-8931-40ad-88fa-6878e2eac760" VisualTargets="AllVisuals" Type="ComponentTrackSprings" />
           <Track Name="Animation" TrackId="584a7ddf-3181-48c9-b6ac-aab28d3940bb" SlotId="a28f7c2c-ee3a-4cd1-8ea3-fe89e077d608" Type="ComponentTrackAnimation">
             <Track Name="Hide VFX" TrackId="fc9c067c-032e-4508-90c3-2d3ae17dbd5b" Type="KeyTrackBoolean" />
           </Track>
@@ -1432,6 +1433,7 @@
             <BehaviourActorStartCondition />
           </Track>
           <Track Name="Cast Overlay" TrackId="8323370b-82aa-4f85-9164-ee6b2d97de04" ActorType="effect" ActorId="804b3b0a-001a-46ba-b558-daea30d5cdae" IsResource="true" AssignedActorId="00000000-0000-0000-0000-000000000000" ResourceId="fa09b3ed-c89b-b27a-0212-ca6915b373e7" Type="ActorTrackDefault">
+            <Track Name="Show Actor" TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e" Type="ComponentTrackShowActor" />
             <Track Name="Play Effect" TrackId="44679bc5-e39b-4d62-8a50-57ce4f06592d" Type="ComponentTrackPlayEffect" />
             <Track Name="Transform" TrackId="b29e6082-c06b-4223-a5f3-cdba9a18f8f4" Type="ComponentTrackTransform">
               <Track Name="Translate" TrackId="e9b0b904-13d9-403b-bf37-da9d7f902cc4" Type="KeyTrackWrapper">
@@ -2175,6 +2177,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="7c6d2b62-fa89-439b-9945-ca7cc1ba1533" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="b759bc7f-6d7f-47f9-a146-f63f1e50b99a" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="e5bfffb3-921a-4568-9780-6ac592dffd8d" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="b36a329b-4363-41b6-a809-dba425ac5f31" Name="Sequence 2 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="12.88">
         <DialogNodeReference DialogNodeId="ae7b07ac-6898-d6a1-f494-3429a5b3d077" ReferenceId="ae7b07ac-6898-d6a1-f494-3429a5b3d077" />
@@ -2667,6 +2675,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="62d3c5b8-0292-4d29-91ac-b53c525a4ee4" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="fd1837ad-a18e-41e3-aa5c-21cb42129aa5" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="0daaa069-6800-45cd-a651-080107b8aed6" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="7f687c51-91b6-4920-8e3c-be9f55ad0c03" Name="Sequence 3 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="11.21">
@@ -3265,6 +3279,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="61d9f46b-7ab8-4ab5-9432-43280268c0a5" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="e1f8237d-b0f3-4a6a-be68-1a1acd9ceb54" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="0a583e27-3659-41cc-acef-00b825a0c4b3" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="58bf6827-9223-49aa-bc84-50ec18c4832f" Name="Sequence 4 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.24">
         <DialogNodeReference DialogNodeId="a8d5b214-2345-be9b-aee2-195dc07bf05c" ReferenceId="a8d5b214-2345-be9b-aee2-195dc07bf05c" />
@@ -3768,6 +3788,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="d0d3ec4e-47ed-4a7e-85cd-1085eafcc9ae" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="638967b8-0b9c-4414-9ff0-daa21c724169" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="04f4b834-5230-4ee6-9482-569f9762dd0d" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="c32bf928-6d2e-49a4-aa74-4e3bd02df43c" Name="Sequence 5 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="2.06">
         <DialogNodeReference DialogNodeId="a68bb7b5-73f5-1063-1adb-4f3e90928875" ReferenceId="a68bb7b5-73f5-1063-1adb-4f3e90928875" />
@@ -4242,6 +4268,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="e5fb25cd-ac0c-4c91-bad6-b577c592d0b6" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="31df4278-1127-4120-9326-0765acbbef34" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="99254824-d4f5-4e54-b50a-7b0c83d03310" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="83ddc086-d21e-4c78-8ff0-aeeaa153befb" Name="Sequence 6 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.8">
         <DialogNodeReference DialogNodeId="a5299f3e-594f-4416-d352-5fe2f350e38b" ReferenceId="a5299f3e-594f-4416-d352-5fe2f350e38b" />
@@ -4697,6 +4729,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="a58a9a8a-0fa1-4c29-88d3-0ca295b6be6e" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="686b14db-a2e3-4d8d-9be1-f8c18cb8eace" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="b4f2304d-f2ea-4a0f-b7fb-864127f8b3e3" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="fab63d62-ce83-40b5-920b-9f463c28bd38" Name="Sequence 7 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="2.69">
@@ -5172,6 +5210,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="eb5b6869-d2e6-407a-9296-25a0111ee518" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="290033d4-0d19-4666-aa54-cdb79506b9e4" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="77c09061-d7c1-481c-9f88-e6192621aa93" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="1a18a00d-2619-48d8-b076-d114ae5d2ef3" Name="Sequence 8 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.14">
         <DialogNodeReference DialogNodeId="a274ce84-dd3e-ea43-1ae4-b13bdcd39dcb" ReferenceId="a274ce84-dd3e-ea43-1ae4-b13bdcd39dcb" />
@@ -5638,6 +5682,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="4257492f-a3d5-443c-ae53-72e1fba78903" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="221bbec5-7a99-44d5-ad38-c90b3330e2a0" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="b686fb9b-36a4-490f-84ae-9b50288a4687" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="04b47bd4-47f2-45fe-bb2a-071f8dcc2f9b" Name="Sequence 9 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.93">
@@ -6106,6 +6156,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="daff7cd7-3484-412b-9aba-0b8a4e8b1d53" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="243a4835-1db0-40fe-9f85-53dfe32f974e" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="e301e5ce-a220-4d45-8fd0-3fedfb4dc882" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="b036faba-c4ee-40f6-b5a8-9f050665eea4" Name="Sequence 10 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.53">
@@ -6581,6 +6637,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="ee390b4e-b399-43ab-9723-aba241e24f42" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="98b0143f-c924-464b-9a2b-ad8658ee2daf" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="0cf9977d-cc25-43d4-8701-04e210cfc9e1" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="eda28950-0356-4001-b869-acee1e5439ba" Name="Sequence 11 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="3.2">
         <DialogNodeReference DialogNodeId="90fe8f4c-d8f7-82fc-4e06-06a30697917b" ReferenceId="90fe8f4c-d8f7-82fc-4e06-06a30697917b" />
@@ -7042,6 +7104,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="1f267db2-625c-4816-847a-83d2508cd6ea" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="3264217a-6806-4f58-8531-18add1fd77d0" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="00bc549e-3d07-41b0-8e6d-c2856e951076" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="4ab1b812-7f3e-4636-9733-a55686bd0b09" Name="Sequence 12 - NON-ILLITHID KARLACH" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.93">
@@ -7567,6 +7635,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="7fdc7613-150a-47b1-861c-6f987e6e25da" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="d18d7589-4a55-4225-b5c9-877c27efd4ad" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="17d36a21-a92c-4665-b119-204fc3a35338" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="425be729-c9c9-48f3-8efb-ce2d8282a736" Name="Sequence 13 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="3.62">
         <DialogNodeReference DialogNodeId="88a35f80-a431-241b-d2d6-82b37ccde4c3" ReferenceId="88a35f80-a431-241b-d2d6-82b37ccde4c3" />
@@ -8035,6 +8109,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="5b52eba3-ae17-4fa9-acdc-52730406ae54" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="b1060348-29ce-4d60-8a43-95e5ceb21616" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="439fdc37-85ed-4f11-88d5-829f506c6cc4" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="9cc587ad-cf55-42cd-8e2a-44a50d535590" Name="Sequence 14 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.43">
         <DialogNodeReference DialogNodeId="84f23ea5-1827-d073-2135-37f69365ea64" ReferenceId="84f23ea5-1827-d073-2135-37f69365ea64" />
@@ -8500,6 +8580,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="81bd0399-91ff-47b4-855f-f1bd05aa782d" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="2d79b1a7-0b7f-46a4-ae68-f90f016e946c" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="c69bfb93-588d-4a26-963b-75052bd58902" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="209831bd-1ecc-45da-a38e-fa14cd466db0" Name="Sequence 15 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.76">
         <DialogNodeReference DialogNodeId="8420d099-8402-4fdb-6bb2-5964f6bfc3af" ReferenceId="8420d099-8402-4fdb-6bb2-5964f6bfc3af" />
@@ -8958,6 +9044,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="bb2bef09-d2f6-45b7-8686-053697e952b0" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="890debeb-1dc1-4e4d-b74c-adb57986caea" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="6da72b16-3132-428f-ba77-22593e825181" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="22bd9cc4-9eba-4cc3-bf5c-bec28c7d898f" Name="Sequence 16 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="27.56">
@@ -9462,6 +9554,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="f1afc99c-b95b-4c52-b041-f8584596a0db" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="9ddd003f-87ca-4e76-8cab-27fc9d3073af" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="60c37191-0489-440e-b584-3def12475588" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="2ec5d92d-43ec-4013-abe1-08d71d83b33f" Name="Sequence 17 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="59.33">
@@ -10574,6 +10672,12 @@
             </Channel>
           </Component>
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="1c81c988-6709-4579-bb0c-05590c78c1f9" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="b81b2775-a2f6-4e9c-9f10-e06f8707977a" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="1c70aa88-5408-488d-918d-61d9c6332d65" Name="Sequence 18 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="10.426109313964844">
         <DialogNodeReference DialogNodeId="7052adca-1945-4733-711f-42dcf4ca5829" ReferenceId="7052adca-1945-4733-711f-42dcf4ca5829" />
@@ -11048,6 +11152,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="1b23eab5-0e20-497f-bd16-1bfdd9158d38" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="5fc6c22c-1528-4499-a330-c52b1eb90552" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="5d6750ca-407b-4326-978e-4511979936a5" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="d4a6a2f2-ef32-42d4-9605-724d4acb0ead" Name="Sequence 19 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.53">
         <DialogNodeReference DialogNodeId="6cdd61ef-ac3b-6b7b-789b-ebc880c90d28" ReferenceId="6cdd61ef-ac3b-6b7b-789b-ebc880c90d28" />
@@ -11509,6 +11619,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="efc72819-cbcb-4e7c-a32a-76cd061473dd" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="3f9295a1-2445-4abd-bdd7-0e800cafb1a7" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="bd7a52a6-a70b-4414-8f74-63e61cfd9b61" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="649268dc-edce-4fe3-8fe4-d45e2329ec11" Name="Sequence 20 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.11">
@@ -11972,6 +12088,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="9909d510-6f70-4f30-98d8-38621a380c6d" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="8d6baee1-8590-4617-ab09-5359b429beaf" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="d9e3e605-c3d1-49d5-8f67-bc4c1aa5e110" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="3bf1e709-658b-4f3f-ac8f-d5ec30e2c209" Name="Sequence 21 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.14">
         <DialogNodeReference DialogNodeId="6910e461-d361-326a-c832-962e3bc44229" ReferenceId="6910e461-d361-326a-c832-962e3bc44229" />
@@ -12433,6 +12555,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="8b3d4d63-27af-40b7-a173-4987b44a47af" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="3eb0c62e-ec41-4fa5-90b6-937a8e65611e" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="746b899d-e2ef-4678-bae2-9e135a212392" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="25db0a9f-a945-497a-ae11-5ddd87aae7c8" Name="Sequence 22 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="13.220202445983887">
@@ -12898,6 +13026,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="87f7e1c1-2024-4bea-be85-f24cbb2f5416" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="2692c297-e42d-4231-9b40-935116a48b83" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="c3b5da4a-4492-45f8-b2d9-41b74a20ad9e" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="57ea40f5-316d-4f14-b086-f8bd44830696" Name="Sequence 23 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.4">
@@ -13367,6 +13501,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="c459a8fb-1e93-4734-98b7-e203249dca0a" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="492a9584-be78-4f4f-b7d1-ba0efa4fd6d7" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="b77a0b01-31d5-4350-92dc-9e2bfe4e1fc9" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="446c1d7a-d4c8-47af-8a17-c74dc416cfb3" Name="Sequence 24 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.51">
         <DialogNodeReference DialogNodeId="654d6ba9-7f63-a936-7128-43b08ca65b73" ReferenceId="654d6ba9-7f63-a936-7128-43b08ca65b73" />
@@ -13832,6 +13972,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="e34b04b6-a4f2-4bf9-830c-49f04f727b95" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="a301c725-fa81-4f96-abf2-4a12ce764113" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="8e3a2b15-9fda-46bb-8f15-b55c7c8efeab" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="88dfbfd6-62e7-42e7-aae7-ca58eb1f59f0" Name="Sequence 25 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.14">
         <DialogNodeReference DialogNodeId="b0384390-9655-e997-c061-f31c0a6a29ac" ReferenceId="b0384390-9655-e997-c061-f31c0a6a29ac" />
@@ -14287,6 +14433,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="b5f15ff5-6c2b-455e-b0b6-dc2c57ed508e" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="a3a53b67-669d-4401-8a27-5a028c7a466b" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="f648ec23-2400-46d0-9ae3-b99e54ac4afc" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="92ce8ab7-764b-42d2-9b1a-4fd45b651074" Name="Sequence 26 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.31">
@@ -14756,6 +14908,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="ac6104f2-ec7d-406b-8906-7f1b08b64700" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="e11596c3-2616-4b94-b646-1788185c967b" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="957eee97-3a18-4768-8e17-4692fae00269" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="59c6171d-3bd2-4c18-a9b8-1fff9ea6f4c3" Name="Sequence 27 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.45">
         <DialogNodeReference DialogNodeId="b4ef59d7-aa27-3a19-c674-1ec6cf0b495e" ReferenceId="b4ef59d7-aa27-3a19-c674-1ec6cf0b495e" />
@@ -15214,6 +15372,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="7e8b376a-01eb-499e-8190-d132096ea390" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="3891ee03-8296-4b49-ba6a-ac8264a4f194" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="55ed340e-937f-4eb5-b5e5-a9335cc29210" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="346b3d1e-ad79-4718-9bb5-ba0214f95bea" Name="Sequence 28 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.12">
@@ -15689,6 +15853,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="0dd5fc4b-2df3-423e-aba1-1cb75a9a88a2" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="1e92295c-78e3-4aa6-91ab-77468691a42b" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="46e92ca7-138b-4c5e-bade-dd8026280d4f" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="845dd5b4-3d4b-4e3f-8898-8e907976b40b" Name="Sequence 29 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.41">
         <DialogNodeReference DialogNodeId="fe60dbbf-a33a-75c6-d10c-d365888624d5" ReferenceId="fe60dbbf-a33a-75c6-d10c-d365888624d5" />
@@ -16154,6 +16324,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="1ac63f47-0ab9-41ed-9134-ac2036b480da" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="1880a740-efc2-46bd-8073-02c7ed44009a" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="9b0c4bc7-e555-4501-99e8-dfb91b5dd3fa" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="c3113449-be13-4425-afef-421ceb314e3c" Name="Sequence 30 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.33">
         <DialogNodeReference DialogNodeId="fe280020-9391-dbf0-e52a-edc8ccb4ab30" ReferenceId="fe280020-9391-dbf0-e52a-edc8ccb4ab30" />
@@ -16615,6 +16791,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="01b7eea0-f89c-4534-9aaa-005458739b47" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="db8a843f-8a7b-4cc4-8804-9ff11e288699" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="c62ab0b0-3f8c-4d20-8c97-8f984c2e44b8" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="3632e345-4387-4ba6-b299-f46d18ed5ca6" Name="Sequence 31 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="9.13">
@@ -17089,6 +17271,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="22ff40d5-0e2d-4397-8b1f-7b0e7b8f2f2b" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="9b5a6d63-0318-4be4-9843-94ab70965d8c" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="157aa73b-6be1-4aa6-ad97-c232462d7193" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="5ca6e2e1-07dd-44c7-ad26-5c83613d33ee" Name="Sequence 32 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.87">
         <DialogNodeReference DialogNodeId="fc520644-1990-8ed4-8232-beec4d8607c1" ReferenceId="fc520644-1990-8ed4-8232-beec4d8607c1" />
@@ -17545,6 +17733,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="197e699e-2a75-49f2-afac-a63989e39cfb" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="71d79285-b867-4cae-8336-8e7625f3fbf3" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="c0c33639-2e8e-4b9b-9df5-b69663c9d967" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="d9890ea8-3ff4-4885-aa3d-3fd43974f139" Name="Sequence 33 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="5.08883810043335">
         <DialogNodeReference DialogNodeId="f99c2e7c-2d21-1471-a989-bed9a3931cfb" ReferenceId="f99c2e7c-2d21-1471-a989-bed9a3931cfb" />
@@ -17556,7 +17750,7 @@
           </Component>
         </Components>
         <Components TrackId="779c0b38-9c1f-47e6-ac55-ceb3dc7bdf17">
-          <Component ComponentId="78bac031-3ecc-4fe6-80d6-aca979c490ff" TimeDuration="5.08883810043335" FaceTech="FaceFX" HoldMocap="true" PerformanceFade="2" FadeIn="2" FadeOut="0" SeparateFades="false">
+          <Component ComponentId="78bac031-3ecc-4fe6-80d6-aca979c490ff" TimeDuration="4.8387136459350586" FaceTech="FaceFX" HoldMocap="true" PerformanceFade="2" FadeIn="2" FadeOut="0" SeparateFades="false">
             <DialogNodeReference DialogNodeId="f99c2e7c-2d21-1471-a989-bed9a3931cfb" ReferenceId="f99c2e7c-2d21-1471-a989-bed9a3931cfb" />
           </Component>
         </Components>
@@ -18022,6 +18216,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="58700c45-8a5f-418e-be16-8ba7acfdd176" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="6e1320c9-d1e5-48f1-8114-87bdda297d49" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="7fd8b217-0907-440f-97dc-65f913ca79de" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="e725c66c-896d-4acf-9759-fa9e1808b6cd" Name="Sequence 34 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.43">
         <DialogNodeReference DialogNodeId="f4120db7-e23b-7a4b-b88f-e72064590455" ReferenceId="f4120db7-e23b-7a4b-b88f-e72064590455" />
@@ -18486,6 +18686,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="b556e188-402b-4020-b6cb-90f335143711" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="852367b5-7a31-4323-ad94-b38374614ecf" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="624452e3-f860-4ff0-a611-8c8fd7447a0d" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="52b583f9-672b-440c-bcb2-859f7834b9a3" Name="Sequence 35 - NO DOCKS" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.21">
@@ -18963,6 +19169,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="183d05b9-f988-42a6-a448-bb1dc38431a3" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="0c54edf5-23a5-44b7-82a4-518ad1129d28" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="01ea7bed-dc09-457d-8644-f95b05b76e8c" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="f64de84d-7c7a-4689-9f86-867fec495b6f" Name="Sequence 36 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="2.42">
         <DialogNodeReference DialogNodeId="edd130bc-6ac4-ca35-d7df-e80f983df815" ReferenceId="edd130bc-6ac4-ca35-d7df-e80f983df815" />
@@ -19425,6 +19637,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="db68b827-8aaa-4835-8cca-9c4cb62dae92" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="c6a46570-2240-4be9-ae15-4a21d73f09b6" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="f21e58f2-f174-4f63-8b6f-1d49bfd5b9de" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="851ba196-a937-49d4-ab00-26fa92122a98" Name="Sequence 37 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="1.61">
         <DialogNodeReference DialogNodeId="eb307479-ccd9-de66-1d06-b203d9ff5508" ReferenceId="eb307479-ccd9-de66-1d06-b203d9ff5508" />
@@ -19881,6 +20099,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="d2630480-f0db-4586-b223-0f7ed2ff938e" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="0b58fb16-ddf8-47c6-a5b3-8ced40d9aa09" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="9fb1b49d-f49b-4411-8d72-1d79ea84f6cc" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="165647db-a0ac-406e-b289-14f23b31658e" Name="Sequence 38 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.1">
         <DialogNodeReference DialogNodeId="eaf5f37a-60cd-2d8a-8db4-0f9ce2ff456e" ReferenceId="eaf5f37a-60cd-2d8a-8db4-0f9ce2ff456e" />
@@ -20336,6 +20560,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="b2c9638e-1c1e-4864-991f-6c86d8c4511e" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="6b74a070-f937-4762-a7b7-3431e95b6d3d" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="216b35a9-3c32-47de-982f-e640e9063be1" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="d98bf16f-4b1e-47dc-9f60-a91762ef6fef" Name="Sequence 39 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="6.6959881782531738">
@@ -20801,6 +21031,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="5a961828-64c2-490f-8aba-3529030c0728" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="061f4607-16ff-4571-9e78-0ee9142c4834" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="d6f9584b-3ce1-4b4d-a595-df687bc7c235" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="a5455cb4-6232-4f1e-90a8-54826153972e" Name="Sequence 40 - DOCKS" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.21">
@@ -21283,6 +21519,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="140e72e3-5a0a-46af-8d09-59996fb75332" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="987679c4-73ee-4b18-b9f9-490020238e3a" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="e5b44e51-13c3-47be-b7ff-3a7980c30f93" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="814b1c3b-ebe3-4953-9ca5-e298210989d3" Name="Sequence 41 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.07">
@@ -21774,6 +22016,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="41fc8efd-39a0-4936-b3fa-7f3a8777f1a9" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="4f7dc06e-f128-4cb9-9d7b-f76d5de38958" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="c995c8d9-cc55-43e0-9011-73c2c6562c89" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="2ab0d0e0-96b5-4edb-88d3-6b8087dea3b5" Name="Sequence 42 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.72">
         <DialogNodeReference DialogNodeId="d6ab1f91-c0ed-fc92-cbd7-65ac319eb90f" ReferenceId="d6ab1f91-c0ed-fc92-cbd7-65ac319eb90f" />
@@ -22232,6 +22480,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="9a0c9299-42e9-4c80-b1f1-e13dc39cb273" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="53b3b053-e30c-4877-8f04-7eec3de1201e" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="79e15319-0bbe-4802-8877-46625ecc0cd9" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="7ade9d34-ad36-4313-92c5-d571ae3f23db" Name="Sequence 43 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.48">
@@ -22701,6 +22955,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="85fcaad4-6680-456c-ad8b-999e007432b4" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="2917ad19-7cbb-4ca0-a1df-8462af688d2b" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="f2e566af-d770-489e-b0ec-5f65e29fe91a" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="ba7213ec-5046-4c27-9ff1-820bdd0a0307" Name="Sequence 44 - ILLITHID OPENING" DialogNodeColor="#FF008B8B" ΔTimeDuration="0.1">
         <DialogNodeReference DialogNodeId="d3650491-4a51-3d4e-e88b-752f9ba88a82" ReferenceId="d3650491-4a51-3d4e-e88b-752f9ba88a82" />
@@ -23139,6 +23399,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="9aba0bb0-cb95-4adc-b279-c5a79c278156" ΔTimeDuration="0.1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="870b072c-7c4e-4ec2-a181-a9c55e6d5ada" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="918b6807-5ec8-49c1-893e-27ce58f254b7" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="70f3bd27-4480-4e8d-8332-2d0a6738f4e2" Name="Sequence 45 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.31">
@@ -23652,6 +23918,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="fcfe536b-eaa5-439a-aa82-12cd632b7eec" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="5cc5725a-528b-463f-87b2-47c797633e24" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="edc351f3-4e69-4986-abe8-95f23bc2e91f" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="88dcd2a4-07fd-44c8-81ea-062d49c369a8" Name="Sequence 46 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.87">
         <DialogNodeReference DialogNodeId="cb6b0081-d5aa-bb9e-725d-90475e1aa051" ReferenceId="cb6b0081-d5aa-bb9e-725d-90475e1aa051" />
@@ -24107,6 +24379,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="58cc6a7a-afe1-4f7c-b296-a797c4295687" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="15ec7d93-8fac-4315-a7e7-88edd96a065e" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="53cb1ea9-b69d-46ff-b5d8-cc438f2f4065" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="19018218-b3cb-46cc-aa1c-c0f0a9f0aa34" Name="Sequence 47 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.11">
@@ -24570,6 +24848,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="adf2f7e0-a16f-40c7-a0dd-9741fa918770" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="b3435662-e336-477f-bf63-ebe930c4291a" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="b9c0de11-3c32-4baa-a82c-cd8f54aa57ca" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="e54ad73a-4f18-4271-8804-77df40de0107" Name="Sequence 48 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="7.1414222717285156">
         <DialogNodeReference DialogNodeId="c09f3ed2-7286-451c-4261-25ceeb437c03" ReferenceId="c09f3ed2-7286-451c-4261-25ceeb437c03" />
@@ -25025,6 +25309,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="d00098aa-60dd-494f-aa5c-61a80020eb04" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="647bf1a9-4f26-45f5-aa04-aa94945cbf8e" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="99a4db28-2ea6-4341-8dd0-def54b26987c" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="62b13f5c-17d7-4c40-b6a3-8e8214805e83" Name="Sequence 49 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.43">
@@ -25494,6 +25784,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="15fbe765-34a8-4153-bd05-3322919159bc" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="0c79d022-c63f-442c-ab3d-8f6184f9544c" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="f63d2039-74fe-4aa1-b6b2-4f2caaa285ae" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="67f1eb51-4dc8-4e07-8de0-7cb12a9c5b5d" Name="Sequence 50 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="10.1">
         <DialogNodeReference DialogNodeId="be60498c-85a0-7d93-59aa-59121e4111af" ReferenceId="be60498c-85a0-7d93-59aa-59121e4111af" />
@@ -25949,6 +26245,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="17003005-afc2-450e-923e-83c99dd3dbee" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="230b9d9c-b74b-4f64-b042-fc5237f10099" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="c2a52a60-6a6f-44bb-8013-821579987fed" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="0c2f5af7-b651-426b-86ce-0c41c68e72ed" Name="Sequence 51 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="21.03">
@@ -26433,6 +26735,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="a2a18d04-6061-4094-ab14-c559a285e7fe" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="96e7ddf4-d809-4390-b493-e64784f0d4e1" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="415da0c2-0e89-457b-ad17-50c5f6367e98" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="b53c4cf4-894d-4475-89a1-f3e8d47c3484" Name="Sequence 52 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="11.618288040161133">
         <DialogNodeReference DialogNodeId="b8ad32d0-72a4-bc9d-d600-139d8e6bd377" ReferenceId="b8ad32d0-72a4-bc9d-d600-139d8e6bd377" />
@@ -26897,6 +27205,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="349e6fb0-ce4f-470d-a468-bb3a8e431397" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="445b920c-6c79-435a-b3fa-ee1db31c6409" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="cfeab2ee-7562-4e28-85ad-38c02ed26ef6" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="8597000e-ddc7-45a2-9676-3bdbf3f1e84f" Name="Sequence 53 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="2.16">
@@ -27372,6 +27686,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="1ebe65c2-d4f0-44c3-8baf-647322eb22d0" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="3dea1094-2e05-4584-9e07-24bc7cf54160" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="97854eed-5589-40fd-a502-f5a5bdd869fc" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="f8c62013-b312-4b01-afb1-52a1b7d2a78e" Name="Sequence 54 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="1.23">
         <DialogNodeReference DialogNodeId="6222901d-ee5b-0512-d079-e0ead74a5a57" ReferenceId="6222901d-ee5b-0512-d079-e0ead74a5a57" />
@@ -27833,6 +28153,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="a2ad3668-eb16-4d83-ab16-b371557c694d" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="1b987313-2e22-450e-a613-669d34386886" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="88e297e8-6b10-4358-a099-cedb2131ab5a" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="c048eaea-e6ec-4f96-91ee-5f20a299b90c" Name="Sequence 55 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.34">
@@ -28302,6 +28628,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="4ff6ce1a-8227-4ec8-afcd-13bd2757cd14" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="935946a6-b8a6-45e9-b9a1-638f26a6a4b4" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="a7697184-dfa4-4911-878c-27c6b3cd3275" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="8c6c08da-b6c4-4e7d-96f4-c6d51d4e425f" Name="Sequence 56 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="9.13">
         <DialogNodeReference DialogNodeId="5ebc5dae-a11a-b8b2-25d3-332a65c45969" ReferenceId="5ebc5dae-a11a-b8b2-25d3-332a65c45969" />
@@ -28766,6 +29098,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="162d83b8-591e-4654-99c2-e562a3a63ae0" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="0e012082-1aa4-4fa9-9441-2efd4adeb4b2" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="1eb204b1-e325-4ea8-8dd7-21cfdd760d70" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="cd4fdb16-037b-44d7-8e6b-bbc595f7af0f" Name="Sequence 57 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="29.39">
@@ -29386,6 +29724,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="5c320467-4f6d-467d-83a8-9cd4e013122f" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="049f2ef1-44db-4934-b702-36ad86b24f4f" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="173ce2bb-38e2-4d34-b1ba-c63a08b30475" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="29ace0d7-2ccb-4c56-ac0b-4bf3ada91c05" Name="Sequence 58 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.96">
         <DialogNodeReference DialogNodeId="c2de2cf2-566c-7e32-9f94-40775b8c7fc7" ReferenceId="c2de2cf2-566c-7e32-9f94-40775b8c7fc7" />
@@ -29868,6 +30212,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="78007c2a-1758-4d84-9f5d-e9de11f2c800" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="402ce37f-6147-4cce-8883-4ce4a169a6e8" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="fb486980-9749-40a1-b78f-0f7504259642" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="2d4aaa25-6b86-4b47-bc1d-a78c4071ebbc" Name="Sequence 59 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.3">
@@ -30357,6 +30707,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="b729565a-5107-4e68-ad9f-076313afb507" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="13a28112-ec15-43fe-be5e-8c753b6b5470" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="d7f0c66e-feb2-43db-a452-32db518e0e98" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="49a4aff5-a04e-4e20-8e9d-ca7ec941ddff" Name="Sequence 60 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="18.76">
         <DialogNodeReference DialogNodeId="2746089b-d4ea-cc63-6d55-04c65af525fa" ReferenceId="2746089b-d4ea-cc63-6d55-04c65af525fa" />
@@ -30827,6 +31183,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="6ffd3724-9db0-426f-b0e9-ca4c06ad5000" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="91ae5423-ea2f-4538-9446-a523c371df33" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="28ec5458-f0f6-4477-962a-973c7bf8d867" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="d3b2fa80-921b-424c-beee-62ff5134232d" Name="Sequence 61 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.72">
@@ -31299,6 +31661,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="f99a7629-855a-475b-be28-c63d243fa10d" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="7967497b-7443-466b-a026-fbb5ab77182c" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="ec59e90c-bbc1-4eab-84cf-3e07b8289256" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="0dc3eff6-4abe-4949-b481-a9db28c6493b" Name="Sequence 62 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.3">
         <DialogNodeReference DialogNodeId="25023457-0ce2-26c2-8b5a-08a435db41ac" ReferenceId="25023457-0ce2-26c2-8b5a-08a435db41ac" />
@@ -31760,6 +32128,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="1dfe0105-1678-4fe9-ab96-9ee8bb89d55b" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="4029e453-ec74-4512-ba4d-2c2002fe5e70" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="015c9692-5a4b-42c6-b067-1ceb0ee7b358" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="be0c1504-0d3f-44c0-ba39-db9922206781" Name="Sequence 63 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="25.63">
@@ -32278,6 +32652,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="4a1eec03-3abc-4081-8e0c-ae63fee164a8" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="9388a34b-18cf-4e12-94d7-faae5e06ed6c" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="5438c93e-59b0-4668-b7c1-13c62d6f096a" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="9b60e35d-2cb3-4e2b-b451-d98bccfc8c9b" Name="Sequence 64 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="3.72">
         <DialogNodeReference DialogNodeId="1dcc85ae-122a-123c-58e2-17eb1cdcce51" ReferenceId="1dcc85ae-122a-123c-58e2-17eb1cdcce51" />
@@ -32742,6 +33122,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="0e45dc64-8347-4389-9a5c-3ecf7841e4cc" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="3db4fd8a-337e-401b-b554-6a8878661999" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="762faed4-1e30-4015-83af-8b79442e0257" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="f6bcd990-b8d5-4d14-b348-d9ce44dbc272" Name="Sequence 65 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="11.041983070373535">
@@ -33220,6 +33606,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="c38d4624-061f-4ce2-8841-241df0f3c9b4" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="b2e6e274-f42d-4aa0-b1dd-97a504d0a694" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="60ceacfc-5841-498d-b85d-223a716d7d57" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="c95a0b7b-393f-47da-815b-53e0ac024a32" Name="Sequence 66 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.34">
         <DialogNodeReference DialogNodeId="1c9d2401-5835-b8b3-2009-a17893c88e9d" ReferenceId="1c9d2401-5835-b8b3-2009-a17893c88e9d" />
@@ -33681,6 +34073,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="2db58941-3d75-4fe7-b348-1cc61655bf44" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="3a001f59-5c1e-4290-a4e7-1667f7d5044c" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="cf5e014a-d11e-4df5-b9df-dbe02b3fc80b" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="b88fd7de-e019-439e-9946-edd7440959c3" Name="Sequence 67 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="22.13">
@@ -34203,6 +34601,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="e5068159-72c5-4a90-89e1-ec56ffdd823a" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="792c41ce-38d8-48a4-9914-8b766418aebc" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="5aa05dbb-316c-421c-85b7-2cd40a828beb" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="9a787be7-4d31-4aa9-9bb3-5888c94a3b0b" Name="Sequence 68 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="17.37">
         <DialogNodeReference DialogNodeId="5eefd58d-a9d9-1be8-ba42-cedef1a5ef84" ReferenceId="5eefd58d-a9d9-1be8-ba42-cedef1a5ef84" />
@@ -34686,6 +35090,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="f2dad735-0f2b-4b38-a759-6fcf79d1924b" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="a392aecc-7e37-4583-b5e1-c368ac11c66a" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="2a81f2a4-28aa-4df4-9231-a6d7051cb6ef" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="69b5d512-b0be-4cff-b03c-553dcdd49a7f" Name="Sequence 69 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.1">
         <DialogNodeReference DialogNodeId="19b0fc6f-dc59-b4fc-4f70-e9a278c5883d" ReferenceId="19b0fc6f-dc59-b4fc-4f70-e9a278c5883d" />
@@ -35144,6 +35554,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="5ce583ae-687f-4ddc-8518-82e63fe15911" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="26fdf15d-f2b5-4730-a326-c576009b060a" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="5962e8c3-ec34-4216-bc45-28de8766eb4f" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="c16cae50-41d4-4320-aef1-b6e5eea788c7" Name="Sequence 70 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.2">
@@ -35612,6 +36028,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="c20fc338-967c-42e3-a514-03ab0e4e20c5" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="2ab4e0ae-3d59-462c-8b04-3b8ccf4cfeff" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="b57d9186-2087-453f-b74d-4ec845b38940" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="376fccca-8300-4ab8-9491-368e6c1d4a6f" Name="Sequence 71 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="12.87">
@@ -36121,6 +36543,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="bafecd42-6b0e-4cbe-b6f9-e2757a93ba11" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="5be7c68c-dc08-42f7-b4b1-de1e682a1f2c" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="22b9dc2a-d50b-4eae-8df9-383d9ce70677" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="7b0d8896-4879-4365-b81e-9a97ccfb0f20" Name="Sequence 72 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="20.96">
@@ -36644,6 +37072,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="ab865f28-1f8a-4ea5-815b-5cc23fa2e9bd" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="dd9aa466-b116-478b-9802-f1105d86ca2d" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="fa8bdbfd-447a-405a-b2d4-b25297391e00" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="a85ed7d6-38ec-4eb5-853d-c59c25b950dc" Name="Sequence 73 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="13.220202445983887">
         <DialogNodeReference DialogNodeId="0d51ec4d-d297-d6d8-8417-0e95b272ecf2" ReferenceId="0d51ec4d-d297-d6d8-8417-0e95b272ecf2" />
@@ -37105,6 +37539,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="e48a42c8-9937-4497-b6f4-d3faa1d31c55" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="2fb95a16-953b-48a5-9be8-13753bca944f" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="852d416f-1389-4714-b488-3b25ab381323" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="9f3545c7-be08-4a92-932b-d2db459690d4" Name="Sequence 74 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.09">
@@ -37573,6 +38013,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="83c0daa4-f57c-459c-8697-f326e080e49a" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="6666b1d2-937c-4b27-a5ff-b46880504667" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="bdb7a619-2ebb-48ae-b41a-52d952d641b8" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="909fae7a-38e8-4953-971b-6f7645e166b5" Name="Sequence 75 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.34">
@@ -38045,6 +38491,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="ac0ecee2-bbc8-4b51-bb35-df6cc5221680" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="ee792255-1a4d-4681-9201-ca8dbcf0813e" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="acc631ae-df5a-436c-8b7f-250197631618" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="8442e03e-8b49-475d-a2bc-9a88a1418ed5" Name="Sequence 76 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="16.95">
@@ -38542,6 +38994,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="7f833bb7-098b-4720-8054-f4390c7b6e0f" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="d8cf68fd-576b-4eaa-b06d-d14a07c1c59d" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="1d1b5388-1519-408f-8103-9a5699730473" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="ef06bd08-1290-4eb2-9b58-848ebd059ad2" Name="Sequence 77 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.2">
         <DialogNodeReference DialogNodeId="0672ad64-4683-c8fb-df17-43070293ce6d" ReferenceId="0672ad64-4683-c8fb-df17-43070293ce6d" />
@@ -39006,6 +39464,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="1056e888-6e0a-4c69-b3bc-128349c7d565" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="bd8d9ab3-9318-4f7f-b91b-2e2765bb0993" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="bce71eac-02b2-4e3e-84e0-d271ca29d285" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="4a0fbf83-ab1e-4624-98aa-f0865f90e374" Name="Sequence 78 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.84">
@@ -39472,6 +39936,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="f362e957-3bd4-43d6-90cd-fd59cbf297a6" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="207b5d6f-0c93-4397-9ccc-b7920d8ec838" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="e6b0e5d2-f9f9-4350-a1e3-31726d686db9" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="9759052c-2dae-4ced-b7f8-d0e9769091b1" Name="Sequence 79 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.72">
         <DialogNodeReference DialogNodeId="05bfdeac-e23d-d7e2-1454-d310833f6bee" ReferenceId="05bfdeac-e23d-d7e2-1454-d310833f6bee" />
@@ -39936,6 +40406,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="0710a175-6ac8-4b1b-b919-7cba0e3111fd" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="bbafe53f-3b11-4e7b-af74-16230a8a792b" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="cdeef3c9-7158-4dff-876f-5356a1e1c707" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="19a7c13a-0faf-4867-8fc2-0917008568fc" Name="Sequence 80 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="47.04">
@@ -40485,6 +40961,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="b3539fc1-8a50-449b-baf1-7352a41ff855" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="ec203402-d015-4dc1-a454-76c62d98b3c9" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="2fe02101-0456-4a09-9e27-94c3b11cb43b" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="2b556f26-9973-49ec-9f3f-5f7bb3f47afd" Name="Sequence 81 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="3.62">
         <DialogNodeReference DialogNodeId="18d0e893-3621-90c0-3f16-9385aabe0874" ReferenceId="18d0e893-3621-90c0-3f16-9385aabe0874" />
@@ -40946,6 +41428,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="7d56f867-f390-4146-b12d-029e8f6cc62a" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="0a6d9710-3abc-439b-b2fc-39aae3cb8673" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="eaec0e19-ff18-4f4c-a996-8e52494d36be" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="3aab0992-40b6-4476-813b-5a2803e2127c" Name="Sequence 82 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.37">
@@ -41409,6 +41897,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="5bae3318-7eca-4c21-be53-b9d79f3d65cb" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="49a02bed-4162-40f3-866e-7622c4b71323" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="abb808ca-a40c-4979-bf4a-3947cfa43379" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="4c564566-22bf-42bf-86e1-b0ac71928960" Name="Sequence 83 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.84">
         <DialogNodeReference DialogNodeId="2d5bc24b-55dd-578f-e583-f61ca1e60cfe" ReferenceId="2d5bc24b-55dd-578f-e583-f61ca1e60cfe" />
@@ -41870,6 +42364,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="3833ff70-ba70-4b28-9d39-3027ff22984e" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="4427a3c2-1c76-4961-b01e-398b3ab9d40b" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="ce37b901-9e60-4f59-833b-76ad2c09d36d" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="7d540fe8-8626-4f83-a883-d33d73e6679b" Name="Sequence 84 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="20.66">
@@ -42380,6 +42880,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="504df9f4-f690-4cb8-a833-69d5f6a1580a" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="6ac408ae-fa74-4db6-bf4c-4841c04972b3" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="7159c04f-9292-45b1-9d59-03a11d7b4cd5" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="f3be862e-a5b0-4dba-a56a-865b07bef895" Name="Sequence 85 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.53">
         <DialogNodeReference DialogNodeId="5acfad83-52d2-67be-87e0-63c137100092" ReferenceId="5acfad83-52d2-67be-87e0-63c137100092" />
@@ -42835,6 +43341,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="9b21a815-1217-4b3a-8523-74e1f23ce1d6" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="33e2252b-f2c1-45c9-81b3-e820c07c1f98" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="acec8871-69e0-46f8-b297-34a55f2df204" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="11c65165-61c5-477e-851e-66882b2b0ea5" Name="Sequence 86 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.09">
@@ -43327,6 +43839,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="6d7a48f9-e79e-4fed-9614-7c87d944374b" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="e33a52cd-e2a6-47b7-a2ff-5927d93114e4" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="318441e0-2c8b-469e-82bc-55b4e0485db5" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="6941105e-b98d-4562-b44a-8acf3e5db1ea" Name="Sequence 87 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.41">
         <DialogNodeReference DialogNodeId="53543d34-49a6-be9a-9328-3f5066ca334c" ReferenceId="53543d34-49a6-be9a-9328-3f5066ca334c" />
@@ -43788,6 +44306,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="e7963718-a731-48d4-bffd-25ee425e0cf7" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="ff68e2fc-74ca-42b7-8b90-50edb7835ab3" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="760bd08f-576a-4e15-bae2-5dce7b240e5e" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="bac5a173-a031-40a5-9d68-c25693d3e001" Name="Sequence 88 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.97">
@@ -44305,6 +44829,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="364146a6-bdc0-4951-8c4a-39a868d1dbc8" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="ea12f83d-9039-4ec9-b623-4ff0e8f33998" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="867b152f-60e0-4f5e-9909-83225b7a641b" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="9aa020da-b3db-476a-9ce6-7ff79340f313" Name="Sequence 89 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="16.63">
         <DialogNodeReference DialogNodeId="c7563a30-6a04-7c65-1538-e2c44720d13f" ReferenceId="c7563a30-6a04-7c65-1538-e2c44720d13f" />
@@ -44771,6 +45301,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="e72b2fad-b83c-42af-b331-be64103328ea" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="ff0581bb-861d-40fc-ad6c-0cbda0b6709d" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="84e4ef76-8286-44c6-a718-6ac17c0ad384" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="881eea7a-c9e1-4d84-a9a0-93412e40c59a" Name="Sequence 90 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.76">
         <DialogNodeReference DialogNodeId="4c4a2696-92f8-bb4e-ee8f-466e34313272" ReferenceId="4c4a2696-92f8-bb4e-ee8f-466e34313272" />
@@ -45236,6 +45772,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="c6a260a4-5c43-4715-80a8-2cc959657f25" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="71f338a6-0373-42a7-b91a-e8fecd8ca7b1" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="158a456a-a558-4341-825a-15b4ac4f5bf9" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="b92b8f97-b6d3-49af-8ffd-64f0a3ac031c" Name="Sequence 91 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="11.25">
         <DialogNodeReference DialogNodeId="4b48d838-20f5-4145-049b-14aa49e0fe95" ReferenceId="4b48d838-20f5-4145-049b-14aa49e0fe95" />
@@ -45697,6 +46239,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="cc3ab8e7-d252-4c45-9dc3-8d1321f29706" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="496ae976-a48c-45a8-be6f-fa276744a297" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="85dc35a7-e204-403a-9f7e-8bdb689d6b20" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="2f711556-1e21-4fdf-8e79-1f5d1f2e7155" Name="Sequence 92 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="9.37">
@@ -46163,6 +46711,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="1d79fedd-e283-48ca-bfd9-5c201e530271" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="a329a410-d90d-4eeb-8aca-025a3a3c4eb0" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="681294b8-3c01-4986-b6b5-4766548236cb" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="6d165e53-2ad8-41fa-bb97-a7ab3b0e8355" Name="Sequence 93 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="83.49">
         <DialogNodeReference DialogNodeId="9d437ad8-77f1-efbf-0069-5b142e1fea65" ReferenceId="9d437ad8-77f1-efbf-0069-5b142e1fea65" />
@@ -46361,6 +46915,9 @@
               <Key ΔTime="0" Id="93314a34-73b3-4eb0-9a68-f828e8ea8949">
                 <Value ΔTargetId="171a2468-9965-40ad-82c3-17798cdee445" ΔTargetBone="Head_M" ΔTrackingMode="Recenter" ΔLookAtMode="Head" ΔLookAtInterpMode="EaseInOut" ΔTurnMode="Inactive" ΔTurnSpeedMultiplier="0.3" ΔTorsoTurnSpeedMultiplier="1" ΔHeadTurnSpeedMultiplier="0.3" ΔWeight="0" ΔResetEvent="false" ΔOffset="0; 0; 0" ΔIsEyeOverrideEnabled="false" ΔEyeOverrideTargetId="00000000-0000-0000-0000-000000000000" ΔEyeOverrideTargetBone="Head_M" ΔEyeOverrideOffset="0; 0; 0" />
               </Key>
+              <Key ΔTime="72.12" Id="84dc80aa-d095-45c5-aead-66a0eb4737d5">
+                <Value ΔTargetId="171a2468-9965-40ad-82c3-17798cdee445" ΔTargetBone="Head_M" ΔTrackingMode="Recenter" ΔLookAtMode="Head" ΔLookAtInterpMode="EaseInOut" ΔTurnMode="Inactive" ΔTurnSpeedMultiplier="0.3" ΔTorsoTurnSpeedMultiplier="1" ΔHeadTurnSpeedMultiplier="0.3" ΔWeight="0" ΔSafeZoneAngle="80" ΔHeadSafeZoneAngle="80" ΔResetEvent="true" ΔOffset="0; 0; 0" ΔIsEyeOverrideEnabled="false" ΔEyeOverrideTargetId="00000000-0000-0000-0000-000000000000" ΔEyeOverrideTargetBone="Head_M" ΔEyeOverrideOffset="0; 0; 0" />
+              </Key>
             </Channel>
           </Component>
         </Components>
@@ -46419,6 +46976,8 @@
           <Component ComponentId="e55167f2-399d-434d-b1f8-4974c0495897" IsInfinite="true" TimeDuration="1">
             <Channel Name="Foot IK">
               <Key ΔTime="0" Id="1d20f846-d611-488a-9e43-5a47e024c66a" Value="False" />
+              <Key ΔTime="49.1" Id="f49ab1ab-bc47-4c7a-8556-a2d1a72090ad" Value="True" />
+              <Key ΔTime="54.13" Id="57860d76-bc68-4a2e-9cdc-17febaf3cae7" Value="False" />
             </Channel>
           </Component>
         </Components>
@@ -46426,6 +46985,8 @@
           <Component ComponentId="2d0f5583-3b51-4fa9-9b08-19402d284dc5" IsInfinite="true" TimeDuration="1">
             <Channel Name="Hands IK">
               <Key ΔTime="7.17" Id="ef9dd3a6-3926-4415-9227-cfce221c3a17" Value="False" />
+              <Key ΔTime="49.1" Id="7679d5d1-8226-4015-9d2d-4a9e0168dac0" Value="True" />
+              <Key ΔTime="54.13" Id="70e5f211-c23c-408e-9de4-a87c9512e808" Value="False" />
             </Channel>
           </Component>
         </Components>
@@ -46458,6 +47019,7 @@
             <Channel Name="Springs AllVisuals">
               <Key ΔTime="49.1" Id="9ea1fde9-27cc-467c-a776-1adb59cb01f2" Value="False" />
               <Key ΔTime="72.12" Id="0dceb05b-0226-4dde-9b81-a60f95651492" Value="True" />
+              <Key ΔTime="54.13" Id="63db6aa0-b866-43e7-b781-17fb5b544a7d" Value="False" />
             </Channel>
           </Component>
         </Components>
@@ -46516,7 +47078,7 @@
               <Key ΔTime="61.15" Id="450bfd2b-91cd-46b2-9128-77ddaa4638cd">
                 <Value SoundType="SOUNDTYPE_Default" ΔEvent="2725b574-9b66-43e1-8179-ad72137de05f" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
               </Key>
-              <Key ΔTime="48.64999" Id="07693e02-a291-44ae-9808-048ee09d9bc8">
+              <Key ΔTime="48.05" Id="07693e02-a291-44ae-9808-048ee09d9bc8">
                 <Value SoundType="SOUNDTYPE_Default" ΔEvent="08899680-8735-4ddc-9e49-37e4844d3672" KeepAlive="false" LoopLifetime="10" ΔSoundObjectIndex="Root" />
               </Key>
               <Key ΔTime="46.80432" Id="fa55afbc-1124-4bb2-ad37-647a11b9344e">
@@ -47733,6 +48295,7 @@
               <Key ΔTime="43.78" Id="cf165b5a-c8a6-4b5f-a789-585e2ccc6c12" Value="True" />
               <Key ΔTime="0" Id="d1b1c6b4-a3c7-4605-863b-007c29d0119e" Value="False" />
               <Key ΔTime="46.690210996977981" Id="aec4d0dd-0436-42ce-a052-0b9e0bcee269" Value="False" />
+              <Key ΔTime="45.809381893426178" Id="78e50022-3a3d-4b5a-a108-e73b35f9b648" Value="False" />
             </Channel>
           </Component>
         </Components>
@@ -48094,6 +48657,21 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="1b0fcaeb-b173-435b-b94f-21f2d311b58c" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="5789aa2d-a35f-4e1f-a0fd-4623438eeee5" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Springs AllVisuals">
+              <Key ΔTime="49.1" Id="79b24950-e6c6-44c7-acec-ab26e72e966b" Value="False" />
+            </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="0e6ff70d-2e55-45bf-a571-baa66b915e78" IsInfinite="true" TimeDuration="1">
+            <Channel Name="Show Actor">
+              <Key ΔTime="0" Id="fc357855-00ab-414d-a169-ec02d71e6c93" Value="False" />
+              <Key ΔTime="44.17" Id="8bee6cf4-b943-467c-b71d-73899646d541" Value="True" />
+            </Channel>
+          </Component>
         </Components>
       </Sequence>
       <Sequence Id="cc807614-9898-41e4-9f2a-484c2ce5d942" Name="Sequence 94 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.33">
@@ -48557,6 +49135,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="4a110a4e-9cc8-4149-97e1-6edd41e60adb" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="39010891-c6e7-4944-b4ae-5a36312a9d92" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="e56fd70d-0aa4-4489-8a90-c5c476821bdd" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="8f3a7e43-e366-49a3-b370-80dde0182d55" Name="Sequence 95 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.51">
         <DialogNodeReference DialogNodeId="46e8be01-7ecc-1c57-3ce9-c20c330f3842" ReferenceId="46e8be01-7ecc-1c57-3ce9-c20c330f3842" />
@@ -49019,6 +49603,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="46adf946-b523-4d14-8ecb-6dd9b01d282a" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="89354c0d-0e3e-4b61-a158-5858e5512619" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="9b60a363-768c-4489-9195-d81ee04071fe" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="3675c465-bdf1-4747-a8cb-91714b7823e5" Name="Sequence 96 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="14.983038902282715">
         <DialogNodeReference DialogNodeId="2d89073e-696f-43aa-1de8-15deaf495ddb" ReferenceId="2d89073e-696f-43aa-1de8-15deaf495ddb" />
@@ -49474,6 +50064,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="9568f3fb-0ac9-4111-942f-d389ae3f2b51" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="60c7cdb2-808a-4a8d-af31-37655fea45fe" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="cedf9bde-740b-4b8f-8fb9-e7f5cffe07fa" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="25044075-03e6-45e9-bf0a-2d4acce1df06" Name="Sequence 97 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="25.57">
@@ -50063,6 +50659,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="95bf531f-1ba7-4764-b24e-c1433830cc8b" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="b9c2e616-7353-4583-a08d-ca424bdd0f59" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="f571850b-0734-4b94-921b-6b8dcf75afc8" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="253d6047-c319-46e5-bb9a-6b7d05ed736a" Name="Sequence 98 - NON-ILLITHID OPENING" DialogNodeColor="#FF008B8B" ΔTimeDuration="0.1">
         <DialogNodeReference DialogNodeId="46e8138d-16da-046b-5393-2d0383169445" ReferenceId="46e8138d-16da-046b-5393-2d0383169445" />
@@ -50495,6 +51097,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="eb4afd46-7bca-475e-95f9-1a58825c5367" ΔTimeDuration="0.1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="3a17a78f-0292-4a75-a44f-faa40b89a2a6" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="7752d7f7-4972-4d78-94b9-00fac0767294" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="fa0e701e-b71e-463b-82b7-31b75681c857" Name="Sequence 99 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.2">
@@ -50966,6 +51574,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="f40dfa8d-ca7f-486e-a51f-a3594bfa5a74" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="3dc3b7f3-8595-47a3-ae3e-921c54835ef4" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="a252da67-e4e6-4133-ac29-5a4547adfa92" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="953a3874-7d33-4077-9d0d-e6613ec0355a" Name="Sequence 100 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.64">
@@ -51443,6 +52057,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="8163de84-9cbd-42c5-96f7-087d158f6845" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="ab082e02-d7da-4881-9fc4-11d056c40659" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="5b5157c2-001d-4e5b-9f00-619f566c5fef" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="84fd8fe3-6bb6-490c-a9ef-63f890a37369" Name="Sequence 101 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="1.23">
         <DialogNodeReference DialogNodeId="386a2c34-c36a-1235-a2ad-d9815756a30e" ReferenceId="386a2c34-c36a-1235-a2ad-d9815756a30e" />
@@ -51901,6 +52521,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="5a6c8539-3180-4966-8014-bea061fe0852" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="b7d2e481-0dc1-42dd-bb8e-0fbe8597e1be" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="351d24c7-2513-4380-9852-9425f952ab6e" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="7ef5c0a9-6b58-4513-addb-324b742aa012" Name="Sequence 102 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.73">
@@ -52450,6 +53076,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="4ebb6469-5b5b-475a-ab05-bcad05e88996" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="17c4289d-4bd4-4751-90ac-9b196f1fa1d2" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="be4d4c5e-40b1-46a3-89b1-d2677a7d271a" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="a036e988-e2b6-453f-bef6-8883dcbf3c36" Name="Sequence 103 - ILLITHID" DialogNodeColor="#FFF4A460" ΔTimeDuration="14.64">
         <DialogNodeReference DialogNodeId="3352232f-d691-5783-2f21-b18569f9f188" ReferenceId="3352232f-d691-5783-2f21-b18569f9f188" />
@@ -52957,6 +53589,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="57df68b1-3433-4afd-95c4-2665213915c3" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="f0ffbdbc-bb08-49fa-abba-2fccfc59c2b6" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="24b4354d-1342-4ad2-9b27-ae966feb83e8" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="f9b35c6f-b282-43d3-9294-c93b2ba32d77" Name="Sequence 104 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.69">
         <DialogNodeReference DialogNodeId="33297aab-3419-7738-3d35-a31eebb71236" ReferenceId="33297aab-3419-7738-3d35-a31eebb71236" />
@@ -53430,6 +54068,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="c88a1314-c80f-4005-a6f6-dfd66656b81c" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="0f94f999-c1b5-4a65-8c39-a9e5cbb0c881" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="b28af400-0a02-4645-8dc5-89fa9e3e4c36" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="770fa048-170e-4d08-992f-d737dfe4b7b3" Name="Sequence 105 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="19">
@@ -53941,27 +54585,33 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="3af6a945-0e52-43eb-bcd4-a9f43f6395c1" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="0e88844c-f206-4aed-97b1-9a64b95231b7" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="6a3153f4-ebdb-41cc-9ee1-d9bb7f6151b3" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
-      <Sequence Id="83dab59a-b102-4baa-b105-31c7205586ca" Name="Sequence 106 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.47">
+      <Sequence Id="83dab59a-b102-4baa-b105-31c7205586ca" Name="Sequence 106 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="14.28">
         <DialogNodeReference DialogNodeId="b7182feb-3572-7227-b986-24a54cf467e2" ReferenceId="b7182feb-3572-7227-b986-24a54cf467e2" />
         <DialogNodeReference DialogNodeId="2e50c8c5-f703-40a0-87eb-7a075b0b32b8" ReferenceId="2e50c8c5-f703-40a0-87eb-7a075b0b32b8" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
-          <Component ComponentId="e3727b28-c018-4d02-8592-1602cc9882ce" ΔTimeDuration="3.96" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
+          <Component ComponentId="e3727b28-c018-4d02-8592-1602cc9882ce" ΔTimeDuration="7.77" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
             <CameraContainer>
               <Camera CameraId="50e36255-bb63-458c-8292-5e9437ba45ce" />
             </CameraContainer>
           </Component>
-          <Component ComponentId="8b9ab8fc-84ff-4427-940b-af224d8269c7" TimeStart="3.96" ΔTimeDuration="6.5101122856140146" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
+          <Component ComponentId="8b9ab8fc-84ff-4427-940b-af224d8269c7" TimeStart="7.77" ΔTimeDuration="6.51" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
             <CameraContainer>
               <Camera CameraId="7c4e585f-37e2-4fe3-8293-153d186410db" />
             </CameraContainer>
           </Component>
         </Components>
         <Components TrackId="779c0b38-9c1f-47e6-ac55-ceb3dc7bdf17">
-          <Component ComponentId="bfb5a4c9-5278-4d46-bfa8-17dbb685bc4f" ΔTimeDuration="3.71" FaceTech="FaceFX" HoldMocap="true" PerformanceFade="2" FadeIn="2" FadeOut="0" SeparateFades="false">
+          <Component ComponentId="bfb5a4c9-5278-4d46-bfa8-17dbb685bc4f" TimeDuration="7.6853623390197754" FaceTech="FaceFX" HoldMocap="true" PerformanceFade="2" FadeIn="2" FadeOut="0" SeparateFades="false">
             <DialogNodeReference DialogNodeId="b7182feb-3572-7227-b986-24a54cf467e2" ReferenceId="b7182feb-3572-7227-b986-24a54cf467e2" />
           </Component>
-          <Component ComponentId="5b56de92-358a-4127-9b9f-d40df4d7dc36" TimeStart="3.96" TimeDuration="6.5101122856140137" FaceTech="FaceFX" HoldMocap="true" PerformanceFade="2" FadeIn="2" SeparateFades="false">
+          <Component ComponentId="5b56de92-358a-4127-9b9f-d40df4d7dc36" TimeStart="7.77" TimeDuration="6.5101122856140137" FaceTech="FaceFX" HoldMocap="true" PerformanceFade="2" FadeIn="2" SeparateFades="false">
             <DialogNodeReference DialogNodeId="2e50c8c5-f703-40a0-87eb-7a075b0b32b8" ReferenceId="2e50c8c5-f703-40a0-87eb-7a075b0b32b8" />
           </Component>
         </Components>
@@ -54010,7 +54660,7 @@
         <Components TrackId="7dd6d7e7-ce65-48ab-b587-c1c796c795d6">
           <Component ComponentId="1f92c62f-1e9b-4ecc-8321-de9d4a34d6aa" IsInfinite="true" TimeDuration="1">
             <Channel Name="Emotion Event">
-              <Key ΔTime="3.96" Id="201e493d-fdd2-42d3-b5a2-b5c72af505dc">
+              <Key ΔTime="7.77" Id="201e493d-fdd2-42d3-b5a2-b5c72af505dc">
                 <Value ΔEmotion="Confusion" ΔVariation="1" IsSustainedEmotion="true" AppliesMaterials="true" />
               </Key>
             </Channel>
@@ -54019,7 +54669,7 @@
         <Components TrackId="0433a91b-7ffd-47cf-972a-16db35ae9aa7">
           <Component ComponentId="974833ca-53cb-4c5f-9cc7-1a765637e361" IsInfinite="true" TimeDuration="1">
             <Channel Name="Attitude Event">
-              <Key ΔTime="3.96" Id="31fd27b1-631c-4068-b203-478769737d13" IgnoreMimicry="true">
+              <Key ΔTime="7.77" Id="31fd27b1-631c-4068-b203-478769737d13" IgnoreMimicry="true">
                 <Value ΔPose="fd6ca738-c675-4249-8755-07d0d7027251" ΔTransition="375d49d9-707a-42fb-a7f5-7bccba35a6ea" />
               </Key>
             </Channel>
@@ -54461,6 +55111,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="968f2e17-642e-4f5d-b5fe-fb3c347d1a6e" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="8ccf02f0-c1df-45cd-9921-96299dc44483" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="67b5c189-3456-4509-8b74-f1bd28229cd3" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="4e6c4ac0-f749-4cfe-a9ca-6ab4f9a62f2d" Name="Sequence 107 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.66">
@@ -54924,6 +55580,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="7c3eacb7-2ed1-4fd2-9893-5e094c24a7ed" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="4de7fd14-3cb0-47bf-b61a-2fd0bc2de52e" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="c569825c-aaf8-4d65-a166-1f74f28e795a" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="3aaa75b5-4c47-43cf-941b-9221c834b40a" Name="Sequence 108 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.36">
         <DialogNodeReference DialogNodeId="ff17d8b3-abb6-1e43-2b58-2bea29a8e985" ReferenceId="ff17d8b3-abb6-1e43-2b58-2bea29a8e985" />
@@ -55385,6 +56047,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="ee14480b-a629-4a8d-a253-06a54671fac5" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="7b3a454b-95bc-433f-9c41-fc13e68eaa32" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="484bfb3c-d1ca-48b1-b662-b47a0a54f16f" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="287a5eea-3903-4be7-8d82-5f7161bcfd96" Name="Sequence 109 - Answer" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="77.55">
@@ -56475,6 +57143,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="d2536cf7-f8a5-4fa3-a88a-744e4095fdb2" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="9f175b98-2a52-4b9c-92f6-7075a0d85218" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="5976f572-6054-4c2c-9301-24496c534284" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="920f0f8f-8fc3-42e9-8129-acb44108dd09" Name="Sequence 110 - ALLIED ENDING" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="21.79">
         <DialogNodeReference DialogNodeId="8eddaa30-2b41-5dcf-4ec6-fbada9200226" ReferenceId="8eddaa30-2b41-5dcf-4ec6-fbada9200226" />
@@ -56799,6 +57473,12 @@
               </Key>
             </Channel>
           </Component>
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="34a5167e-3a87-444c-a6b5-b42765ad7a6a" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="a50bb7e0-57f7-4955-afa6-f767c2c032e0" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="d325fd85-4113-4487-8745-ab7815ae6257" Name="Sequence 111 - ALONE ENDING" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="14.55">
@@ -57187,6 +57867,12 @@
               </Key>
             </Channel>
           </Component>
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="5f495ae9-9f5d-4ed7-9c01-b8a2e4f4a24a" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="f6495df6-5e01-41fc-80f1-e9a03d25d0a4" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="c9b89fb6-d2c1-44a7-941c-c5771ddc1223" Name="Sequence 112 - EAT EMPEROR BRAIN ENDING" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="26.52">
@@ -58277,6 +58963,12 @@
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="9b501f56-8fcb-4a7f-8caa-574f39a59e88" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="52ee95ea-9eeb-45bf-994c-d3d7dccf3f81" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="dca08737-e567-41fc-96eb-e21ec476e5f2" IsInfinite="true" TimeDuration="1" />
+        </Components>
       </Sequence>
       <Sequence Id="67824dbc-af3c-4926-b0c7-aee592131238" Name="Sequence 113 - ROMANCE ENDING" DialogNodeColor="#FFCD5C5C" TimeDuration="5.5">
         <DialogNodeReference DialogNodeId="07c0c8ba-66ec-0ec7-43f9-d372d012aa4d" ReferenceId="07c0c8ba-66ec-0ec7-43f9-d372d012aa4d" />
@@ -58720,6 +59412,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="e150337e-2a68-477f-9ef7-b67717e3566c" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="f3e0ee62-1087-4f85-b334-9b995f405b44" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="3e8c3c1b-3630-4f0c-bae8-d0f39bec4362" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
       <Sequence Id="2df4804f-f90b-4a90-846d-4ada2c6d9500" Name="Sequence 114 - KARLACH ENDING" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="21.63">
@@ -59328,6 +60026,12 @@
         </Components>
         <Components TrackId="8b9d43ff-f2cd-4ba8-b236-107b0857f1dc">
           <Component ComponentId="04d2f376-c1c5-42bb-bdb6-06d18ae6f1e6" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="87b65444-8931-40ad-88fa-6878e2eac760">
+          <Component ComponentId="bf021046-9a7f-45f5-b93d-c760efa26bf7" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="1a59a2ff-b0ee-4076-8a44-9a71bd21354e">
+          <Component ComponentId="cd509649-e856-4a4c-99c2-f395aa34d80b" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
     </Sequences>
