@@ -21,7 +21,7 @@
           <ActorIdleOverrideData />
           <BehaviourActorStartCondition />
         </Track>
-        <Track Name="GROUP_Players" TrackId="01f748a9-c38b-4466-9264-8a0d30c49fff" IsExpanded="true" ActorType="character" ActorId="e2badbf0-159a-4ef5-9e73-7bbeb3d1015a" AssignedActorId="97ad09df-c188-4e39-bfd0-91c95c6379c4" SpeakerId="1" IsPlayer="true" SceneActorType="Initiator" SpeakerMappingId="6e5c447f-d3ae-4db7-ab21-c42860dbff87" Type="ActorTrackSpeaker">
+        <Track Name="GROUP_Players" TrackId="01f748a9-c38b-4466-9264-8a0d30c49fff" IsExpanded="true" ActorType="character" ActorId="e2badbf0-159a-4ef5-9e73-7bbeb3d1015a" AssignedActorId="ba20ee39-92ed-4aad-830d-4871103f48c2" SpeakerId="1" IsPlayer="true" SceneActorType="Initiator" SpeakerMappingId="6e5c447f-d3ae-4db7-ab21-c42860dbff87" Type="ActorTrackSpeaker">
           <Track Name="Voice" TrackId="8612ffa1-e328-49ca-b09a-71846e36d630" Type="ComponentTrackVoice" />
           <Track Name="Look At Event" TrackId="584ecb5f-7452-447f-b12a-c6d6d4a737e1" Type="ComponentTrackLookAtEvent" />
           <Track Name="Emotion Event" TrackId="21c2da08-0e14-4938-94f1-1851d16749b7" Type="ComponentTrackEmotionEvent" />
@@ -64,6 +64,32 @@
         </Track>
       </Track>
       <Track Name="Cameras" TrackId="d9e65137-0258-448d-949c-36ce03e42ca2" Type="FolderTrack">
+        <Track Name="Cust_Jump" TrackId="9e59a3ad-f0c4-4871-a1e8-5275efbff4b4" IsExpanded="true" ActorType="scenecam" ActorId="5831f1aa-6067-432c-aa2a-8c34e4c8687c" AssignedActorId="00000000-0000-0000-0000-000000000000" SceneCameraId="54a40265-677a-45a4-b020-07879f616aae" Type="ActorTrackSceneCamera">
+          <Track Name="Transform" TrackId="623df1b0-41be-4223-862b-45dabee5f9d7" IsExpanded="true" Type="ComponentTrackTransform">
+            <Track Name="Translate" TrackId="3f39a494-2b9e-4d9f-9aaf-c4ee61ed913b" IsExpanded="true" Type="KeyTrackWrapper">
+              <Track Name="X" TrackId="62c0474a-3818-44a9-974d-58ee581dad8f" Type="KeyTrackFloat" />
+              <Track Name="Y" TrackId="d9661c5d-f67e-42f6-871a-30c525de82d7" Type="KeyTrackFloat" />
+              <Track Name="Z" TrackId="e4510905-0a86-418b-8401-adb1a78a4d64" Type="KeyTrackFloat" />
+            </Track>
+            <Track Name="Rotation" TrackId="9de96f04-2d09-41c0-9723-a61681229462" Type="KeyTrackRotation" />
+            <Track Name="Scale" TrackId="c249690c-1775-4e55-8fc0-f40209f00be5" FallbackValue="1" Type="KeyTrackFloat" />
+            <Track Name="Parent Point" TrackId="7efd3256-ade4-4337-a3e5-56af756ed4a4" AttachmentType="DummyAttachmentBone" Type="KeyTrackFrameOfReference" />
+          </Track>
+          <Track Name="Depth of Field" TrackId="2ffd9a99-136a-461e-8ecc-b2dcd325cfeb" IsExpanded="true" Type="ComponentTrackDoF">
+            <Track Name="Focal Distance" TrackId="4f650f9e-1f96-4e0f-a9fa-9adac0495291" FallbackValue="10" Type="KeyTrackFloat" />
+            <Track Name="Aperture" TrackId="a5270e59-20b0-41c3-97fa-74abcc4e3c33" FallbackValue="2.8" Type="KeyTrackAperture" />
+            <Track Name="Enabled" TrackId="0fb0bae9-5b05-462a-8cd2-a0d7c5d937c3" Type="KeyTrackBoolean" />
+            <Track Name="Auto Focus" TrackId="9591bfef-119b-4660-a781-67491feee04d" Type="KeyTrackBoolean" />
+            <Track Name="Near Sharpness Offset" TrackId="80ccc188-8edd-4a89-9e1c-11be35f755e7" Type="KeyTrackFloat" />
+            <Track Name="Far Sharpness Offset" TrackId="3942fbcc-77db-4099-ba88-7d1f36291bb5" Type="KeyTrackFloat" />
+            <Track Name="DoF Area" TrackId="dc981caa-f21b-4d5b-a015-bd21f99d5355" FallbackValue="Mode_Both" Type="KeyTrackDoFArea" />
+          </Track>
+          <Track Name="Field of View" TrackId="a877a64f-4756-4228-b6d2-242899011737" Type="ComponentTrackCameraFoV" />
+          <CustomActorData Type="CustomActorSoundData" />
+          <ActorEndState />
+          <ActorIdleOverrideData />
+          <BehaviourActorStartCondition />
+        </Track>
         <Track Name="cam_player_MCU" TrackId="e86247a8-bdac-4584-9ab2-499e672ea33e" ActorType="scenecam" ActorId="9c43307c-f5b6-4f60-bdfe-e571fced417c" AssignedActorId="00000000-0000-0000-0000-000000000000" SceneCameraId="a7578f69-00a4-49fe-b8fa-b2cceb145f53" SceneCameraAttachTo="01f748a9-c38b-4466-9264-8a0d30c49fff" SceneCameraLookAt="01f748a9-c38b-4466-9264-8a0d30c49fff" Type="ActorTrackSceneCamera">
           <CustomActorData Type="CustomActorSoundData" />
           <ActorEndState />
@@ -107,32 +133,6 @@
           <BehaviourActorStartCondition />
         </Track>
         <Track Name="Q_cam_subject1_WIDEOTS_player" TrackId="f5a845d4-6736-4099-8657-c2748aa81c10" IsExpanded="true" ActorType="scenecam" ActorId="e8dff082-480b-49cf-a6fa-7ed24c184c00" AssignedActorId="00000000-0000-0000-0000-000000000000" SceneCameraId="b3a907cb-7bce-4218-b375-7bd557c341bf" SceneCameraAttachTo="01f748a9-c38b-4466-9264-8a0d30c49fff" SceneCameraLookAt="42f4dd09-e42b-434c-96f0-6ae7dfd397fe" Type="ActorTrackSceneCamera">
-          <CustomActorData Type="CustomActorSoundData" />
-          <ActorEndState />
-          <ActorIdleOverrideData />
-          <BehaviourActorStartCondition />
-        </Track>
-        <Track Name="Cust_Jump" TrackId="9e59a3ad-f0c4-4871-a1e8-5275efbff4b4" ActorType="scenecam" ActorId="5831f1aa-6067-432c-aa2a-8c34e4c8687c" AssignedActorId="00000000-0000-0000-0000-000000000000" SceneCameraId="54a40265-677a-45a4-b020-07879f616aae" Type="ActorTrackSceneCamera">
-          <Track Name="Transform" TrackId="623df1b0-41be-4223-862b-45dabee5f9d7" IsExpanded="true" Type="ComponentTrackTransform">
-            <Track Name="Translate" TrackId="3f39a494-2b9e-4d9f-9aaf-c4ee61ed913b" IsExpanded="true" Type="KeyTrackWrapper">
-              <Track Name="X" TrackId="62c0474a-3818-44a9-974d-58ee581dad8f" Type="KeyTrackFloat" />
-              <Track Name="Y" TrackId="d9661c5d-f67e-42f6-871a-30c525de82d7" Type="KeyTrackFloat" />
-              <Track Name="Z" TrackId="e4510905-0a86-418b-8401-adb1a78a4d64" Type="KeyTrackFloat" />
-            </Track>
-            <Track Name="Rotation" TrackId="9de96f04-2d09-41c0-9723-a61681229462" Type="KeyTrackRotation" />
-            <Track Name="Scale" TrackId="c249690c-1775-4e55-8fc0-f40209f00be5" FallbackValue="1" Type="KeyTrackFloat" />
-            <Track Name="Parent Point" TrackId="7efd3256-ade4-4337-a3e5-56af756ed4a4" AttachmentType="DummyAttachmentBone" Type="KeyTrackFrameOfReference" />
-          </Track>
-          <Track Name="Depth of Field" TrackId="2ffd9a99-136a-461e-8ecc-b2dcd325cfeb" IsExpanded="true" Type="ComponentTrackDoF">
-            <Track Name="Focal Distance" TrackId="4f650f9e-1f96-4e0f-a9fa-9adac0495291" FallbackValue="10" Type="KeyTrackFloat" />
-            <Track Name="Aperture" TrackId="a5270e59-20b0-41c3-97fa-74abcc4e3c33" FallbackValue="2.8" Type="KeyTrackAperture" />
-            <Track Name="Enabled" TrackId="0fb0bae9-5b05-462a-8cd2-a0d7c5d937c3" Type="KeyTrackBoolean" />
-            <Track Name="Auto Focus" TrackId="9591bfef-119b-4660-a781-67491feee04d" Type="KeyTrackBoolean" />
-            <Track Name="Near Sharpness Offset" TrackId="80ccc188-8edd-4a89-9e1c-11be35f755e7" Type="KeyTrackFloat" />
-            <Track Name="Far Sharpness Offset" TrackId="3942fbcc-77db-4099-ba88-7d1f36291bb5" Type="KeyTrackFloat" />
-            <Track Name="DoF Area" TrackId="dc981caa-f21b-4d5b-a015-bd21f99d5355" FallbackValue="Mode_Both" Type="KeyTrackDoFArea" />
-          </Track>
-          <Track Name="Field of View" TrackId="a877a64f-4756-4228-b6d2-242899011737" Type="ComponentTrackCameraFoV" />
           <CustomActorData Type="CustomActorSoundData" />
           <ActorEndState />
           <ActorIdleOverrideData />
@@ -284,21 +284,25 @@
               <Key ΔTime="0" Id="90962933-7ecf-4fff-8020-69dde5f313c7" Value="-1.621838" />
               <Key ΔTime="0.77" Id="4f999c5d-bd8d-476a-9803-4427ed36da8f" Value="-1.621838" />
               <Key ΔTime="1.51" Id="6468ea2d-6c6f-4e7d-94ad-18bea833edb8" Value="-1.621838" />
+              <Key ΔTime="2.73" Id="7aa90e2a-8c61-4d3e-bd13-fd2511203448" Value="-1.62" />
             </Channel>
             <Channel Name="Transform.Translate.Y">
               <Key ΔTime="0" Id="b0840e66-5bcf-4a66-8445-7dfcfc0a6231" Value="0.06768263" />
               <Key ΔTime="0.77" Id="0dc1051c-fb1d-4e83-8480-b87136e986a4" Value="0.12" />
               <Key ΔTime="1.51" Id="e7542159-31f4-40e1-8c3d-4b9274208361" Value="0.12" />
+              <Key ΔTime="2.73" Id="c9d6fc33-280d-4ac6-9701-f69ffa6ef514" Value="0.18" />
             </Channel>
             <Channel Name="Transform.Translate.Z">
               <Key ΔTime="0" Id="f097ec72-93cb-47b3-acf3-2880d75035b0" Value="1.993749" />
               <Key ΔTime="0.77" Id="891bbec0-45bc-4890-8f3a-95e4fba03b7a" Value="1.993749" />
               <Key ΔTime="1.51" Id="e16156b8-4f7f-4776-873f-aeca15cef783" Value="1.993749" />
+              <Key ΔTime="2.73" Id="7c0505f6-c7f7-4526-82f7-bc180eaf3ae2" Value="1.99" />
             </Channel>
             <Channel Name="Transform.Rotation">
               <Key ΔTime="0" Id="e7c1b5e2-e47c-4b62-9fe8-070d77691e06" Value="6.087; 2.541; 0" />
               <Key ΔTime="0.77" Id="911e75ab-1686-487c-bb8e-8b7046b48f33" Value="6.07; 2.541; 0" />
               <Key ΔTime="1.51" Id="a520c915-38a8-48fa-81ca-877407ccf8d9" Value="6.104; 2.541; 0" />
+              <Key ΔTime="2.73" Id="a54eca7c-e774-4615-83ff-0001f1276541" Value="6.139; 2.541; 0" />
             </Channel>
           </Component>
         </Components>
@@ -332,6 +336,7 @@
             <Channel Name="Field of View">
               <Key ΔTime="0" Id="2dbb0998-2cf0-4530-b8cb-4f540a573ec6" Value="27" />
               <Key ΔTime="1.51" Id="ffff4aa6-d4d7-4d8f-902d-bd7def5b44a4" Value="26" />
+              <Key ΔTime="2.73" Id="04fde398-cd65-4645-9548-556fb1c6d7c4" Value="25.7" />
             </Channel>
           </Component>
         </Components>
