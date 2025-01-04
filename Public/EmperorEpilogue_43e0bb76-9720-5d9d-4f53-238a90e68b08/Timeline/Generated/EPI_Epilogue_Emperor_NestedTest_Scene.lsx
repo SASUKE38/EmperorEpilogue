@@ -3,7 +3,7 @@
     <version major="4" minor="7" revision="1" build="3"/>
     <region id="TLScene">
         <node id="root">
-            <attribute id="Identifier" type="guid" value="129bf58f-4336-527a-ffe2-e0dfefe4edcc"/>
+            <attribute id="Identifier" type="guid" value="680af6a8-7631-b31a-a274-ab6d68cb4496"/>
             <attribute id="SceneBounds" type="fvec3">
                 <float3 x="3.9264793" y="0.42000002" z="2.5850658"/>
             </attribute>
@@ -3140,14 +3140,28 @@
                                                     </children>
                                                 </node>
                                                 <node id="Object">
+                                                    <attribute id="MapKey" type="guid" value="2103ca73-f0c4-4e99-b29f-f65b2afff221"/>
+                                                    <children>
+                                                        <node id="MapValue">
+                                                            <attribute id="Position" type="fvec3">
+                                                                <float3 x="0.96733093" y="-0.37500012" z="-1.1662626"/>
+                                                            </attribute>
+                                                            <attribute id="RotationQuat" type="fvec4">
+                                                                <float4 x="-0.070217416" y="0.65535182" z="-0.061404027" w="-0.749542"/>
+                                                            </attribute>
+                                                            <attribute id="Scale" type="float" value="1"/>
+                                                        </node>
+                                                    </children>
+                                                </node>
+                                                <node id="Object">
                                                     <attribute id="MapKey" type="guid" value="7fe00458-a052-48f4-9f8e-7e67c964fad8"/>
                                                     <children>
                                                         <node id="MapValue">
                                                             <attribute id="Position" type="fvec3">
-                                                                <float3 x="1.5203643" y="-0.50475907" z="0.28592968"/>
+                                                                <float3 x="1.6487675" y="-1.1660001" z="-1.9517264"/>
                                                             </attribute>
                                                             <attribute id="RotationQuat" type="fvec4">
-                                                                <float4 x="-0.075840726" y="0.87964612" z="-0.15081052" w="-0.44466504"/>
+                                                                <float4 x="-0.058740947" y="0.77875078" z="-0.07378222" w="-0.62020415"/>
                                                             </attribute>
                                                             <attribute id="Scale" type="float" value="1"/>
                                                         </node>
