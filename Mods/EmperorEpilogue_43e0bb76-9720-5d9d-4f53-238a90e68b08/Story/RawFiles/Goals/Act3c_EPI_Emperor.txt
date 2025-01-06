@@ -269,17 +269,58 @@ DB_NOOP(1);
 
 //END_REGION
 
-//REGION Nested Dialog Teleport
+//REGION Secluded Dialog Teleport
 
 IF
-FlagSet((FLAG)EPI_Epilogue_EmperorHadSecludedDialog_a5b9ae06-b8c7-b91f-aaf3-ea2de1adc3e7, _, _)
+DialogEnded((DIALOGRESOURCE)EPI_Epilogue_Emperor_b81cced4-003b-bd81-b0b1-8a828412c674, _ID)
 AND
-DB_Players(_Player)
+DB_DialogPlayers(_ID, _Player, _)
 AND
 GetFlag((FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222, _Player, 1)
+AND
+GetFlag((FLAG)EPI_Epilogue_EmperorHadSecludedDialog_a5b9ae06-b8c7-b91f-aaf3-ea2de1adc3e7, _Player, 1)
+AND
+QRY_OnlyOnce("EPI_Emperor_DidSecludedDialog")
+THEN
+PROC_EPI_Emperor_SeclusionFadeOut((CHARACTER)_Player);
+
+PROC
+PROC_EPI_Emperor_SeclusionFadeOut((CHARACTER)_Player)
+THEN
+DB_EPI_Emperor_SecludedTeleportedPlayer(_Player);
+ScreenFadeTo((CHARACTER)_Player, 0.5, 0, "EPI_Emperor_NestedTeleportFade");
+
+IF
+ScreenFadeDone(_, "EPI_Emperor_NestedTeleportFade")
+AND
+DB_EPI_Emperor_SecludedTeleportedPlayer(_Player)
 THEN
 TeleportTo(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, S_EPI_Owlbear_FireflySpot_39ee94dd-f1e4-421c-8107-adc6bfe069ad);
-TeleportTo(_Player, TimelineSceneTrigger_FestivityBeach_A_e1408b68-0fa2-480c-a64f-8d91a25ea74a);
+TeleportTo(_Player, TimelineSceneTrigger_FestivityBeach_A_e1408b68-0fa2-480c-a64f-8d91a25ea74a, "EPI_Emperor_PlayerTeleportedToSeclusion");
+
+IF
+EntityEvent((CHARACTER)_Player, "EPI_Emperor_PlayerTeleportedToSeclusion")
+THEN
+PROC_EPI_Emperor_SeclusionFadeIn(_Player);
+
+PROC
+PROC_EPI_Emperor_SeclusionFadeIn((CHARACTER)_Player)
+THEN
+ObjectTimerLaunch(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, "EPI_Epilogue_SecludedEmperorFadeDelay_Timer", 2000);
+
+IF
+ObjectTimerFinished(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, "EPI_Epilogue_SecludedEmperorFadeDelay_Timer")
+AND
+DB_EPI_Emperor_SecludedTeleportedPlayer(_Player)
+THEN
+ClearScreenFade((CHARACTER)_Player, 3.0, "EPI_Emperor_NestedTeleportFade");
+
+PROC
+PROC_EPI_Emperor_SeclusionFadeIn((CHARACTER)_Player)
+AND
+QRY_StartDialog_Fixed((DIALOGRESOURCE)EPI_Epilogue_Emperor_NestedTest_f716be87-ea3c-691a-6980-090878ef57c6, S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, _Player)
+THEN
+DB_NOOP(1);
 
 //END_REGION
 
