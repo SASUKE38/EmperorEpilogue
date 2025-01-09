@@ -313,7 +313,7 @@ ObjectTimerFinished(S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, "EPI_Epi
 AND
 DB_EPI_Emperor_SecludedTeleportedPlayer(_Player)
 THEN
-ClearScreenFade((CHARACTER)_Player, 3.0, "EPI_Emperor_NestedTeleportFade");
+ClearScreenFade((CHARACTER)_Player, 2.0, "EPI_Emperor_NestedTeleportFade");
 
 PROC
 PROC_EPI_Emperor_SeclusionFadeIn((CHARACTER)_Player)

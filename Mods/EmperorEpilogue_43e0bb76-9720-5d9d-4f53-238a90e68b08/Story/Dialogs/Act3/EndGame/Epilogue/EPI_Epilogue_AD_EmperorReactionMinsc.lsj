@@ -61,7 +61,7 @@
                                                 "TagText" : {
                                                    "handle" : "h85f631b8gd097g7945g4483g5281defc4ed0",
                                                    "type" : "TranslatedString",
-                                                   "version" : 4
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -190,7 +190,7 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "logicalname"},
-                                    "val" : {"type" : "LSString", "value" : "MINSC GUILD"}
+                                    "val" : {"type" : "LSString", "value" : "MINSC GUILD, KNIGHTS GENERIC"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "position"},
@@ -243,7 +243,7 @@
                                                 "TagText" : {
                                                    "handle" : "h62a1f209g049ag7f1dgfb1egddf00fd9f512",
                                                    "type" : "TranslatedString",
-                                                   "version" : 4
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -256,7 +256,20 @@
                         ],
                         "Tags" : [ {} ],
                         "UUID" : {"type" : "FixedString", "value" : "d3311dfb-f1d4-e43d-9c30-9b707fda5eee"},
-                        "checkflags" : [ {} ],
+                        "checkflags" : [
+                           {
+                              "flaggroup" : [
+                                 {
+                                    "flag" : [
+                                       {
+                                          "UUID" : {"type" : "FixedString", "value" : "08d8bedf-d70c-6818-abda-2d39558a63b8"},
+                                          "paramval" : {"type" : "int32", "value" : 1},
+                                          "value" : {"type" : "bool", "value" : false}
+                                       }
+                                    ],"type" : {"type" : "FixedString", "value" : "Object"}}
+                              ]
+                           }
+                        ],
                         "children" : [ {} ],
                         "constructor" : {"type" : "FixedString", "value" : "TagGreeting"},
                         "editorData" : [
@@ -352,7 +365,7 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "logicalname"},
-                                    "val" : {"type" : "LSString", "value" : "MINSC ZHENT"}
+                                    "val" : {"type" : "LSString", "value" : "Answer"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "position"},
@@ -463,7 +476,7 @@
                   ]
                }
             ],
-            "synopsis" : {"type" : "LSString", "value" : ""}
+            "synopsis" : {"type" : "LSString", "value" : "The Emperor's reaction  to Minsc at the epilogue party. "}
          }
       }
    }

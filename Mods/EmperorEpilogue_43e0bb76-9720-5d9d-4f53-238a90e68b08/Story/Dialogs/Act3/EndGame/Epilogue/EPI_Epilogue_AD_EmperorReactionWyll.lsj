@@ -26,12 +26,6 @@
                      },
                      {
                         "RootNodes" : {"type" : "FixedString", "value" : "23b2455d-ab80-4169-6f84-6748f1d30ace"}
-                     },
-                     {
-                        "RootNodes" : {"type" : "FixedString", "value" : "4503dded-09c7-298c-abee-36a117a0a17e"}
-                     },
-                     {
-                        "RootNodes" : {"type" : "FixedString", "value" : "88b493be-a10b-e533-6585-8b60afd1b2bb"}
                      }
                   ],
                   "node" : [
@@ -62,7 +56,7 @@
                                                 "TagText" : {
                                                    "handle" : "he93f07cdgab7ag304ag0021g2bf3569d08d9",
                                                    "type" : "TranslatedString",
-                                                   "version" : 4
+                                                   "version" : 15
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -288,7 +282,7 @@
                                                 "TagText" : {
                                                    "handle" : "hc6ddaa38gfbc5gc6fbg9e19ge35759aac43e",
                                                    "type" : "TranslatedString",
-                                                   "version" : 4
+                                                   "version" : 15
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -307,9 +301,7 @@
                                  {
                                     "flag" : [
                                        {
-                                          "UUID" : {"type" : "FixedString", "value" : "6e4b66e9-0f72-5171-04ba-441108b45b0e"},"value" : {"type" : "bool", "value" : true}},
-                                       {
-                                          "UUID" : {"type" : "FixedString", "value" : "e91a4ad5-e2f5-b336-f583-9f480ee7544e"},"value" : {"type" : "bool", "value" : true}}
+                                          "UUID" : {"type" : "FixedString", "value" : "90260727-2218-111f-f902-af2c35a22a31"},"value" : {"type" : "bool", "value" : true}}
                                     ],"type" : {"type" : "FixedString", "value" : "Global"}}
                               ]
                            }
@@ -409,7 +401,7 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "logicalname"},
-                                    "val" : {"type" : "LSString", "value" : "KARLACH WYLL"}
+                                    "val" : {"type" : "LSString", "value" : "GENERIC"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "position"},
@@ -453,7 +445,7 @@
                                                 "TagText" : {
                                                    "handle" : "hab6aa303gb8f1g8954gb190g6438355a20be",
                                                    "type" : "TranslatedString",
-                                                   "version" : 4
+                                                   "version" : 15
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -597,280 +589,29 @@
                               "OriginSound" : [ {} ]
                            }
                         ],
-                        "Greeting" : {"type" : "bool", "value" : true},
-                        "Root" : {"type" : "bool", "value" : true},
-                        "SourceNode" : {"type" : "FixedString", "value" : "88b493be-a10b-e533-6585-8b60afd1b2bb"},
+                        "TaggedTexts" : [ {} ],
                         "Tags" : [ {} ],
-                        "UUID" : {"type" : "FixedString", "value" : "4503dded-09c7-298c-abee-36a117a0a17e"},
+                        "UUID" : {"type" : "FixedString", "value" : "8f999380-9a9f-5fa7-a651-8c32ce45fa9d"},
                         "checkflags" : [
                            {
                               "flaggroup" : [
                                  {
                                     "flag" : [
                                        {
-                                          "UUID" : {"type" : "FixedString", "value" : "6e4b66e9-0f72-5171-04ba-441108b45b0e"},"value" : {"type" : "bool", "value" : true}},
-                                       {
-                                          "UUID" : {"type" : "FixedString", "value" : "faeb73da-a609-dc56-7745-ac07f795c137"},"value" : {"type" : "bool", "value" : true}}
+                                          "UUID" : {"type" : "FixedString", "value" : "90260727-2218-111f-f902-af2c35a22a31"},"value" : {"type" : "bool", "value" : true}}
                                     ],"type" : {"type" : "FixedString", "value" : "Global"}}
                               ]
                            }
                         ],
-                        "children" : [ {} ],
-                        "constructor" : {"type" : "FixedString", "value" : "Alias"},
-                        "editorData" : [
+                        "children" : [
                            {
-                              "data" : [
+                              "child" : [
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "ID"},
-                                    "val" : {"type" : "LSString", "value" : "N22"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "TemplateNodeUUID"},
-                                    "val" : {"type" : "LSString", "value" : "00000000-0000-0000-0000-000000000000"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "TemplateVersion"},
-                                    "val" : {"type" : "LSString", "value" : "0"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "collapsed"},
-                                    "val" : {"type" : "LSString", "value" : "False"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "logicalname"},
-                                    "val" : {"type" : "LSString", "value" : "Alias (BLADE WYLL)"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "position"},
-                                    "val" : {"type" : "LSString", "value" : "15;21696"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "sourcetemplate"},
-                                    "val" : {"type" : "LSString", "value" : ""}
+                                    "UUID" : {"type" : "FixedString", "value" : "b50b7301-3ef2-cbf9-2fe0-b46ed4b788d6"}
                                  }
                               ]
                            }
                         ],
-                        "endnode" : {"type" : "bool", "value" : true},
-                        "setflags" : [ {} ],
-                        "speaker" : {"type" : "int32", "value" : -1}
-                     },
-                     {
-                        "GameData" : [
-                           {
-                              "AiPersonalities" : [ {} ],
-                              "MusicInstrumentSounds" : [ {} ],
-                              "OriginSound" : [ {} ]
-                           }
-                        ],
-                        "Root" : {"type" : "bool", "value" : true},
-                        "TaggedTexts" : [
-                           {
-                              "TaggedText" : [
-                                 {
-                                    "HasTagRule" : {"type" : "bool", "value" : true},
-                                    "RuleGroup" : [
-                                       {
-                                          "Rules" : [ {} ],
-                                          "TagCombineOp" : {"type" : "uint8", "value" : 0}
-                                       }
-                                    ],
-                                    "TagTexts" : [
-                                       {
-                                          "TagText" : [
-                                             {
-                                                "LineId" : {"type" : "guid", "value" : "72f11d66-2f80-4752-9f31-550086f57d18"},
-                                                "TagText" : {
-                                                   "handle" : "h0345bf5dg7c1eg934fg8f4fg17a738152da7",
-                                                   "type" : "TranslatedString",
-                                                   "version" : 4
-                                                },
-                                                "stub" : {"type" : "bool", "value" : true}
-                                             }
-                                          ]
-                                       }
-                                    ]
-                                 }
-                              ]
-                           }
-                        ],
-                        "Tags" : [ {} ],
-                        "UUID" : {"type" : "FixedString", "value" : "88b493be-a10b-e533-6585-8b60afd1b2bb"},
-                        "checkflags" : [
-                           {
-                              "flaggroup" : [
-                                 {
-                                    "flag" : [
-                                       {
-                                          "UUID" : {"type" : "FixedString", "value" : "6e4b66e9-0f72-5171-04ba-441108b45b0e"},"value" : {"type" : "bool", "value" : true}}
-                                    ],"type" : {"type" : "FixedString", "value" : "Global"}}
-                              ]
-                           }
-                        ],
-                        "children" : [ {} ],
-                        "constructor" : {"type" : "FixedString", "value" : "TagGreeting"},
-                        "editorData" : [
-                           {
-                              "data" : [
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "AnimationTags"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "Attitude"},
-                                    "val" : {"type" : "LSString", "value" : "Default"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "CinematicNodeContext"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "CinematicObjects"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "CustomCineArtKeysPresent"},
-                                    "val" : {"type" : "LSString", "value" : "False"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "CustomLightingPresent"},
-                                    "val" : {"type" : "LSString", "value" : "False"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "CustomSoundPresent"},
-                                    "val" : {"type" : "LSString", "value" : "False"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "CustomVFXPresent"},
-                                    "val" : {"type" : "LSString", "value" : "False"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "Emotion"},
-                                    "val" : {"type" : "LSString", "value" : "Default"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "ForceDisableIsCustomNode"},
-                                    "val" : {"type" : "LSString", "value" : "False"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "ID"},
-                                    "val" : {"type" : "LSString", "value" : "N26"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "InternalNodeContext"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "IsCustomNode"},
-                                    "val" : {"type" : "LSString", "value" : "False"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "MusicTags"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "Quality"},
-                                    "val" : {"type" : "LSString", "value" : "Bronze"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "SFXTags"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "StateChangeTags"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "TemplateNodeUUID"},
-                                    "val" : {"type" : "LSString", "value" : "00000000-0000-0000-0000-000000000000"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "TemplateVersion"},
-                                    "val" : {"type" : "LSString", "value" : "0"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "VFXTags"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "collapsed"},
-                                    "val" : {"type" : "LSString", "value" : "False"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "logicalname"},
-                                    "val" : {"type" : "LSString", "value" : "BLADE WYLL"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "position"},
-                                    "val" : {"type" : "LSString", "value" : "15;21915"}
-                                 },
-                                 {
-                                    "key" : {"type" : "FixedString", "value" : "sourcetemplate"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 }
-                              ]
-                           }
-                        ],
-                        "endnode" : {"type" : "bool", "value" : true},
-                        "setflags" : [ {} ],
-                        "speaker" : {"type" : "int32", "value" : 0}
-                     },
-                     {
-                        "GameData" : [
-                           {
-                              "AiPersonalities" : [ {} ],
-                              "MusicInstrumentSounds" : [ {} ],
-                              "OriginSound" : [ {} ]
-                           }
-                        ],
-                        "TaggedTexts" : [
-                           {
-                              "TaggedText" : [
-                                 {
-                                    "HasTagRule" : {"type" : "bool", "value" : true},
-                                    "RuleGroup" : [
-                                       {
-                                          "Rules" : [ {} ],
-                                          "TagCombineOp" : {"type" : "uint8", "value" : 0}
-                                       }
-                                    ],
-                                    "TagTexts" : [
-                                       {
-                                          "TagText" : [
-                                             {
-                                                "LineId" : {"type" : "guid", "value" : "cd59099f-7581-45d0-a2ac-617824a0e92f"},
-                                                "TagText" : {
-                                                   "handle" : "h60bfc21bgf098gf28eg45a1g88837be1e956",
-                                                   "type" : "TranslatedString",
-                                                   "version" : 4
-                                                },
-                                                "stub" : {"type" : "bool", "value" : true}
-                                             }
-                                          ]
-                                       }
-                                    ]
-                                 }
-                              ]
-                           }
-                        ],
-                        "Tags" : [ {} ],
-                        "UUID" : {"type" : "FixedString", "value" : "9e949adc-37bd-2673-007b-d4d05ca16b10"},
-                        "checkflags" : [
-                           {
-                              "flaggroup" : [
-                                 {
-                                    "flag" : [
-                                       {
-                                          "UUID" : {"type" : "FixedString", "value" : "6e4b66e9-0f72-5171-04ba-441108b45b0e"},"value" : {"type" : "bool", "value" : true}}
-                                    ],"type" : {"type" : "FixedString", "value" : "Global"}}
-                              ]
-                           }
-                        ],
-                        "children" : [ {} ],
                         "constructor" : {"type" : "FixedString", "value" : "TagAnswer"},
                         "editorData" : [
                            {
@@ -917,7 +658,7 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "ID"},
-                                    "val" : {"type" : "LSString", "value" : "N17"}
+                                    "val" : {"type" : "LSString", "value" : "N32"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "InternalNodeContext"},
@@ -965,7 +706,7 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "logicalname"},
-                                    "val" : {"type" : "LSString", "value" : "GENERIC"}
+                                    "val" : {"type" : "LSString", "value" : "Answer"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "position"},
@@ -978,9 +719,53 @@
                               ]
                            }
                         ],
-                        "endnode" : {"type" : "bool", "value" : true},
                         "setflags" : [ {} ],
-                        "speaker" : {"type" : "int32", "value" : 0}
+                        "speaker" : {"type" : "int32", "value" : 0},
+                        "transitionmode" : {"type" : "uint8", "value" : 2}
+                     },
+                     {
+                        "Tags" : [ {} ],
+                        "UUID" : {"type" : "FixedString", "value" : "b50b7301-3ef2-cbf9-2fe0-b46ed4b788d6"},
+                        "checkflags" : [ {} ],
+                        "children" : [ {} ],
+                        "constructor" : {"type" : "FixedString", "value" : "Jump"},
+                        "editorData" : [
+                           {
+                              "data" : [
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "ID"},
+                                    "val" : {"type" : "LSString", "value" : "N33"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "TemplateNodeUUID"},
+                                    "val" : {"type" : "LSString", "value" : "00000000-0000-0000-0000-000000000000"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "TemplateVersion"},
+                                    "val" : {"type" : "LSString", "value" : "0"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "collapsed"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "logicalname"},
+                                    "val" : {"type" : "LSString", "value" : "Jump"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "position"},
+                                    "val" : {"type" : "LSString", "value" : "655;21258"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "sourcetemplate"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 }
+                              ]
+                           }
+                        ],
+                        "jumptarget" : {"type" : "FixedString", "value" : "23b2455d-ab80-4169-6f84-6748f1d30ace"},
+                        "jumptargetpoint" : {"type" : "uint8", "value" : 1},
+                        "setflags" : [ {} ]
                      },
                      {
                         "GameData" : [
@@ -1047,7 +832,7 @@
                                     "UUID" : {"type" : "FixedString", "value" : "0c42c7aa-0f7a-422b-0031-d0fd89d74585"}
                                  },
                                  {
-                                    "UUID" : {"type" : "FixedString", "value" : "9e949adc-37bd-2673-007b-d4d05ca16b10"}
+                                    "UUID" : {"type" : "FixedString", "value" : "8f999380-9a9f-5fa7-a651-8c32ce45fa9d"}
                                  }
                               ]
                            }
@@ -1221,7 +1006,7 @@
                }
             ],
             "needLayout" : {"type" : "bool", "value" : false},
-            "nextNodeId" : {"type" : "uint32", "value" : 26},
+            "nextNodeId" : {"type" : "uint32", "value" : 33},
             "speakerSlotDescription" : [
                {
                   "data" : [
@@ -1232,7 +1017,7 @@
                   ]
                }
             ],
-            "synopsis" : {"type" : "LSString", "value" : ""}
+            "synopsis" : {"type" : "LSString", "value" : "The Emperor's reaction to Wyll at the epilogue party.\r\n- Reactive to:\r\n- Duke\r\n- Knows Emperor is Balduran"}
          }
       }
    }
