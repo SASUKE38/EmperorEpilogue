@@ -77,7 +77,7 @@
                                                 "TagText" : {
                                                    "handle" : "hfbd47b89g69e2g1a63g038dgf0b3be670733",
                                                    "type" : "TranslatedString",
-                                                   "version" : 12
+                                                   "version" : 14
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -239,7 +239,7 @@
                                                 "TagText" : {
                                                    "handle" : "h831462fcgd071gaf87gb537g84bd41b29258",
                                                    "type" : "TranslatedString",
-                                                   "version" : 12
+                                                   "version" : 14
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -419,7 +419,7 @@
                                                 "TagText" : {
                                                    "handle" : "h9b406f08g7624g50edg7543gf2ebf1f6efc9",
                                                    "type" : "TranslatedString",
-                                                   "version" : 3
+                                                   "version" : 5
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -459,7 +459,15 @@
                                           "UUID" : {"type" : "FixedString", "value" : "e6847fa6-678a-4b4c-bb3b-4cfa61fbeb40"},"value" : {"type" : "bool", "value" : false}},
                                        {
                                           "UUID" : {"type" : "FixedString", "value" : "fec802e3-7904-4859-bc5e-c63bfd4b3783"},"value" : {"type" : "bool", "value" : false}}
-                                    ],"type" : {"type" : "FixedString", "value" : "Global"}}
+                                    ],"type" : {"type" : "FixedString", "value" : "Global"}},
+                                 {
+                                    "flag" : [
+                                       {
+                                          "UUID" : {"type" : "FixedString", "value" : "ffd08582-7396-4cac-bcd4-8f9cd0fd8ef3"},
+                                          "paramval" : {"type" : "int32", "value" : 1},
+                                          "value" : {"type" : "bool", "value" : false}
+                                       }
+                                    ],"type" : {"type" : "FixedString", "value" : "Tag"}}
                               ]
                            }
                         ],
@@ -573,7 +581,7 @@
                         ],
                         "endnode" : {"type" : "bool", "value" : true},
                         "setflags" : [ {} ],
-                        "speaker" : {"type" : "int32", "value" : -1}
+                        "speaker" : {"type" : "int32", "value" : 0}
                      }
                   ]
                }
@@ -689,7 +697,7 @@
                   ]
                }
             ],
-            "synopsis" : {"type" : "LSString", "value" : ""}
+            "synopsis" : {"type" : "LSString", "value" : "The Emperor's reaction to his partner starting combat."}
          }
       }
    }

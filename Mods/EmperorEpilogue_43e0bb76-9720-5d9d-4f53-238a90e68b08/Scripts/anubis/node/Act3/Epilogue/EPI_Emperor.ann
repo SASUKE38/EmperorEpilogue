@@ -1,0 +1,13 @@
+game.states.EPI_Emperor = State{function ()
+    description = [[ Idle failsafe for Emperor at the epilogue party. Should not be used, since the Emperor should always be in the party. ]]
+
+    local campPoint = Entity("S_EPI_Halsin_BeachPos2_264395d6-c91e-4bd3-9cfd-5c46175831ff")
+
+    nodes.Wander = Action {
+        function()
+            Wander(10.0,5.0, MovementSpeed.Stroll, campPoint)
+        end
+    }
+
+end
+}
