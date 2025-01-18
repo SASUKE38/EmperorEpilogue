@@ -345,6 +345,22 @@ SetFlag((FLAG)EPI_Epilogue_EmperorMoss_39f4a87d-97e9-76a1-c478-e32ea28378d5, _Pl
 //REGION ADs
 
 PROC
+PROC_FOR_CourierDog_ReturnFetchItemToPlayer((ITEM)S_EPI_InertArtefact_c4a6e98b-3707-4111-833f-26c8cd45580e,(CHARACTER)_Player)
+AND
+QRY_OnlyOnce("EPI_Emperor_Scratch_Prism_Reaction")
+AND
+GetFlag((FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222, _Player, 1)
+THEN
+PROC_TryStartAD((DIALOGRESOURCE)EPI_Epilogue_AD_EmperorScratchFetchPrism_44d98039-f2c0-8641-f22e-dff0820f9bfc, (CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
+
+PROC
+PROC_FOR_Courier_PlayFetch((CHARACTER)_Player, _, _)
+AND
+GetFlag((FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222, _Player, 1)
+THEN
+PROC_TryStartAD((DIALOGRESOURCE)EPI_Epilogue_AD_EmperorScratchFetch_63dde981-c8d3-2f4f-75d5-aca2b4806548, (CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, (CHARACTER)_Player);
+
+PROC
 PROC_EPI_Epilogue_ChangeBardTrack("EPI_BardScripted_CampBard_Ale_of_Balduran")
 AND
 QRY_OnlyOnce("EPI_Emperor_Reacted_Song")
