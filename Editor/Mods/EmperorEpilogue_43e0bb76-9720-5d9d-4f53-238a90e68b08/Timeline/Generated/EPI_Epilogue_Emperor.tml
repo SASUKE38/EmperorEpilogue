@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Root>
-  <Timeline Id="48a5d464-fb0e-4708-9ff6-33d6f21041f1" DialogResourceId="b81cced4-003b-bd81-b0b1-8a828412c674" AllowedPeanutTypes="Emotion, Attitude, LookAt">
+  <Timeline Id="48a5d464-fb0e-4708-9ff6-33d6f21041f1" DialogResourceId="b81cced4-003b-bd81-b0b1-8a828412c674" CanShowPeanuts="false" AllowedPeanutTypes="Emotion, Attitude, LookAt">
     <GenerationMetadata FullGenerationTimestamp="1729847182" PartialGenerationTimestamp="1735963892" />
     <TimelinePosition />
     <Tracks>
@@ -13,6 +13,9 @@
           <Track Name="Show Weapon" TrackId="e3053653-1d7b-4e82-872f-c9f65bb40bc7" Type="ComponentTrackShowWeapon" />
           <Track Name="Foot IK" TrackId="0284bb6a-40c2-4395-805c-c1c1c198e21c" Type="ComponentTrackPhysics" />
           <Track Name="Attitude Event" TrackId="88d1468b-7896-47fd-ac4e-28daf52822b8" Type="ComponentTrackAttitudeEvent" />
+          <Track Name="Animation" TrackId="758e5c36-127e-4b00-8ca3-9adec949fd99" SlotId="e3ff500b-8db3-4fbd-a180-6aad8c3ba4f4" Type="ComponentTrackAnimation">
+            <Track Name="Hide VFX" TrackId="098760f7-a9d7-4d96-ab2f-d5958541fdb1" Type="KeyTrackBoolean" />
+          </Track>
           <CustomActorData Type="CustomActorSoundData" />
           <ActorEndState />
           <ActorIdleOverrideData />
@@ -25,6 +28,9 @@
           <Track Name="Show Weapon" TrackId="ebae8bb2-05ec-49f2-bf8d-1e3eaf6d7b29" Type="ComponentTrackShowWeapon" />
           <Track Name="Foot IK" TrackId="231b4c9d-f8cf-4c89-bd49-1aa53f98877f" Type="ComponentTrackPhysics" />
           <Track Name="Attitude Event" TrackId="9c736c19-3cb0-4672-9a78-79c0779a8eb6" Type="ComponentTrackAttitudeEvent" />
+          <Track Name="Animation" TrackId="4c93b4fe-bfa0-44bc-a37d-c2f46bab998c" SlotId="e3ff500b-8db3-4fbd-a180-6aad8c3ba4f4" Type="ComponentTrackAnimation">
+            <Track Name="Hide VFX" TrackId="40b87065-a336-44b7-934b-6732c69b4048" Type="KeyTrackBoolean" />
+          </Track>
           <CustomActorData Type="CustomActorSoundData" />
           <ActorEndState />
           <ActorIdleOverrideData />
@@ -2296,7 +2302,7 @@
           <Component ComponentId="0c7354e9-680c-4c30-8fff-2e606ee07324" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="bf646732-a355-46a7-8452-165ac68cb2ec" Name="Sequence 22 - HUG MIND FLAYER" DialogNodeColor="#FF008B8B" TimeDuration="5.5">
+      <Sequence Id="bf646732-a355-46a7-8452-165ac68cb2ec" Name="Sequence 22 - HUG MIND FLAYER" DialogNodeColor="#FF008B8B" ΔTimeDuration="9.6">
         <DialogNodeReference DialogNodeId="a871c001-1e59-a495-8496-009c88371462" ReferenceId="a871c001-1e59-a495-8496-009c88371462" />
         <Components TrackId="1d35abcd-06b5-4267-8868-0632cc17602d">
           <Component ComponentId="b44a98ce-c252-4245-862a-637152beaaa3" IsInfinite="true" TimeDuration="1" />
@@ -4860,7 +4866,7 @@
           <Component ComponentId="b6b593da-67e0-4689-8f3b-d20c369371de" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="074cba1c-7a62-4e43-9bd4-f5b61d4bd5a2" Name="Sequence 51 - HUG STRONG" DialogNodeColor="#FF008B8B" TimeDuration="5.5">
+      <Sequence Id="074cba1c-7a62-4e43-9bd4-f5b61d4bd5a2" Name="Sequence 51 - HUG STRONG" DialogNodeColor="#FF008B8B" ΔTimeDuration="15.33">
         <DialogNodeReference DialogNodeId="ea1132eb-34d6-f61c-38e0-50906ee131d4" ReferenceId="ea1132eb-34d6-f61c-38e0-50906ee131d4" />
         <Components TrackId="1d35abcd-06b5-4267-8868-0632cc17602d">
           <Component ComponentId="cf58c873-574b-4326-baad-09e999bd97e4" IsInfinite="true" TimeDuration="1" />
@@ -4877,6 +4883,9 @@
         <Components TrackId="88d1468b-7896-47fd-ac4e-28daf52822b8">
           <Component ComponentId="7fa77845-f680-4a00-93a0-8ec944330587" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="758e5c36-127e-4b00-8ca3-9adec949fd99">
+          <Component ComponentId="421de8c2-4aa7-4245-a6a6-d8096c4bf8b7" ΔTimeDuration="15.333334922790527" AnimationSourceId="7345410c-7e52-603b-ae11-282ad7a3ab75" PlayRate="1" IsContinuous="true" AnimationType="Base" />
+        </Components>
         <Components TrackId="825b7c16-584a-43e7-82e8-d695202e0bed">
           <Component ComponentId="b2aa516d-08f0-4cd9-b9b1-a4aa44a3a527" IsInfinite="true" TimeDuration="1" />
         </Components>
@@ -4891,6 +4900,9 @@
         </Components>
         <Components TrackId="9c736c19-3cb0-4672-9a78-79c0779a8eb6">
           <Component ComponentId="79f73358-f019-440f-b765-1464cbc9b63b" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="4c93b4fe-bfa0-44bc-a37d-c2f46bab998c">
+          <Component ComponentId="8815f9c0-f0af-4ba0-8f24-d7e1143dae8e" ΔTimeDuration="15.333334922790527" AnimationSourceId="9bc346a1-bdb4-4afb-9341-95fdf59e6200" PlayRate="1" IsContinuous="true" AnimationType="Base" />
         </Components>
         <Components ComponentTrackReference="825b7c16-584a-43e7-82e8-d695202e0bed" IncludeInTimeline="false" TrackId="dc4b9182-1a0c-4a60-a842-16b78fba5efc">
           <Component ComponentId="afbc562b-8a0c-47cd-aba8-4582b7d86d1a" IsInfinite="true" TimeDuration="1" />
@@ -9394,7 +9406,7 @@
           <Component ComponentId="a53e3d68-7748-4eb1-98ca-5c1789d8cca3" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="ad0e54ec-095d-43ae-9c50-1700e248b334" Name="Sequence 102 - HUG SHORT" DialogNodeColor="#FF008B8B" TimeDuration="5.5">
+      <Sequence Id="ad0e54ec-095d-43ae-9c50-1700e248b334" Name="Sequence 102 - HUG SHORT" DialogNodeColor="#FF008B8B" ΔTimeDuration="15.33">
         <DialogNodeReference DialogNodeId="04e3c239-1654-685c-7013-edfb6f8102e5" ReferenceId="04e3c239-1654-685c-7013-edfb6f8102e5" />
         <Components TrackId="1d35abcd-06b5-4267-8868-0632cc17602d">
           <Component ComponentId="675a69db-46ac-423c-b6c9-2009fb90af16" IsInfinite="true" TimeDuration="1" />
@@ -9411,6 +9423,9 @@
         <Components TrackId="88d1468b-7896-47fd-ac4e-28daf52822b8">
           <Component ComponentId="66f0e029-a2c4-45e0-92ac-57be572744b3" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="758e5c36-127e-4b00-8ca3-9adec949fd99">
+          <Component ComponentId="43aef026-04ba-4538-9c8e-ad826ab323f6" ΔTimeDuration="15.333334922790527" AnimationSourceId="d850a681-93cc-836a-8f17-6dfb6da67c65" PlayRate="1" AnimationType="Base" />
+        </Components>
         <Components TrackId="825b7c16-584a-43e7-82e8-d695202e0bed">
           <Component ComponentId="8a478abd-dfea-4e1a-abcf-4829f55fc39c" IsInfinite="true" TimeDuration="1" />
         </Components>
@@ -9425,6 +9440,9 @@
         </Components>
         <Components TrackId="9c736c19-3cb0-4672-9a78-79c0779a8eb6">
           <Component ComponentId="33a7a425-7829-40e2-9f08-ee7e4c1d79dc" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="4c93b4fe-bfa0-44bc-a37d-c2f46bab998c">
+          <Component ComponentId="13b789cf-12c5-46cb-be4f-a62aac4eb7fe" ΔTimeDuration="15.333334922790527" AnimationSourceId="547dbe9b-494d-4f05-b83b-1bd7813d7c8e" PlayRate="1" AnimationType="Base" />
         </Components>
         <Components ComponentTrackReference="825b7c16-584a-43e7-82e8-d695202e0bed" IncludeInTimeline="false" TrackId="dc4b9182-1a0c-4a60-a842-16b78fba5efc">
           <Component ComponentId="284afab7-2991-48ec-9670-ee7b928eb110" IsInfinite="true" TimeDuration="1" />
@@ -10811,7 +10829,7 @@
           <Component ComponentId="cff2689c-260c-4f34-9c5f-efc3fce27940" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="18060d99-fab0-47a0-84aa-0491be091e3e" Name="Sequence 118 - HUG TALL" DialogNodeColor="#FF008B8B" TimeDuration="5.5">
+      <Sequence Id="18060d99-fab0-47a0-84aa-0491be091e3e" Name="Sequence 118 - HUG TALL" DialogNodeColor="#FF008B8B" ΔTimeDuration="15.33">
         <DialogNodeReference DialogNodeId="52bca999-c0bb-c3c0-90c6-f14f565f1bf7" ReferenceId="52bca999-c0bb-c3c0-90c6-f14f565f1bf7" />
         <Components TrackId="1d35abcd-06b5-4267-8868-0632cc17602d">
           <Component ComponentId="7c0796d4-d678-4a93-b1c2-6edcdf569c32" IsInfinite="true" TimeDuration="1" />
@@ -10828,6 +10846,9 @@
         <Components TrackId="88d1468b-7896-47fd-ac4e-28daf52822b8">
           <Component ComponentId="47022b9b-b014-46ca-be14-9491641d0a44" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="758e5c36-127e-4b00-8ca3-9adec949fd99">
+          <Component ComponentId="71e19e40-9928-4d6d-abdf-cfd7e165edd1" ΔTimeDuration="15.333334922790527" AnimationSourceId="c5b39560-7482-3fbc-1758-c80e3c183552" PlayRate="1" IsContinuous="true" AnimationType="Base" />
+        </Components>
         <Components TrackId="825b7c16-584a-43e7-82e8-d695202e0bed">
           <Component ComponentId="d0303408-8973-4a5c-b416-ad9d7cf4e20a" IsInfinite="true" TimeDuration="1" />
         </Components>
@@ -10842,6 +10863,9 @@
         </Components>
         <Components TrackId="9c736c19-3cb0-4672-9a78-79c0779a8eb6">
           <Component ComponentId="c39f80b9-f0e2-4a59-9902-c0857850aeed" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="4c93b4fe-bfa0-44bc-a37d-c2f46bab998c">
+          <Component ComponentId="765e4c57-4852-46f4-9f45-2c1cbb736f39" ΔTimeDuration="15.333334922790527" AnimationSourceId="c3a257ee-7249-4c5d-b2b1-89e2cddac65e" PlayRate="1" IsContinuous="true" AnimationType="Base" />
         </Components>
         <Components ComponentTrackReference="825b7c16-584a-43e7-82e8-d695202e0bed" IncludeInTimeline="false" TrackId="dc4b9182-1a0c-4a60-a842-16b78fba5efc">
           <Component ComponentId="f833ea7a-b7ae-48a1-b6bc-b25944231d9f" IsInfinite="true" TimeDuration="1" />

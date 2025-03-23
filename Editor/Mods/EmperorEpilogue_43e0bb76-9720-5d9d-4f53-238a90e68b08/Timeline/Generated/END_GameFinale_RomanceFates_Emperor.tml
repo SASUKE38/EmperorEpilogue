@@ -66,6 +66,16 @@
               <Track Name="Z" TrackId="f0f3253a-db0f-4b56-b20a-7031ed764616" Type="KeyTrackFloat" />
             </Track>
           </Track>
+          <Track Name="Overlay Material" TrackId="5bd6a3c3-4655-4a3d-b039-6e386822d7b1" MaterialGroupId="5700e71c-434c-4b50-b0a4-c3cb22d75872" VisualResourceId="00000000-0000-0000-0000-000000000000" CharacterVisualResourceId="00000000-0000-0000-0000-000000000000" IsOverlay="true" Slot="-1" OverlayPriority="0" Type="ComponentTrackMaterial">
+            <Track Name="Material Visibility" TrackId="1c1b83fb-4f4e-4e6d-9945-ad15c2d172de" Type="KeyTrackBoolean" />
+            <Track Name="MaskRadius" TrackId="81d06c85-d57c-4d0f-9703-189ef21f09a0" Type="KeyTrackFloat" />
+            <Track Name="BonePosition" TrackId="bed2e0a0-5631-4771-b54a-26cb399a36ce" IsExpanded="true" Type="KeyTrackWrapper">
+              <Track Name="X" TrackId="bf145501-a9e0-437f-adf5-dbfbd1ebeb5f" Type="KeyTrackFloat" />
+              <Track Name="Y" TrackId="dc447750-ffb6-4802-ac4d-f6f3dbdb8376" Type="KeyTrackFloat" />
+              <Track Name="Z" TrackId="5edbf24a-1a53-4120-8ce6-fa4754aaa4cd" Type="KeyTrackFloat" />
+            </Track>
+            <Track Name="MaskIntensity" TrackId="abd8a9d8-9cf5-4e37-8f34-0c51058ba04a" Type="KeyTrackFloat" />
+          </Track>
           <CustomActorData Type="CustomActorSoundData" />
           <ActorEndState />
           <ActorIdleOverrideData />
@@ -46936,6 +46946,32 @@
         </Components>
         <Components TrackId="1ccc38fb-0e72-4b1a-a9a7-5934a2459106">
           <Component ComponentId="e65f1424-d5b3-4497-9fa2-82e000c18607" IsInfinite="true" TimeDuration="1" />
+        </Components>
+        <Components TrackId="5bd6a3c3-4655-4a3d-b039-6e386822d7b1">
+          <Component ComponentId="fa40f8fc-52de-402a-843f-4378e9c2f99b" TimeStart="42.08" ΔTimeDuration="3.6300000000000026" IsContinuous="false">
+            <Channel Name="Overlay Material.Material Visibility">
+              <Key ΔTime="43.41" Id="15cf9691-75b7-4d37-be76-d0fdf4f3dd2d" Value="True" />
+              <Key ΔTime="44.79" Id="c0e2e71a-c0b1-4e52-8483-2a20b8aa4fd8" Value="False" />
+            </Channel>
+            <Channel Name="Overlay Material.MaskRadius">
+              <Key ΔTime="43.76" Id="04e0f5dd-d53a-44ca-99a6-1a9b6865bf0f" Value="2" />
+              <Key ΔTime="43.41" Id="a095ed3c-68ec-41ff-9ddc-0efe3d308957" Value="0" />
+              <Key ΔTime="44.79" Id="79a28ede-4f16-4cce-a164-b4eb53669b7c" Value="0" />
+            </Channel>
+            <Channel Name="Overlay Material.BonePosition.X">
+              <Key ΔTime="43.41" Id="47c339a4-a9ca-4160-b024-50b0485f6847" Value="-0.8" />
+            </Channel>
+            <Channel Name="Overlay Material.BonePosition.Y">
+              <Key ΔTime="43.41" Id="ef35fa25-a72d-4471-a062-3d801805fbda" Value="1.1" />
+            </Channel>
+            <Channel Name="Overlay Material.BonePosition.Z">
+              <Key ΔTime="43.41" Id="bcc84925-ef71-4d23-83bc-bbf77fb8d579" Value="0" />
+            </Channel>
+            <Channel Name="Overlay Material.MaskIntensity">
+              <Key ΔTime="43.76" Id="af94d3e2-0fa5-4a25-9d60-475eb049ed12" Value="20" />
+              <Key ΔTime="43.41" Id="5b7ad58a-a07e-436a-a9e6-844581c99fc4" Value="20" />
+            </Channel>
+          </Component>
         </Components>
         <Components TrackId="fc127b7d-0dda-4c56-baf0-3a7660dbf609">
           <Component ComponentId="8934853d-acb4-4936-86a7-6633f2606336" IsInfinite="true" TimeDuration="1">
