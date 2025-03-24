@@ -562,7 +562,7 @@
           <BehaviourActorStartCondition />
         </Track>
       </Track>
-      <Track Name="Cameras" TrackId="b67a603b-5acb-4e3b-8372-dc0f7d685d05" Type="FolderTrack">
+      <Track Name="Cameras" TrackId="b67a603b-5acb-4e3b-8372-dc0f7d685d05" IsExpanded="true" Type="FolderTrack">
         <Track TrackId="99e1fbeb-acf2-4e2a-8eec-d9839e3d4adf" ActorType="scenecam" ActorId="f03c7313-d7fa-4381-ab21-337c2a77b358" AssignedActorId="00000000-0000-0000-0000-000000000000" SceneCameraId="62dc4211-3d45-4e20-b6bc-62e18087b085" SceneCameraAttachTo="0cb14dbd-150d-471b-b367-389456f2a225" SceneCameraLookAt="0cb14dbd-150d-471b-b367-389456f2a225" Type="ActorTrackSceneCamera">
           <CustomActorData Type="CustomActorSoundData" />
           <ActorEndState />
@@ -758,9 +758,9 @@
           <ActorIdleOverrideData />
           <BehaviourActorStartCondition />
         </Track>
-        <Track TrackId="982b9d5d-9311-4e4f-ba6f-fe61c8c912a4" ActorType="scenecam" ActorId="56960372-ad27-4332-882d-db62e2dff6bc" AssignedActorId="00000000-0000-0000-0000-000000000000" SceneCameraId="cea1481a-fb1d-45aa-ab4c-12bab98acd31" Type="ActorTrackSceneCamera">
-          <Track Name="Transform" TrackId="654399f5-6998-4b03-ae0d-d77427ae389c" Type="ComponentTrackTransform">
-            <Track Name="Translate" TrackId="f4123a1c-ca15-4ae1-815f-8fa0896bfaee" Type="KeyTrackWrapper">
+        <Track TrackId="982b9d5d-9311-4e4f-ba6f-fe61c8c912a4" IsExpanded="true" ActorType="scenecam" ActorId="56960372-ad27-4332-882d-db62e2dff6bc" AssignedActorId="00000000-0000-0000-0000-000000000000" SceneCameraId="cea1481a-fb1d-45aa-ab4c-12bab98acd31" Type="ActorTrackSceneCamera">
+          <Track Name="Transform" TrackId="654399f5-6998-4b03-ae0d-d77427ae389c" IsExpanded="true" Type="ComponentTrackTransform">
+            <Track Name="Translate" TrackId="f4123a1c-ca15-4ae1-815f-8fa0896bfaee" IsExpanded="true" Type="KeyTrackWrapper">
               <Track Name="X" TrackId="e2f25abc-4d37-4028-8da5-f5f33919d558" Type="KeyTrackFloat" />
               <Track Name="Y" TrackId="1d5a98cc-f8aa-41dc-ae7b-f4de2b91edee" Type="KeyTrackFloat" />
               <Track Name="Z" TrackId="970fa6aa-9a08-4718-891f-35608e77a437" Type="KeyTrackFloat" />
@@ -1153,7 +1153,7 @@
           <ActorIdleOverrideData />
           <BehaviourActorStartCondition />
         </Track>
-        <Track Name="Extra Actor 23" TrackId="fce5d074-449b-466b-a459-017f12387fc4" ActorType="item" ActorId="87e64c13-4048-460c-80d7-2790832f2d79" AssignedActorId="00000000-0000-0000-0000-000000000000" InitialTransform="{{-0.9895471,0,0.1442145,5.020081}{0,1,0,-0.06080134}{-0.1442145,0,-0.9895471,-6.943268}{0,0,0,1}}" Type="ActorTrackDefault">
+        <Track Name="Extra Actor 23" TrackId="fce5d074-449b-466b-a459-017f12387fc4" ActorType="item" ActorId="87e64c13-4048-460c-80d7-2790832f2d79" AssignedActorId="00000000-0000-0000-0000-000000000000" InitialTransform="{{-0.989547,0,0.1442145,5.020081}{0,1.000001,0,-0.06080134}{-0.1442145,0,-0.989547,-6.943268}{0,0,0,1}}" Type="ActorTrackDefault">
           <CustomActorData Type="CustomActorSoundData" />
           <ActorEndState />
           <ActorIdleOverrideData />
@@ -2365,6 +2365,9 @@
         <Components TrackId="421433df-ccd3-4eee-8ac3-2fc8e004f57f">
           <Component ComponentId="7a1f1cfd-2555-48ce-9264-0f0ce2d97a43" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="010d5944-49ef-45fc-b9bb-d69eec14999f">
+          <Component ComponentId="50fcd8d8-bab5-44cf-903d-811020886256" ΔTimeDuration="2.1333334445953369" AnimationSourceId="56a264e3-3b48-e947-567a-32b0b4ee1228" PlayRate="1" IsContinuous="true" FadeIn="0" FadeOut="0" AnimationType="Base" />
+        </Components>
         <Components TrackId="931d6603-5036-413b-85dc-0baea23b7755">
           <Component ComponentId="f71b9691-e208-4273-97c7-608edeef875d" TimeDuration="31.55">
             <Channel Name="Attitude Event">
@@ -3150,9 +3153,6 @@
               </Key>
             </Channel>
           </Component>
-        </Components>
-        <Components TrackId="010d5944-49ef-45fc-b9bb-d69eec14999f">
-          <Component ComponentId="50fcd8d8-bab5-44cf-903d-811020886256" ΔTimeDuration="2.1333334445953369" AnimationSourceId="56a264e3-3b48-e947-567a-32b0b4ee1228" PlayRate="1" IsContinuous="true" FadeIn="0" FadeOut="0" AnimationType="Base" />
         </Components>
       </Sequence>
       <Sequence Id="da913594-ec1b-446a-84dc-f6a235febc37" Name="Sequence 2 - Greeting" DialogNodeColor="#FF2E8B57" TimeDuration="23.72">
@@ -4273,6 +4273,9 @@
         <Components TrackId="421433df-ccd3-4eee-8ac3-2fc8e004f57f">
           <Component ComponentId="27cf9fe8-b2b6-4ba3-9762-31f49278b678" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="010d5944-49ef-45fc-b9bb-d69eec14999f">
+          <Component ComponentId="2f73eb65-c043-4b97-8405-80c762a04d99" ΔTimeDuration="2.1333334445953369" AnimationSourceId="56a264e3-3b48-e947-567a-32b0b4ee1228" PlayRate="1" IsContinuous="true" FadeIn="0" FadeOut="0" AnimationType="Base" />
+        </Components>
         <Components TrackId="931d6603-5036-413b-85dc-0baea23b7755">
           <Component ComponentId="659b7f41-209e-b357-4edd-24f16a6a6d11" TimeDuration="23.72">
             <Channel Name="Attitude Event">
@@ -5028,9 +5031,6 @@
               </Key>
             </Channel>
           </Component>
-        </Components>
-        <Components TrackId="010d5944-49ef-45fc-b9bb-d69eec14999f">
-          <Component ComponentId="2f73eb65-c043-4b97-8405-80c762a04d99" ΔTimeDuration="2.1333334445953369" AnimationSourceId="56a264e3-3b48-e947-567a-32b0b4ee1228" PlayRate="1" IsContinuous="true" FadeIn="0" FadeOut="0" AnimationType="Base" />
         </Components>
         <EnterPhaseSoundEvents>
           <GlobalSoundEvent Event="d748969b-3f67-4592-aaff-502b716b8bc6" SoundType="SOUNDTYPE_Music" />
@@ -7746,6 +7746,9 @@
         <Components TrackId="421433df-ccd3-4eee-8ac3-2fc8e004f57f">
           <Component ComponentId="f2f0195e-5a4a-4609-a01d-156ff80cc56b" IsInfinite="true" TimeDuration="1" />
         </Components>
+        <Components TrackId="010d5944-49ef-45fc-b9bb-d69eec14999f">
+          <Component ComponentId="87696ce3-ed31-46ae-856e-90c6b2021028" TimeStart="6.53" ΔTimeDuration="3.3000001907348628" AnimationSourceId="eb5606bc-56b2-2281-2630-ebabe6b8d02a" PlayRate="1" FadeIn="0" FadeOut="0.7" AnimationType="Base" />
+        </Components>
         <Components TrackId="931d6603-5036-413b-85dc-0baea23b7755">
           <Component ComponentId="f17a6224-d627-40f3-a7e2-c95c669d279f" TimeDuration="18.379997" />
         </Components>
@@ -7905,7 +7908,7 @@
               <Key Time="8.93" Id="0e64373d-6957-4e8d-8f36-dfa5dcc39588" Value="-8.23702" />
             </Channel>
             <Channel Name="Transform.Rotation">
-              <Key Time="6.529999" Id="f600ed92-3e56-416e-b44d-b412d29ab76d" Value="0.072; -1.584; 0" />
+              <Key Time="6.529999" Id="f600ed92-3e56-416e-b44d-b412d29ab76d" Value="0.072; -1.542; 0" />
             </Channel>
           </Component>
         </Components>
@@ -8136,9 +8139,6 @@
               </Key>
             </Channel>
           </Component>
-        </Components>
-        <Components TrackId="010d5944-49ef-45fc-b9bb-d69eec14999f">
-          <Component ComponentId="87696ce3-ed31-46ae-856e-90c6b2021028" TimeStart="6.53" ΔTimeDuration="3.3000001907348628" AnimationSourceId="eb5606bc-56b2-2281-2630-ebabe6b8d02a" PlayRate="1" FadeIn="0" FadeOut="0.7" AnimationType="Base" />
         </Components>
         <EnterPhaseSoundEvents>
           <GlobalSoundEvent Event="7bccda2b-8e90-467a-a815-1f2cc59c6a6e" SoundType="SOUNDTYPE_Music" />
