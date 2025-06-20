@@ -1,5 +1,6 @@
 Emperor Romance Epilogue Mod for Baldur's Gate 3
 =======
+### NOTE: This mod is currently a work in progress.
 
 ## Release
 * [Nexus]()
