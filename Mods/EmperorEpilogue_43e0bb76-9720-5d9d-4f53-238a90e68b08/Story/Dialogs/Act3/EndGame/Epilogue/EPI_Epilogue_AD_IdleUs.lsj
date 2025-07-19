@@ -1,7 +1,7 @@
 {
    "save" : {
       "header" : {
-         "version" : "4.7.1.3"
+         "version" : "4.8.0.10"
       },
       "regions" : {
          "dialog" : {
@@ -63,7 +63,7 @@
                                                 "TagText" : {
                                                    "handle" : "h29a05fe6gf168gbd89g739egb31eb4c9ec62",
                                                    "type" : "TranslatedString",
-                                                   "version" : 11
+                                                   "version" : 12
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -149,12 +149,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -174,6 +174,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -241,7 +249,7 @@
                                                 "TagText" : {
                                                    "handle" : "h5a9bf01dg08adg18b7g31cag8b50a2bd5583",
                                                    "type" : "TranslatedString",
-                                                   "version" : 11
+                                                   "version" : 12
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -327,12 +335,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -352,6 +360,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -415,7 +431,7 @@
                                                 "TagText" : {
                                                    "handle" : "hdf54645ag232bg1c48g9e81g978ce1bf4c7c",
                                                    "type" : "TranslatedString",
-                                                   "version" : 11
+                                                   "version" : 12
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -501,12 +517,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -526,6 +542,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -589,7 +613,7 @@
                                                 "TagText" : {
                                                    "handle" : "h94570b26g92abg13ecge9fegd6fec23f6eca",
                                                    "type" : "TranslatedString",
-                                                   "version" : 12
+                                                   "version" : 13
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -665,12 +689,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -690,6 +714,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -742,6 +774,10 @@
          },
          "editorData" : {
             "HowToTrigger" : {"type" : "LSString", "value" : ""},
+            "autoFidelity" : {"type" : "LSString", "value" : "Bronze"},
+            "bronzeNodesCount" : {"type" : "int32", "value" : 4},
+            "currentFidelity" : {"type" : "LSString", "value" : "Bronze"},
+            "customNodesCount" : {"type" : "int32", "value" : 0},
             "defaultAttitudes" : [
                {
                   "data" : [
@@ -758,6 +794,15 @@
                      {
                         "key" : {"type" : "FixedString", "value" : "0"},
                         "val" : {"type" : "LSString", "value" : "Neutral"}
+                     }
+                  ]
+               }
+            ],
+            "defaultPath" : [
+               {
+                  "defaultPathNode" : [
+                     {
+                        "UUID" : {"type" : "LSString", "value" : "070d251f-cb88-4e71-94a0-f07674593858"}
                      }
                   ]
                }
@@ -784,6 +829,7 @@
             ],
             "needLayout" : {"type" : "bool", "value" : false},
             "nextNodeId" : {"type" : "uint32", "value" : 13},
+            "overrideFidelity" : {"type" : "LSString", "value" : "None"},
             "speakerSlotDescription" : [
                {
                   "data" : [
@@ -794,7 +840,8 @@
                   ]
                }
             ],
-            "synopsis" : {"type" : "LSString", "value" : "Us ADs for the epilogue party."}
+            "synopsis" : {"type" : "LSString", "value" : "Us ADs for the epilogue party."},
+            "targetFidelity" : {"type" : "LSString", "value" : "None"}
          }
       }
    }

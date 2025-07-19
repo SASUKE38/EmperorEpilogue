@@ -1,7 +1,7 @@
 {
    "save" : {
       "header" : {
-         "version" : "4.7.1.3"
+         "version" : "4.8.0.10"
       },
       "regions" : {
          "dialog" : {
@@ -112,7 +112,7 @@
                                                 "TagText" : {
                                                    "handle" : "hc2006c01g48f5g49fcg91b1g13ab1014d8bb",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -206,12 +206,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "(She snaps, and a flame appears at the tip of her finger. This snap triggers her fully into the current situation. Sadness is gone. Karlach Cliffgate is gone; Karlach Demonsbane is back. She offers Wyll a cigar, he shakes his head. She offers the player one of the lit cigars as she speaks. The subtext here is 'I would never have come back here, but I fucking love you, so let's do this thing together.')"}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -232,6 +232,14 @@
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
                                     "val" : {"type" : "LSString", "value" : "[EG] Karlach flame appearing at end of finger, cigars burning from the end"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "(She snaps, and a flame appears at the tip of her finger. This snap triggers her fully into the current situation. Sadness is gone. Karlach Cliffgate is gone; Karlach Demonsbane is back. She offers Wyll a cigar, he shakes his head. She offers the player one of the lit cigars as she speaks. The subtext here is 'I would never have come back here, but I fucking love you, so let's do this thing together.')"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
+                                    "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "collapsed"},
@@ -284,7 +292,7 @@
                                                 "TagText" : {
                                                    "handle" : "ha63a1c9dga89eg42b9g82adgc0df12db6e59",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -368,12 +376,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "(She takes a beat and puffs the cigar. The taste of the smoke brings her back into the Blood War. She gestures to the imps on the horizon with her cigar hand as she speaks; she's done this a thousand times.)"}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -393,6 +401,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "(She takes a beat and puffs the cigar. The taste of the smoke brings her back into the Blood War. She gestures to the imps on the horizon with her cigar hand as she speaks; she's done this a thousand times.)"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -445,7 +461,7 @@
                                                 "TagText" : {
                                                    "handle" : "hadae2df9g9ccag4e84g955eg87d74d969aea",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -521,12 +537,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -546,6 +562,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -600,7 +624,7 @@
                                                 "TagText" : {
                                                    "handle" : "hc4218691gdb90g4e76gbf74ge5b533318942",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -684,12 +708,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "(She puffs the cigar, then tosses it to the ground across her body, cool as fuck. Wryly, before speaking).\r\n"}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -710,6 +734,14 @@
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
                                     "val" : {"type" : "LSString", "value" : "[EG] Cigar smoke, burnt glowing end"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "(She puffs the cigar, then tosses it to the ground across her body, cool as fuck. Wryly, before speaking).\r\n"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
+                                    "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "collapsed"},
@@ -860,7 +892,7 @@
                                                 "TagText" : {
                                                    "handle" : "hbed91c3egd377g4a2cg8d52g75877823a258",
                                                    "type" : "TranslatedString",
-                                                   "version" : 7
+                                                   "version" : 8
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -944,12 +976,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "(She takes a beat and puffs the cigar. The taste of the smoke brings her back into the Blood War. She gestures to the imps on the horizon with her cigar hand as she speaks; she's done this a thousand times.)"}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -970,6 +1002,14 @@
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
                                     "val" : {"type" : "LSString", "value" : "[EG] Cigar smoke, burnt glowing end"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "(She takes a beat and puffs the cigar. The taste of the smoke brings her back into the Blood War. She gestures to the imps on the horizon with her cigar hand as she speaks; she's done this a thousand times.)"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
+                                    "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "collapsed"},
@@ -1024,7 +1064,7 @@
                                                 "TagText" : {
                                                    "handle" : "he2aa66d5g9474g45ebg90f0g7b1250288398",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -1108,12 +1148,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "We're bridging the gap from her death scene here- she was nearly- dead; the player is probably in a high state of emotion and we want to keep the tone high for a moment here."}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -1134,6 +1174,14 @@
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
                                     "val" : {"type" : "LSString", "value" : "[EG] Portal opening/closing, karlach fire burning intensily, karlach fire subsiding"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "We're bridging the gap from her death scene here- she was nearly- dead; the player is probably in a high state of emotion and we want to keep the tone high for a moment here."}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
+                                    "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "collapsed"},
@@ -1186,7 +1234,7 @@
                                                 "TagText" : {
                                                    "handle" : "h7590aafeg8b6cg4020g97efg2fa12d6ade70",
                                                    "type" : "TranslatedString",
-                                                   "version" : 7
+                                                   "version" : 8
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -1270,12 +1318,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -1295,6 +1343,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -1348,7 +1404,7 @@
                                                 "TagText" : {
                                                    "handle" : "h9a11d866gbb79g4274g845bg13e6e5b06ca6",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -1424,12 +1480,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "(Equips her battle axeand glances at the player with a grin. She's about to run into the horde and kill a shitton of imps and devils. This isn't the life she wanted, but it's all she's got, and she's damn good at it. Fade to credits.)"}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -1449,6 +1505,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "(Equips her battle axeand glances at the player with a grin. She's about to run into the horde and kill a shitton of imps and devils. This isn't the life she wanted, but it's all she's got, and she's damn good at it. Fade to credits.)"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -1505,7 +1569,7 @@
                                                 "TagText" : {
                                                    "handle" : "h50174f06gf170g4603g99cagf229c2bea291",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -1612,12 +1676,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "We're bridging the gap from her death scene here- she was nearly- dead; the player is probably in a high state of emotion and we want to keep the tone high for a moment here."}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -1637,6 +1701,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "We're bridging the gap from her death scene here- she was nearly- dead; the player is probably in a high state of emotion and we want to keep the tone high for a moment here."}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -1690,7 +1762,7 @@
                                                 "TagText" : {
                                                    "handle" : "h86a4ff06g4b8fg4465gb69eg339e4caff9e8",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -1774,12 +1846,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "(She holds her chest/ inhales. A little emotional, happy to live despite returning to this pit)."}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -1799,6 +1871,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "(She holds her chest/ inhales. A little emotional, happy to live despite returning to this pit)."}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -1894,7 +1974,7 @@
                                                 "TagText" : {
                                                    "handle" : "h2cda34bag246eg4419g90b3gfa91692642e8",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -1991,12 +2071,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "(She snaps, and a flame appears at the tip of her finger. This snap triggers her fully into the current situation. Sadness is gone. Karlach Cliffgate is gone; Karlach Demonsbane is back. She hands the player one of the lit cigars as she speaks. The subtext here is 'I would never have come back here, but I fucking love you, so let's do this thing together.')"}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -2017,6 +2097,14 @@
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
                                     "val" : {"type" : "LSString", "value" : "[EG] Karlach flame appearing at end of finger, cigars burning from the end"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "(She snaps, and a flame appears at the tip of her finger. This snap triggers her fully into the current situation. Sadness is gone. Karlach Cliffgate is gone; Karlach Demonsbane is back. She hands the player one of the lit cigars as she speaks. The subtext here is 'I would never have come back here, but I fucking love you, so let's do this thing together.')"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
+                                    "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "collapsed"},
@@ -2067,7 +2155,7 @@
                                                 "TagText" : {
                                                    "handle" : "h0114c84agdb21g4bfegac70gedb73dbfc300",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -2151,12 +2239,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "(She snaps, and a flame appears at the tip of her finger. This snap triggers her fully into the current situation. Sadness is gone. Karlach Cliffgate is gone; Karlach Demonsbane is back. She hands the player one of the lit cigars as she speaks. The subtext here is 'I would never have come back here, but I fucking love you, so let's do this thing together.')"}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -2177,6 +2265,14 @@
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
                                     "val" : {"type" : "LSString", "value" : "[EG] Karlach flame appearing at end of finger, cigars burning from the end"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "(She snaps, and a flame appears at the tip of her finger. This snap triggers her fully into the current situation. Sadness is gone. Karlach Cliffgate is gone; Karlach Demonsbane is back. She hands the player one of the lit cigars as she speaks. The subtext here is 'I would never have come back here, but I fucking love you, so let's do this thing together.')"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
+                                    "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "collapsed"},
@@ -2229,7 +2325,7 @@
                                                 "TagText" : {
                                                    "handle" : "he44328d4g0e25g4193gb1d3gf696d986ca65",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -2316,12 +2412,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "(She holds her chest/ inhales. A little emotional, happy to live despite returning to this pit)."}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -2341,6 +2437,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "(She holds her chest/ inhales. A little emotional, happy to live despite returning to this pit)."}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -2458,12 +2562,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -2483,6 +2587,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -2656,12 +2768,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -2681,6 +2793,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -2732,7 +2852,7 @@
                                                 "TagText" : {
                                                    "handle" : "he7369d31g3a8bg43dega580gb79d0197af94",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -2816,12 +2936,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "Beginning to bridge into soldier mode, acknowledging the player's sacrifice."}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -2841,6 +2961,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "Beginning to bridge into soldier mode, acknowledging the player's sacrifice."}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -2894,7 +3022,7 @@
                                                 "TagText" : {
                                                    "handle" : "h45bf1e1bgf81cg4388gba80gfb316da33fb2",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -2978,12 +3106,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "(She puffs the cigar, then tosses it to the ground across her body, cool as fuck. Wryly, before speaking).\r\n"}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -3003,6 +3131,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "(She puffs the cigar, then tosses it to the ground across her body, cool as fuck. Wryly, before speaking).\r\n"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -3056,7 +3192,7 @@
                                                 "TagText" : {
                                                    "handle" : "h637a21dbg4628g4845gaa96gebab9eef6ff5",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -3140,12 +3276,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -3165,6 +3301,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -3218,7 +3362,7 @@
                                                 "TagText" : {
                                                    "handle" : "h22cee095g8ddeg4238g823dg4bd95c809970",
                                                    "type" : "TranslatedString",
-                                                   "version" : 8
+                                                   "version" : 9
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -3294,12 +3438,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "(Equips her battle axeand glances at the player with a grin. She's about to run into the horde and kill a shitton of imps and devils. This isn't the life she wanted, but it's all she's got, and she's damn good at it. Fade to credits.)"}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -3319,6 +3463,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "(Equips her battle axeand glances at the player with a grin. She's about to run into the horde and kill a shitton of imps and devils. This isn't the life she wanted, but it's all she's got, and she's damn good at it. Fade to credits.)"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -3382,7 +3534,7 @@
                                                 "TagText" : {
                                                    "handle" : "h53fd629fgbf6fg4e48ga3f7g7f9bbb906efa",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -3484,12 +3636,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "(She holds her chest/ inhales. A little emotional, happy to live despite returning to this pit)."}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -3509,6 +3661,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "(She holds her chest/ inhales. A little emotional, happy to live despite returning to this pit)."}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -3560,7 +3720,7 @@
                                                 "TagText" : {
                                                    "handle" : "h65fea9d8g517fg4a50g8725g6f7df52c98e7",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -3656,12 +3816,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "Beginning to bridge into soldier mode, acknowledging the player's sacrifice."}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -3681,6 +3841,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "Beginning to bridge into soldier mode, acknowledging the player's sacrifice."}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -3734,7 +3902,7 @@
                                                 "TagText" : {
                                                    "handle" : "h97856d04ged7fg4604ga19bgd420e6e4b455",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -3818,12 +3986,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "A little wistful, a little hardened"}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -3843,6 +4011,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "A little wistful, a little hardened"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -3896,7 +4072,7 @@
                                                 "TagText" : {
                                                    "handle" : "hbeef0559g723dg4b94g9503g01cbbf4e65b4",
                                                    "type" : "TranslatedString",
-                                                   "version" : 7
+                                                   "version" : 8
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -3986,12 +4162,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : "A little wistful, a little hardened"}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -4011,6 +4187,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : "A little wistful, a little hardened"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -4107,6 +4291,10 @@
          },
          "editorData" : {
             "HowToTrigger" : {"type" : "LSString", "value" : ""},
+            "autoFidelity" : {"type" : "LSString", "value" : "Gold"},
+            "bronzeNodesCount" : {"type" : "int32", "value" : 6},
+            "currentFidelity" : {"type" : "LSString", "value" : "Gold"},
+            "customNodesCount" : {"type" : "int32", "value" : 15},
             "defaultAttitudes" : [
                {
                   "data" : [
@@ -4211,6 +4399,39 @@
                      {
                         "key" : {"type" : "FixedString", "value" : "9"},
                         "val" : {"type" : "LSString", "value" : "Neutral"}
+                     }
+                  ]
+               }
+            ],
+            "defaultPath" : [
+               {
+                  "defaultPathNode" : [
+                     {
+                        "UUID" : {"type" : "LSString", "value" : "4207084a-90ac-47b8-9b9d-bade64e80feb"}
+                     },
+                     {
+                        "UUID" : {"type" : "LSString", "value" : "80cead6c-3c56-4e20-82dc-f270483cddca"}
+                     },
+                     {
+                        "UUID" : {"type" : "LSString", "value" : "eb3807e2-673c-4eaf-a926-7d6b5397a158"}
+                     },
+                     {
+                        "UUID" : {"type" : "LSString", "value" : "ce2c02b1-5f30-45e8-a303-0bd4321134f3"}
+                     },
+                     {
+                        "UUID" : {"type" : "LSString", "value" : "f6ae1f31-bcca-468f-8b8e-b7388c904865"}
+                     },
+                     {
+                        "UUID" : {"type" : "LSString", "value" : "02492ed1-2e67-f01d-46c4-98509088658f"}
+                     },
+                     {
+                        "UUID" : {"type" : "LSString", "value" : "4163c236-de07-43c2-b695-a2f0d18c5431"}
+                     },
+                     {
+                        "UUID" : {"type" : "LSString", "value" : "381c1f6d-f534-4f04-938c-212bd6813741"}
+                     },
+                     {
+                        "UUID" : {"type" : "LSString", "value" : "cf7586fc-d631-43e9-b392-4dd7db1a25db"}
                      }
                   ]
                }
@@ -4325,6 +4546,7 @@
             ],
             "needLayout" : {"type" : "bool", "value" : false},
             "nextNodeId" : {"type" : "uint32", "value" : 125},
+            "overrideFidelity" : {"type" : "LSString", "value" : "None"},
             "speakerSlotDescription" : [
                {
                   "data" : [
@@ -4379,7 +4601,8 @@
                   ]
                }
             ],
-            "synopsis" : {"type" : "LSString", "value" : "In this post-credits sequence, Karlach and the player arrive in Avernus. She's still stuck in the middle of the Blood War, but she is, at least, alive. She quickly realizes her engine is 'fixed' as long as she stays down here and rapidly goes through the stages of grief to accpeting that she's back where she swore she'd never go - but at least she's in her element. Kicking ass, fucking shit up - and this  time, she has someone she loves with her. Maybe this could work after all... at least for now.\r\n\r\nTone here is optimistic, though ambiguous. Is this a good ending? A bad ending? Something in the middle? No matter what, we want to show Karlach at the height of her coolness. This is not our goofy dork; this is a powerhouse who knows how to survive, no matter what, and may even have fun this time around. Clint Karlach Eastwood mixed with 80s action star. Bring it on, baby."}
+            "synopsis" : {"type" : "LSString", "value" : "In this post-credits sequence, Karlach and the player arrive in Avernus. She's still stuck in the middle of the Blood War, but she is, at least, alive. She quickly realizes her engine is 'fixed' as long as she stays down here and rapidly goes through the stages of grief to accpeting that she's back where she swore she'd never go - but at least she's in her element. Kicking ass, fucking shit up - and this  time, she has someone she loves with her. Maybe this could work after all... at least for now.\r\n\r\nTone here is optimistic, though ambiguous. Is this a good ending? A bad ending? Something in the middle? No matter what, we want to show Karlach at the height of her coolness. This is not our goofy dork; this is a powerhouse who knows how to survive, no matter what, and may even have fun this time around. Clint Karlach Eastwood mixed with 80s action star. Bring it on, baby."},
+            "targetFidelity" : {"type" : "LSString", "value" : "None"}
          }
       }
    }

@@ -1,7 +1,7 @@
 {
    "save" : {
       "header" : {
-         "version" : "4.7.1.3"
+         "version" : "4.8.0.10"
       },
       "regions" : {
          "dialog" : {
@@ -61,7 +61,7 @@
                                                 "TagText" : {
                                                    "handle" : "h6b6a02bdga1c4g93b8g9009g976ae182591e",
                                                    "type" : "TranslatedString",
-                                                   "version" : 3
+                                                   "version" : 4
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -137,12 +137,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -162,6 +162,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -215,7 +223,7 @@
                                                 "TagText" : {
                                                    "handle" : "he52e3e49g276ega36fgfb0fgccfde754ef00",
                                                    "type" : "TranslatedString",
-                                                   "version" : 3
+                                                   "version" : 4
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -304,12 +312,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -329,6 +337,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -376,6 +392,10 @@
          },
          "editorData" : {
             "HowToTrigger" : {"type" : "LSString", "value" : ""},
+            "autoFidelity" : {"type" : "LSString", "value" : "Bronze"},
+            "bronzeNodesCount" : {"type" : "int32", "value" : 2},
+            "currentFidelity" : {"type" : "LSString", "value" : "Bronze"},
+            "customNodesCount" : {"type" : "int32", "value" : 0},
             "defaultAttitudes" : [
                {
                   "data" : [
@@ -400,6 +420,15 @@
                      {
                         "key" : {"type" : "FixedString", "value" : "1"},
                         "val" : {"type" : "LSString", "value" : "Neutral"}
+                     }
+                  ]
+               }
+            ],
+            "defaultPath" : [
+               {
+                  "defaultPathNode" : [
+                     {
+                        "UUID" : {"type" : "LSString", "value" : "57f3166d-82c1-de5f-2752-6afd5fedad90"}
                      }
                   ]
                }
@@ -434,6 +463,7 @@
             ],
             "needLayout" : {"type" : "bool", "value" : false},
             "nextNodeId" : {"type" : "uint32", "value" : 16},
+            "overrideFidelity" : {"type" : "LSString", "value" : "None"},
             "speakerSlotDescription" : [
                {
                   "data" : [
@@ -448,7 +478,8 @@
                   ]
                }
             ],
-            "synopsis" : {"type" : "LSString", "value" : "The Emperor's reaction to Karlach at the epilogue party.\r\nReactive to:\r\n- Illithid Karlach\r\n- Avernus"}
+            "synopsis" : {"type" : "LSString", "value" : "The Emperor's reaction to Karlach at the epilogue party.\r\nReactive to:\r\n- Illithid Karlach\r\n- Avernus"},
+            "targetFidelity" : {"type" : "LSString", "value" : "None"}
          }
       }
    }

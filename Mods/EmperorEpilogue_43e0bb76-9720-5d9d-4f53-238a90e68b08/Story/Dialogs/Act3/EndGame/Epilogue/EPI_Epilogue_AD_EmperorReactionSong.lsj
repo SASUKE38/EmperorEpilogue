@@ -1,7 +1,7 @@
 {
    "save" : {
       "header" : {
-         "version" : "4.7.1.3"
+         "version" : "4.8.0.10"
       },
       "regions" : {
          "dialog" : {
@@ -58,7 +58,7 @@
                                                 "TagText" : {
                                                    "handle" : "h648257a7g6421gf932g4795gc71d68d4770c",
                                                    "type" : "TranslatedString",
-                                                   "version" : 6
+                                                   "version" : 7
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -134,12 +134,12 @@
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
-                                    "key" : {"type" : "FixedString", "value" : "NodeContext"},
-                                    "val" : {"type" : "LSString", "value" : ""}
-                                 },
-                                 {
                                     "key" : {"type" : "FixedString", "value" : "Quality"},
                                     "val" : {"type" : "LSString", "value" : "Bronze"}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "RequiresVFX"},
+                                    "val" : {"type" : "LSString", "value" : "False"}
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "SFXTags"},
@@ -159,6 +159,14 @@
                                  },
                                  {
                                     "key" : {"type" : "FixedString", "value" : "VFXTags"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContext"},
+                                    "val" : {"type" : "LSString", "value" : ""}
+                                 },
+                                 {
+                                    "key" : {"type" : "FixedString", "value" : "VOContextAfter"},
                                     "val" : {"type" : "LSString", "value" : ""}
                                  },
                                  {
@@ -201,6 +209,10 @@
          },
          "editorData" : {
             "HowToTrigger" : {"type" : "LSString", "value" : ""},
+            "autoFidelity" : {"type" : "LSString", "value" : "Bronze"},
+            "bronzeNodesCount" : {"type" : "int32", "value" : 1},
+            "currentFidelity" : {"type" : "LSString", "value" : "Bronze"},
+            "customNodesCount" : {"type" : "int32", "value" : 0},
             "defaultAttitudes" : [
                {
                   "data" : [
@@ -225,6 +237,15 @@
                      {
                         "key" : {"type" : "FixedString", "value" : "1"},
                         "val" : {"type" : "LSString", "value" : "Neutral"}
+                     }
+                  ]
+               }
+            ],
+            "defaultPath" : [
+               {
+                  "defaultPathNode" : [
+                     {
+                        "UUID" : {"type" : "LSString", "value" : "5ffa941a-4670-b0a7-4be8-9fcf9977f642"}
                      }
                   ]
                }
@@ -259,6 +280,7 @@
             ],
             "needLayout" : {"type" : "bool", "value" : false},
             "nextNodeId" : {"type" : "uint32", "value" : 1},
+            "overrideFidelity" : {"type" : "LSString", "value" : "None"},
             "speakerSlotDescription" : [
                {
                   "data" : [
@@ -273,7 +295,8 @@
                   ]
                }
             ],
-            "synopsis" : {"type" : "LSString", "value" : "The Emperor's reaction to the Song of Balduran at the epilogue party."}
+            "synopsis" : {"type" : "LSString", "value" : "The Emperor's reaction to the Song of Balduran at the epilogue party."},
+            "targetFidelity" : {"type" : "LSString", "value" : "None"}
          }
       }
    }

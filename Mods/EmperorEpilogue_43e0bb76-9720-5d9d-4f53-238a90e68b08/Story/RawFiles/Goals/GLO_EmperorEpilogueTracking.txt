@@ -6,7 +6,9 @@ KBSECTION
 //REGION Debug
 
 IF
-DB_Players(_Player)
+LevelLoaded(_)
+AND
+GetHostCharacter(_Player)
 THEN
 DB_GlobalFlag((FLAG)CAMP_DaisyAcknowledgement_SexWithEmperor_933959fb-958b-59bc-3d5e-31e12f619d8d);
 DB_Emperor_Epilogue_Candidate((CHARACTER)_Player);

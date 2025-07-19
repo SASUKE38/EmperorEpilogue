@@ -128,6 +128,19 @@ PROC_DialogAddSpeakingActorAt(_ID, S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e
 
 //END_REGION
 
+//REGION Resonance Stone Check
+
+IF
+DialogStarted((DIALOGRESOURCE)END_GameFinale_RomanceFates_Emperor_4810b665-1b34-adee-c299-2905468e957c, _ID)
+AND
+DB_DialogRequestCache_SpeakerList_Players(END_GameFinale_RomanceFates_Emperor_4810b665-1b34-adee-c299-2905468e957c, _ID, _Player, _)
+AND
+QRY_ItemInTeamMagicPocketsOrCampChest(S_COL_ResonanceStone_f487943a-3448-475d-a176-43cf2174a59c)
+THEN
+SetFlag((FLAG)END_GameFinale_HasMoonriseStone_92831a41-77c8-4f58-6c4e-969078a4e650, _Player);
+
+//END_REGION
+
 //REGION Make Karlach Unavailable if Death Chosen During Romance Fate
 
 IF
