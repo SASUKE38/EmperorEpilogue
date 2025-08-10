@@ -425,11 +425,13 @@ THEN
 PROC_TryStartAD((DIALOGRESOURCE)EPI_Epilogue_AD_UsCombatStarted_ca9a6777-a6ca-c0c4-f26f-575649e0bff9, _Us);
 
 IF
-AutomatedDialogEnded(EPI_Epilogue_AD_AttackedDivineBard_f78c7fba-334b-f4c4-8c2a-72f0119d3f71, _ID)
+AttackedBy((CHARACTER)_Player, _AttackerOwner, _, _, _DamageAmount, _, _)
 AND
-QRY_OnlyOnce("EPI_Emperor_Reacted_Bard")
+QRY_OnlyOnce("EPI_Emperor_Reacted_PlayerDamage")
 AND
-DB_DialogPlayers(_ID, _Player, 1)
+_AttackerOwner != S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b
+AND
+_DamageAmount > 0
 AND
 GetFlag((FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222, _Player, 1)
 THEN
