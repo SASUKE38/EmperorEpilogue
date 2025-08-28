@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Root>
   <Timeline Id="e884c625-6f8d-4d20-a459-e142c37bf59e" DialogResourceId="4810b665-1b34-adee-c299-2905468e957c" CanShowPeanuts="false" AllowedPeanutTypes="Emotion, Attitude, LookAt">
-    <GenerationMetadata FullGenerationTimestamp="1730190085" PartialGenerationTimestamp="1752880598" />
+    <GenerationMetadata FullGenerationTimestamp="1730190085" PartialGenerationTimestamp="1756091419" />
     <TimelinePosition BoundSceneId="88805b3b-8ba9-428b-8ab1-099be8f5b498">
       <AdditionalBoundSceneId BoundSceneId="88805b3b-8ba9-428b-8ab1-099be8f5b498" />
     </TimelinePosition>
@@ -90,7 +90,7 @@
           <ActorIdleOverrideData />
           <BehaviourActorStartCondition />
         </Track>
-        <Track Name="GROUP_Players" TrackId="ab085b89-be1f-48ac-8b07-4994daf87fa3" IsExpanded="true" ActorType="character" ActorId="aa772968-b5e0-4441-8d86-2d0506b4aab5" AssignedActorId="2d86a23d-5053-4398-8b87-140e6be79656" SpeakerId="1" IsPlayer="true" SceneActorType="Initiator" SpeakerMappingId="327a3579-ca1d-4561-aa3b-6a92d6326acf" Type="ActorTrackSpeaker">
+        <Track Name="GROUP_Players" TrackId="ab085b89-be1f-48ac-8b07-4994daf87fa3" IsExpanded="true" ActorType="character" ActorId="e2badbf0-159a-4ef5-9e73-7bbeb3d1015a" AssignedActorId="2d86a23d-5053-4398-8b87-140e6be79656" SpeakerId="1" IsPlayer="true" SceneActorType="Initiator" SpeakerMappingId="327a3579-ca1d-4561-aa3b-6a92d6326acf" Type="ActorTrackSpeaker">
           <Track Name="Voice" TrackId="126b949c-09cc-48cf-a437-da7000997798" Type="ComponentTrackVoice" />
           <Track Name="Look At Event" TrackId="fc127b7d-0dda-4c56-baf0-3a7660dbf609" Type="ComponentTrackLookAtEvent" />
           <Track Name="Emotion Event" TrackId="7dd6d7e7-ce65-48ab-b587-c1c796c795d6" Type="ComponentTrackEmotionEvent" />
@@ -1829,7 +1829,7 @@
       </Track>
     </Tracks>
     <Sequences>
-      <Sequence Id="5e6ef6a1-f276-4e54-90f4-7957e95eabba" Name="Sequence 2 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="2.92">
+      <Sequence Id="5e6ef6a1-f276-4e54-90f4-7957e95eabba" Name="Sequence 1 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="2.92">
         <DialogNodeReference DialogNodeId="005e32d5-7b1e-4bf5-ecff-993a274a1896" ReferenceId="005e32d5-7b1e-4bf5-ecff-993a274a1896" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="e479e035-40f5-4c89-9413-ed1e267696d8" ΔTimeDuration="2.9222338199615479" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -2327,7 +2327,7 @@
           <Component ComponentId="7c6d2b62-fa89-439b-9945-ca7cc1ba1533" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="92ce8ab7-764b-42d2-9b1a-4fd45b651074" Name="Sequence 3 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.31">
+      <Sequence Id="92ce8ab7-764b-42d2-9b1a-4fd45b651074" Name="Sequence 2 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.31">
         <DialogNodeReference DialogNodeId="b414c6c0-32ea-cb4b-2ebf-9e3df5d72074" ReferenceId="b414c6c0-32ea-cb4b-2ebf-9e3df5d72074" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="2ecba6ba-5c54-4011-b51b-68d558a60737" ΔTimeDuration="5.3074111938476563" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -2822,7 +2822,7 @@
           <Component ComponentId="ac6104f2-ec7d-406b-8906-7f1b08b64700" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="88dfbfd6-62e7-42e7-aae7-ca58eb1f59f0" Name="Sequence 4 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.14">
+      <Sequence Id="88dfbfd6-62e7-42e7-aae7-ca58eb1f59f0" Name="Sequence 3 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.14">
         <DialogNodeReference DialogNodeId="b0384390-9655-e997-c061-f31c0a6a29ac" ReferenceId="b0384390-9655-e997-c061-f31c0a6a29ac" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="c09c9b8d-ece9-4be2-89bb-8fb2b44d5417" ΔTimeDuration="7.1414222717285156" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -3305,7 +3305,7 @@
           <Component ComponentId="b5f15ff5-6c2b-455e-b0b6-dc2c57ed508e" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="b36a329b-4363-41b6-a809-dba425ac5f31" Name="Sequence 5 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="12.88">
+      <Sequence Id="b36a329b-4363-41b6-a809-dba425ac5f31" Name="Sequence 4 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="12.88">
         <DialogNodeReference DialogNodeId="ae7b07ac-6898-d6a1-f494-3429a5b3d077" ReferenceId="ae7b07ac-6898-d6a1-f494-3429a5b3d077" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="7a806707-b314-4c3b-b914-3de2abe060d8" ΔTimeDuration="3.76" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -3825,7 +3825,7 @@
           <Component ComponentId="62d3c5b8-0292-4d29-91ac-b53c525a4ee4" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="7f687c51-91b6-4920-8e3c-be9f55ad0c03" Name="Sequence 6 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="11.21">
+      <Sequence Id="7f687c51-91b6-4920-8e3c-be9f55ad0c03" Name="Sequence 5 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="11.21">
         <DialogNodeReference DialogNodeId="ab6a40fb-1e6a-85cc-e846-0690bc1a18fa" ReferenceId="ab6a40fb-1e6a-85cc-e846-0690bc1a18fa" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="2eeced2e-4453-424f-9970-19e13ec8b5d8" ΔTimeDuration="3.6977025046944618" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -4449,7 +4449,7 @@
           <Component ComponentId="61d9f46b-7ab8-4ab5-9432-43280268c0a5" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="58bf6827-9223-49aa-bc84-50ec18c4832f" Name="Sequence 7 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.24">
+      <Sequence Id="58bf6827-9223-49aa-bc84-50ec18c4832f" Name="Sequence 6 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.24">
         <DialogNodeReference DialogNodeId="a8d5b214-2345-be9b-aee2-195dc07bf05c" ReferenceId="a8d5b214-2345-be9b-aee2-195dc07bf05c" />
         <DialogNodeReference DialogNodeId="beb98a01-fac8-f531-e17c-7ce092cf3891" ReferenceId="beb98a01-fac8-f531-e17c-7ce092cf3891" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -4979,7 +4979,7 @@
           <Component ComponentId="d0d3ec4e-47ed-4a7e-85cd-1085eafcc9ae" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="c32bf928-6d2e-49a4-aa74-4e3bd02df43c" Name="Sequence 8 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="2.06">
+      <Sequence Id="c32bf928-6d2e-49a4-aa74-4e3bd02df43c" Name="Sequence 7 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="2.06">
         <DialogNodeReference DialogNodeId="a68bb7b5-73f5-1063-1adb-4f3e90928875" ReferenceId="a68bb7b5-73f5-1063-1adb-4f3e90928875" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="6c4e8a51-2572-4ef6-a890-387d48e25ca7" ΔTimeDuration="2.06" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -5480,7 +5480,7 @@
           <Component ComponentId="e5fb25cd-ac0c-4c91-bad6-b577c592d0b6" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="83ddc086-d21e-4c78-8ff0-aeeaa153befb" Name="Sequence 9 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.8">
+      <Sequence Id="83ddc086-d21e-4c78-8ff0-aeeaa153befb" Name="Sequence 8 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.8">
         <DialogNodeReference DialogNodeId="a5299f3e-594f-4416-d352-5fe2f350e38b" ReferenceId="a5299f3e-594f-4416-d352-5fe2f350e38b" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="20ea15e4-7da1-4f97-977d-49a4bf667a8f" ΔTimeDuration="5.8010239601135254" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -5963,7 +5963,7 @@
           <Component ComponentId="a58a9a8a-0fa1-4c29-88d3-0ca295b6be6e" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="fab63d62-ce83-40b5-920b-9f463c28bd38" Name="Sequence 10 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="2.69">
+      <Sequence Id="fab63d62-ce83-40b5-920b-9f463c28bd38" Name="Sequence 9 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="2.69">
         <DialogNodeReference DialogNodeId="a3bd66e7-b84a-f30d-58ec-6b6c6a0edaad" ReferenceId="a3bd66e7-b84a-f30d-58ec-6b6c6a0edaad" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="916c3bdb-168c-4939-9f48-fda5c862f59a" ΔTimeDuration="2.6883647441864014" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -6464,7 +6464,7 @@
           <Component ComponentId="eb5b6869-d2e6-407a-9296-25a0111ee518" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="1a18a00d-2619-48d8-b076-d114ae5d2ef3" Name="Sequence 11 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.14">
+      <Sequence Id="1a18a00d-2619-48d8-b076-d114ae5d2ef3" Name="Sequence 10 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.14">
         <DialogNodeReference DialogNodeId="a274ce84-dd3e-ea43-1ae4-b13bdcd39dcb" ReferenceId="a274ce84-dd3e-ea43-1ae4-b13bdcd39dcb" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="5ac34e65-7b54-4949-9cde-eeebbf5d3b0c" TimeStart="2.67" ΔTimeDuration="4.4714222717285157" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -6958,7 +6958,7 @@
           <Component ComponentId="4257492f-a3d5-443c-ae53-72e1fba78903" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="04b47bd4-47f2-45fe-bb2a-071f8dcc2f9b" Name="Sequence 12 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.93">
+      <Sequence Id="04b47bd4-47f2-45fe-bb2a-071f8dcc2f9b" Name="Sequence 11 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.93">
         <DialogNodeReference DialogNodeId="96b38ba2-4900-b856-ad62-28a6ced8b34a" ReferenceId="96b38ba2-4900-b856-ad62-28a6ced8b34a" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="78fbda54-aa83-4f81-9363-3e82b74e3d1c" ΔTimeDuration="5.9319276809692383" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -7453,7 +7453,7 @@
           <Component ComponentId="daff7cd7-3484-412b-9aba-0b8a4e8b1d53" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="b036faba-c4ee-40f6-b5a8-9f050665eea4" Name="Sequence 13 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.53">
+      <Sequence Id="b036faba-c4ee-40f6-b5a8-9f050665eea4" Name="Sequence 12 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.53">
         <DialogNodeReference DialogNodeId="94114a23-5ab1-f392-7dd4-6ac610455bf8" ReferenceId="94114a23-5ab1-f392-7dd4-6ac610455bf8" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="6cbd7d3c-03fb-4434-abea-347272511a0b" ΔTimeDuration="8.5294332504272461" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -7954,7 +7954,7 @@
           <Component ComponentId="ee390b4e-b399-43ab-9723-aba241e24f42" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="eda28950-0356-4001-b869-acee1e5439ba" Name="Sequence 14 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="3.2">
+      <Sequence Id="eda28950-0356-4001-b869-acee1e5439ba" Name="Sequence 13 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="3.2">
         <DialogNodeReference DialogNodeId="90fe8f4c-d8f7-82fc-4e06-06a30697917b" ReferenceId="90fe8f4c-d8f7-82fc-4e06-06a30697917b" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="1a62c674-572a-4584-8bd0-18fc0ab3dce3" ΔTimeDuration="3.2005581855773926" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -8443,7 +8443,7 @@
           <Component ComponentId="1f267db2-625c-4816-847a-83d2508cd6ea" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="4ab1b812-7f3e-4636-9733-a55686bd0b09" Name="Sequence 15 - NON-ILLITHID KARLACH" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.93">
+      <Sequence Id="4ab1b812-7f3e-4636-9733-a55686bd0b09" Name="Sequence 14 - NON-ILLITHID KARLACH" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.93">
         <DialogNodeReference DialogNodeId="dc9590c1-6083-9da9-7a16-355c20f1aad6" ReferenceId="dc9590c1-6083-9da9-7a16-355c20f1aad6" />
         <DialogNodeReference DialogNodeId="8f78615b-99c3-f4e4-7013-93d45ad76515" ReferenceId="8f78615b-99c3-f4e4-7013-93d45ad76515" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -8994,7 +8994,7 @@
           <Component ComponentId="7fdc7613-150a-47b1-861c-6f987e6e25da" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="425be729-c9c9-48f3-8efb-ce2d8282a736" Name="Sequence 16 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="3.62">
+      <Sequence Id="425be729-c9c9-48f3-8efb-ce2d8282a736" Name="Sequence 15 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="3.62">
         <DialogNodeReference DialogNodeId="88a35f80-a431-241b-d2d6-82b37ccde4c3" ReferenceId="88a35f80-a431-241b-d2d6-82b37ccde4c3" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="309bff34-7eca-4c98-bc64-0e5a17fbf66a" ΔTimeDuration="3.6226892471313477" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -9489,7 +9489,7 @@
           <Component ComponentId="5b52eba3-ae17-4fa9-acdc-52730406ae54" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="9cc587ad-cf55-42cd-8e2a-44a50d535590" Name="Sequence 17 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.43">
+      <Sequence Id="9cc587ad-cf55-42cd-8e2a-44a50d535590" Name="Sequence 16 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.43">
         <DialogNodeReference DialogNodeId="84f23ea5-1827-d073-2135-37f69365ea64" ReferenceId="84f23ea5-1827-d073-2135-37f69365ea64" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="c062a5ef-dbc7-4b9f-a14e-ec62f3d58086" ΔTimeDuration="8.4308834075927734" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -9981,7 +9981,7 @@
           <Component ComponentId="81bd0399-91ff-47b4-855f-f1bd05aa782d" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="209831bd-1ecc-45da-a38e-fa14cd466db0" Name="Sequence 18 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.76">
+      <Sequence Id="209831bd-1ecc-45da-a38e-fa14cd466db0" Name="Sequence 17 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.76">
         <DialogNodeReference DialogNodeId="8420d099-8402-4fdb-6bb2-5964f6bfc3af" ReferenceId="8420d099-8402-4fdb-6bb2-5964f6bfc3af" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="330db3ec-52de-45d1-8f7e-e8d47097e34a" ΔTimeDuration="10.763012886047363" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -10467,7 +10467,7 @@
           <Component ComponentId="bb2bef09-d2f6-45b7-8686-053697e952b0" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="22bd9cc4-9eba-4cc3-bf5c-bec28c7d898f" Name="Sequence 19 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="27.56">
+      <Sequence Id="22bd9cc4-9eba-4cc3-bf5c-bec28c7d898f" Name="Sequence 18 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="27.56">
         <DialogNodeReference DialogNodeId="7b1959b5-51e3-7d0a-2db5-2e4f6f281262" ReferenceId="7b1959b5-51e3-7d0a-2db5-2e4f6f281262" />
         <DialogNodeReference DialogNodeId="e5221fa8-85ef-9144-91ae-00e7a41c570a" ReferenceId="e5221fa8-85ef-9144-91ae-00e7a41c570a" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -10998,7 +10998,7 @@
           <Component ComponentId="f1afc99c-b95b-4c52-b041-f8584596a0db" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="2ec5d92d-43ec-4013-abe1-08d71d83b33f" Name="Sequence 20 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="59.33">
+      <Sequence Id="2ec5d92d-43ec-4013-abe1-08d71d83b33f" Name="Sequence 19 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="59.33">
         <DialogNodeReference DialogNodeId="ae4b1ad2-d944-d1a1-610b-7661ddd387f9" ReferenceId="ae4b1ad2-d944-d1a1-610b-7661ddd387f9" />
         <DialogNodeReference DialogNodeId="77397ada-2c81-3f7e-1d8f-157f070c9430" ReferenceId="77397ada-2c81-3f7e-1d8f-157f070c9430" />
         <DialogNodeReference DialogNodeId="b7611519-76f4-2765-5305-fb109fa886fe" ReferenceId="b7611519-76f4-2765-5305-fb109fa886fe" />
@@ -12164,7 +12164,7 @@
           </Component>
         </Components>
       </Sequence>
-      <Sequence Id="05512f2c-6654-4c1f-95fa-b4bbffd5a835" Name="Sequence 21 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.37">
+      <Sequence Id="05512f2c-6654-4c1f-95fa-b4bbffd5a835" Name="Sequence 20 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.37">
         <DialogNodeReference DialogNodeId="75ea2de9-fc2d-08ea-f369-7aa7c43be334" ReferenceId="75ea2de9-fc2d-08ea-f369-7aa7c43be334" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="bf7c755b-98f1-4faa-a935-6cc3be203a59" ΔTimeDuration="1.66" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -12677,7 +12677,7 @@
           <Component ComponentId="2a0c6c00-7c5a-4777-88dc-49e6b7c49bdd" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="1c70aa88-5408-488d-918d-61d9c6332d65" Name="Sequence 22 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="10.426109313964844">
+      <Sequence Id="1c70aa88-5408-488d-918d-61d9c6332d65" Name="Sequence 21 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="10.426109313964844">
         <DialogNodeReference DialogNodeId="7052adca-1945-4733-711f-42dcf4ca5829" ReferenceId="7052adca-1945-4733-711f-42dcf4ca5829" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="43be5069-be81-45a9-9dcf-760f27326469" ΔTimeDuration="10.426109313964844" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -13178,7 +13178,7 @@
           <Component ComponentId="1b23eab5-0e20-497f-bd16-1bfdd9158d38" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="d4a6a2f2-ef32-42d4-9605-724d4acb0ead" Name="Sequence 23 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.53">
+      <Sequence Id="d4a6a2f2-ef32-42d4-9605-724d4acb0ead" Name="Sequence 22 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.53">
         <DialogNodeReference DialogNodeId="6cdd61ef-ac3b-6b7b-789b-ebc880c90d28" ReferenceId="6cdd61ef-ac3b-6b7b-789b-ebc880c90d28" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="4ae7719a-a6b0-4509-a5e8-b4859710cfaa" ΔTimeDuration="8.5294332504272461" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -13667,7 +13667,7 @@
           <Component ComponentId="efc72819-cbcb-4e7c-a32a-76cd061473dd" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="649268dc-edce-4fe3-8fe4-d45e2329ec11" Name="Sequence 24 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.11">
+      <Sequence Id="649268dc-edce-4fe3-8fe4-d45e2329ec11" Name="Sequence 23 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.11">
         <DialogNodeReference DialogNodeId="69fec8ae-a6b2-e331-efd4-cfe6686e652f" ReferenceId="69fec8ae-a6b2-e331-efd4-cfe6686e652f" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="32e42769-e0e8-4b3b-9bbf-d571bbfd6967" ΔTimeDuration="4.1100001335144043" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -14156,7 +14156,7 @@
           <Component ComponentId="9909d510-6f70-4f30-98d8-38621a380c6d" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="3bf1e709-658b-4f3f-ac8f-d5ec30e2c209" Name="Sequence 25 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.14">
+      <Sequence Id="3bf1e709-658b-4f3f-ac8f-d5ec30e2c209" Name="Sequence 24 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.14">
         <DialogNodeReference DialogNodeId="6910e461-d361-326a-c832-962e3bc44229" ReferenceId="6910e461-d361-326a-c832-962e3bc44229" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="a625f97f-ff28-42ba-8cee-1282c235d526" ΔTimeDuration="7.1414222717285156" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -14645,7 +14645,7 @@
           <Component ComponentId="8b3d4d63-27af-40b7-a173-4987b44a47af" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="25db0a9f-a945-497a-ae11-5ddd87aae7c8" Name="Sequence 26 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="13.220202445983887">
+      <Sequence Id="25db0a9f-a945-497a-ae11-5ddd87aae7c8" Name="Sequence 25 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="13.220202445983887">
         <DialogNodeReference DialogNodeId="68094b05-c59c-c614-c168-46ddf30871e0" ReferenceId="68094b05-c59c-c614-c168-46ddf30871e0" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="ec9a7c92-9ce0-4a62-8a02-0a61c9973d03" ΔTimeDuration="13.220202445983887" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -15137,7 +15137,7 @@
           <Component ComponentId="87f7e1c1-2024-4bea-be85-f24cbb2f5416" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="a5455cb4-6232-4f1e-90a8-54826153972e" Name="Sequence 27 - DOCKS" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.21">
+      <Sequence Id="a5455cb4-6232-4f1e-90a8-54826153972e" Name="Sequence 26 - DOCKS" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.21">
         <DialogNodeReference DialogNodeId="feaed25c-4a8a-08fe-7405-c17008040982" ReferenceId="feaed25c-4a8a-08fe-7405-c17008040982" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="66095a86-9ae4-4d89-a04c-6aaf99025afc" ΔTimeDuration="2.02" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -15646,7 +15646,7 @@
           <Component ComponentId="140e72e3-5a0a-46af-8d09-59996fb75332" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="59c6171d-3bd2-4c18-a9b8-1fff9ea6f4c3" Name="Sequence 28 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.45">
+      <Sequence Id="59c6171d-3bd2-4c18-a9b8-1fff9ea6f4c3" Name="Sequence 27 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.45">
         <DialogNodeReference DialogNodeId="b4ef59d7-aa27-3a19-c674-1ec6cf0b495e" ReferenceId="b4ef59d7-aa27-3a19-c674-1ec6cf0b495e" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="2265565b-a78f-43ad-b8ee-fa4ea2646375" ΔTimeDuration="15.453594207763672" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -16132,7 +16132,7 @@
           <Component ComponentId="7e8b376a-01eb-499e-8190-d132096ea390" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="446c1d7a-d4c8-47af-8a17-c74dc416cfb3" Name="Sequence 29 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.51">
+      <Sequence Id="446c1d7a-d4c8-47af-8a17-c74dc416cfb3" Name="Sequence 28 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.51">
         <DialogNodeReference DialogNodeId="654d6ba9-7f63-a936-7128-43b08ca65b73" ReferenceId="654d6ba9-7f63-a936-7128-43b08ca65b73" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="ab4795ae-b131-4d9c-b4c9-b13be8349c7f" ΔTimeDuration="6.5101122856140137" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -16624,7 +16624,7 @@
           <Component ComponentId="e34b04b6-a4f2-4bf9-830c-49f04f727b95" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="346b3d1e-ad79-4718-9bb5-ba0214f95bea" Name="Sequence 30 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.12">
+      <Sequence Id="346b3d1e-ad79-4718-9bb5-ba0214f95bea" Name="Sequence 29 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.12">
         <DialogNodeReference DialogNodeId="b8792963-6c46-e7b3-98ff-5fd4a79f7c76" ReferenceId="b8792963-6c46-e7b3-98ff-5fd4a79f7c76" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="10925b3b-7cc9-4156-939d-7f72032e37d3" ΔTimeDuration="5.1238813400268555" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -17125,7 +17125,7 @@
           <Component ComponentId="0dd5fc4b-2df3-423e-aba1-1cb75a9a88a2" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="0c2f5af7-b651-426b-86ce-0c41c68e72ed" Name="Sequence 31 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="21.03">
+      <Sequence Id="0c2f5af7-b651-426b-86ce-0c41c68e72ed" Name="Sequence 30 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="21.03">
         <DialogNodeReference DialogNodeId="bc857f1f-5065-abb3-8b78-17fc02ed9e68" ReferenceId="bc857f1f-5065-abb3-8b78-17fc02ed9e68" />
         <DialogNodeReference DialogNodeId="d77975d9-5087-cc68-ca06-ceedc33ee03e" ReferenceId="d77975d9-5087-cc68-ca06-ceedc33ee03e" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -17635,7 +17635,7 @@
           <Component ComponentId="a2a18d04-6061-4094-ab14-c559a285e7fe" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="845dd5b4-3d4b-4e3f-8898-8e907976b40b" Name="Sequence 32 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.41">
+      <Sequence Id="845dd5b4-3d4b-4e3f-8898-8e907976b40b" Name="Sequence 31 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.41">
         <DialogNodeReference DialogNodeId="fe60dbbf-a33a-75c6-d10c-d365888624d5" ReferenceId="fe60dbbf-a33a-75c6-d10c-d365888624d5" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="6fe68405-5d30-46d2-8a6a-b1e6bf00e7b6" ΔTimeDuration="7.4148039817810059" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -18127,7 +18127,7 @@
           <Component ComponentId="1ac63f47-0ab9-41ed-9134-ac2036b480da" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="c3113449-be13-4425-afef-421ceb314e3c" Name="Sequence 33 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.33">
+      <Sequence Id="c3113449-be13-4425-afef-421ceb314e3c" Name="Sequence 32 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.33">
         <DialogNodeReference DialogNodeId="fe280020-9391-dbf0-e52a-edc8ccb4ab30" ReferenceId="fe280020-9391-dbf0-e52a-edc8ccb4ab30" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="16089b20-856e-41e6-9c65-bf28798299ee" ΔTimeDuration="6.3297262191772461" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -18616,7 +18616,7 @@
           <Component ComponentId="01b7eea0-f89c-4534-9aaa-005458739b47" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="3632e345-4387-4ba6-b299-f46d18ed5ca6" Name="Sequence 34 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="9.13">
+      <Sequence Id="3632e345-4387-4ba6-b299-f46d18ed5ca6" Name="Sequence 33 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="9.13">
         <DialogNodeReference DialogNodeId="fe271906-dbb8-5a6a-ae32-0839bfca9825" ReferenceId="fe271906-dbb8-5a6a-ae32-0839bfca9825" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="f39e10bc-b319-4ff1-bc47-3554a8985c45" TimeStart="3.22" ΔTimeDuration="5.9064104843139642" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -19116,7 +19116,7 @@
           <Component ComponentId="22ff40d5-0e2d-4397-8b1f-7b0e7b8f2f2b" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="5ca6e2e1-07dd-44c7-ad26-5c83613d33ee" Name="Sequence 35 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.87">
+      <Sequence Id="5ca6e2e1-07dd-44c7-ad26-5c83613d33ee" Name="Sequence 34 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.87">
         <DialogNodeReference DialogNodeId="fc520644-1990-8ed4-8232-beec4d8607c1" ReferenceId="fc520644-1990-8ed4-8232-beec4d8607c1" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="0470516f-42da-46df-be66-97a826e88f4b" ΔTimeDuration="7.86830472946167" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -19599,7 +19599,7 @@
           <Component ComponentId="197e699e-2a75-49f2-afac-a63989e39cfb" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="d9890ea8-3ff4-4885-aa3d-3fd43974f139" Name="Sequence 36 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="5.08883810043335">
+      <Sequence Id="d9890ea8-3ff4-4885-aa3d-3fd43974f139" Name="Sequence 35 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="5.08883810043335">
         <DialogNodeReference DialogNodeId="f99c2e7c-2d21-1471-a989-bed9a3931cfb" ReferenceId="f99c2e7c-2d21-1471-a989-bed9a3931cfb" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="5fa76b78-327d-464c-a7f7-12d0b349fbaf" ΔTimeDuration="5.08883810043335" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -20103,7 +20103,7 @@
           <Component ComponentId="58700c45-8a5f-418e-be16-8ba7acfdd176" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="e725c66c-896d-4acf-9759-fa9e1808b6cd" Name="Sequence 37 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.43">
+      <Sequence Id="e725c66c-896d-4acf-9759-fa9e1808b6cd" Name="Sequence 36 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.43">
         <DialogNodeReference DialogNodeId="f4120db7-e23b-7a4b-b88f-e72064590455" ReferenceId="f4120db7-e23b-7a4b-b88f-e72064590455" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="7f551548-7be5-409f-a08e-e6627f25ea0c" ΔTimeDuration="5.4311280250549316" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -20595,7 +20595,7 @@
           <Component ComponentId="b556e188-402b-4020-b6cb-90f335143711" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="e2d4b77b-32e3-418a-a5d0-8bc91d042025" Name="Sequence 38 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.24">
+      <Sequence Id="e2d4b77b-32e3-418a-a5d0-8bc91d042025" Name="Sequence 37 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.24">
         <DialogNodeReference DialogNodeId="ef3f5bc1-7ca1-7355-ef93-bd4f2511a12c" ReferenceId="ef3f5bc1-7ca1-7355-ef93-bd4f2511a12c" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="fc216da8-539b-4610-ba8b-9b3a8812b8f1" ΔTimeDuration="2.77" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -21116,7 +21116,7 @@
           <Component ComponentId="f5fdca67-4382-4b93-801b-d65a06afc774" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="52b583f9-672b-440c-bcb2-859f7834b9a3" Name="Sequence 39 - NO DOCKS" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.21">
+      <Sequence Id="52b583f9-672b-440c-bcb2-859f7834b9a3" Name="Sequence 38 - NO DOCKS" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.21">
         <DialogNodeReference DialogNodeId="ee06e85a-ec0d-486d-9ea5-5539770f3c7f" ReferenceId="ee06e85a-ec0d-486d-9ea5-5539770f3c7f" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="f3fafa52-5f42-497b-a165-d072cc34e785" ΔTimeDuration="2" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -21619,7 +21619,7 @@
           <Component ComponentId="183d05b9-f988-42a6-a448-bb1dc38431a3" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="f64de84d-7c7a-4689-9f86-867fec495b6f" Name="Sequence 40 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="2.42">
+      <Sequence Id="f64de84d-7c7a-4689-9f86-867fec495b6f" Name="Sequence 39 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="2.42">
         <DialogNodeReference DialogNodeId="edd130bc-6ac4-ca35-d7df-e80f983df815" ReferenceId="edd130bc-6ac4-ca35-d7df-e80f983df815" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="762c7c17-8e98-4f40-bddb-3f9736326c22" ΔTimeDuration="2.4237217903137207" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -22108,7 +22108,7 @@
           <Component ComponentId="db68b827-8aaa-4835-8cca-9c4cb62dae92" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="851ba196-a937-49d4-ab00-26fa92122a98" Name="Sequence 41 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="1.61">
+      <Sequence Id="851ba196-a937-49d4-ab00-26fa92122a98" Name="Sequence 40 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="1.61">
         <DialogNodeReference DialogNodeId="eb307479-ccd9-de66-1d06-b203d9ff5508" ReferenceId="eb307479-ccd9-de66-1d06-b203d9ff5508" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="2c68caed-9ad4-4a4a-ba50-2f569458d533" ΔTimeDuration="1.6092416048049927" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -22591,7 +22591,7 @@
           <Component ComponentId="d2630480-f0db-4586-b223-0f7ed2ff938e" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="165647db-a0ac-406e-b289-14f23b31658e" Name="Sequence 42 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.1">
+      <Sequence Id="165647db-a0ac-406e-b289-14f23b31658e" Name="Sequence 41 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.1">
         <DialogNodeReference DialogNodeId="eaf5f37a-60cd-2d8a-8db4-0f9ce2ff456e" ReferenceId="eaf5f37a-60cd-2d8a-8db4-0f9ce2ff456e" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="0f135c2f-218c-4ada-bfe9-1dccf9e6e439" ΔTimeDuration="7.102445125579834" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -23074,7 +23074,7 @@
           <Component ComponentId="b2c9638e-1c1e-4864-991f-6c86d8c4511e" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="d98bf16f-4b1e-47dc-9f60-a91762ef6fef" Name="Sequence 43 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="6.6959881782531738">
+      <Sequence Id="d98bf16f-4b1e-47dc-9f60-a91762ef6fef" Name="Sequence 42 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="6.6959881782531738">
         <DialogNodeReference DialogNodeId="e94cd541-cfaa-c7f0-2837-8c26225815e4" ReferenceId="e94cd541-cfaa-c7f0-2837-8c26225815e4" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="caf183be-472e-4d42-a6b9-99def217ff9b" ΔTimeDuration="6.6959881782531738" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -23566,7 +23566,7 @@
           <Component ComponentId="5a961828-64c2-490f-8aba-3529030c0728" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="814b1c3b-ebe3-4953-9ca5-e298210989d3" Name="Sequence 44 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.07">
+      <Sequence Id="814b1c3b-ebe3-4953-9ca5-e298210989d3" Name="Sequence 43 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.07">
         <DialogNodeReference DialogNodeId="dbec33f8-e2f0-279f-854c-be9820758053" ReferenceId="dbec33f8-e2f0-279f-854c-be9820758053" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="b16d4aa3-f8b1-40bb-957e-8d3d192856a8" ΔTimeDuration="4.0673236846923828" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -24083,7 +24083,7 @@
           <Component ComponentId="41fc8efd-39a0-4936-b3fa-7f3a8777f1a9" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="8597000e-ddc7-45a2-9676-3bdbf3f1e84f" Name="Sequence 45 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="2.16">
+      <Sequence Id="8597000e-ddc7-45a2-9676-3bdbf3f1e84f" Name="Sequence 44 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="2.16">
         <DialogNodeReference DialogNodeId="db120406-687c-69a5-e728-1b2a140c473b" ReferenceId="db120406-687c-69a5-e728-1b2a140c473b" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="380b9b94-7d74-4d19-8f0c-9e7171cb1193" ΔTimeDuration="2.16" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -24584,7 +24584,7 @@
           <Component ComponentId="1ebe65c2-d4f0-44c3-8baf-647322eb22d0" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="eca0e88f-c23f-4b94-a111-47cb532c3bfc" Name="Sequence 46 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="4.3722548484802246">
+      <Sequence Id="eca0e88f-c23f-4b94-a111-47cb532c3bfc" Name="Sequence 45 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="4.3722548484802246">
         <DialogNodeReference DialogNodeId="d9835bbe-83da-4295-cb35-f3159de1dc61" ReferenceId="d9835bbe-83da-4295-cb35-f3159de1dc61" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="dca93b70-fe15-428c-b430-04c8afec3f36" TimeDuration="4.3722548484802246" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -25106,7 +25106,7 @@
           <Component ComponentId="fc14be0a-03f5-431a-81d7-4af0e3532acc" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="2ab0d0e0-96b5-4edb-88d3-6b8087dea3b5" Name="Sequence 47 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.72">
+      <Sequence Id="2ab0d0e0-96b5-4edb-88d3-6b8087dea3b5" Name="Sequence 46 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.72">
         <DialogNodeReference DialogNodeId="d6ab1f91-c0ed-fc92-cbd7-65ac319eb90f" ReferenceId="d6ab1f91-c0ed-fc92-cbd7-65ac319eb90f" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="e2713425-1fd4-48d6-9508-1f7db77161cc" ΔTimeDuration="5.7171726226806641" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -25592,7 +25592,7 @@
           <Component ComponentId="9a0c9299-42e9-4c80-b1f1-e13dc39cb273" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="7ade9d34-ad36-4313-92c5-d571ae3f23db" Name="Sequence 48 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.48">
+      <Sequence Id="7ade9d34-ad36-4313-92c5-d571ae3f23db" Name="Sequence 47 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.48">
         <DialogNodeReference DialogNodeId="d4d0140f-f5b1-3ff7-5bf4-6edb7c1ad167" ReferenceId="d4d0140f-f5b1-3ff7-5bf4-6edb7c1ad167" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="07e3f413-9b45-4549-b4b0-b81f3014b812" ΔTimeDuration="7.4803504943847656" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -26087,7 +26087,7 @@
           <Component ComponentId="85fcaad4-6680-456c-ad8b-999e007432b4" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="ba7213ec-5046-4c27-9ff1-820bdd0a0307" Name="Sequence 49 - ILLITHID OPENING" DialogNodeColor="#FF008B8B" ΔTimeDuration="0.1">
+      <Sequence Id="ba7213ec-5046-4c27-9ff1-820bdd0a0307" Name="Sequence 48 - ILLITHID OPENING" DialogNodeColor="#FF008B8B" ΔTimeDuration="0.1">
         <DialogNodeReference DialogNodeId="d3650491-4a51-3d4e-e88b-752f9ba88a82" ReferenceId="d3650491-4a51-3d4e-e88b-752f9ba88a82" />
         <Components TrackId="54758f77-3742-42ae-9fd4-c4bb761fbbda">
           <Component ComponentId="eb58ec2d-90c9-4359-b8ea-d35a6fa64016" IsInfinite="true" TimeDuration="1" />
@@ -26561,7 +26561,7 @@
           <Component ComponentId="9aba0bb0-cb95-4adc-b279-c5a79c278156" ΔTimeDuration="0.1" />
         </Components>
       </Sequence>
-      <Sequence Id="70f3bd27-4480-4e8d-8332-2d0a6738f4e2" Name="Sequence 50 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.31">
+      <Sequence Id="70f3bd27-4480-4e8d-8332-2d0a6738f4e2" Name="Sequence 49 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.31">
         <DialogNodeReference DialogNodeId="e4fe4ab2-7098-4279-2533-573cacf03bb3" ReferenceId="e4fe4ab2-7098-4279-2533-573cacf03bb3" />
         <DialogNodeReference DialogNodeId="d0f3bcc7-6e90-86ce-533d-cd68ef394d54" ReferenceId="d0f3bcc7-6e90-86ce-533d-cd68ef394d54" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -27100,7 +27100,7 @@
           <Component ComponentId="fcfe536b-eaa5-439a-aa82-12cd632b7eec" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="88dcd2a4-07fd-44c8-81ea-062d49c369a8" Name="Sequence 51 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.87">
+      <Sequence Id="88dcd2a4-07fd-44c8-81ea-062d49c369a8" Name="Sequence 50 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.87">
         <DialogNodeReference DialogNodeId="cb6b0081-d5aa-bb9e-725d-90475e1aa051" ReferenceId="cb6b0081-d5aa-bb9e-725d-90475e1aa051" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="dfdeaff6-b8b1-4fa4-8afd-dddd0fbf4894" ΔTimeDuration="7.86830472946167" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -27583,7 +27583,7 @@
           <Component ComponentId="58cc6a7a-afe1-4f7c-b296-a797c4295687" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="19018218-b3cb-46cc-aa1c-c0f0a9f0aa34" Name="Sequence 52 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.11">
+      <Sequence Id="19018218-b3cb-46cc-aa1c-c0f0a9f0aa34" Name="Sequence 51 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.11">
         <DialogNodeReference DialogNodeId="c5b72a85-d007-cbe8-d050-3c2fefbb8f41" ReferenceId="c5b72a85-d007-cbe8-d050-3c2fefbb8f41" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="a2d80c58-cbca-454f-a19b-7e7f10be4e3f" ΔTimeDuration="10.108846664428711" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -28072,7 +28072,7 @@
           <Component ComponentId="adf2f7e0-a16f-40c7-a0dd-9741fa918770" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="e54ad73a-4f18-4271-8804-77df40de0107" Name="Sequence 53 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="7.1414222717285156">
+      <Sequence Id="e54ad73a-4f18-4271-8804-77df40de0107" Name="Sequence 52 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="7.1414222717285156">
         <DialogNodeReference DialogNodeId="c09f3ed2-7286-451c-4261-25ceeb437c03" ReferenceId="c09f3ed2-7286-451c-4261-25ceeb437c03" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="0c92558a-4744-4bdb-8b7c-640742b3fc8e" ΔTimeDuration="7.1414222717285156" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -28555,7 +28555,7 @@
           <Component ComponentId="d00098aa-60dd-494f-aa5c-61a80020eb04" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="62b13f5c-17d7-4c40-b6a3-8e8214805e83" Name="Sequence 54 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.43">
+      <Sequence Id="62b13f5c-17d7-4c40-b6a3-8e8214805e83" Name="Sequence 53 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.43">
         <DialogNodeReference DialogNodeId="c08817fa-c559-fd4a-e7e5-3d724dd0a770" ReferenceId="c08817fa-c559-fd4a-e7e5-3d724dd0a770" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="d319fc20-d771-4d40-ac04-2091533ae8f3" ΔTimeDuration="8.4308834075927734" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -29050,7 +29050,7 @@
           <Component ComponentId="15fbe765-34a8-4153-bd05-3322919159bc" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="e30eff05-608a-4104-a786-8b73450694b7" Name="Sequence 55 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="6.24">
+      <Sequence Id="e30eff05-608a-4104-a786-8b73450694b7" Name="Sequence 54 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="6.24">
         <DialogNodeReference DialogNodeId="bf801dbe-de33-a171-bc93-944560d5de98" ReferenceId="bf801dbe-de33-a171-bc93-944560d5de98" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="ffe9960d-a81e-4640-a7c2-dfd79e06c81c" ΔTimeDuration="2.77" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -29571,7 +29571,7 @@
           <Component ComponentId="aa8de79d-ba6e-469a-800d-56d9d921aa1d" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="67f1eb51-4dc8-4e07-8de0-7cb12a9c5b5d" Name="Sequence 56 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="10.1">
+      <Sequence Id="67f1eb51-4dc8-4e07-8de0-7cb12a9c5b5d" Name="Sequence 55 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="10.1">
         <DialogNodeReference DialogNodeId="be60498c-85a0-7d93-59aa-59121e4111af" ReferenceId="be60498c-85a0-7d93-59aa-59121e4111af" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="3a11d5d8-5643-44d0-86b7-7008d66ceabe" ΔTimeDuration="10.1" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -30054,7 +30054,7 @@
           <Component ComponentId="17003005-afc2-450e-923e-83c99dd3dbee" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="b53c4cf4-894d-4475-89a1-f3e8d47c3484" Name="Sequence 57 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="11.618288040161133">
+      <Sequence Id="b53c4cf4-894d-4475-89a1-f3e8d47c3484" Name="Sequence 56 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="11.618288040161133">
         <DialogNodeReference DialogNodeId="b8ad32d0-72a4-bc9d-d600-139d8e6bd377" ReferenceId="b8ad32d0-72a4-bc9d-d600-139d8e6bd377" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="00c75cd4-4e85-4e6c-a04c-830a89eba35f" ΔTimeDuration="11.618288040161133" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -30546,7 +30546,7 @@
           <Component ComponentId="349e6fb0-ce4f-470d-a468-bb3a8e431397" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="c048eaea-e6ec-4f96-91ee-5f20a299b90c" Name="Sequence 58 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.34">
+      <Sequence Id="c048eaea-e6ec-4f96-91ee-5f20a299b90c" Name="Sequence 57 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.34">
         <DialogNodeReference DialogNodeId="638b18aa-d43c-214a-322e-a198f94286ff" ReferenceId="638b18aa-d43c-214a-322e-a198f94286ff" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="1d9f27b0-1ea3-4637-9e50-c4311431132a" ΔTimeDuration="5.336188793182373" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -31041,7 +31041,7 @@
           <Component ComponentId="4ff6ce1a-8227-4ec8-afcd-13bd2757cd14" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="57ea40f5-316d-4f14-b086-f8bd44830696" Name="Sequence 59 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.4">
+      <Sequence Id="57ea40f5-316d-4f14-b086-f8bd44830696" Name="Sequence 58 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.4">
         <DialogNodeReference DialogNodeId="66ec0526-fd63-1ac7-188c-f8a48ddbe9bf" ReferenceId="66ec0526-fd63-1ac7-188c-f8a48ddbe9bf" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="25d70bb7-c453-4bea-9a8a-c077972afbc4" ΔTimeDuration="5.4009528160095215" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -31536,7 +31536,7 @@
           <Component ComponentId="c459a8fb-1e93-4734-98b7-e203249dca0a" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="9a787be7-4d31-4aa9-9bb3-5888c94a3b0b" Name="Sequence 60 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="17.37">
+      <Sequence Id="9a787be7-4d31-4aa9-9bb3-5888c94a3b0b" Name="Sequence 59 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="17.37">
         <DialogNodeReference DialogNodeId="5eefd58d-a9d9-1be8-ba42-cedef1a5ef84" ReferenceId="5eefd58d-a9d9-1be8-ba42-cedef1a5ef84" />
         <DialogNodeReference DialogNodeId="88a6d2da-3581-567f-6b96-ecceace4535d" ReferenceId="88a6d2da-3581-567f-6b96-ecceace4535d" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -32046,7 +32046,7 @@
           <Component ComponentId="f2dad735-0f2b-4b38-a759-6fcf79d1924b" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="3aab0992-40b6-4476-813b-5a2803e2127c" Name="Sequence 61 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.37">
+      <Sequence Id="3aab0992-40b6-4476-813b-5a2803e2127c" Name="Sequence 60 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.37">
         <DialogNodeReference DialogNodeId="2d83380f-ab5c-8899-7166-5922657e426e" ReferenceId="2d83380f-ab5c-8899-7166-5922657e426e" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="0aca05c1-41a4-4365-b86e-aec92bb285b1" ΔTimeDuration="4.3675804138183594" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -32535,7 +32535,7 @@
           <Component ComponentId="5bae3318-7eca-4c21-be53-b9d79f3d65cb" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="4c564566-22bf-42bf-86e1-b0ac71928960" Name="Sequence 62 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.84">
+      <Sequence Id="4c564566-22bf-42bf-86e1-b0ac71928960" Name="Sequence 61 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.84">
         <DialogNodeReference DialogNodeId="2d5bc24b-55dd-578f-e583-f61ca1e60cfe" ReferenceId="2d5bc24b-55dd-578f-e583-f61ca1e60cfe" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="d4cbd1fb-50c1-4f03-8fdb-27cff2cafb43" ΔTimeDuration="10.835554122924805" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -33024,7 +33024,7 @@
           <Component ComponentId="3833ff70-ba70-4b28-9d39-3027ff22984e" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="cd4fdb16-037b-44d7-8e6b-bbc595f7af0f" Name="Sequence 63 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="29.39">
+      <Sequence Id="cd4fdb16-037b-44d7-8e6b-bbc595f7af0f" Name="Sequence 62 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="29.39">
         <DialogNodeReference DialogNodeId="f8c5a176-b70b-ba83-c2ec-cdc647e56673" ReferenceId="f8c5a176-b70b-ba83-c2ec-cdc647e56673" />
         <DialogNodeReference DialogNodeId="ce9ce57f-89e6-9af0-4108-a485bd6a9514" ReferenceId="ce9ce57f-89e6-9af0-4108-a485bd6a9514" />
         <DialogNodeReference DialogNodeId="2b0f9e32-c4d0-0e55-28ca-3a48f611e631" ReferenceId="2b0f9e32-c4d0-0e55-28ca-3a48f611e631" />
@@ -33670,7 +33670,7 @@
           <Component ComponentId="5c320467-4f6d-467d-83a8-9cd4e013122f" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="29ace0d7-2ccb-4c56-ac0b-4bf3ada91c05" Name="Sequence 64 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.96">
+      <Sequence Id="29ace0d7-2ccb-4c56-ac0b-4bf3ada91c05" Name="Sequence 63 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.96">
         <DialogNodeReference DialogNodeId="c2de2cf2-566c-7e32-9f94-40775b8c7fc7" ReferenceId="c2de2cf2-566c-7e32-9f94-40775b8c7fc7" />
         <DialogNodeReference DialogNodeId="2a0b0586-a1c7-a4ce-e6d1-eecb9c728be9" ReferenceId="2a0b0586-a1c7-a4ce-e6d1-eecb9c728be9" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -34180,7 +34180,7 @@
           <Component ComponentId="78007c2a-1758-4d84-9f5d-e9de11f2c800" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="2d4aaa25-6b86-4b47-bc1d-a78c4071ebbc" Name="Sequence 65 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.3">
+      <Sequence Id="2d4aaa25-6b86-4b47-bc1d-a78c4071ebbc" Name="Sequence 64 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.3">
         <DialogNodeReference DialogNodeId="28017c53-4927-897d-b4cc-a578468ce422" ReferenceId="28017c53-4927-897d-b4cc-a578468ce422" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="c4a51c53-24bb-4c0b-a8aa-0515b2a174d8" ΔTimeDuration="3.1900866995565593" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -34695,7 +34695,7 @@
           <Component ComponentId="b729565a-5107-4e68-ad9f-076313afb507" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="49a4aff5-a04e-4e20-8e9d-ca7ec941ddff" Name="Sequence 66 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="18.76">
+      <Sequence Id="49a4aff5-a04e-4e20-8e9d-ca7ec941ddff" Name="Sequence 65 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="18.76">
         <DialogNodeReference DialogNodeId="2746089b-d4ea-cc63-6d55-04c65af525fa" ReferenceId="2746089b-d4ea-cc63-6d55-04c65af525fa" />
         <DialogNodeReference DialogNodeId="fd5ca9cd-6f3a-f623-83cc-5657edabc023" ReferenceId="fd5ca9cd-6f3a-f623-83cc-5657edabc023" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -35193,7 +35193,7 @@
           <Component ComponentId="6ffd3724-9db0-426f-b0e9-ca4c06ad5000" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="d3b2fa80-921b-424c-beee-62ff5134232d" Name="Sequence 67 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.72">
+      <Sequence Id="d3b2fa80-921b-424c-beee-62ff5134232d" Name="Sequence 66 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.72">
         <DialogNodeReference DialogNodeId="40536f24-9647-62d7-52ef-4bf4d177fb16" ReferenceId="40536f24-9647-62d7-52ef-4bf4d177fb16" />
         <DialogNodeReference DialogNodeId="268d120c-1b23-2842-cdee-4f724b02ecea" ReferenceId="268d120c-1b23-2842-cdee-4f724b02ecea" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -35691,7 +35691,7 @@
           <Component ComponentId="f99a7629-855a-475b-be28-c63d243fa10d" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="0dc3eff6-4abe-4949-b481-a9db28c6493b" Name="Sequence 68 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.3">
+      <Sequence Id="0dc3eff6-4abe-4949-b481-a9db28c6493b" Name="Sequence 67 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.3">
         <DialogNodeReference DialogNodeId="25023457-0ce2-26c2-8b5a-08a435db41ac" ReferenceId="25023457-0ce2-26c2-8b5a-08a435db41ac" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="3ffd1176-e943-4114-9531-7e120a3a7f1e" ΔTimeDuration="5.2993745803833008" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -36180,7 +36180,7 @@
           <Component ComponentId="1dfe0105-1678-4fe9-ab96-9ee8bb89d55b" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="be0c1504-0d3f-44c0-ba39-db9922206781" Name="Sequence 69 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="25.63">
+      <Sequence Id="be0c1504-0d3f-44c0-ba39-db9922206781" Name="Sequence 68 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="25.63">
         <DialogNodeReference DialogNodeId="1ea30488-51fe-d3f7-beb1-22ac94500d22" ReferenceId="1ea30488-51fe-d3f7-beb1-22ac94500d22" />
         <DialogNodeReference DialogNodeId="da2f53fc-fde0-1293-ab05-afaacd0390cf" ReferenceId="da2f53fc-fde0-1293-ab05-afaacd0390cf" />
         <DialogNodeReference DialogNodeId="dbba7cf4-5e5f-4ffe-7e5f-501339d8d66e" ReferenceId="dbba7cf4-5e5f-4ffe-7e5f-501339d8d66e" />
@@ -36724,7 +36724,7 @@
           <Component ComponentId="4a1eec03-3abc-4081-8e0c-ae63fee164a8" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="9b60e35d-2cb3-4e2b-b451-d98bccfc8c9b" Name="Sequence 70 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="3.72">
+      <Sequence Id="9b60e35d-2cb3-4e2b-b451-d98bccfc8c9b" Name="Sequence 69 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="3.72">
         <DialogNodeReference DialogNodeId="1dcc85ae-122a-123c-58e2-17eb1cdcce51" ReferenceId="1dcc85ae-122a-123c-58e2-17eb1cdcce51" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="11ba8161-0248-4b68-833d-a8dded8e4c62" ΔTimeDuration="3.7193021774291992" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -37216,7 +37216,7 @@
           <Component ComponentId="0e45dc64-8347-4389-9a5c-3ecf7841e4cc" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="f6bcd990-b8d5-4d14-b348-d9ce44dbc272" Name="Sequence 71 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="11.041983070373535">
+      <Sequence Id="f6bcd990-b8d5-4d14-b348-d9ce44dbc272" Name="Sequence 70 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="11.041983070373535">
         <DialogNodeReference DialogNodeId="1d001db7-4eb9-dadb-cd07-a648e82a2254" ReferenceId="1d001db7-4eb9-dadb-cd07-a648e82a2254" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="c0ac87ec-72ed-406c-b459-d46b18983b63" TimeStart="0.94000000000000017" ΔTimeDuration="10.101983070373535" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -37720,7 +37720,7 @@
           <Component ComponentId="c38d4624-061f-4ce2-8841-241df0f3c9b4" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="c95a0b7b-393f-47da-815b-53e0ac024a32" Name="Sequence 72 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.34">
+      <Sequence Id="c95a0b7b-393f-47da-815b-53e0ac024a32" Name="Sequence 71 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.34">
         <DialogNodeReference DialogNodeId="1c9d2401-5835-b8b3-2009-a17893c88e9d" ReferenceId="1c9d2401-5835-b8b3-2009-a17893c88e9d" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="8fb8f6b4-0137-41ed-aa78-af1cbc916bc7" ΔTimeDuration="5.336188793182373" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -38209,7 +38209,7 @@
           <Component ComponentId="2db58941-3d75-4fe7-b348-1cc61655bf44" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="b88fd7de-e019-439e-9946-edd7440959c3" Name="Sequence 73 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="17.76">
+      <Sequence Id="b88fd7de-e019-439e-9946-edd7440959c3" Name="Sequence 72 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="17.76">
         <DialogNodeReference DialogNodeId="dd84240e-a208-88e8-95dd-ff0e283787b9" ReferenceId="dd84240e-a208-88e8-95dd-ff0e283787b9" />
         <DialogNodeReference DialogNodeId="1ab12a1c-5d89-4c7c-fcca-5de97e1b460a" ReferenceId="1ab12a1c-5d89-4c7c-fcca-5de97e1b460a" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -38748,7 +38748,7 @@
           <Component ComponentId="e5068159-72c5-4a90-89e1-ec56ffdd823a" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="69b5d512-b0be-4cff-b03c-553dcdd49a7f" Name="Sequence 74 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.1">
+      <Sequence Id="69b5d512-b0be-4cff-b03c-553dcdd49a7f" Name="Sequence 73 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.1">
         <DialogNodeReference DialogNodeId="19b0fc6f-dc59-b4fc-4f70-e9a278c5883d" ReferenceId="19b0fc6f-dc59-b4fc-4f70-e9a278c5883d" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="1d9590fb-9747-4277-acfd-5632ad273cda" ΔTimeDuration="7.102445125579834" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -39234,7 +39234,7 @@
           <Component ComponentId="5ce583ae-687f-4ddc-8518-82e63fe15911" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="2b556f26-9973-49ec-9f3f-5f7bb3f47afd" Name="Sequence 75 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="3.62">
+      <Sequence Id="2b556f26-9973-49ec-9f3f-5f7bb3f47afd" Name="Sequence 74 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="3.62">
         <DialogNodeReference DialogNodeId="18d0e893-3621-90c0-3f16-9385aabe0874" ReferenceId="18d0e893-3621-90c0-3f16-9385aabe0874" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="dc56c995-32cd-4eab-bdcc-92af06d3b968" ΔTimeDuration="3.6226892471313477" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -39723,7 +39723,7 @@
           <Component ComponentId="7d56f867-f390-4146-b12d-029e8f6cc62a" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="c16cae50-41d4-4320-aef1-b6e5eea788c7" Name="Sequence 76 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.2">
+      <Sequence Id="c16cae50-41d4-4320-aef1-b6e5eea788c7" Name="Sequence 75 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.2">
         <DialogNodeReference DialogNodeId="148548f3-e676-d2e0-7a42-8c4983bff818" ReferenceId="148548f3-e676-d2e0-7a42-8c4983bff818" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="5d35c35e-b8e1-441c-9313-ec61601872c5" ΔTimeDuration="6.1999998092651367" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -40218,7 +40218,7 @@
           <Component ComponentId="c20fc338-967c-42e3-a514-03ab0e4e20c5" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="376fccca-8300-4ab8-9491-368e6c1d4a6f" Name="Sequence 77 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="12.87">
+      <Sequence Id="376fccca-8300-4ab8-9491-368e6c1d4a6f" Name="Sequence 76 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="12.87">
         <DialogNodeReference DialogNodeId="0f85dc38-890a-b459-e3a2-9b5d36d322fa" ReferenceId="0f85dc38-890a-b459-e3a2-9b5d36d322fa" />
         <DialogNodeReference DialogNodeId="d120ecd4-db29-31b0-0790-4807e66b0b64" ReferenceId="d120ecd4-db29-31b0-0790-4807e66b0b64" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -40754,7 +40754,7 @@
           <Component ComponentId="bafecd42-6b0e-4cbe-b6f9-e2757a93ba11" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="7b0d8896-4879-4365-b81e-9a97ccfb0f20" Name="Sequence 78 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="20.96">
+      <Sequence Id="7b0d8896-4879-4365-b81e-9a97ccfb0f20" Name="Sequence 77 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="20.96">
         <DialogNodeReference DialogNodeId="ebf24648-cc80-3c1c-5324-ddd7aede2d8b" ReferenceId="ebf24648-cc80-3c1c-5324-ddd7aede2d8b" />
         <DialogNodeReference DialogNodeId="c225f3dc-8d63-c7c3-6755-6c262135d39e" ReferenceId="c225f3dc-8d63-c7c3-6755-6c262135d39e" />
         <DialogNodeReference DialogNodeId="0d522b3f-d02e-2846-b90b-9bbdf15b0ef3" ReferenceId="0d522b3f-d02e-2846-b90b-9bbdf15b0ef3" />
@@ -41303,7 +41303,7 @@
           <Component ComponentId="ab865f28-1f8a-4ea5-815b-5cc23fa2e9bd" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="a85ed7d6-38ec-4eb5-853d-c59c25b950dc" Name="Sequence 79 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="13.220202445983887">
+      <Sequence Id="a85ed7d6-38ec-4eb5-853d-c59c25b950dc" Name="Sequence 78 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="13.220202445983887">
         <DialogNodeReference DialogNodeId="0d51ec4d-d297-d6d8-8417-0e95b272ecf2" ReferenceId="0d51ec4d-d297-d6d8-8417-0e95b272ecf2" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="4b01b76d-7efb-4ca8-bc4a-96e7d813c215" ΔTimeDuration="13.220202445983887" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -41792,7 +41792,7 @@
           <Component ComponentId="e48a42c8-9937-4497-b6f4-d3faa1d31c55" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="9f3545c7-be08-4a92-932b-d2db459690d4" Name="Sequence 80 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.09">
+      <Sequence Id="9f3545c7-be08-4a92-932b-d2db459690d4" Name="Sequence 79 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.09">
         <DialogNodeReference DialogNodeId="0cbbed37-1c6e-36f8-a68a-5ec6647b5fdd" ReferenceId="0cbbed37-1c6e-36f8-a68a-5ec6647b5fdd" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="bd19f5ce-e1a9-4445-a63a-b954c17f3996" ΔTimeDuration="4.0885987281799316" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -42287,7 +42287,7 @@
           <Component ComponentId="83c0daa4-f57c-459c-8697-f326e080e49a" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="909fae7a-38e8-4953-971b-6f7645e166b5" Name="Sequence 81 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.34">
+      <Sequence Id="909fae7a-38e8-4953-971b-6f7645e166b5" Name="Sequence 80 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.34">
         <DialogNodeReference DialogNodeId="0c9bdc13-0b62-1383-73bc-201f9b44347e" ReferenceId="0c9bdc13-0b62-1383-73bc-201f9b44347e" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="e78236c8-1e92-4b6b-82a3-9615d493349d" ΔTimeDuration="5.336188793182373" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -42786,7 +42786,7 @@
           <Component ComponentId="ac0ecee2-bbc8-4b51-bb35-df6cc5221680" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="8442e03e-8b49-475d-a2bc-9a88a1418ed5" Name="Sequence 82 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="16.95">
+      <Sequence Id="8442e03e-8b49-475d-a2bc-9a88a1418ed5" Name="Sequence 81 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="16.95">
         <DialogNodeReference DialogNodeId="0c12abe0-6b6f-da2e-00ca-2b3196da6985" ReferenceId="0c12abe0-6b6f-da2e-00ca-2b3196da6985" />
         <DialogNodeReference DialogNodeId="fb7a1e55-9892-527f-f6ee-2b5f359d44b8" ReferenceId="fb7a1e55-9892-527f-f6ee-2b5f359d44b8" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -43309,7 +43309,7 @@
           <Component ComponentId="7f833bb7-098b-4720-8054-f4390c7b6e0f" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="ef06bd08-1290-4eb2-9b58-848ebd059ad2" Name="Sequence 83 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.2">
+      <Sequence Id="ef06bd08-1290-4eb2-9b58-848ebd059ad2" Name="Sequence 82 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.2">
         <DialogNodeReference DialogNodeId="0672ad64-4683-c8fb-df17-43070293ce6d" ReferenceId="0672ad64-4683-c8fb-df17-43070293ce6d" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="1778e639-6252-4378-bd22-11f4ff0a0442" ΔTimeDuration="6.1999998092651367" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -43801,7 +43801,7 @@
           <Component ComponentId="1056e888-6e0a-4c69-b3bc-128349c7d565" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="4a0fbf83-ab1e-4624-98aa-f0865f90e374" Name="Sequence 84 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.84">
+      <Sequence Id="4a0fbf83-ab1e-4624-98aa-f0865f90e374" Name="Sequence 83 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.84">
         <DialogNodeReference DialogNodeId="065b7e07-165f-3505-3610-6e1d361c42f8" ReferenceId="065b7e07-165f-3505-3610-6e1d361c42f8" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="c78fdb60-8c6b-47cb-bee4-bb60146c9292" ΔTimeDuration="4.8387136459350586" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -44293,7 +44293,7 @@
           <Component ComponentId="f362e957-3bd4-43d6-90cd-fd59cbf297a6" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="9759052c-2dae-4ced-b7f8-d0e9769091b1" Name="Sequence 85 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.72">
+      <Sequence Id="9759052c-2dae-4ced-b7f8-d0e9769091b1" Name="Sequence 84 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.72">
         <DialogNodeReference DialogNodeId="05bfdeac-e23d-d7e2-1454-d310833f6bee" ReferenceId="05bfdeac-e23d-d7e2-1454-d310833f6bee" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="5232cfdc-eddd-4b77-9842-deea4ce76eec" ΔTimeDuration="5.7171726226806641" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -44785,7 +44785,7 @@
           <Component ComponentId="0710a175-6ac8-4b1b-b919-7cba0e3111fd" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="f8c62013-b312-4b01-afb1-52a1b7d2a78e" Name="Sequence 86 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="1.23">
+      <Sequence Id="f8c62013-b312-4b01-afb1-52a1b7d2a78e" Name="Sequence 85 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="1.23">
         <DialogNodeReference DialogNodeId="6222901d-ee5b-0512-d079-e0ead74a5a57" ReferenceId="6222901d-ee5b-0512-d079-e0ead74a5a57" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="dc264856-a049-40af-8998-a4cd5594462f" ΔTimeDuration="1.225116491317749" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -45274,7 +45274,7 @@
           <Component ComponentId="a2ad3668-eb16-4d83-ab16-b371557c694d" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="7d540fe8-8626-4f83-a883-d33d73e6679b" Name="Sequence 87 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="20.66">
+      <Sequence Id="7d540fe8-8626-4f83-a883-d33d73e6679b" Name="Sequence 86 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="20.66">
         <DialogNodeReference DialogNodeId="2d9ee340-4006-6bc4-2315-d6e4ca4f1506" ReferenceId="2d9ee340-4006-6bc4-2315-d6e4ca4f1506" />
         <DialogNodeReference DialogNodeId="6930d0c4-4ae1-2f5a-cbea-b6390ccaba73" ReferenceId="6930d0c4-4ae1-2f5a-cbea-b6390ccaba73" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -45810,7 +45810,7 @@
           <Component ComponentId="504df9f4-f690-4cb8-a833-69d5f6a1580a" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="3675c465-bdf1-4747-a8cb-91714b7823e5" Name="Sequence 88 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="14.983038902282715">
+      <Sequence Id="3675c465-bdf1-4747-a8cb-91714b7823e5" Name="Sequence 87 - Answer" DialogNodeColor="#FFF4A460" TimeDuration="14.983038902282715">
         <DialogNodeReference DialogNodeId="2d89073e-696f-43aa-1de8-15deaf495ddb" ReferenceId="2d89073e-696f-43aa-1de8-15deaf495ddb" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="78152726-3860-4097-a38f-b611c2336ca0" ΔTimeDuration="14.983038902282715" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -46293,7 +46293,7 @@
           <Component ComponentId="9568f3fb-0ac9-4111-942f-d389ae3f2b51" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="83dab59a-b102-4baa-b105-31c7205586ca" Name="Sequence 89 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="14.28">
+      <Sequence Id="83dab59a-b102-4baa-b105-31c7205586ca" Name="Sequence 88 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="14.28">
         <DialogNodeReference DialogNodeId="b7182feb-3572-7227-b986-24a54cf467e2" ReferenceId="b7182feb-3572-7227-b986-24a54cf467e2" />
         <DialogNodeReference DialogNodeId="2e50c8c5-f703-40a0-87eb-7a075b0b32b8" ReferenceId="2e50c8c5-f703-40a0-87eb-7a075b0b32b8" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -46841,7 +46841,7 @@
           <Component ComponentId="968f2e17-642e-4f5d-b5fe-fb3c347d1a6e" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="8c6c08da-b6c4-4e7d-96f4-c6d51d4e425f" Name="Sequence 90 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="9.13">
+      <Sequence Id="8c6c08da-b6c4-4e7d-96f4-c6d51d4e425f" Name="Sequence 89 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="9.13">
         <DialogNodeReference DialogNodeId="5ebc5dae-a11a-b8b2-25d3-332a65c45969" ReferenceId="5ebc5dae-a11a-b8b2-25d3-332a65c45969" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="0b9a00c9-222a-42b7-98c6-3ffec43bc3d3" ΔTimeDuration="9.1264104843139648" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -47333,7 +47333,7 @@
           <Component ComponentId="162d83b8-591e-4654-99c2-e562a3a63ae0" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="f3be862e-a5b0-4dba-a56a-865b07bef895" Name="Sequence 91 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.53">
+      <Sequence Id="f3be862e-a5b0-4dba-a56a-865b07bef895" Name="Sequence 90 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.53">
         <DialogNodeReference DialogNodeId="5acfad83-52d2-67be-87e0-63c137100092" ReferenceId="5acfad83-52d2-67be-87e0-63c137100092" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="c98cb3c7-d1f9-4c18-913b-7e04801eed65" ΔTimeDuration="8.5294332504272461" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -47816,7 +47816,7 @@
           <Component ComponentId="9b21a815-1217-4b3a-8523-74e1f23ce1d6" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="19a7c13a-0faf-4867-8fc2-0917008568fc" Name="Sequence 92 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="36.52">
+      <Sequence Id="19a7c13a-0faf-4867-8fc2-0917008568fc" Name="Sequence 91 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="36.52">
         <DialogNodeReference DialogNodeId="57bceff1-1bb1-e97a-4c94-7d741ef6ec52" ReferenceId="57bceff1-1bb1-e97a-4c94-7d741ef6ec52" />
         <DialogNodeReference DialogNodeId="fac98ae9-58a4-e8b3-cbc2-b46b6fd4a9db" ReferenceId="fac98ae9-58a4-e8b3-cbc2-b46b6fd4a9db" />
         <DialogNodeReference DialogNodeId="99af1133-39aa-0d89-be18-fecc7cc154b2" ReferenceId="99af1133-39aa-0d89-be18-fecc7cc154b2" />
@@ -48382,7 +48382,7 @@
           <Component ComponentId="b3539fc1-8a50-449b-baf1-7352a41ff855" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="11c65165-61c5-477e-851e-66882b2b0ea5" Name="Sequence 93 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.09">
+      <Sequence Id="11c65165-61c5-477e-851e-66882b2b0ea5" Name="Sequence 92 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.09">
         <DialogNodeReference DialogNodeId="564b74aa-5f5b-6c11-ec91-271f3d73f86f" ReferenceId="564b74aa-5f5b-6c11-ec91-271f3d73f86f" />
         <DialogNodeReference DialogNodeId="f3112a9c-ea73-3eac-154f-b8c19e05bea4" ReferenceId="f3112a9c-ea73-3eac-154f-b8c19e05bea4" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -48900,7 +48900,7 @@
           <Component ComponentId="6d7a48f9-e79e-4fed-9614-7c87d944374b" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="6941105e-b98d-4562-b44a-8acf3e5db1ea" Name="Sequence 94 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.41">
+      <Sequence Id="6941105e-b98d-4562-b44a-8acf3e5db1ea" Name="Sequence 93 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.41">
         <DialogNodeReference DialogNodeId="53543d34-49a6-be9a-9328-3f5066ca334c" ReferenceId="53543d34-49a6-be9a-9328-3f5066ca334c" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="b82ca31a-d07a-45e8-887c-51c962aa6351" ΔTimeDuration="7.4148039817810059" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -49389,7 +49389,7 @@
           <Component ComponentId="e7963718-a731-48d4-bffd-25ee425e0cf7" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="bac5a173-a031-40a5-9d68-c25693d3e001" Name="Sequence 95 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.97">
+      <Sequence Id="bac5a173-a031-40a5-9d68-c25693d3e001" Name="Sequence 94 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="15.97">
         <DialogNodeReference DialogNodeId="9b9489a3-b607-6530-c3e1-5c1802f1db1c" ReferenceId="9b9489a3-b607-6530-c3e1-5c1802f1db1c" />
         <DialogNodeReference DialogNodeId="4fd5c798-9b24-ce76-6e43-acd1ea1f524c" ReferenceId="4fd5c798-9b24-ce76-6e43-acd1ea1f524c" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -49932,7 +49932,7 @@
           <Component ComponentId="364146a6-bdc0-4951-8c4a-39a868d1dbc8" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="9aa020da-b3db-476a-9ce6-7ff79340f313" Name="Sequence 96 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="16.63">
+      <Sequence Id="9aa020da-b3db-476a-9ce6-7ff79340f313" Name="Sequence 95 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="16.63">
         <DialogNodeReference DialogNodeId="c7563a30-6a04-7c65-1538-e2c44720d13f" ReferenceId="c7563a30-6a04-7c65-1538-e2c44720d13f" />
         <DialogNodeReference DialogNodeId="4c619328-340a-7822-380f-0bcf31b470ae" ReferenceId="4c619328-340a-7822-380f-0bcf31b470ae" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -50425,7 +50425,7 @@
           <Component ComponentId="e72b2fad-b83c-42af-b331-be64103328ea" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="881eea7a-c9e1-4d84-a9a0-93412e40c59a" Name="Sequence 97 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.76">
+      <Sequence Id="881eea7a-c9e1-4d84-a9a0-93412e40c59a" Name="Sequence 96 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="5.76">
         <DialogNodeReference DialogNodeId="4c4a2696-92f8-bb4e-ee8f-466e34313272" ReferenceId="4c4a2696-92f8-bb4e-ee8f-466e34313272" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="ca566366-48e2-4e78-a776-a06b8b5f54d1" TimeDuration="5.76" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -50917,7 +50917,7 @@
           <Component ComponentId="c6a260a4-5c43-4715-80a8-2cc959657f25" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="b92b8f97-b6d3-49af-8ffd-64f0a3ac031c" Name="Sequence 98 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="11.25">
+      <Sequence Id="b92b8f97-b6d3-49af-8ffd-64f0a3ac031c" Name="Sequence 97 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="11.25">
         <DialogNodeReference DialogNodeId="4b48d838-20f5-4145-049b-14aa49e0fe95" ReferenceId="4b48d838-20f5-4145-049b-14aa49e0fe95" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="f79fb94f-fbeb-4b98-926e-8ef0f2616c7e" ΔTimeDuration="11.254284858703613" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -51406,7 +51406,7 @@
           <Component ComponentId="cc3ab8e7-d252-4c45-9dc3-8d1321f29706" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="37d61d43-9e0e-4e4d-b11e-3ac51958123c" Name="Sequence 99 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="24.43">
+      <Sequence Id="37d61d43-9e0e-4e4d-b11e-3ac51958123c" Name="Sequence 98 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="24.43">
         <DialogNodeReference DialogNodeId="5faaf722-2d49-a49d-3efc-1f6e91044ace" ReferenceId="5faaf722-2d49-a49d-3efc-1f6e91044ace" />
         <DialogNodeReference DialogNodeId="4b07ff85-9cb7-0958-15c1-e3907e2acf3e" ReferenceId="4b07ff85-9cb7-0958-15c1-e3907e2acf3e" />
         <DialogNodeReference DialogNodeId="96cb59b7-59d4-4ff7-ad99-724e791d8496" ReferenceId="96cb59b7-59d4-4ff7-ad99-724e791d8496" />
@@ -52179,7 +52179,7 @@
           <Component ComponentId="91a44865-e298-4cca-a26c-6e97be02b4a1" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="2f711556-1e21-4fdf-8e79-1f5d1f2e7155" Name="Sequence 100 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="9.37">
+      <Sequence Id="2f711556-1e21-4fdf-8e79-1f5d1f2e7155" Name="Sequence 99 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="9.37">
         <DialogNodeReference DialogNodeId="48ffd545-0c20-f448-328c-6537b3533f4e" ReferenceId="48ffd545-0c20-f448-328c-6537b3533f4e" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="701929f1-6aa0-46b8-910f-47b0ed950886" ΔTimeDuration="9.3741130828857422" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -52671,7 +52671,7 @@
           <Component ComponentId="1d79fedd-e283-48ca-bfd9-5c201e530271" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="6d165e53-2ad8-41fa-bb97-a7ab3b0e8355" Name="Sequence 101 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="79.59">
+      <Sequence Id="6d165e53-2ad8-41fa-bb97-a7ab3b0e8355" Name="Sequence 100 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="79.59">
         <DialogNodeReference DialogNodeId="9d437ad8-77f1-efbf-0069-5b142e1fea65" ReferenceId="9d437ad8-77f1-efbf-0069-5b142e1fea65" />
         <DialogNodeReference DialogNodeId="5720e259-5db7-9f8e-e35e-ce4470be9464" ReferenceId="5720e259-5db7-9f8e-e35e-ce4470be9464" />
         <DialogNodeReference DialogNodeId="79a3147d-f0fd-cf37-9e0d-303621334ae5" ReferenceId="79a3147d-f0fd-cf37-9e0d-303621334ae5" />
@@ -54708,7 +54708,7 @@
           <Component ComponentId="1b0fcaeb-b173-435b-b94f-21f2d311b58c" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="4e6c4ac0-f749-4cfe-a9ca-6ab4f9a62f2d" Name="Sequence 102 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.66">
+      <Sequence Id="4e6c4ac0-f749-4cfe-a9ca-6ab4f9a62f2d" Name="Sequence 101 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="8.66">
         <DialogNodeReference DialogNodeId="2dc9a58f-b877-82ea-e2c9-c0a0a5968d75" ReferenceId="2dc9a58f-b877-82ea-e2c9-c0a0a5968d75" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="3ee7142f-6af4-40de-96d3-9110559534d1" ΔTimeDuration="8.6645603179931641" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -55197,7 +55197,7 @@
           <Component ComponentId="7c3eacb7-2ed1-4fd2-9893-5e094c24a7ed" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="3aaa75b5-4c47-43cf-941b-9221c834b40a" Name="Sequence 103 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.36">
+      <Sequence Id="3aaa75b5-4c47-43cf-941b-9221c834b40a" Name="Sequence 102 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="4.36">
         <DialogNodeReference DialogNodeId="ff17d8b3-abb6-1e43-2b58-2bea29a8e985" ReferenceId="ff17d8b3-abb6-1e43-2b58-2bea29a8e985" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="e9802161-0c68-4283-994a-9d8b6ddbcda4" ΔTimeDuration="4.3638882637023926" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -55686,7 +55686,7 @@
           <Component ComponentId="ee14480b-a629-4a8d-a253-06a54671fac5" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="cc807614-9898-41e4-9f2a-484c2ce5d942" Name="Sequence 104 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.33">
+      <Sequence Id="cc807614-9898-41e4-9f2a-484c2ce5d942" Name="Sequence 103 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.33">
         <DialogNodeReference DialogNodeId="47a52aed-8e9a-fa08-0d12-7402799d793c" ReferenceId="47a52aed-8e9a-fa08-0d12-7402799d793c" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="b4b33602-2dd1-4e35-b6fe-bfe9b6b1a18b" ΔTimeDuration="6.3297262191772461" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -56175,7 +56175,7 @@
           <Component ComponentId="4a110a4e-9cc8-4149-97e1-6edd41e60adb" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="770fa048-170e-4d08-992f-d737dfe4b7b3" Name="Sequence 105 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="19">
+      <Sequence Id="770fa048-170e-4d08-992f-d737dfe4b7b3" Name="Sequence 104 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="19">
         <DialogNodeReference DialogNodeId="39d66987-db8e-f7b8-96f9-e2003d1076fc" ReferenceId="39d66987-db8e-f7b8-96f9-e2003d1076fc" />
         <DialogNodeReference DialogNodeId="2ebd7a64-7e11-8e98-84c7-50d17c8d3df4" ReferenceId="2ebd7a64-7e11-8e98-84c7-50d17c8d3df4" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -56712,7 +56712,7 @@
           <Component ComponentId="3af6a945-0e52-43eb-bcd4-a9f43f6395c1" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="8f3a7e43-e366-49a3-b370-80dde0182d55" Name="Sequence 106 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.51">
+      <Sequence Id="8f3a7e43-e366-49a3-b370-80dde0182d55" Name="Sequence 105 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.51">
         <DialogNodeReference DialogNodeId="46e8be01-7ecc-1c57-3ce9-c20c330f3842" ReferenceId="46e8be01-7ecc-1c57-3ce9-c20c330f3842" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="3d4c620a-41b6-406c-900c-45235609febe" ΔTimeDuration="6.5101122856140137" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -57201,7 +57201,7 @@
           <Component ComponentId="46adf946-b523-4d14-8ecb-6dd9b01d282a" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="253d6047-c319-46e5-bb9a-6b7d05ed736a" Name="Sequence 107 - NON-ILLITHID OPENING" DialogNodeColor="#FF008B8B" ΔTimeDuration="0.1">
+      <Sequence Id="253d6047-c319-46e5-bb9a-6b7d05ed736a" Name="Sequence 106 - NON-ILLITHID OPENING" DialogNodeColor="#FF008B8B" ΔTimeDuration="0.1">
         <DialogNodeReference DialogNodeId="46e8138d-16da-046b-5393-2d0383169445" ReferenceId="46e8138d-16da-046b-5393-2d0383169445" />
         <Components TrackId="54758f77-3742-42ae-9fd4-c4bb761fbbda">
           <Component ComponentId="7be7abb7-e3fc-47c8-a0c7-31fe0dccc0bd" IsInfinite="true" TimeDuration="1" />
@@ -57665,7 +57665,7 @@
           <Component ComponentId="eb4afd46-7bca-475e-95f9-1a58825c5367" ΔTimeDuration="0.1" />
         </Components>
       </Sequence>
-      <Sequence Id="25044075-03e6-45e9-bf0a-2d4acce1df06" Name="Sequence 108 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="25.57">
+      <Sequence Id="25044075-03e6-45e9-bf0a-2d4acce1df06" Name="Sequence 107 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="25.57">
         <DialogNodeReference DialogNodeId="539ea81c-6d11-67cc-e1d2-cf0b934c653a" ReferenceId="539ea81c-6d11-67cc-e1d2-cf0b934c653a" />
         <DialogNodeReference DialogNodeId="4454ff2c-652a-c1ca-d1ff-dfbf82863cfa" ReferenceId="4454ff2c-652a-c1ca-d1ff-dfbf82863cfa" />
         <DialogNodeReference DialogNodeId="dc157363-d9fa-70f5-29fe-f40825f14847" ReferenceId="dc157363-d9fa-70f5-29fe-f40825f14847" />
@@ -58280,7 +58280,7 @@
           <Component ComponentId="95bf531f-1ba7-4764-b24e-c1433830cc8b" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="fa0e701e-b71e-463b-82b7-31b75681c857" Name="Sequence 109 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.2">
+      <Sequence Id="fa0e701e-b71e-463b-82b7-31b75681c857" Name="Sequence 108 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="6.2">
         <DialogNodeReference DialogNodeId="3fdc747e-275f-6b7c-ed2f-fab2ac53b3cf" ReferenceId="3fdc747e-275f-6b7c-ed2f-fab2ac53b3cf" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="60880d46-0b1d-4201-b57d-415b5e40c855" ΔTimeDuration="6.1999998092651367" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -58784,7 +58784,7 @@
           <Component ComponentId="f40dfa8d-ca7f-486e-a51f-a3594bfa5a74" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="f9b35c6f-b282-43d3-9294-c93b2ba32d77" Name="Sequence 110 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.69">
+      <Sequence Id="f9b35c6f-b282-43d3-9294-c93b2ba32d77" Name="Sequence 109 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.69">
         <DialogNodeReference DialogNodeId="33297aab-3419-7738-3d35-a31eebb71236" ReferenceId="33297aab-3419-7738-3d35-a31eebb71236" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="b5e92a9d-486a-46a8-b41a-0b05abb82985" ΔTimeDuration="7.6853623390197754" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -59285,7 +59285,7 @@
           <Component ComponentId="c88a1314-c80f-4005-a6f6-dfd66656b81c" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="953a3874-7d33-4077-9d0d-e6613ec0355a" Name="Sequence 111 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.64">
+      <Sequence Id="953a3874-7d33-4077-9d0d-e6613ec0355a" Name="Sequence 110 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="7.64">
         <DialogNodeReference DialogNodeId="3c957c66-9ed6-9e97-485c-5124c11dd6aa" ReferenceId="3c957c66-9ed6-9e97-485c-5124c11dd6aa" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="92b3290e-bc0e-4bb6-923c-d309c97b1bb2" ΔTimeDuration="3.41" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -59788,7 +59788,7 @@
           <Component ComponentId="8163de84-9cbd-42c5-96f7-087d158f6845" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="a036e988-e2b6-453f-bef6-8883dcbf3c36" Name="Sequence 112 - ILLITHID" DialogNodeColor="#FFF4A460" ΔTimeDuration="14.64">
+      <Sequence Id="a036e988-e2b6-453f-bef6-8883dcbf3c36" Name="Sequence 111 - ILLITHID" DialogNodeColor="#FFF4A460" ΔTimeDuration="14.64">
         <DialogNodeReference DialogNodeId="3352232f-d691-5783-2f21-b18569f9f188" ReferenceId="3352232f-d691-5783-2f21-b18569f9f188" />
         <DialogNodeReference DialogNodeId="3a1ce03b-3e47-4557-71fe-7ed5d05d7777" ReferenceId="3a1ce03b-3e47-4557-71fe-7ed5d05d7777" />
         <DialogNodeReference DialogNodeId="c4f849b8-9e64-c1dc-5b52-55af6676dbdd" ReferenceId="c4f849b8-9e64-c1dc-5b52-55af6676dbdd" />
@@ -60322,7 +60322,7 @@
           <Component ComponentId="57df68b1-3433-4afd-95c4-2665213915c3" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="84fd8fe3-6bb6-490c-a9ef-63f890a37369" Name="Sequence 113 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="1.23">
+      <Sequence Id="84fd8fe3-6bb6-490c-a9ef-63f890a37369" Name="Sequence 112 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="1.23">
         <DialogNodeReference DialogNodeId="386a2c34-c36a-1235-a2ad-d9815756a30e" ReferenceId="386a2c34-c36a-1235-a2ad-d9815756a30e" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="afe7b178-9b3f-4c94-9da4-4f1e6f7d5933" ΔTimeDuration="1.225116491317749" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -60808,7 +60808,7 @@
           <Component ComponentId="5a6c8539-3180-4966-8014-bea061fe0852" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="7ef5c0a9-6b58-4513-addb-324b742aa012" Name="Sequence 114 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.73">
+      <Sequence Id="7ef5c0a9-6b58-4513-addb-324b742aa012" Name="Sequence 113 - Answer" DialogNodeColor="#FFF4A460" ΔTimeDuration="10.73">
         <DialogNodeReference DialogNodeId="33ebfb6d-27d0-d304-fe0a-4da8313cb3d1" ReferenceId="33ebfb6d-27d0-d304-fe0a-4da8313cb3d1" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="34decba5-2eed-4400-b29a-2e51bfa66405" ΔTimeDuration="1.61" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -61383,7 +61383,7 @@
           <Component ComponentId="4ebb6469-5b5b-475a-ab05-bcad05e88996" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="d325fd85-4113-4487-8745-ab7815ae6257" Name="Sequence 115 - ALONE ENDING" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="14.55">
+      <Sequence Id="d325fd85-4113-4487-8745-ab7815ae6257" Name="Sequence 114 - ALONE ENDING" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="14.55">
         <DialogNodeReference DialogNodeId="6fb84436-b24a-fb37-0ff6-f4d6113b420a" ReferenceId="6fb84436-b24a-fb37-0ff6-f4d6113b420a" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="39391385-14b7-474a-a201-9b8db3954ab1" ΔTimeDuration="5.13" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -61801,7 +61801,7 @@
           </Component>
         </Components>
       </Sequence>
-      <Sequence Id="920f0f8f-8fc3-42e9-8129-acb44108dd09" Name="Sequence 116 - ALLIED ENDING" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="21.79">
+      <Sequence Id="920f0f8f-8fc3-42e9-8129-acb44108dd09" Name="Sequence 115 - ALLIED ENDING" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="21.79">
         <DialogNodeReference DialogNodeId="8eddaa30-2b41-5dcf-4ec6-fbada9200226" ReferenceId="8eddaa30-2b41-5dcf-4ec6-fbada9200226" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="5845f7c5-07f7-4c02-8880-42daab1d384e" ΔTimeDuration="2.01" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -62153,7 +62153,7 @@
           </Component>
         </Components>
       </Sequence>
-      <Sequence Id="c9b89fb6-d2c1-44a7-941c-c5771ddc1223" Name="Sequence 117 - EAT EMPEROR BRAIN ENDING" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="26.52">
+      <Sequence Id="c9b89fb6-d2c1-44a7-941c-c5771ddc1223" Name="Sequence 116 - EAT EMPEROR BRAIN ENDING" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="26.52">
         <DialogNodeReference DialogNodeId="a3b9cd23-5b99-5d53-30e2-449d1b32e618" ReferenceId="a3b9cd23-5b99-5d53-30e2-449d1b32e618" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="7efaef31-8225-4cfa-91a1-fdf166318537" ΔTimeDuration="3.92" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -63269,7 +63269,7 @@
           <Component ComponentId="9b501f56-8fcb-4a7f-8caa-574f39a59e88" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="2df4804f-f90b-4a90-846d-4ada2c6d9500" Name="Sequence 118 - KARLACH ENDING" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="21.63">
+      <Sequence Id="2df4804f-f90b-4a90-846d-4ada2c6d9500" Name="Sequence 117 - KARLACH ENDING" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="21.63">
         <DialogNodeReference DialogNodeId="d4823038-a52f-5a40-3eee-7f085f45327f" ReferenceId="d4823038-a52f-5a40-3eee-7f085f45327f" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
           <Component ComponentId="3a9e6b18-dba3-4eca-8e18-f8a344698403" ΔTimeDuration="7.5200000000000005" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
@@ -63901,7 +63901,7 @@
           <Component ComponentId="04d2f376-c1c5-42bb-bdb6-06d18ae6f1e6" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="67824dbc-af3c-4926-b0c7-aee592131238" Name="Sequence 119 - ROMANCE ENDING" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="26.69">
+      <Sequence Id="67824dbc-af3c-4926-b0c7-aee592131238" Name="Sequence 118 - ROMANCE ENDING" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="26.69">
         <DialogNodeReference DialogNodeId="07c0c8ba-66ec-0ec7-43f9-d372d012aa4d" ReferenceId="07c0c8ba-66ec-0ec7-43f9-d372d012aa4d" />
         <DialogNodeReference DialogNodeId="094746e7-1731-1ce6-6e07-b3caf1091dec" ReferenceId="094746e7-1731-1ce6-6e07-b3caf1091dec" />
         <Components TrackId="b5ed0b43-641a-4525-a6bd-1f3abae7fa06">
@@ -64506,7 +64506,7 @@
           <Component ComponentId="e150337e-2a68-477f-9ef7-b67717e3566c" IsInfinite="true" TimeDuration="1" />
         </Components>
       </Sequence>
-      <Sequence Id="287a5eea-3903-4be7-8d82-5f7161bcfd96" Name="Sequence 120 - Answer" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="77.55">
+      <Sequence Id="287a5eea-3903-4be7-8d82-5f7161bcfd96" Name="Sequence 119 - Answer" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="77.55">
         <DialogNodeReference DialogNodeId="7374e742-0116-2d81-cadb-0ce769bee741" ReferenceId="7374e742-0116-2d81-cadb-0ce769bee741" />
         <DialogNodeReference DialogNodeId="b6a13b34-8933-c327-8c3d-7f5103feb728" ReferenceId="b6a13b34-8933-c327-8c3d-7f5103feb728" />
         <DialogNodeReference DialogNodeId="c8631244-2471-f9b8-daee-4029199a4ade" ReferenceId="c8631244-2471-f9b8-daee-4029199a4ade" />
@@ -65657,6 +65657,14 @@
           <Sequence>953a3874-7d33-4077-9d0d-e6613ec0355a</Sequence>
           <Sequence>209831bd-1ecc-45da-a38e-fa14cd466db0</Sequence>
           <Sequence>69b5d512-b0be-4cff-b03c-553dcdd49a7f</Sequence>
+        </Sequences>
+      </Playlist>
+      <Playlist Name="Non-Illithid Breakup" PlaylistType="Custom">
+        <Sequences>
+          <Sequence>9759052c-2dae-4ced-b7f8-d0e9769091b1</Sequence>
+          <Sequence>8597000e-ddc7-45a2-9676-3bdbf3f1e84f</Sequence>
+          <Sequence>c32bf928-6d2e-49a4-aa74-4e3bd02df43c</Sequence>
+          <Sequence>f6bcd990-b8d5-4d14-b348-d9ce44dbc272</Sequence>
         </Sequences>
       </Playlist>
     </Playlists>
