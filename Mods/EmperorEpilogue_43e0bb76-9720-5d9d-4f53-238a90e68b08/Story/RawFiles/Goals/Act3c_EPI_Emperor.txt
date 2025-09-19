@@ -65,6 +65,19 @@ DB_EPI_Epilogue_EmperorReactionADs((CHARACTER)S_Player_Gale_ad9af97d-75da-406a-a
 DB_EPI_Epilogue_EmperorReactionADs((CHARACTER)S_Player_Karlach_2c76687d-93a2-477b-8b18-8a14b549304c, (DIALOGRESOURCE)EPI_Epilogue_AD_EmperorReactionKarlach_514df5d4-f994-0630-31da-4d93c8acbffc, "EPI_Emperor_Reacted_Karlach");
 
 //END_REGION
+
+//REGION Mind Flayer Urge
+
+DB_EPI_Epilogue_MindFlayerUrge_AstarionIgnoreNPC((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255);
+DB_EPI_Epilogue_MindFlayerUrge_AstarionIgnoreNPC((CHARACTER)S_GLO_JergalAvatar_0133f2ad-e121-4590-b5f0-a79413919805);
+DB_EPI_Epilogue_MindFlayerUrge_AstarionIgnoreNPC((CHARACTER)S_FOR_Courier_Dog_3059f69c-068d-4e28-8491-55953c027901);
+DB_EPI_Epilogue_MindFlayerUrge_AstarionIgnoreNPC((CHARACTER)S_FOR_OwlBear_Cub_001_c66b2865-6613-4372-b97a-e330c1d75d09);
+DB_EPI_Epilogue_MindFlayerUrge_AstarionIgnoreNPC((CHARACTER)S_GLO_Volo_2af25a85-5b9a-4794-85d3-0bd4c4d262fa);
+DB_EPI_Epilogue_MindFlayerUrge_AstarionIgnoreNPC((CHARACTER)S_EPI_TerrifiedThief_85d6a92c-dc66-4f26-b6b7-1feb8301fa4c);
+DB_EPI_Epilogue_MindFlayerUrge_AstarionIgnoreNPC((CHARACTER)S_EPI_DivineBard_4a0c8230-f2f0-4bf0-89bc-b16989ea824c);
+DB_EPI_Epilogue_MindFlayerUrge_AstarionIgnoreNPC((CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
+
+//END_REGION
 KBSECTION
 //REGION Avatar Title
 
@@ -132,6 +145,17 @@ AND
 DB_EPI_Epilogue_GhostAvatar(_Player)
 THEN
 DB_NOOP(1);
+
+PROC
+PROC_EPI_Epilogue_TryStartEnterParty()
+AND
+DB_EPI_Epilogue_PresentNPC(_Char, _, _, _, _)
+AND
+NOT DB_Avatars(_Char)
+AND
+NOT DB_EPI_Epilogue_MindFlayerUrge_AstarionIgnoreNPC(_Char)
+THEN
+SetFlag(EPI_Epilogue_State_NonAstarionAllyPresent_11d53df5-6d0a-35e2-bb9d-5266eae98654);
 
 //END_REGION
 
@@ -394,11 +418,11 @@ DB_EPI_Epilogue_PresentNPC(_Char, _Dialog, _, _, _)
 AND
 DB_EPI_Epilogue_EmperorReactionADs(_Char, _ReactionDialog, _ReactedString)
 AND
-QRY_OnlyOnce(_ReactedString)
-AND
 DB_DialogPlayers(_ID, _Player, 1)
 AND
 GetFlag((FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222, _Player, 1)
+AND
+QRY_OnlyOnce(_ReactedString)
 THEN
 PROC_TryStartAD((DIALOGRESOURCE)_ReactionDialog, (CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b, (CHARACTER)_Player);
 
@@ -427,13 +451,13 @@ PROC_TryStartAD((DIALOGRESOURCE)EPI_Epilogue_AD_UsCombatStarted_ca9a6777-a6ca-c0
 IF
 AttackedBy((CHARACTER)_Player, _, _Attacker, _, _DamageAmount, _, _)
 AND
-QRY_OnlyOnce("EPI_Emperor_Reacted_PlayerDamage")
-AND
 _Attacker != S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b
 AND
 _DamageAmount > 0
 AND
 GetFlag((FLAG)ORI_State_PartneredWithEmperor_19ee118a-7edb-d8b7-2191-d9aae4451222, _Player, 1)
+AND
+QRY_OnlyOnce("EPI_Emperor_Reacted_PlayerDamage")
 THEN
 PROC_TryStartAD((DIALOGRESOURCE)EPI_Epilogue_AD_EmperorAttackedBardReaction_db4407a4-13ca-c596-64f5-4361e9b718e4, (CHARACTER)S_GLO_Emperor_73d49dc5-8b8b-45dc-a98c-927bb4e3169b);
 

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Root>
   <Timeline Id="e3e1ddde-a14a-4eed-8c20-a6e1b3d9e2d4" DialogResourceId="801bcceb-05fd-ae7c-55ba-dd38aa8f61e7" AllowedPeanutTypes="Emotion, Attitude, LookAt">
-    <GenerationMetadata FullGenerationTimestamp="1735031975" PartialGenerationTimestamp="1735033453" />
+    <GenerationMetadata FullGenerationTimestamp="1735031975" PartialGenerationTimestamp="1757058351" />
     <TimelinePosition />
     <Tracks>
       <Track Name="Camera Shots" TrackId="8038f1a3-4085-4585-ba9c-728fc4dd3c06" Type="ComponentTrackCameraShot" />
       <Track Name="Speakers" TrackId="0036c6d0-2e73-4004-8581-f7390e8181da" IsExpanded="true" Type="FolderTrack">
-        <Track Name="GROUP_Players" TrackId="07259767-ef11-4ddc-88a9-9cc673ec4df3" IsExpanded="true" ActorType="character" ActorId="81c48711-d7cc-4a3d-9e49-665eb915c15c" AssignedActorId="00000000-0000-0000-0000-000000000000" IsPlayer="true" SceneActorType="Initiator" SpeakerMappingId="bcd46834-73cb-4169-b4c5-229b6f742703" Type="ActorTrackSpeaker">
+        <Track Name="GROUP_Players" TrackId="07259767-ef11-4ddc-88a9-9cc673ec4df3" IsExpanded="true" ActorType="character" ActorId="aa772968-b5e0-4441-8d86-2d0506b4aab5" AssignedActorId="00000000-0000-0000-0000-000000000000" IsPlayer="true" SceneActorType="Initiator" SpeakerMappingId="bcd46834-73cb-4169-b4c5-229b6f742703" Type="ActorTrackSpeaker">
           <Track Name="Voice" TrackId="707c08c5-709c-435c-91da-f4ab52d5642a" Type="ComponentTrackVoice" />
           <Track Name="Look At Event" TrackId="9513a217-8851-4721-afe1-5709be2e98a0" Type="ComponentTrackLookAtEvent" />
           <Track Name="Emotion Event" TrackId="7bd67f37-9737-49d5-9a48-02ae2ee62601" Type="ComponentTrackEmotionEvent" />
@@ -157,6 +157,13 @@
           <ActorIdleOverrideData />
           <BehaviourActorStartCondition />
         </Track>
+        <Track Name="Narrator" TrackId="bbff73cf-2c9b-42c3-81ae-4d4f40bcd422" IsExpanded="true" ActorType="narrator" ActorId="bbb9c649-e86d-43a1-b171-d0a8006e8b5e" AssignedActorId="00000000-0000-0000-0000-000000000000" SpeakerId="-666" SpeakerMappingId="a346318f-15b3-49ad-ab97-ddf8283dc339" Type="ActorTrackSpeaker">
+          <Track Name="Voice" TrackId="42daf724-e765-42f8-8db0-1cea928e27c4" Type="ComponentTrackVoice" />
+          <CustomActorData Type="CustomActorSoundData" />
+          <ActorEndState />
+          <ActorIdleOverrideData />
+          <BehaviourActorStartCondition />
+        </Track>
       </Track>
       <Track Name="Peanuts" TrackId="ee5e620d-1959-4133-a79f-2238ce17ef05" Type="PeanutFolderTrack">
         <Track Name="Peanut 1" TrackId="fe509910-3567-4671-86ec-b8960c820664" ActorType="peanut" ActorId="fe509910-3567-4671-86ec-b8960c820664" AssignedActorId="19dc6cab-aa38-4f09-b9cf-546e1c0ecb8a" PeanutSlotIndex="0" ActorOverride="00000000-0000-0000-0000-000000000000" Type="PeanutTrack">
@@ -213,10 +220,15 @@
       <Track Name="Switch Stage" TrackId="0ae30d4e-be68-4488-acd9-9510f61fa302" Type="ComponentTrackSwitchStageEvent" />
     </Tracks>
     <Sequences>
-      <Sequence Id="b3182798-d8fe-48fe-b422-b12525d51d2a" Name="Sequence 1 - NON-ILLITHID AVATAR KARLACH" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="4.37">
+      <Sequence Id="b3182798-d8fe-48fe-b422-b12525d51d2a" Name="Sequence 1 - NON-ILLITHID AVATAR KARLACH" DialogNodeColor="#FFCD5C5C" ΔTimeDuration="13.38">
         <DialogNodeReference DialogNodeId="94202cb7-83a3-31c4-696c-e2b830f6070e" ReferenceId="94202cb7-83a3-31c4-696c-e2b830f6070e" />
         <Components TrackId="8038f1a3-4085-4585-ba9c-728fc4dd3c06">
-          <Component ComponentId="ef923de7-11c8-4c7d-86bc-10b8ec31427e" ΔTimeDuration="4.3722548484802246" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
+          <Component ComponentId="ef923de7-11c8-4c7d-86bc-10b8ec31427e" ΔTimeDuration="9.57" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
+            <CameraContainer>
+              <Camera CameraId="d459fa51-1e39-4517-8388-4f0f9a4096bb" />
+            </CameraContainer>
+          </Component>
+          <Component ComponentId="4ca07e53-5760-4773-a4cf-ef652075fd6b" TimeStart="9.57" ΔTimeDuration="3.8100000000000005" AreCamersEdited="true" IsAutomatedLighting="true" IsAutomatedCamera="true" SwitchInterval="5" IsLooping="true">
             <CameraContainer>
               <Camera CameraId="f17dcb48-41dc-4f12-a645-eac83dad4b29" />
             </CameraContainer>
@@ -236,6 +248,9 @@
             <Channel Name="Emotion Event">
               <Key Time="0" Id="f8ed0e3f-8c5f-40b5-9ae4-eb39d146362d">
                 <Value ΔEmotion="Sad" ΔVariation="0" IsSustainedEmotion="true" AppliesMaterials="true" />
+              </Key>
+              <Key ΔTime="9.57" Id="c7286d79-015a-4600-bba9-3ff54836efdf">
+                <Value ΔEmotion="Sad" ΔVariation="2" IsSustainedEmotion="true" AppliesMaterials="true" />
               </Key>
             </Channel>
           </Component>
@@ -279,11 +294,6 @@
                 <Value SplatterChangeMode="Absolute" ΔSplatterType="Sweat" ΔValue="0.5" />
               </Key>
             </Channel>
-          </Component>
-        </Components>
-        <Components TrackId="aa83ce0f-9811-4f15-ae43-084a61ec9529">
-          <Component ComponentId="3eb7865d-c90d-4fea-beff-bc5622e352c2" TimeDuration="4.3722548484802246" FaceTech="FaceFX" HoldMocap="true">
-            <DialogNodeReference DialogNodeId="94202cb7-83a3-31c4-696c-e2b830f6070e" ReferenceId="94202cb7-83a3-31c4-696c-e2b830f6070e" />
           </Component>
         </Components>
         <Components TrackId="6d2f5580-9064-4267-9331-694ac87495d5">
@@ -671,6 +681,11 @@
             <Channel Name="Foot IK">
               <Key Time="0" Id="cef766a8-cc3c-4df2-9940-743ebcabee23" Value="True" />
             </Channel>
+          </Component>
+        </Components>
+        <Components TrackId="42daf724-e765-42f8-8db0-1cea928e27c4">
+          <Component ComponentId="ff023fb9-54f7-41d8-ba80-7da6c2bfc4fe" TimeDuration="13.376051902770996" FaceTech="FaceFX" HoldMocap="true">
+            <DialogNodeReference DialogNodeId="94202cb7-83a3-31c4-696c-e2b830f6070e" ReferenceId="94202cb7-83a3-31c4-696c-e2b830f6070e" />
           </Component>
         </Components>
         <Components ComponentTrackReference="9513a217-8851-4721-afe1-5709be2e98a0" IncludeInTimeline="false" TrackId="cb696504-42e2-434b-ac23-c45ef7047471">

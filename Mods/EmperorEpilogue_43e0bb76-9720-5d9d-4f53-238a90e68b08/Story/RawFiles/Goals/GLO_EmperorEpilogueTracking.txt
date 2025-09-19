@@ -7,12 +7,22 @@ KBSECTION
 
 IF
 LevelLoaded(_)
+/*TextEvent("emp_makepartner")*/
 AND
 GetHostCharacter(_Player)
 THEN
 DB_GlobalFlag((FLAG)CAMP_DaisyAcknowledgement_SexWithEmperor_933959fb-958b-59bc-3d5e-31e12f619d8d);
 DB_Emperor_Epilogue_Candidate((CHARACTER)_Player);
 SetFlag((FLAG)ORI_State_EmperorRomanceCandidate_99da3e22-019f-96c3-d910-685cf576dfad, _Player);
+DebugText(_Player, "Partnered with Emperor");
+
+IF
+TextEvent("emp_getbook")
+AND
+DB_Avatars(_Player)
+THEN
+TemplateAddTo((ITEMROOT)UNI_S_DebugBook_31ee023c-d151-40f6-917e-84066772783b, _Player, 1, 0);
+DebugText(_Player, "Gave debug book");
 
 //END_REGION
 
