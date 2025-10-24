@@ -1,50 +1,30 @@
-Emperor Romance Epilogue Mod for Baldur's Gate 3
-=======
-### NOTE: This mod is currently a work in progress.
-
-## Release
-* [Nexus]()
+# Emperor Romance Epilogue Mod for Baldur's Gate 3
 
 ## About
-$${\color{yellow}\text{You must load a save from before traveling to the Morphic Pool (endgame/finale) for this mod to work.}}$$
 
-This mod gives the Emperor an active role in the game's epilogue if his romance arc was completed and the player is in no other relationship regardless of whether or not the player is illithid (though he might not stay with a non-illithid without some convincing). It adds a post-final battle scene with him in the Elfsong Tavern like the 
-rest of the vanilla romance options have and allows him to attend the epilogue party if the player to chooses to continue their relationship with him.
+NOTE: You must load a save from before traveling to the Morphic Pool (endgame/finale) for this mod to work.
 
-The Elfsong dialogue provides some unique alternatives for the player:
-* Becoming a mind flayer after the battle
-* Adopting Us
-* Avatar Karlach: Offering the Emperor her brain and memories if she refuses to travel to Avernus or become a mind flayer
-
-A player partnered with the Emperor now has the following ending paths:
-* Creating a renegade mind flayer colony with the survivors of the battle
-* Saving illithid survivors of the final battle and giving them a home (Knights of the Shield variation)
-* Adventuring with the Emperor
-* Living with the Emperor without being involved in his organizations or plans
-* Avatar Karlach: Traveling to Avernus with the Emperor
-* Vanilla Option: Running the Knights of the Shield
-* Vanilla Option: Creating a shadow network across the Sword Coast
-
-At the party, the Emperor and player can do the following:
-* Discuss their relationship and life together
-* Share a hug and/or kiss
-* Hear the Emperor's thoughts on certain commpanion situations
+This mod gives the Emperor an active role in the epilogue if his romance arc was completed and the player is in no other relationship. The player need not be illithid, but it might take some convincing for him to stay with someone who is not a mind flayer. It includes a post-final battle Elfsong Tavern scene, Emperor party dialog, and custom hug animations by kit.
 
 ## Installation
-The mod can be installed with the in-game mod manager by placing the .pak file in your \AppData\Local\Larian Studios\Baldur's Gate 3\Mods folder and then activating it in-game or via the Baldur's Gate 3 Mod Manager. See the "Compatibility" section below for an important note on load order. 
+
+The mod can be installed with the in-game mod manager by placing the .pak file in your \AppData\Local\Larian Studios\Baldur's Gate 3\Mods folder and then activating it in-game or via the Baldur's Gate 3 Mod Manager. See the "Compatibility" section below for an important note on load order.
 
 ## Compatibility
+
 This mod relies on existing endgame and epilogue Osiris scripts but does not change them. As such, this mod's compatibility with other mods that alter the endgame and/or epilogue will vary.
 
 This mod alters the following and is likely not compatible with any mod that modifies them as well:
 
-* Party gazette headlines
-* Party intro cutscene
-* Player mind flayer brain eating urge dialog
-* Karlach in Avernus cutscene
-* Death of Karlach dialog (Post-battle/Post-Elfsong dock conversation)
-* Combat Over, Emperor Solo dialog (Segment of post-battle dock conversation that handles no companions, only Emperor case)
-* Combat Over, Conclusion dialog (Segment of post-battle dock conversation that handles Avatar Karlach, Avatar Astarion, Mad Dark Urge, and Avatar Mind Flayer with Emperor cases)
+- Party gazette headlines
+- Party intro cutscene
+- Player mind flayer party urge dialog
+- Death of Karlach dialog (Post-battle/Post-Elfsong dock conversation)
+- Combat Over, Emperor Solo dialog (Segment of post-battle dock conversation that handles no companions, only Emperor case)
+- Combat Over, Conclusion dialog (Segment of post-battle dock conversation that handles Avatar Karlach, Avatar Astarion, Mad Dark Urge, and Avatar Mind Flayer with Emperor cases)
 
 ## Credits
-* Thank you to the Ceremorphosis Anonymous Discord server for discussion, brainstorming, and encouragement!
+
+- Thank you to kit for creating the custom animations!
+- Thank you to Flowlithid and Anonymous for testing!
+- Thank you to the Ceremorphosis Anonymous Discord server for discussion, brainstorming, and encouragement!
