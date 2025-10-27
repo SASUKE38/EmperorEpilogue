@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="7" revision="1" build="1"/>
+    <version major="4" minor="8" revision="0" build="500"/>
     <region id="TLScene">
         <node id="root">
-            <attribute id="Identifier" type="guid" value="c497d5dd-8337-416d-61c3-112104a3892f"/>
+            <attribute id="Identifier" type="guid" value="a58eceaf-8b52-cf3f-2266-cf329b2ae2b1"/>
             <attribute id="SceneBounds" type="fvec3">
-                <float3 x="13.898063" y="0.51255918" z="5.239768"/>
+                <float3 x="13.898064" y="0.52499998" z="5.239768"/>
             </attribute>
             <children>
                 <node id="LightingSetups">
@@ -99,8 +99,12 @@
                                                 <node id="Intensity">
                                                     <children>
                                                         <node id="Object">
+                                                            <attribute id="MapKey" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                                                            <attribute id="MapValue" type="float" value="7500"/>
+                                                        </node>
+                                                        <node id="Object">
                                                             <attribute id="MapKey" type="guid" value="ab798136-2f97-4785-9406-9bf98b6b4664"/>
-                                                            <attribute id="MapValue" type="float" value="1500"/>
+                                                            <attribute id="MapValue" type="float" value="8500"/>
                                                         </node>
                                                     </children>
                                                 </node>
@@ -367,7 +371,7 @@
                                                     <children>
                                                         <node id="Object">
                                                             <attribute id="MapKey" type="guid" value="ab798136-2f97-4785-9406-9bf98b6b4664"/>
-                                                            <attribute id="MapValue" type="float" value="2000"/>
+                                                            <attribute id="MapValue" type="float" value="8500"/>
                                                         </node>
                                                     </children>
                                                 </node>
@@ -523,10 +527,6 @@
                                                             <attribute id="MapKey" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                                                             <attribute id="MapValue" type="float" value="1000"/>
                                                         </node>
-                                                        <node id="Object">
-                                                            <attribute id="MapKey" type="guid" value="ab798136-2f97-4785-9406-9bf98b6b4664"/>
-                                                            <attribute id="MapValue" type="float" value="1000"/>
-                                                        </node>
                                                     </children>
                                                 </node>
                                             </children>
@@ -633,10 +633,6 @@
                                                     <children>
                                                         <node id="Object">
                                                             <attribute id="MapKey" type="guid" value="00000000-0000-0000-0000-000000000000"/>
-                                                            <attribute id="MapValue" type="float" value="1000"/>
-                                                        </node>
-                                                        <node id="Object">
-                                                            <attribute id="MapKey" type="guid" value="ab798136-2f97-4785-9406-9bf98b6b4664"/>
                                                             <attribute id="MapValue" type="float" value="1000"/>
                                                         </node>
                                                     </children>
@@ -747,7 +743,7 @@
                         <node id="TLActor">
                             <attribute id="ActorType" type="uint8" value="2"/>
                             <attribute id="ImportantForStaging" type="bool" value="true"/>
-                            <attribute id="TemplateId" type="guid" value="3ed74f06-3c60-42dc-83f6-f034cb47c679"/>
+                            <attribute id="TemplateId" type="guid" value="2c76687d-93a2-477b-8b18-8a14b549304c"/>
                             <children>
                                 <node id="Transforms">
                                     <children>
@@ -870,7 +866,7 @@
                                             <children>
                                                 <node id="MapValue">
                                                     <attribute id="Position" type="fvec3">
-                                                        <float3 x="-10.414999" y="1.0251184" z="5.0229998"/>
+                                                        <float3 x="-10.415" y="1.05" z="4.1669998"/>
                                                     </attribute>
                                                     <attribute id="RotationQuat" type="fvec4">
                                                         <float4 x="0" y="0.99762011" z="0" w="-0.068952695"/>
@@ -1652,10 +1648,10 @@
                                                     <children>
                                                         <node id="MapValue">
                                                             <attribute id="Position" type="fvec3">
-                                                                <float3 x="-0.46204376" y="-0.21852875" z="0.57540226"/>
+                                                                <float3 x="-0.46644402" y="-0.17668486" z="0.5756712"/>
                                                             </attribute>
                                                             <attribute id="RotationQuat" type="fvec4">
-                                                                <float4 x="-0.024741961" y="0.96224636" z="0.097405218" w="0.25294665"/>
+                                                                <float4 x="-0.0072669336" y="0.97854632" z="0.035999492" w="0.20272757"/>
                                                             </attribute>
                                                             <attribute id="Scale" type="float" value="1"/>
                                                         </node>
