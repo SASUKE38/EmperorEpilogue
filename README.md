@@ -25,6 +25,10 @@ This mod alters the following and is likely not compatible with any mod that mod
 - Combat Over, Emperor Solo dialog (Segment of post-battle dock conversation that handles no companions, only Emperor case)
 - Combat Over, Conclusion dialog (Segment of post-battle dock conversation that handles Avatar Karlach, Avatar Astarion, Mad Dark Urge, and Avatar Mind Flayer with Emperor cases)
 
+## Known Issues
+
+This mod has not been tested in multiplayer; as such, it might not function as intended with more than one avatar.
+
 ## Credits
 
 - Thank you to [kit](https://next.nexusmods.com/profile/Kit) for creating the custom animations!
