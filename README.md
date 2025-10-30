@@ -1,4 +1,4 @@
-# Emperor Romance Epilogue Mod for Baldur's Gate 3
+# Entwined - An Emperor Epilogue
 
 ## About
 
